@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Code & Data
 description: As part of our commiment to transparency and open research. Explore our codes, models, weights, and datasets.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 Official github account: [https://github.com/valeoai/](https://github.com/valeoai/)

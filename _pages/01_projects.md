@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Projects
-permalink: /projects/
+title: Research
+permalink: /research/
 nav: true
-nav_order: 1 
+nav_order: 2 
 ---
 
 
