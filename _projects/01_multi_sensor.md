@@ -2,7 +2,7 @@
 layout: project
 title: "Multi-sensor perception"
 permalink: /projects/multi-sensor
-description: Automated driving relies first on a diverse range of sensors, like fish-eye and pinhole camera rigs, LiDARs, microphones, radars, and ultrasonics. Exploiting at best the outputs of each of these sensors at any instant is fundamental to understand the complex environment of the vehicle and gain robustness.
+description: Automated driving relies first on a diverse range of sensors, like fish-eye and pinhole camera rigs, LiDARs, microphones, radars, and ultrasonics. Exploiting at best the outputs of each of these sensors at any instant is fundamental to understand the complex environment of the vehicle and gain robustness
 image: "assets/img/projects/valeo_sensors.jpg"
 category: project
 subcategory: perception
