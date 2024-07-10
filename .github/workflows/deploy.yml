@@ -21,10 +21,14 @@ jobs:
       with:
         ruby-version: '3.2'
         bundler-cache: true
+    - name: Install Bundler
+      run: gem install bundler:2.5.11
     - name: Install deps
       run: |
         npm install -g mermaid.cli
         bundle install
+    - name: Build site
+      run: bundle exec jekyll build
     - name: Setup deploy options
       id: setup
       run: |
