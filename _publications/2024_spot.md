@@ -1,0 +1,71 @@
+---
+layout: publication
+title: "SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers" 
+image: assets/img/publications/2024_spot/spot_visualizations.png
+hide: false
+category: [limited-supervision, self-supervised, zero shot]
+authors: Ioannis Kakogeorgiou, Spyros Gidaris, Konstantinos Karantzalos, and Nikos Komodakis
+venue: CVPR
+venue_long: Computer Vision and Pattern Recognition
+year: 2024
+month: 6
+code_url: https://github.com/gkakogeorgiou/spot
+paper_url: https://arxiv.org/abs/2312.00648
+blog_url: 
+slides_url: 
+bib_url: 
+permalink: /publications/spot/
+---
+
+<h1 align="center"> {{page.title}} </h1>
+<!-- Simple call of authors -->
+<!-- <h3 align="center"> {{page.authors}} </h3> -->
+<!-- Alternatively you can add links to author pages -->
+<h3 align="center"> <a href="https://scholar.google.com/citations?user=B_dKcz4AAAAJ">Ioannis Kakogeorgiou</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>&nbsp;&nbsp; <a href="http://users.ntua.gr/karank/">Konstantinos Karantzalos</a> &nbsp;&nbsp;  <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a></h3>
+
+
+<h3 align="center"> {{page.venue}} {{page.year}} (poster highlight - acceptance rate 2.8%) </h3>
+
+<div align="center">
+  <p>
+    {% if page.paper_url %}
+    <a href="{{ page.paper_url }}"><i class="far fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.code_url %}
+    <a href="{{ page.code_url }}"><i class="fab fa-github"></i> Code</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.blog_url %}
+    <a href="{{ page.blog_url }}"><i class="fab fa-blogger"></i> Blog</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.slides_url %}
+    <a href="{{ page.slides_url }}"><i class="far fa-file-pdf"></i> Slides</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.bib_url %}
+    <a href="{{ page.bib_url}}"><i class="far fa-file-alt"></i> BibTeX</a>&nbsp;&nbsp;
+    {% endif %}
+  </p>
+</div>
+
+
+![](../../assets/img/publications/2024_spot/spot_visualizations.png){:width="100%"}
+
+<hr>
+
+<h2  align="center"> Abstract</h2>
+
+<p align="justify">Unsupervised object-centric learning aims to decompose scenes into interpretable object entities, termed slots. Slot-based auto-encoders stand out as a prominent method for this task. Within them, crucial aspects include guiding the encoder to generate object-specific slots and ensuring the decoder utilizes them during reconstruction. This work introduces two novel techniques, (i) an attention-based self-training approach,  which distills superior slot-based attention masks from the decoder to the encoder, enhancing object segmentation, and (ii) an innovative patch-order permutation strategy for autoregressive transformers that strengthens the role of slot vectors in reconstruction. The effectiveness of these strategies is showcased experimentally. The combined approach significantly surpasses prior slot-based autoencoder methods in unsupervised object segmentation, especially with complex real-world images.</p>
+
+<br>
+
+<h2  align="center">BibTeX</h2>
+<left>
+  <pre class="bibtex-box">
+@inproceedings{kakogeorgiou2024spot,
+  title={SPOT: Self-Training with Patch-Order Permutation for Object-Centric Learning with Autoregressive Transformers},
+  author={Kakogeorgiou, Ioannis and Gidaris, Spyros and Karantzalos, Konstantinos and Komodakis, Nikos},
+  booktitle={CVPR},
+  year={2024}
+}</pre>
+</left>
+
+<br>

@@ -1,0 +1,76 @@
+---
+layout: publication
+title: "MOCA: Self-supervised Representation Learning by Predicting Masked Online Codebook Assignments"
+image: assets/img/publications/2024_moca/moca-teaser.png
+hide: false
+category: [limited-supervision, self-supervised, foundation]
+authors: Spyros Gidaris, Andrei Bursuc, Oriane Siméoni, Nikos Komodakis, Matthieu Cord, Patrick Pérez
+venue: TMLR
+venue_long: Transactions on Machine Learning Research (TMLR)
+year: 2024
+month: 3
+code_url: 
+paper_url: https://arxiv.org/abs/2312.15297
+blog_url:
+slides_url:
+bib_url:
+permalink: /publications/moca/
+---
+
+<h1 align="center"> {{page.title}} </h1>
+<!-- Simple call of authors -->
+<!-- <h3 align="center"> {{page.authors}} </h3> -->
+<!-- Alternatively you can add links to author pages -->
+<h3 align="center"> <a href="https://scholar.google.com/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>&nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp;  <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://vobecant.github.io/">Antonin Vobecky</a> &nbsp;&nbsp;  <br> <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> </h3>
+
+
+<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+
+<div align="center">
+  <p>
+    {% if page.paper_url %}
+    <a href="{{ page.paper_url }}"><i class="far fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.code_url %}
+    <a href="{{ page.code_url }}"><i class="fab fa-github"></i> Code</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.blog_url %}
+    <a href="{{ page.blog_url }}"><i class="fab fa-blogger"></i> Blog</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.slides_url %}
+    <a href="{{ page.slides_url }}"><i class="far fa-file-pdf"></i> Slides</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.bib_url %}
+    <a href="{{ page.bib_url}}"><i class="far fa-file-alt"></i> BibTeX</a>&nbsp;&nbsp;
+    {% endif %}
+  </p>
+</div>
+
+<div class="publication-teaser">
+    <img src="../../{{ page.image }}" alt="project teaser"/>
+</div>
+
+
+<hr>
+
+<h2  align="center"> Abstract</h2>
+
+<p align="justify">Self-supervised learning can be used for mitigating the greedy needs of Vision Transformer networks for very large fully-annotated datasets. Different classes of self-supervised learning offer representations with either good contextual reasoning properties, e.g., using masked image modeling strategies, or invariance to image perturbations, e.g., with contrastive methods. In this work, we propose a single-stage and standalone method, MOCA, which unifies both desired properties using novel mask-and-predict objectives defined with high-level features (instead of pixel-level details). Moreover, we show how to effectively employ both learning paradigms in a synergistic and computation-efficient way. Doing so, we achieve new state-of-the-art results on low-shot settings and strong experimental results in various evaluation protocols with a training that is at least 3 times faster than prior methods. </p>
+
+
+<hr>
+
+
+<h2  align="center">BibTeX</h2>
+<left>
+  <pre class="bibtex-box">
+@inproceedings{gidaris2024moca,
+  title={MOCA: Self-supervised Representation Learning by Predicting Masked Online Codebook Assignments},
+  author={Gidaris, Spyros and Bursuc, Andrei and Simeoni, Oriane and Vobecky, Antonin and Komodakis, Nikos and Cord, Matthieu and P{\'e}rez, Patrick},
+  booktitle={TMLR},
+  year={2024}
+}
+</pre>
+</left>
+
+<br>

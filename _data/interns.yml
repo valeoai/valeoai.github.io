@@ -1,0 +1,121 @@
+"Cardiel":                                                                         
+    firstname: Amaia                                                               
+    position: PhD student at Valeo.ai and Grenoble Université with Eric Gaussier
+    profilepic: amaia_cardiel.jpg                                                  
+    bib_firstname: ["Amaia", "A."]                                                 
+    internship_year: 2023
+                                                                                   
+"Sirko-Galouchenko":                                                               
+    firstname: Sophia                                                              
+    position: PhD student at Valeo.ai and Sorbonne Université with Nicolas Thome
+    profilepic: sophia_sirko-galouchenko.jpg                                       
+    bib_firstname: ["Sophia", "S."]                                                
+    internship_year: 2023
+
+"Khayatan":
+  firstname: Pegah
+  position: Pre-doc at Sorbonne Université with Matthieu Cord
+  url: https://pegah-kh.github.io/
+  internship_year: 2023
+
+"Loiseau":
+  firstname: Thibaut
+  position: PhD student at ENPC with Vincent Lepetit
+  url: https://imagine-lab.enpc.fr/staff-members/thibaut-loiseau/
+  internship_year: 2023
+
+"Mbey Akola":
+  firstname: Denis
+  position: PhD student at NYU with David Fouhey
+  url: https://denis-mbey-akola.com/
+  internship_year: 2023
+
+"Chambon":                                                                         
+    firstname: Loïck                                                               
+    position: PhD student at Valeo.ai and Sorbonne Université with Matthieu Cord
+    profilepic: loick_chambon.jpg                                                  
+    bib_firstname: ["Loïck", "L."]                                                 
+    url: https://loickch.github.io/                                                
+    internship_year: 2022
+
+"Zemni":
+  firstname: Mehdi
+  position: Data scientist @ Argon & co
+  url: https://scholar.google.com/citations?user=2IKUaWAAAAAJ
+  internship_year: 2022
+
+"Sekkat":
+  firstname: Chloé
+  position: Machine Learning Engineer @ Sonos
+  url: https://github.com/chloeskt
+  internship_year: 2022
+
+"Brami":
+  firstname: Victoria
+  position: Visiting student at the University of Edinburgh
+  url: https://victoria-brami.github.io/
+  internship_year: 2022
+
+"Ando":
+  firstname: Angelika
+  position: PhD student in Mines wtih Fabien Moutarde and Bogdan Stanciulescu
+  url: https://scholar.google.com/citations?user=xMNyXlEAAAAJ
+  internship_year: 2022
+                                                                                   
+"Sautier":                                                                         
+    firstname: Corentin                                                            
+    position: PhD student at Valeo.ai and ENPC with Vincent Lepetit
+    profilepic: corentin_sautier.jpg                                               
+    bib_firstname: ["Corentin", "C."]                                              
+    url: https://csautier.github.io/                                               
+    scholar: https://scholar.google.com/citations?user=xYDkHEsAAAAJ                
+    internship_year: 2021
+
+"Maazoun":
+  firstname: Imen
+  position: Machine Learning Engineer at Monk AI
+  internship_year: 2021
+        
+"Jacob":
+  firstname: Paul
+  position: Research scientist at Mistral AI
+  url: https://scholar.google.com/citations?user=BDXMtPy4fmYC 
+  internship_year: 2021
+
+"Cao":
+  firstname: Anh-Quan
+  position: PhD student at INRIA with Raoul de Charette
+  url: https://anhquancao.github.io/ 
+  internship_year: 2020
+                                                                                   
+"Michele":                                                                         
+    firstname: Björn                                                               
+    position: PhD student at Valeo.ai and IRISA OBELIX with Nicolas Courty
+    profilepic: bjoern_michele.jpg                                                 
+    bib_firstname: ["Björn", "B."]                                                 
+    url: https://bjoernmichele.com                                                 
+    scholar: https://scholar.google.fr/citations?user=xQcKnXkAAAAJ                 
+    twitter: https://twitter.com/bjoern_michele                                    
+    internship_year: 2020
+
+"Le Moing":
+    firstname: Guillaume
+    position: PhD student at INRIA with Jean Ponce and Cordelia Schmid
+    url: https://16lemoing.github.io/
+    internship_year: 2020
+
+"Calem":                                                                                                                                                                                                                                                                             
+    firstname: Laura                                                          
+    position: PhD at Valeo.ai and CNAM with Nicolas Thome
+    url: https://lcalem.github.io/
+    internship_year: 2019
+
+"Bartoccioni":                                                                                                                                                                                                                                                                             
+    firstname: Florent                                                          
+    position: Research engineer at valeo.ai. PhD at Valeo.ai and INRIA with Karteek Alahari.
+    profilepic: florent_bartoccioni.jpg                                         
+    bib_firstname: ["Florent", "F."]                                            
+    url: https://f-barto.github.io/                                                
+    scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en          
+    internship_year: 2019
+

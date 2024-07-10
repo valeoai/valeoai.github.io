@@ -1,0 +1,112 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">
+            <!-- commented the next line to replace it with an image -->
+           <!-- {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %} -->
+           <img src="assets/img/valeoai_logo.png" alt="valeo.ai" style="width: 25%;">
+           <div style="margin-top: 30px;"></div>
+          </h1>
+          <!-- commented the next line as the subtitle was ugly and uninformative -->
+          <!-- <p class="desc">{{ page.subtitle }}</p> -->
+        </header>
+
+        <article>
+          {% if page.profile -%}
+          <div class="profile align-center">
+            {%- if page.profile.image %}
+              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+              {% if page.profile.image_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle center" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html 
+              path=profile_image_path 
+              class=profile_image_class
+              alt=page.profile.image -%}
+              {%- if page.profile.image_date %}
+                <div class="profile imgdate">{{page.profile.image_date}}</div>
+              {%- endif %}
+            {% endif -%}
+          </div>
+          {%- endif %}
+
+          <div class="team-description">
+            {{ page.description }}
+          </div>
+
+          {% if page.researches -%}
+          <!-- Researches -->
+          <div class="research">
+            <h2>Research axes</h2>
+            <div class="axes">
+              <article>
+                  {%- assign im_path = "research/axis_multi2.PNG" | prepend: 'assets/img/' -%}
+
+                  {% include figure.html 
+                  path=im_path 
+                  class="axis"
+                  alt="Multi-sensor scene understanding and forecasting" -%}
+                  <div class="title">Multi-sensor scene understanding and forecasting</div> 
+              </article>
+              <article>
+                  {%- assign im_path = "research/axis_annotation2.PNG" | prepend: 'assets/img/' -%}
+
+                  {% include figure.html 
+                  path=im_path 
+                  class="axis"
+                  alt="Data & annotation-efficient learnings" -%}
+                  <div class="title">Data & annotation-efficient learnings</div> 
+              </article>
+              <article>
+                  {%- assign im_path = "research/axis_dependable2.PNG" | prepend: 'assets/img/' -%}
+
+                  {% include figure.html 
+                  path=im_path 
+                  class="axis"
+                  alt="Dependable models" -%}
+                  <div class="title">Dependable models</div> 
+              </article>
+            </div>
+          </div>
+          {%- endif %}
+
+          {% if page.news -%}
+          <!-- News -->
+          {%- include news.html %}
+          {%- endif %}
+
+	  {% include academic_partners.html %}
+
+          {% if page.selected_papers -%}
+            <!-- Selected papers -->
+            {%- include selected_papers.html %}
+          {%- endif %}
+          {%- if page.social %}
+          <!-- Social -->
+          <div class="social">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>
+
+            <div class="contact-note">
+              {{ site.contact_note }}
+            </div>
+            
+          </div>
+          {%- endif %}
+        </article>
+<!--             {%- if page.profile.address %}
+            <div class="address">
+              {{ page.profile.address }}
+            </div>
+            {%- endif %}
+ -->
+</div>

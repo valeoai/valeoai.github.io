@@ -1,0 +1,73 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Dimensions
+$max-content-width: {{ site.max_width }};
+
+@import
+  "variables",
+  "themes",
+  "layout",
+  "base",
+  "distill"
+;
+
+.partner-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  align-items: center;
+  height: 70px;
+}
+
+.partner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.partner-name {
+  align-items: center;
+}
+
+.partner-logo img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.partner-logo .epfl-logo {
+  height: 30px;
+}
+
+.partner-logo .enpc-logo {
+  height: 52px;
+}
+
+.partner-logo .ubs-logo {
+  height: 45px;
+}
+
+.group a {
+  display: block;
+  margin-bottom: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+
+th, td {
+  padding: 0.5em;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+

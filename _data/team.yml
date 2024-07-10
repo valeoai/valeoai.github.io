@@ -1,0 +1,376 @@
+"Bartoccioni":
+    firstname: Florent
+    position: Research Engineer
+    profilepic: florent_bartoccioni.jpg
+    bib_firstname: ["Florent", "F."]
+    url: https://f-barto.github.io/
+    scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
+
+"Besnier":
+    firstname: Victor
+    position: Research Scientist
+    profilepic: victor_besnier.jpg
+    bib_firstname: ["Victor", "V."]
+    scholar: https://scholar.google.com/citations?user=n_C2h-QAAAAJ&hl=en
+
+"Boulch":
+    firstname: Alexandre
+    position: Research Scientist
+    profilepic: alexandre_boulch.jpg
+    bib_firstname: ["Alexandre", "A."]
+    url: http://www.boulch.eu/
+    scholar: https://scholar.google.com/citations?user=iJ3qFGAAAAAJ&hl=en
+    github: https://github.com/aboulch
+    twitter: https://twitter.com/AlexandreBoulch
+
+"Bursuc":
+    firstname: Andrei
+    position: Deputy Scientific Director
+    profilepic: andrei_bursuc.jpg
+    bib_firstname: ["Andrei", "A."]
+    url: https://abursuc.github.io/
+    scholar: https://scholar.google.com/citations?user=HTfERCsAAAAJ&hl=en
+    github: https://github.com/abursuc/
+    twitter: https://twitter.com/abursuc
+
+"Cardiel":
+    firstname: Amaia
+    position: Phd Student W/ Université Grenoble Alpes
+    profilepic: amaia_cardiel.jpg
+    bib_firstname: ["Amaia", "A."]
+
+"Chambon":
+    firstname: Loïck
+    position: Phd Student W/ Sorbonne U.
+    profilepic: loick_chambon.jpg
+    bib_firstname: ["Loïck", "L."]
+    url: https://loickch.github.io/
+
+"Chen":
+    firstname: Mickaël
+    position: Research Scientist
+    profilepic: mickael_chen.jpg
+    bib_firstname: ["Mickaël", "M."]
+    scholar: https://scholar.google.fr/citations?user=QnRpMJAAAAAJ&hl=en
+    github: https://github.com/mickaelChen/
+    twitter: https://twitter.com/Mickael_Chen
+
+"Cord":
+    firstname: Matthieu
+    position: Scientific Director (And Prof. At Sorbonne U.)
+    profilepic: matthieu_cord.jpg
+    bib_firstname: ["Matthieu", "M."]
+    url: http://www-poleia.lip6.fr/~cord/
+    scholar: https://scholar.google.fr/citations?user=SpAotDcAAAAJ&hl=en
+    twitter: https://twitter.com/quobbe
+
+"Gidaris":
+    firstname: Spyros
+    position: Research Scientist
+    profilepic: spyros_gidaris.jpg
+    bib_firstname: ["Spyros", "S."]
+    scholar: https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en
+    github: https://github.com/gidariss
+
+"Hurych":
+    firstname: David
+    position: Research Scientist
+    profilepic: david_hurych.png
+    bib_firstname: ["David", "D."]
+    scholar: https://scholar.google.cz/citations?user=XY1PVwYAAAAJ&hl=en
+
+"Letzelter":
+    firstname: Victor
+    position: Phd Student W/ Telecom Paris
+    profilepic: victor_letzelter.jpg
+    bib_firstname: ["Victor", "V."]
+    scholar: https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en
+    github: https://github.com/Victorletzelter
+
+"Marlet":
+    firstname: Renaud
+    position: Principal Scientist (And Researcher At Enpc)
+    profilepic: renaud_marlet.jpg
+    bib_firstname: ["Renaud", "R."]
+    url: http://imagine.enpc.fr/~marletr/
+    scholar: https://scholar.google.fr/citations?user=2rclwh4AAAAJ&hl=en
+
+"Martyniuk":
+    firstname: Tetiana
+    position: Phd Student W/ Inria Paris
+    profilepic: tetiana_martyniuk.jpg
+    bib_firstname: ["Tetiana", "T."]
+    scholar: https://scholar.google.com/citations?user=Ur0vgfMAAAAJ&hl=en
+
+"Michele":
+    firstname: Björn
+    position: Phd Student W/ U. Bretagne Sud
+    profilepic: bjoern_michele.jpg
+    bib_firstname: ["Björn", "B."]
+    url: https://bjoernmichele.com
+    scholar: https://scholar.google.fr/citations?user=xQcKnXkAAAAJ
+    twitter: https://twitter.com/bjoern_michele
+
+"Puy":
+    firstname: Gilles
+    position: Research Scientist
+    profilepic: gilles_puy.jpg
+    bib_firstname: ["Gilles", "G."]
+    url: https://sites.google.com/site/puygilles/home
+    scholar: https://scholar.google.com/citations?user=enaORE8AAAAJ&hl=en
+
+"Ramzi":
+  firstname: Elias
+  position: Research Scientist
+  profilepic: elias_ramzi.png
+  url: https://elias-ramzi.github.io/
+  scholar: https://scholar.google.com/citations?user=mbfTD_UAAAAJ
+
+"Samet":
+    firstname: Nermin
+    position: Research Scientist
+    profilepic: nermin_samet.jpg
+    bib_firstname: ["Nermin", "N."]
+    url: https://nerminsamet.github.io/
+    scholar: https://scholar.google.com/citations?user=kEVeHU0AAAAJ
+
+"Sautier":
+    firstname: Corentin
+    position: Phd Student W/ Enpc
+    profilepic: corentin_sautier.jpg
+    bib_firstname: ["Corentin", "C."]
+    url: https://csautier.github.io/
+    scholar: https://scholar.google.com/citations?user=xYDkHEsAAAAJ
+
+"Siméoni":
+    firstname: Oriane
+    position: Research Scientist
+    profilepic: oriane_simeoni.png
+    bib_firstname: ["Oriane", "O."]
+    url: https://osimeoni.github.io/
+    scholar: https://scholar.google.com/citations?user=PC7ELtEAAAAJ&hl=en
+    github: https://github.com/osimeoni
+
+"Sirko-Galouchenko":
+    firstname: Sophia
+    position: Phd Student W/ Sorbonne U.
+    profilepic: sophia_sirko-galouchenko.jpg
+    bib_firstname: ["Sophia", "S."]
+
+"Valle":
+    firstname: Eduardo
+    position: Senior Scientist
+    profilepic: eduardo_valle.jpg
+    bib_firstname: ["Eduardo", "E."]
+    scholar: https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=en
+    github: https://github.com/dreavjr
+
+"Venkataramanan":
+    firstname: Shashanka
+    position: Research Scientist
+    profilepic: shashank_venkataramanan.jpg
+    bib_firstname: ["Shashanka", "S.", "Shashank"]
+    url: https://shashankvkt.github.io/ 
+    scholar: https://scholar.google.com/citations?user=CbfH47IAAAAJ
+    twitter: https://x.com/shawshank_v
+
+"Vobecký":
+    firstname: Antonín
+    position: Phd Student W/ Ctu
+    profilepic: antonin_vobecky.png
+    bib_firstname: ["Antonín", "A."]
+    url: https://vobecant.github.io/
+    scholar: https://scholar.google.com/citations?user=DGhPzZ0AAAAJ&hl
+    github: https://github.com/vobecant
+
+"Vu":
+    firstname: Tuan-Hung
+    position: Research Scientist
+    profilepic: tuan-hung_vu.jpg
+    bib_firstname: ["Tuan-Hung", "T."]
+    url: https://tuanhungvu.github.io/
+    scholar: https://scholar.google.fr/citations?user=QIHrPZQAAAAJ&hl=en
+    github: https://github.com/tuanhungvu
+    twitter: https://twitter.com/tuanhungvu89
+
+"Xu":
+    firstname: Yihong
+    position: Research Scientist
+    profilepic: yihong_xu.jpg
+    bib_firstname: ["Yihong", "Y."]
+    scholar: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ&hl=en
+
+"Yin":
+    firstname: Yuan
+    position: Postdoc
+    profilepic: yuan_yin.jpg
+    bib_firstname: ["Yuan", "Y."]
+    url: https://yuan-yin.github.io/
+    scholar: https://scholar.google.com/citations?user=ynep174AAAAJ
+    twitter: https://twitter.com/yuanyinnn
+
+"Zablocki":
+    firstname: Éloi
+    position: Research Scientist
+    profilepic: eloi_zablocki.jpg
+    bib_firstname: ["Éloi", "É."]
+    scholar: https://scholar.google.fr/citations?hl=en&user=dOkbUmEAAAAJ&hl=en
+    twitter: https://twitter.com/EloiZablocki
+
+"Ben-younes":
+    firstname: Hédi
+    position: Research Scientist
+    profilepic: hedi_ben-younes.jpg
+    bib_firstname: ["Hédi", "H."]
+    alumni: True
+    alumni_now: now at BNP Paribas
+    url: https://scholar.google.fr/citations?user=IFLcfvUAAAAJ&hl=en
+
+"Bucher":
+    firstname: Maxime
+    position: Research Scientist
+    profilepic: maxime_bucher.jpg
+    bib_firstname: ["Maxime", "M."]
+    alumni: True
+    alumni_now: now at TOBAM
+    url: https://scholar.google.fr/citations?user=NbYEOpMAAAAJ&hl=en
+
+"Calem":
+    firstname: Laura
+    position: Phd Student With Cnam
+    profilepic: laura_calem.jpg
+    bib_firstname: ["Laura", "L."]
+    alumni: True
+    url: https://scholar.google.com/citations?user=Asfcs8YAAAAJ
+
+"Corbière":
+    firstname: Charles
+    position: Phd Student With Cnam
+    profilepic: charles_corbiere.jpg
+    bib_firstname: ["Charles", "C."]
+    alumni: True
+    alumni_now: now at EPFL
+    url: https://scholar.google.fr/citations?user=UcnFUZ8AAAAJ&hl=en
+
+"Jaritz":
+    firstname: Maximilian
+    position: Phd Student
+    profilepic: maximilian_jaritz.jpg
+    bib_firstname: ["Maximilian", "M."]
+    alumni: True
+    alumni_now: now at Amazon
+    url: https://scholar.google.com/citations?user=yt2IsdAAAAAJ&hl=en
+
+"Jain":
+    firstname: Himalaya
+    position: Research Scientist
+    profilepic: himalaya_jain.jpg
+    bib_firstname: ["Himalaya", "H."]
+    alumni: True
+    alumni_now: now at Helsing
+    url: https://scholar.google.fr/citations?user=Xl7SNlsAAAAJ&hl=en
+
+"Marmiesse":
+    firstname: Gabriel
+    position: Research Engineer
+    profilepic: gabriel_de_marmiesse.jpg
+    bib_firstname: ["Gabriel", "G."]
+    alumni: True
+    alumni_now: now at Datadog
+
+"Ouaknine":
+    firstname: Arthur
+    position: Phd Student With Telecom
+    profilepic: arthur_ouaknine.jpg
+    bib_firstname: ["Arthur", "A."]
+    alumni: True
+    alumni_now: now at McGill
+    url: https://scholar.google.com/citations?user=OCT3E9wAAAAJ&hl=en
+
+"Pérez":
+    firstname: Patrick
+    position: Scientific Director
+    profilepic: patrick_perez.jpg
+    bib_firstname: ["Patrick", "P."]
+    alumni: True
+    alumni_now: now CEO of <a href="https://www.kyutai.org" target="_blank">Kyutai</a>
+    url: https://scholar.google.fr/citations?user=8Cph5uQAAAAJ&hl=en
+
+"Rebut":
+    firstname: Julien
+    position: Research Scientist
+    profilepic: julien_rebut.jpg
+    bib_firstname: ["Julien", "J."]
+    alumni: True
+    alumni_now: now at Hexagon|AutonomouStuff
+    url: https://scholar.google.com/citations?hl=en
+
+"Roburin":
+    firstname: Simon
+    position: Phd Student With Ponts
+    profilepic: simon_roburin.jpg
+    bib_firstname: ["Simon", "S."]
+    alumni: True
+    alumni_now: now at EPFL
+    url: https://scholar.google.fr/citations?user=Bf6mJqkAAAAJ&hl=en
+
+"Rommel":
+    firstname: Cédric
+    position: Research Scientist
+    profilepic: cedric_rommel.jpg
+    bib_firstname: ["Cédric", "C."]
+    alumni: True
+    alumni_now: now at Meta
+    url: https://scholar.google.com/citations?user=GBv4KYwAAAAJ&hl=en
+
+"Saporta":
+    firstname: Antoine
+    position: Phd Student With Sorbonne U.
+    profilepic: antoine_saporta.jpg
+    bib_firstname: ["Antoine", "A."]
+    alumni: True
+    alumni_now: now at Meero
+    url: https://scholar.google.com/citations?user=jSwfIU4AAAAJ&hl=en
+
+"Schultz":
+    firstname: Tristan
+    position: Research Engineer
+    profilepic: tristan_schultz.jpg
+    bib_firstname: ["Tristan", "T."]
+    alumni: True
+    alumni_now: now at Valeo DSIS
+
+"Toromanoff":
+    firstname: Marin
+    position: Phd Student
+    profilepic: marin_toromanoff.jpg
+    bib_firstname: ["Marin", "M."]
+    alumni: True
+    alumni_now: now at Valeo Driving Assistance Research
+    url: https://scholar.google.com/citations?user=Yu47MFYAAAAJ&hl=en
+
+"Vo":
+    firstname: Huy
+    position: Phd Student With Inria
+    profilepic: huy_van_vo.jpg
+    bib_firstname: ["Huy", "H."]
+    alumni: True
+    alumni_now: now at Meta
+    url: https://scholar.google.fr/citations?user=gIf5VqUAAAAJ&hl=en
+
+"Wirbel":
+    firstname: Emilie
+    position: Research Scientist
+    profilepic: emilie_wirbel.jpg
+    bib_firstname: ["Emilie", "E."]
+    alumni: True
+    alumni_now: now at Helsing
+    url: https://scholar.google.com/citations?hl=en
+
+"Zheng":
+    firstname: Léon
+    position: Phd Student With Ens Lyon
+    profilepic: leon_zheng.jpg
+    bib_firstname: ["Léon", "L."]
+    alumni: True
+    url: https://scholar.google.com/citations?user=7gq9f6CfBnAC
