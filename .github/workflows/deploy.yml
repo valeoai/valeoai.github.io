@@ -25,7 +25,7 @@ jobs:
     - name: Install deps
       run: |
         npm install -g mermaid.cli
-        bundle install --path vendor/bundle
+        bundle install
     - name: Build site
       run: bundle exec jekyll build
     - name: Setup deploy options
