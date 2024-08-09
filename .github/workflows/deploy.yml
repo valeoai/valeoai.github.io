@@ -22,10 +22,6 @@ jobs:
         ruby-version: '3.2'
     - name: Install Bundler
       run: gem install bundler:2.5.11
-    - name: Check gemfile.lock
-      run: |
-        echo "Before deployment:"
-        cat Gemfile.lock
     - name: Install deps
       run: |
         npm install -g mermaid.cli
@@ -44,10 +40,15 @@ jobs:
           echo "::set-output name=SRC_BRANCH::${GITHUB_REF#refs/heads/}"
         fi
         echo "::set-output name=DEPLOY_BRANCH::gh-pages"
-    - name: Check gemfile.lock
-      run: |
-        echo "After deployment:"
-        cat Gemfile.lock
+
+   - name: Commit changes
+     run: |
+       git config --global user.name 'github-actions[bot]'
+       git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+       git add .
+       git commit -m "Automated commit from GitHub Actions" || echo "No changes to commit"
+       git push origin main
+
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
