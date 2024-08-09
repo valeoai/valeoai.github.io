@@ -244,7 +244,7 @@
 
 "Calem":
     firstname: Laura
-    position: Phd Student With Cnam
+    position: Phd Student W/ Cnam
     profilepic: laura_calem.jpg
     bib_firstname: ["Laura", "L."]
     alumni: True
@@ -252,7 +252,7 @@
 
 "Corbière":
     firstname: Charles
-    position: Phd Student With Cnam
+    position: Phd Student W/ Cnam
     profilepic: charles_corbiere.jpg
     bib_firstname: ["Charles", "C."]
     alumni: True
@@ -261,7 +261,7 @@
 
 "Jaritz":
     firstname: Maximilian
-    position: Phd Student
+    position: Phd Student W/ INRIA
     profilepic: maximilian_jaritz.jpg
     bib_firstname: ["Maximilian", "M."]
     alumni: True
@@ -287,7 +287,7 @@
 
 "Ouaknine":
     firstname: Arthur
-    position: Phd Student With Telecom
+    position: Phd Student W/ Telecom
     profilepic: arthur_ouaknine.jpg
     bib_firstname: ["Arthur", "A."]
     alumni: True
@@ -314,7 +314,7 @@
 
 "Roburin":
     firstname: Simon
-    position: Phd Student With Ponts
+    position: Phd Student W/ Ponts
     profilepic: simon_roburin.jpg
     bib_firstname: ["Simon", "S."]
     alumni: True
@@ -332,7 +332,7 @@
 
 "Saporta":
     firstname: Antoine
-    position: Phd Student With Sorbonne U.
+    position: Phd Student W/ Sorbonne U.
     profilepic: antoine_saporta.jpg
     bib_firstname: ["Antoine", "A."]
     alumni: True
@@ -358,7 +358,7 @@
 
 "Vo":
     firstname: Huy
-    position: Phd Student With Inria
+    position: Phd Student W/ Inria
     profilepic: huy_van_vo.jpg
     bib_firstname: ["Huy", "H."]
     alumni: True
@@ -376,7 +376,7 @@
 
 "Zheng":
     firstname: Léon
-    position: Phd Student With Ens Lyon
+    position: Phd Student W/ ENS Lyon
     profilepic: leon_zheng.jpg
     bib_firstname: ["Léon", "L."]
     alumni: True
