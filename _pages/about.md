@@ -7,7 +7,6 @@ subtitle: valeo.ai research page
 description: We are an international team based in Paris, conducting AI research for Valeo automotive applications, in collaboration with world-class academics. Our main research is towards better, clearer & safer automotive AI. <br>Find out more about our research <a href='/publications' target='_blank'>here</a>!
 
 profile:
-  # image: astravision-2022_crop.jpg
   image: vai-team-2024.png
   image_date: # Date of the picture
   image_circular: false # crops the image to make it circular
