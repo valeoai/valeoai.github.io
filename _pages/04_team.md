@@ -36,7 +36,7 @@ nav_order: 1
     <td><a href="mailto:serkan.odabas@valeo.com">Serkan Odabas</a></td>
   </tr>
   <tr>
-    <th>Assistant</th>
+    <th>HR Assistant</th>
     <td><a href="mailto:alicia.heurtefeu@valeo.com">Alicia Heurtefeu</a></td>
   </tr>
   <tr>
