@@ -21,10 +21,13 @@ permalink: /publications/needrop/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
+
+<h3 align="center">
 <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp;
 <a href="https://imagine.enpc.fr/~langloip/">Pierre-Alain Langlois</a> &nbsp;&nbsp;
 <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a> &nbsp;&nbsp;
-<a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>&nbsp;&nbsp; </h3>
+<a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
+</h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>

@@ -11,7 +11,7 @@ year: 2019
 month: 6
 code_url: https://github.com/valeoai/ADVENT
 paper_url: https://arxiv.org/abs/1811.12833
-blog_url: ../advent
+blog_url:
 slides_url:
 bib_url:
 permalink: /publications/advent/
