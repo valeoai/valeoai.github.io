@@ -64,6 +64,13 @@
     scholar: https://scholar.google.fr/citations?user=SpAotDcAAAAJ&hl=en
     twitter: https://twitter.com/quobbe
 
+"Galaaoui":
+    firstname: Salma
+    position: Phd Student W/ ENPC
+    profilepic: salma_galaaoui.jpg
+    scholar: https://scholar.google.fr/citations?user=ZhKRoS0AAAAJ 
+    bib_firstname: ["Salma", "S."]
+
 "Gidaris":
     firstname: Spyros
     position: Research Scientist

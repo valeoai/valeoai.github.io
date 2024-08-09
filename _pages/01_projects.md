@@ -7,7 +7,7 @@ nav_order: 2
 ---
 
 
-# Scene understanding and forecasting
+# Multi-sensor scene understanding
 
 <div class="projects_list">
 
