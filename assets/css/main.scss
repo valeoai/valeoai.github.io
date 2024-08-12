@@ -14,12 +14,25 @@ $max-content-width: {{ site.max_width }};
   "distill"
 ;
 
+.partner-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+.partner-item img {
+  max-width: 70%;
+  height: auto;
+}
+
 .partner-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
   align-items: center;
-  height: 70px;
+  height: 160px;
 }
 
 .partner-logo {
@@ -71,3 +84,13 @@ th {
   font-weight: bold;
 }
 
+.table-responsive {
+  max-height: 20vw;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .table-responsive {
+    max-height: 40vw;
+  }
+}

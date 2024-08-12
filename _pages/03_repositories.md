@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Code & Data
-description: As part of our commiment to transparency and open research. Explore our codes, models, weights, and datasets.
+description: As part of our commitment to transparency and open research, explore our codes, models, weights, and datasets.
 nav: true
 nav_order: 4
 ---

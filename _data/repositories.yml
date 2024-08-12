@@ -9,29 +9,30 @@ github_repos:
   - valeoai/ZS3
   - valeoai/POCO
   - valeoai/SLidR
-  - valeoai/ConfidNet
   - valeoai/ALSO
+  - valeoai/ConfidNet
   - valeoai/RADIal
-  - valeoai/BF3S
   - vita-epfl/UniTraj
-  - valeoai/DADA
   - valeoai/Maskgit-pytorch
+  - valeoai/BF3S
+  - valeoai/DADA
   - valeoai/FLOT
   - valeoai/obow
   - valeoai/carrada_dataset
   - valeoai/rainbow-iqn-apex
   - valeoai/rangevit
+  - valeoai/PointBeV
   - valeoai/LightConvPoint
   - valeoai/FOUND
-  - valeoai/PointBeV
-  - valeoai/LearningByCheating
-  - valeoai/Awesome-Unsupervised-Object-Localization
-  - valeoai/MVRSS
   - valeoai/BEVContrast
+  - valeoai/Awesome-Unsupervised-Object-Localization
+  - valeoai/LearningByCheating
+  - valeoai/MVRSS
   - valeoai/FKAConv
-  - valeoai/SALUDA
   - valeoai/LaRa
+  - valeoai/SALUDA
   - valeoai/WaffleIron
+  - valeoai/ScaLR
   - valeoai/obsnet
   - valeoai/3DGenZ
   - valeoai/SemanticPalette
@@ -39,7 +40,6 @@ github_repos:
   - valeoai/NeeDrop
   - valeoai/xmuda_journal
   - valeoai/MTAF
-  - valeoai/ScaLR
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
