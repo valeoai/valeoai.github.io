@@ -284,6 +284,7 @@
     bib_firstname: ["Gabriel", "G."]
     alumni: True
     alumni_now: now at Datadog
+    url: https://github.com/gabrieldemarmiesse
 
 "Ouaknine":
     firstname: Arthur
@@ -310,7 +311,7 @@
     bib_firstname: ["Julien", "J."]
     alumni: True
     alumni_now: now at Hexagon|AutonomouStuff
-    url: https://scholar.google.com/citations?hl=en
+    url: https://scholar.google.com/citations?user=BJcQNcoAAAAJ
 
 "Roburin":
     firstname: Simon
@@ -372,7 +373,7 @@
     bib_firstname: ["Emilie", "E."]
     alumni: True
     alumni_now: now at Helsing
-    url: https://scholar.google.com/citations?hl=en
+    url: https://scholar.google.com/citations?user=YB_d6CUAAAAJ&hl=en
 
 "Zheng":
     firstname: Léon
