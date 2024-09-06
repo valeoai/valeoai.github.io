@@ -157,6 +157,7 @@
     url: https://osimeoni.github.io/
     scholar: https://scholar.google.com/citations?user=PC7ELtEAAAAJ&hl=en
     github: https://github.com/osimeoni
+    alumni: True
 
 "Sirko-Galouchenko":
     firstname: Sophia
@@ -223,6 +224,7 @@
     bib_firstname: ["Éloi", "É."]
     scholar: https://scholar.google.fr/citations?hl=en&user=dOkbUmEAAAAJ&hl=en
     twitter: https://twitter.com/EloiZablocki
+    url: https://scholar.google.fr/citations?hl=en&user=dOkbUmEAAAAJ&hl=en
 
 "Ben-younes":
     firstname: Hédi
