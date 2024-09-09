@@ -149,16 +149,6 @@
     url: https://csautier.github.io/
     scholar: https://scholar.google.com/citations?user=xYDkHEsAAAAJ
 
-"Siméoni":
-    firstname: Oriane
-    position: Research Scientist
-    profilepic: oriane_simeoni.png
-    bib_firstname: ["Oriane", "O."]
-    url: https://osimeoni.github.io/
-    scholar: https://scholar.google.com/citations?user=PC7ELtEAAAAJ&hl=en
-    github: https://github.com/osimeoni
-    alumni: True
-
 "Sirko-Galouchenko":
     firstname: Sophia
     position: Phd Student W/ Sorbonne U.
@@ -349,6 +339,16 @@
     bib_firstname: ["Tristan", "T."]
     alumni: True
     alumni_now: now at Valeo DSIS
+
+"Siméoni":
+    firstname: Oriane
+    position: Research Scientist
+    profilepic: oriane_simeoni.png
+    bib_firstname: ["Oriane", "O."]
+    url: https://osimeoni.github.io/
+    scholar: https://scholar.google.com/citations?user=PC7ELtEAAAAJ&hl=en
+    github: https://github.com/osimeoni
+    alumni: True
 
 "Toromanoff":
     firstname: Marin
