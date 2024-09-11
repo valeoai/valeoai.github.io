@@ -10,28 +10,28 @@ github_repos:
   - valeoai/POCO
   - valeoai/SLidR
   - valeoai/ALSO
+  - vita-epfl/UniTraj
   - valeoai/ConfidNet
   - valeoai/RADIal
-  - vita-epfl/UniTraj
   - valeoai/Maskgit-pytorch
   - valeoai/BF3S
   - valeoai/DADA
   - valeoai/FLOT
   - valeoai/obow
   - valeoai/carrada_dataset
+  - valeoai/PointBeV
   - valeoai/rainbow-iqn-apex
   - valeoai/rangevit
-  - valeoai/PointBeV
   - valeoai/LightConvPoint
   - valeoai/FOUND
   - valeoai/BEVContrast
   - valeoai/Awesome-Unsupervised-Object-Localization
   - valeoai/LearningByCheating
   - valeoai/MVRSS
+  - valeoai/WaffleIron
   - valeoai/FKAConv
   - valeoai/LaRa
   - valeoai/SALUDA
-  - valeoai/WaffleIron
   - valeoai/ScaLR
   - valeoai/obsnet
   - valeoai/3DGenZ
