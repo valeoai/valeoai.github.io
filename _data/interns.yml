@@ -40,13 +40,13 @@
 
 "Zemni":
   firstname: Mehdi
-  position: Data scientist @ Argon & co
+  position: Data scientist at Argon & co
   url: https://scholar.google.com/citations?user=2IKUaWAAAAAJ
   internship_year: 2022
 
 "Sekkat":
   firstname: Chloé
-  position: Machine Learning Engineer @ Sonos
+  position: Machine Learning Engineer at Sonos
   url: https://github.com/chloeskt
   internship_year: 2022
 
@@ -78,7 +78,7 @@
         
 "Jacob":
   firstname: Paul
-  position: Research scientist at Mistral AI
+  position: Research scientist at Mistral AI. Previously Research scientist at Owkin
   url: https://scholar.google.com/citations?user=BDXMtPy4fmYC 
   internship_year: 2021
 
@@ -100,7 +100,7 @@
 
 "Le Moing":
     firstname: Guillaume
-    position: PhD student at INRIA with Jean Ponce and Cordelia Schmid
+    position: Research scientist at Google Deepmind. PhD at INRIA with Jean Ponce and Cordelia Schmid
     url: https://16lemoing.github.io/
     internship_year: 2020
 
