@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable"
-image: assets/img/publications/2024_regents/regents.png
+image: assets/img/publications/2024_regents/regents_page.png
 hide: false
 category: [corner-case-generation, trajectory-optimization, robustness, planning, reliability]
 authors: Yuan Yin, Pegah Khayatan, Éloi Zablocki, Alexandre Boulch, Matthieu Cord
@@ -49,7 +49,6 @@ permalink: /publications/regents/
 <div class="publication-teaser">
     <img src="../../{{ page.image }}" alt="project teaser"/>
 </div>
-
 
 <hr>
 
