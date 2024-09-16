@@ -46,15 +46,6 @@
     bib_firstname: ["Loïck", "L."]
     url: https://loickch.github.io/
 
-"Chen":
-    firstname: Mickaël
-    position: Research Scientist
-    profilepic: mickael_chen.jpg
-    bib_firstname: ["Mickaël", "M."]
-    scholar: https://scholar.google.fr/citations?user=QnRpMJAAAAAJ&hl=en
-    github: https://github.com/mickaelChen/
-    twitter: https://twitter.com/Mickael_Chen
-
 "Cord":
     firstname: Matthieu
     position: Scientific Director (And Prof. At Sorbonne U.)
@@ -241,6 +232,17 @@
     bib_firstname: ["Laura", "L."]
     alumni: True
     url: https://scholar.google.com/citations?user=Asfcs8YAAAAJ
+    
+"Chen":
+    firstname: Mickaël
+    position: Research Scientist
+    profilepic: mickael_chen.jpg
+    bib_firstname: ["Mickaël", "M."]
+    scholar: https://scholar.google.fr/citations?user=QnRpMJAAAAAJ&hl=en
+    github: https://github.com/mickaelChen/
+    twitter: https://twitter.com/Mickael_Chen
+    alumni: True
+    url: https://scholar.google.fr/citations?user=QnRpMJAAAAAJ&hl=en
 
 "Corbière":
     firstname: Charles
