@@ -5,7 +5,7 @@ image: assets/img/publications/2024_pafuse/ballet_001.gif
 hide: false
 category: [pose, deep-learning]
 authors: Nermin Samet, Cédric Rommel, David Picard, Eduardo Valle
-venue: ECCV
+venue: ECCV Workshop
 venue_long: ECCV Workshop Towards a Complete Analysis of People Fine-grained Understanding for Real-World Applications (T-CAP)
 year: 2024
 month: 10
@@ -14,7 +14,7 @@ paper_url: https://arxiv.org/abs/2407.10220
 blog_url:
 slides_url:
 bib_url:
-intern_work: true
+intern_work: false
 permalink: /publications/pafuse/
 ---
 
@@ -22,7 +22,7 @@ permalink: /publications/pafuse/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://alan-lanfeng.github.io/">Lan Feng</a> &nbsp;&nbsp; <a href="https://mohammadhossein-bahari.github.io/">Mohammadhossein Bahari</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=X0teZIAAAAAJ">Kaouther Messaoud Ben Amor</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://people.epfl.ch/alexandre.alahi">Alexandre Alahi</a></h3>
+<h3 align="center"> <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="https://cedricrommel.github.io/">Cédric Rommel</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a> &nbsp;&nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a></h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
@@ -57,7 +57,7 @@ permalink: /publications/pafuse/
 
 <h2  align="center"> Abstract</h2>
 
-<p align="justify">Vehicle trajectory prediction has increasingly relied on data-driven solutions, but their ability to scale to different data domains and the impact of larger dataset sizes on their generalization remain under-explored. While these questions can be studied by employing multiple datasets, it is challenging due to several discrepancies, e.g., in data formats, map resolution, and semantic annotation types. To address these challenges, we introduce UniTraj, a comprehensive framework that unifies various datasets, models, and evaluation criteria, presenting new opportunities for the vehicle trajectory prediction field. In particular, using UniTraj, we conduct extensive experiments and find that model performance significantly drops when transferred to other datasets. However, enlarging data size and diversity can substantially improve performance, leading to a new state-of-the-art result for the nuScenes dataset. We provide insights into dataset characteristics to explain these findings.</p>
+<p align="justify">We introduce a novel approach for 3D whole-body pose estimation, addressing the challenge of scale- and deformability- variance across body parts brought by the challenge of extending the 17 major joints on the human body to fine-grained keypoints on the face and hands. In addition to addressing the challenge of exploiting motion in unevenly sampled data, we combine stable diffusion to a hierarchical part representation which predicts the relative locations of fine-grained keypoints within each part (e.g., face) with respect to the part's local reference frame. On the H3WB dataset, our method greatly outperforms the current state of the art, which fails to exploit the temporal information. We also show considerable improvements compared to other spatiotemporal 3D human-pose estimation approaches that fail to account for the body part specificities.</p>
 
 <hr>
 <hr>
@@ -65,9 +65,9 @@ permalink: /publications/pafuse/
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{feng2024unitraj,
+@inproceedings{samet2024pafuse,
       title={PAFUSE: Part-based Diffusion for 3D Whole-Body Pose Estimation},
-      author={Nermin Samet, C{\'{e}}dric Rommel, David Picard, Eduardo Valled},
+      author={Nermin Samet, C{\'{e}}dric Rommel, David Picard, Eduardo Valle},
       year={2024},
       booktitle={ECCV Workshop Towards a Complete Analysis of People: Fine-grained Understanding for Real-World Applications}
 }
