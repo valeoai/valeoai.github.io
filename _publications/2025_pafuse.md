@@ -3,7 +3,7 @@ layout: publication
 title: "PAFUSE: Part-based Diffusion for 3D Whole-Body Pose Estimation"
 image: assets/img/publications/2024_pafuse/ballet_001.gif
 hide: false
-category: [pose, deep-learning]
+category: [pose, deep-learning, 3d-perception]
 authors: Nermin Samet, Cédric Rommel, David Picard, Eduardo Valle
 venue: ECCV Workshop
 venue_long: ECCV Workshop Towards a Complete Analysis of People Fine-grained Understanding for Real-World Applications (T-CAP)
