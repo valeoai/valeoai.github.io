@@ -1,19 +1,20 @@
 ---
 layout: publication
-title: "PAFUSE: Part-based Diffusion for 3D Whole-Body Pose Estimation" 
+title: "PAFUSE: Part-based Diffusion for 3D Whole-Body Pose Estimation"
 image: assets/img/publications/2024_pafuse/ballet_001.gif
 hide: false
 category: [pose, deep-learning]
 authors: Nermin Samet, Cédric Rommel, David Picard, Eduardo Valle
 venue: ECCV
-venue_long: ECCV 2024 Workshop Towards a Complete Analysis of People: Fine-grained Understanding for Real-World Applications (T-CAP)
+venue_long: ECCV Workshop Towards a Complete Analysis of People Fine-grained Understanding for Real-World Applications (T-CAP)
 year: 2024
 month: 10
 code_url: https://github.com/valeoai/PAFUSE
 paper_url: https://arxiv.org/abs/2407.10220
-blog_url: 
-slides_url: 
-bib_url: 
+blog_url:
+slides_url:
+bib_url:
+intern_work: true
 permalink: /publications/pafuse/
 ---
 
@@ -68,7 +69,7 @@ permalink: /publications/pafuse/
       title={PAFUSE: Part-based Diffusion for 3D Whole-Body Pose Estimation},
       author={Nermin Samet, C{\'{e}}dric Rommel, David Picard, Eduardo Valled},
       year={2024},
-      booktitle={ECCV 2024 Workshop Towards a Complete Analysis of People: Fine-grained Understanding for Real-World Applications}
+      booktitle={ECCV Workshop Towards a Complete Analysis of People: Fine-grained Understanding for Real-World Applications}
 }
 </pre>
 </left>
