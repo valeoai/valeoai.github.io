@@ -5,8 +5,8 @@ image: assets/img/publications/2024_regents/regents_page.png
 hide: false
 category: [corner-case-generation, trajectory-optimization, robustness, planning, reliability]
 authors: Yuan Yin, Pegah Khayatan, Éloi Zablocki, Alexandre Boulch, Matthieu Cord
-venue: ECCV 2024 W-CODA
-venue_long: ECCV 2024 Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving
+venue: ECCV Workshop W-CODA
+venue_long: ECCV Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving (W-CODA)
 year: 2024
 month: 9
 code_url: https://github.com/valeoai/ReGentS
