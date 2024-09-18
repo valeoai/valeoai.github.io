@@ -1,27 +1,27 @@
 ---
 layout: publication
-title: "Three Pillars improving Vision Foundation Model Distillation for Lidar"
-image: assets/img/publications/2024_scalr/illustration.png
+title: "Butterfly factorization by algorithmic identification of rank-one blocks"
+image: assets/img/publications/2023_butterfly/illustration.png
 hide: false
-category: [3d-perception, limited-supervision, foundation, unsupervised, self-supervised]
-authors: Gilles Puy, Spyros Gidaris, Alexandre Boulch, Oriane Siméoni, Corentin Sautier, Patrick Pérez, Andrei Bursuc, Renaud Marlet
-venue: CVPR
-venue_long: Computer Vision and Pattern Recognition
-year: 2024
-month: 6
-code_url: https://github.com/valeoai/ScaLR
-paper_url: https://arxiv.org/abs/2310.17504
+category: [deep-learning]
+authors: Léon Zheng, Gilles Puy, Elisa Riccietti, Patrick Pérez, Rémi Gribonval
+venue: GRETSI
+venue_long: Colloque Francophone de Traitement du Signal et des Images
+year: 2023
+month: 9
+code_url: 
+paper_url: https://arxiv.org/abs/2307.00820
 blog_url:
 slides_url:
 bib_url:
-permalink: /publications/scalr/
+permalink: /publications/butterfly/
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>  &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://csautier.github.io/">Corentin Sautier</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a></h3>
+<h3 align="center"> <a href="https://leonzheng2.github.io/">Léon Zheng</a>  &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>  &nbsp;&nbsp; <a href="https://perso.ens-lyon.fr/elisa.riccietti/">Elisa Riccietti</a>  &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="https://people.irisa.fr/Remi.Gribonval/">Rémi Gribonval</a></h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
