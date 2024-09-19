@@ -214,7 +214,7 @@ defaults:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
+  exclude: ['robots.txt', "assets/other/potree/*"]
   uglifier_args:
     harmony: true
 

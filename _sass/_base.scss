@@ -1080,3 +1080,15 @@ html.transition *:after {
     }
   }
 }
+
+.zoomable-image {
+  transition: transform 0.3s ease;
+  position: relative; /* Ensures that the z-index takes effect */
+  z-index: 1; /* Default z-index */
+}
+
+.zoomable-image:hover {
+  transform: scale(3); /* Adjust the scale value as needed */
+  cursor: none;
+  z-index: 10; /* Higher z-index to bring the image to the front */
+}
