@@ -3,9 +3,9 @@ layout: publication
 title: "LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Foundation Models"
 image: assets/img/publications/2024_llm_wrapper/llm_wrapper.png
 hide: false
-category:  [foundation, deep-learning, generalization]
+category:  [foundation, generalization]
 authors: Amaia Cardiel, Éloi Zablocki, Oriane Siméoni, Elias Ramzi, Matthieu Cord
-venue: ECCV, EVAL-FoMo Workshop
+venue: ECCV Workshop EVAL-FoMo
 venue_long: European Conference on Computer Vision (ECCV), Emergent Visual Abilities and Limits of Foundation Models (EVAL-FoMo) Workshop
 year: 2024
 month: 10
@@ -22,8 +22,7 @@ permalink: /publications/llm_wrapper/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> Amaia Cardiel&nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni&nbsp;&nbsp; <a href="https://elias-ramzi.github.io/">Elias Ramzi&nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
-
+<h3 align="center">Amaia Cardiel &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://elias-ramzi.github.io/">Elias Ramzi</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
@@ -64,7 +63,7 @@ permalink: /publications/llm_wrapper/
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@misc{cardiel2024llmwrapperblackboxsemanticawareadaptation,
+@misc{cardiel2024llmwrapper,
   title={LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Foundation Models},
   author    = {Amaia Cardiel and
                \'{E}loi Zablocki and
@@ -74,8 +73,6 @@ permalink: /publications/llm_wrapper/
       year={2024},
       eprint={2409.11919},
       archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.11919}
 }
 </pre>
 </left>
