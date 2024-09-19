@@ -6,7 +6,7 @@ hide: false
 category:  [foundation, generalization]
 authors: Amaia Cardiel, Éloi Zablocki, Oriane Siméoni, Elias Ramzi, Matthieu Cord
 venue: ECCV Workshop EVAL-FoMo
-venue_long: European Conference on Computer Vision (ECCV), Emergent Visual Abilities and Limits of Foundation Models (EVAL-FoMo) Workshop
+venue_long: ECCV Workshop Emergent Visual Abilities and Limits of Foundation Models (EVAL-FoMo)
 year: 2024
 month: 10
 code_url:
