@@ -14,6 +14,7 @@ paper_url: https://arxiv.org/abs/2409.07830
 blog_url: 
 slides_url: 
 bib_url: 
+intern_work: true
 permalink: /publications/regents/
 ---
 
