@@ -14,7 +14,7 @@ paper_url: https://arxiv.org/abs/2409.11919
 blog_url:
 slides_url:
 bib_url:
-intern_work: false
+intern_work: true
 permalink: /publications/llm_wrapper/
 ---
 
