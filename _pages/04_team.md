@@ -48,16 +48,6 @@ nav_order: 1
 <!-- display Alumni in their data listing order -->
 <!-- could not manage to sort by alumni_date since Liquid does not allow modifying object w/o use of a plugin -->
 <!-- <h2 class="alumni">Alumni</h2> -->
-<br>
-# Permament member alumni
-<!-- Alumni without alumni_phd: True -->
-<div class="team alumni">
-{% for member in site.data.team %}
-  {% if member[1].alumni == true and member[1].alumni_phd != true %}
-    {% include team/member.html member=member %}
-  {% endif %}
-{% endfor %}
-</div>
 
 <!-- Alumni with alumni_phd: True -->
 <br>
@@ -66,6 +56,17 @@ nav_order: 1
 {% for member in site.data.team %}
   {% if member[1].alumni_phd == true %}
     {% include team/phd_alumni.html member=member %}
+  {% endif %}
+{% endfor %}
+</div>
+
+<!-- Alumni without alumni: True -->
+<br
+# Permament member alumni
+<div class="team alumni">
+{% for member in site.data.team %}
+  {% if member[1].alumni == true and member[1].alumni_phd != true %}
+    {% include team/member.html member=member %}
   {% endif %}
 {% endfor %}
 </div>
