@@ -7,7 +7,7 @@
 {%- endfor -%}
 
 <div class="member {{member[1].position}}">
-  {% if member[1].alumni != true %}
+  {% if member[1].alumni != true or member[1].alumni_phd != true %}
     <a href="{{ member[1].url }}" target="_blank"><img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member[1].profilepic | prepend: '/assets/img/team/' | relative_url }}">
     {{ full_name }}</a><br>{{member[1].position}}
   {% else %}
