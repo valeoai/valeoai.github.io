@@ -62,7 +62,7 @@ nav_order: 1
 <!-- Alumni with alumni_phd: True -->
 <br>
 # PhD alumni
-<div class="team alumni-phd">
+<div class="team alumni">
 {% for member in site.data.team %}
   {% if member[1].alumni_phd == true %}
     {% include team/phd_alumni.html member=member %}
