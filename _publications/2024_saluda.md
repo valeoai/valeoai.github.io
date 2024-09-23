@@ -11,8 +11,8 @@ year: 2024
 month: 3
 code_url: https://github.com/valeoai/SALUDA
 paper_url: https://arxiv.org/abs/2304.03251
-blog_url:
-slides_url:
+blog_url: https://www.bjoernmichele.com/publication/saluda/
+slides_url: https://github.com/valeoai/SALUDA/blob/main/doc/Slides_SALUDA.pdf
 bib_url:
 permalink: /publications/SALUDA/
 ---
