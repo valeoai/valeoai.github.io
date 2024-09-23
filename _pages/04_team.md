@@ -72,5 +72,5 @@ nav_order: 1
 
 <br>
 # Alumni interns
-<p>To see the list of our previous interns and some their work, <a href="/interns/">click here</a>.</p>
+<p>Please visit the <a href="/interns/">dedicated page for interns</a> to meet our past interns and view their projects.</p>
 
