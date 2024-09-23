@@ -4,6 +4,7 @@
     profilepic: florent_bartoccioni.jpg
     bib_firstname: ["Florent", "F."]
     url: https://f-barto.github.io/
+    alumni_phd: True
     scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
 
 "Besnier":
@@ -230,6 +231,7 @@
     position: Phd Student W/ Cnam
     profilepic: laura_calem.jpg
     bib_firstname: ["Laura", "L."]
+    alumni_phd: True
     alumni: True
     url: https://scholar.google.com/citations?user=Asfcs8YAAAAJ
     
@@ -249,6 +251,7 @@
     position: Phd Student W/ Cnam
     profilepic: charles_corbiere.jpg
     bib_firstname: ["Charles", "C."]
+    alumni_phd: True
     alumni: True
     alumni_now: now at EPFL
     url: https://scholar.google.fr/citations?user=UcnFUZ8AAAAJ&hl=en
@@ -258,6 +261,7 @@
     position: Phd Student W/ INRIA
     profilepic: maximilian_jaritz.jpg
     bib_firstname: ["Maximilian", "M."]
+    alumni_phd: True
     alumni: True
     alumni_now: now at Amazon
     url: https://scholar.google.com/citations?user=yt2IsdAAAAAJ&hl=en
@@ -285,6 +289,7 @@
     position: Phd Student W/ Telecom
     profilepic: arthur_ouaknine.jpg
     bib_firstname: ["Arthur", "A."]
+    alumni_phd: True
     alumni: True
     alumni_now: now at McGill
     url: https://scholar.google.com/citations?user=OCT3E9wAAAAJ&hl=en
@@ -312,6 +317,7 @@
     position: Phd Student W/ Ponts
     profilepic: simon_roburin.jpg
     bib_firstname: ["Simon", "S."]
+    alumni_phd: True
     alumni: True
     alumni_now: now at EPFL
     url: https://scholar.google.fr/citations?user=Bf6mJqkAAAAJ&hl=en
@@ -330,6 +336,7 @@
     position: Phd Student W/ Sorbonne U.
     profilepic: antoine_saporta.jpg
     bib_firstname: ["Antoine", "A."]
+    alumni_phd: True
     alumni: True
     alumni_now: now at Meero
     url: https://scholar.google.com/citations?user=jSwfIU4AAAAJ&hl=en
@@ -357,6 +364,7 @@
     position: Phd Student
     profilepic: marin_toromanoff.jpg
     bib_firstname: ["Marin", "M."]
+    alumni_phd: True
     alumni: True
     alumni_now: now at Valeo Driving Assistance Research
     url: https://scholar.google.com/citations?user=Yu47MFYAAAAJ&hl=en
@@ -366,6 +374,7 @@
     position: Phd Student W/ Inria
     profilepic: huy_van_vo.jpg
     bib_firstname: ["Huy", "H."]
+    alumni_phd: True
     alumni: True
     alumni_now: now at Meta
     url: https://scholar.google.fr/citations?user=gIf5VqUAAAAJ&hl=en
@@ -384,5 +393,6 @@
     position: Phd Student W/ ENS Lyon
     profilepic: leon_zheng.jpg
     bib_firstname: ["Léon", "L."]
+    alumni_phd: True
     alumni: True
     url: https://scholar.google.com/citations?user=7gq9f6CfBnAC
