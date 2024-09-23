@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Previous interns
+title: Alumni interns
 permalink: /interns/
 description: 
 nav: false
@@ -16,7 +16,7 @@ nav_order: 6
 </div>
 
 <br>
-# Projects led or contributed to by previous interns
+# Projects led or contributed to by interns
 
 {% assign publications = site.publications | where: 'hide', false | where: 'intern_work', true %}
 {% assign publications_by_year = publications |  sort: 'year' |  reverse %}
