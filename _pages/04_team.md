@@ -61,7 +61,7 @@ nav_order: 1
 
 <!-- Alumni with alumni_phd: True -->
 <br>
-# Previous PhD students
+# PhD alumni
 <div class="team alumni-phd">
 {% for member in site.data.team %}
   {% if member[1].alumni_phd == true %}
@@ -71,6 +71,6 @@ nav_order: 1
 </div>
 
 <br>
-# Previous Interns
+# Alumni interns
 <p>To see the list of our previous interns and some their work, <a href="/interns/">click here</a>.</p>
 
