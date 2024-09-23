@@ -61,7 +61,7 @@ nav_order: 1
 </div>
 
 <!-- Alumni without alumni: True -->
-<br
+<br>
 # Permament member alumni
 <div class="team alumni">
 {% for member in site.data.team %}
