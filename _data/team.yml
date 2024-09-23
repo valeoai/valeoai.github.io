@@ -5,8 +5,17 @@
     bib_firstname: ["Florent", "F."]
     url: https://f-barto.github.io/
     alumni_phd: True
+    alumni: True
     scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
 
+"Bartoccioni":
+    firstname: Florent
+    position: Research Engineer
+    profilepic: florent_bartoccioni.jpg
+    bib_firstname: ["Florent", "F."]
+    url: https://f-barto.github.io/
+    scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
+    
 "Besnier":
     firstname: Victor
     position: Research Scientist
