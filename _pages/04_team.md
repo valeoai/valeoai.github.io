@@ -65,7 +65,7 @@ nav_order: 1
 <div class="team alumni-phd">
 {% for member in site.data.team %}
   {% if member[1].alumni_phd == true %}
-    {% include team/member.html member=member %}
+    {% include team/phd_alumni.html member=member %}
   {% endif %}
 {% endfor %}
 </div>
