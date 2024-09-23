@@ -4,6 +4,7 @@
     profilepic: florent_bartoccioni.jpg
     bib_firstname: ["Florent", "F."]
     url: https://f-barto.github.io/
+    alumni_phd: true
     scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
     
 "Besnier":
@@ -224,16 +225,6 @@
     alumni: True
     alumni_now: now at TOBAM
     url: https://scholar.google.fr/citations?user=NbYEOpMAAAAJ&hl=en
-
-"Bartoccioni":
-    firstname: Florent
-    position: Research Engineer
-    profilepic: florent_bartoccioni.jpg
-    bib_firstname: ["Florent", "F."]
-    url: https://f-barto.github.io/
-    alumni_phd: True
-    alumni: True
-    scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
 
 "Calem":
     firstname: Laura
