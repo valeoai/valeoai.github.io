@@ -7,8 +7,9 @@
 {%- endfor -%}
 
 <div class="member {{member[1].position}}">
-  <a href="{{ member[1].url }}" target="_blank">{{ full_name }}</a> - {% if member[1].phd_position %}{{ member[1].phd_position }}{% else %}{{ member[1].position }}{% endif %} - Defense member[1].phd_defense  
+  <a href="{{ member[1].url }}" target="_blank">{{ full_name }}</a> - {% if member[1].phd_position %}{{ member[1].phd_position }}{% else %}{{ member[1].position }}{% endif %}
+  - Defense member[1].phd_defense 
   {% if member[1].alumni_now != "" and member[1].alumni_now != nil %}
-    ({{member[1].alumni_now}})
+    - {{member[1].alumni_now}} 
   {% endif %}
 </div>
