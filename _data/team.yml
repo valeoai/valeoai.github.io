@@ -2,6 +2,7 @@
     firstname: Florent
     position: Research Engineer
     phd_position: PhD student W/ Inria
+    phd_defense: 2023
     profilepic: florent_bartoccioni.jpg
     bib_firstname: ["Florent", "F."]
     url: https://f-barto.github.io/
@@ -235,6 +236,7 @@
     bib_firstname: ["Laura", "L."]
     alumni_phd: True
     alumni: True
+    phd_defense: 2024
     url: https://scholar.google.com/citations?user=Asfcs8YAAAAJ
     
 "Chen":
@@ -256,6 +258,7 @@
     alumni_phd: True
     alumni: True
     alumni_now: now at EPFL
+    phd_defense: 2022
     url: https://scholar.google.fr/citations?user=UcnFUZ8AAAAJ&hl=en
 
 "Jaritz":
@@ -265,6 +268,7 @@
     bib_firstname: ["Maximilian", "M."]
     alumni_phd: True
     alumni: True
+    phd_defense: 2020
     alumni_now: now at Amazon
     url: https://scholar.google.com/citations?user=yt2IsdAAAAAJ&hl=en
 
@@ -294,6 +298,7 @@
     alumni_phd: True
     alumni: True
     alumni_now: now at McGill
+    phd_defense: 2022
     url: https://scholar.google.com/citations?user=OCT3E9wAAAAJ&hl=en
 
 "Pérez":
@@ -321,6 +326,7 @@
     bib_firstname: ["Simon", "S."]
     alumni_phd: True
     alumni: True
+    phd_defense: 2022
     alumni_now: now at EPFL
     url: https://scholar.google.fr/citations?user=Bf6mJqkAAAAJ&hl=en
 
@@ -340,6 +346,7 @@
     bib_firstname: ["Antoine", "A."]
     alumni_phd: True
     alumni: True
+    phd_defense: 2022
     alumni_now: now at Meero
     url: https://scholar.google.com/citations?user=jSwfIU4AAAAJ&hl=en
 
@@ -368,6 +375,7 @@
     bib_firstname: ["Marin", "M."]
     alumni_phd: True
     alumni: True
+    phd_defense: 2021
     alumni_now: now at Valeo Driving Assistance Research
     url: https://scholar.google.com/citations?user=Yu47MFYAAAAJ&hl=en
 
@@ -379,6 +387,7 @@
     alumni_phd: True
     alumni: True
     alumni_now: now at Meta
+    phd_defense: 2022
     url: https://scholar.google.fr/citations?user=gIf5VqUAAAAJ&hl=en
 
 "Wirbel":
@@ -397,4 +406,5 @@
     bib_firstname: ["Léon", "L."]
     alumni_phd: True
     alumni: True
+    phd_defense: 2024
     url: https://scholar.google.com/citations?user=7gq9f6CfBnAC
