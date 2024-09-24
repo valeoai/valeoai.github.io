@@ -1,15 +1,4 @@
-"Bartoccioni":
-    firstname: Florent
-    position: Research Engineer
-    phd_position: PhD student W/ Inria
-    phd_defense: 2023
-    profilepic: florent_bartoccioni.jpg
-    bib_firstname: ["Florent", "F."]
-    url: https://f-barto.github.io/
-    alumni_phd: true
-    alumni_now: now at Valeo.ai
-    scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
-    
+   
 "Besnier":
     firstname: Victor
     position: Research Scientist
@@ -229,6 +218,16 @@
     alumni_now: now at TOBAM
     url: https://scholar.google.fr/citations?user=NbYEOpMAAAAJ&hl=en
 
+"Zheng":
+    firstname: Léon
+    position: Phd Student W/ ENS Lyon
+    profilepic: leon_zheng.jpg
+    bib_firstname: ["Léon", "L."]
+    alumni_phd: True
+    alumni: True
+    phd_defense: 2024
+    url: https://scholar.google.com/citations?user=7gq9f6CfBnAC
+    
 "Calem":
     firstname: Laura
     position: Phd Student W/ Cnam
@@ -238,6 +237,74 @@
     alumni: True
     phd_defense: 2024
     url: https://scholar.google.com/citations?user=Asfcs8YAAAAJ
+
+    
+"Bartoccioni":
+    firstname: Florent
+    position: Research Engineer
+    phd_position: PhD student W/ Inria
+    phd_defense: 2023
+    profilepic: florent_bartoccioni.jpg
+    bib_firstname: ["Florent", "F."]
+    url: https://f-barto.github.io/
+    alumni_phd: true
+    alumni_now: now at Valeo.ai
+    scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
+    
+"Corbière":
+    firstname: Charles
+    position: Phd Student W/ Cnam
+    profilepic: charles_corbiere.jpg
+    bib_firstname: ["Charles", "C."]
+    alumni_phd: True
+    alumni: True
+    alumni_now: now at EPFL
+    phd_defense: 2022
+    url: https://scholar.google.fr/citations?user=UcnFUZ8AAAAJ&hl=en
+    
+"Ouaknine":
+    firstname: Arthur
+    position: Phd Student W/ Telecom
+    profilepic: arthur_ouaknine.jpg
+    bib_firstname: ["Arthur", "A."]
+    alumni_phd: True
+    alumni: True
+    alumni_now: now at McGill
+    phd_defense: 2022
+    url: https://scholar.google.com/citations?user=OCT3E9wAAAAJ&hl=en
+
+"Roburin":
+    firstname: Simon
+    position: Phd Student W/ Ponts
+    profilepic: simon_roburin.jpg
+    bib_firstname: ["Simon", "S."]
+    alumni_phd: True
+    alumni: True
+    phd_defense: 2022
+    alumni_now: now at EPFL
+    url: https://scholar.google.fr/citations?user=Bf6mJqkAAAAJ&hl=en
+
+"Saporta":
+    firstname: Antoine
+    position: Phd Student W/ Sorbonne U.
+    profilepic: antoine_saporta.jpg
+    bib_firstname: ["Antoine", "A."]
+    alumni_phd: True
+    alumni: True
+    phd_defense: 2022
+    alumni_now: now at Meero
+    url: https://scholar.google.com/citations?user=jSwfIU4AAAAJ&hl=en
+    
+"Vo":
+    firstname: Huy
+    position: Phd Student W/ Inria
+    profilepic: huy_van_vo.jpg
+    bib_firstname: ["Huy", "H."]
+    alumni_phd: True
+    alumni: True
+    alumni_now: now at Meta
+    phd_defense: 2022
+    url: https://scholar.google.fr/citations?user=gIf5VqUAAAAJ&hl=en
     
 "Chen":
     firstname: Mickaël
@@ -250,17 +317,17 @@
     alumni: True
     url: https://scholar.google.fr/citations?user=QnRpMJAAAAAJ&hl=en
 
-"Corbière":
-    firstname: Charles
-    position: Phd Student W/ Cnam
-    profilepic: charles_corbiere.jpg
-    bib_firstname: ["Charles", "C."]
+"Toromanoff":
+    firstname: Marin
+    position: Phd Student
+    profilepic: marin_toromanoff.jpg
+    bib_firstname: ["Marin", "M."]
     alumni_phd: True
     alumni: True
-    alumni_now: now at EPFL
-    phd_defense: 2022
-    url: https://scholar.google.fr/citations?user=UcnFUZ8AAAAJ&hl=en
-
+    phd_defense: 2021
+    alumni_now: now at Valeo Driving Assistance Research
+    url: https://scholar.google.com/citations?user=Yu47MFYAAAAJ&hl=en
+    
 "Jaritz":
     firstname: Maximilian
     position: Phd Student W/ INRIA
@@ -290,17 +357,6 @@
     alumni_now: now at Datadog
     url: https://github.com/gabrieldemarmiesse
 
-"Ouaknine":
-    firstname: Arthur
-    position: Phd Student W/ Telecom
-    profilepic: arthur_ouaknine.jpg
-    bib_firstname: ["Arthur", "A."]
-    alumni_phd: True
-    alumni: True
-    alumni_now: now at McGill
-    phd_defense: 2022
-    url: https://scholar.google.com/citations?user=OCT3E9wAAAAJ&hl=en
-
 "Pérez":
     firstname: Patrick
     position: Scientific Director
@@ -318,18 +374,7 @@
     alumni: True
     alumni_now: now at Hexagon|AutonomouStuff
     url: https://scholar.google.com/citations?user=BJcQNcoAAAAJ
-
-"Roburin":
-    firstname: Simon
-    position: Phd Student W/ Ponts
-    profilepic: simon_roburin.jpg
-    bib_firstname: ["Simon", "S."]
-    alumni_phd: True
-    alumni: True
-    phd_defense: 2022
-    alumni_now: now at EPFL
-    url: https://scholar.google.fr/citations?user=Bf6mJqkAAAAJ&hl=en
-
+    
 "Rommel":
     firstname: Cédric
     position: Research Scientist
@@ -339,16 +384,6 @@
     alumni_now: now at Meta
     url: https://scholar.google.com/citations?user=GBv4KYwAAAAJ&hl=en
 
-"Saporta":
-    firstname: Antoine
-    position: Phd Student W/ Sorbonne U.
-    profilepic: antoine_saporta.jpg
-    bib_firstname: ["Antoine", "A."]
-    alumni_phd: True
-    alumni: True
-    phd_defense: 2022
-    alumni_now: now at Meero
-    url: https://scholar.google.com/citations?user=jSwfIU4AAAAJ&hl=en
 
 "Schultz":
     firstname: Tristan
@@ -368,27 +403,6 @@
     github: https://github.com/osimeoni
     alumni: True
 
-"Toromanoff":
-    firstname: Marin
-    position: Phd Student
-    profilepic: marin_toromanoff.jpg
-    bib_firstname: ["Marin", "M."]
-    alumni_phd: True
-    alumni: True
-    phd_defense: 2021
-    alumni_now: now at Valeo Driving Assistance Research
-    url: https://scholar.google.com/citations?user=Yu47MFYAAAAJ&hl=en
-
-"Vo":
-    firstname: Huy
-    position: Phd Student W/ Inria
-    profilepic: huy_van_vo.jpg
-    bib_firstname: ["Huy", "H."]
-    alumni_phd: True
-    alumni: True
-    alumni_now: now at Meta
-    phd_defense: 2022
-    url: https://scholar.google.fr/citations?user=gIf5VqUAAAAJ&hl=en
 
 "Wirbel":
     firstname: Emilie
@@ -399,12 +413,3 @@
     alumni_now: now at Helsing
     url: https://scholar.google.com/citations?user=YB_d6CUAAAAJ&hl=en
 
-"Zheng":
-    firstname: Léon
-    position: Phd Student W/ ENS Lyon
-    profilepic: leon_zheng.jpg
-    bib_firstname: ["Léon", "L."]
-    alumni_phd: True
-    alumni: True
-    phd_defense: 2024
-    url: https://scholar.google.com/citations?user=7gq9f6CfBnAC
