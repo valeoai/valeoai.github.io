@@ -6,8 +6,9 @@
   {%- assign axes = axes | append: " " | append: "axis-" | append: axis -%}
 {%- endfor -%}
 
-<div class="member {{member[1].position}}">
+<div class="member {{member[1].position ? member[1].position : ''}}">
     <a href="{{ member[1].url }}" target="_blank">{{ full_name }}</a> - Internship {{ member[1].internship_year }} <br>
+    {% if member[1].position %}
     Currently: {{ member[1].position }}
+    {% endif %}
 </div>
-
