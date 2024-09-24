@@ -3,7 +3,7 @@ layout: publication
 title: "A Simple Recipe for Language-guided Domain Generalized Segmentation"
 image: assets/img/publications/2024_famix/famix-overview.png
 hide: false
-category: [domain-adaptation, limited-supervision, generalization]
+category: [domain-adaptation, limited-supervision, generalization, reliability, foundation]
 authors: Mohammad Fahes, Tuan-Hung Vu, Andrei Bursuc, Patrick Pérez, Raoul de Charette
 venue: CVPR
 venue_long: Computer Vision and Pattern Recognition
