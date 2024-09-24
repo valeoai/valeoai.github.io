@@ -50,15 +50,13 @@ nav_order: 1
 <!-- <h2 class="alumni">Alumni</h2> -->
 
 <!-- Alumni with alumni_phd: True -->
-{% assign phd_alumni = site.data.team | where: 'alumni_phd', true %}
-{% assign sorted_alumni = phd_alumni | sort: 'phd_defense' | reverse %} 
 <br>
 # PhD alumni
 <div class="team alumni">
-{% for member in sorted_alumni %}
-  <!-- {% if member[1].alumni_phd == true %} -->
+{% for member in site.data.team %}
+  {% if member[1].alumni_phd == true %}
     {% include team/phd_alumni.html member=member %}
-  <!-- {% endif %} -->
+  {% endif %}
 {% endfor %}
 </div>
 
