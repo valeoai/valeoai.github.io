@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "The BRAVO Semantic Segmentation Challenge Results in UNCV2024"
-image: assets/img/publications/2024_bravo/bravo-overview.png
+image: assets/img/publications/2024_bravo/bravo-overview.PNG
 hide: false
 category: [reliability, generalization, robustness, domain-adaptation, foundation, limited-supervision]
 authors: Tuan-Hung Vu, Eduardo Valle, Andrei Bursuc, Tommie Kerssies, Daan de Geus, Gijs Dubbelman, Long Qian, Bingke Zhu, Yingying Chen, Ming Tang, Jinqiao Wang, Tomáš Vojíř, Jan Šochman, Jiří Matas, Michael Smith, Frank Ferrie, Shamik Basu, Christos Sakaridis, Luc Van Gool

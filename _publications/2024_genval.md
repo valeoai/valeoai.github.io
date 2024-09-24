@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Reliability in Semantic Segmentation: Can We Use Synthetic Data?"
-image: assets/img/publications/2024_genval/genval-overview.png
+image: assets/img/publications/2024_genval/genval-overview.PNG
 hide: false
 category: [reliability, generalization, robustness, domain-adaptation, foundation, limited-supervision]
 authors: Thibaut Loiseau, Tuan-Hung Vu, Mickael Chen, Patrick Pérez, Matthieu Cord
