@@ -13,7 +13,7 @@
   {% else %}
     <a href="{{ member[1].url }}" target="_blank">{{ full_name }}</a> - {{member[1].position}}
     {% if member[1].alumni_now != "" and member[1].alumni_now != nil %}
-      ({{member[1].alumni_now}})
+      - {{member[1].alumni_now}}
     {% endif %}
   {% endif %}
 </div>
