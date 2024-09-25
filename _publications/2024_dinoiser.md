@@ -64,7 +64,7 @@ permalink: /publications/dinoiser/
 <left>
   <pre class="bibtex-box">
 @inproceedings{wysoczanska2024clip,
-  title={{CLIP-DINO}iser: Teaching {CLIP} a few {DINO} tricks},
+  title={CLIP-DINOiser: Teaching CLIP a few DINO tricks},
   author={Wysocza{\'n}ska, Monika and Sim{\'e}oni, Oriane and Ramamonjisoa, Micha{\"e}l and Bursuc, Andrei and Trzci{\'n}ski, Tomasz and P{\'e}rez, Patrick},
   booktitle={ECCV},
   year={2024}
