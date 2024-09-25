@@ -47,14 +47,14 @@ Vehicle trajectory prediction has increasingly relied on data-driven solutions, 
 <hr>
 
 ## Lost and Found: Overcoming Detector Failures in Online Multi-Object Tracking
-#### Authors: <a href="https://jingleishi.github.io/">Jinglei Shi</a> &nbsp;&nbsp; <a href="https://github.com/yihongXU">Yihong Xu</a> &nbsp;&nbsp; <a href="https://people.rennes.inria.fr/Christine.Guillemot/">Christine Guillemot</a>
+#### Authors: <a href="https://citius.gal/team/lorenzo-vaquero-otal/">Lorenzo Vaquero</a> &nbsp;&nbsp; <a href="https://github.com/yihongXU">Yihong Xu</a> &nbsp;&nbsp; <a href="https://xavirema.eu/">Xavier Alameda-Pineda</a> &nbsp;&nbsp; <a href="https://citius.gal/team/victor-manuel-brea-sanchez/">Víctor M. Brea</a> &nbsp;&nbsp; <a href="https://persoal.citius.usc.es/manuel.mucientes/">Manuel Mucientes</a>
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2407.10151">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/lorenzovaquero/BUSCA">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/busca/">Project page</a>]</h4>
 
 Multi-object tracking (MOT) endeavors to precisely estimate the positions and identities of multiple objects over time. The prevailing approach, tracking-by-detection (TbD), first detects objects and then links detections, resulting in a simple yet effective method. However, contemporary detectors may occasionally miss some objects in certain frames, causing trackers to cease tracking prematurely. To tackle this issue, we propose BUSCA, meaning 'to search', a versatile framework compatible with any online TbD system, enhancing its ability to persistently track those objects missed by the detector, primarily due to occlusions. Remarkably, this is accomplished without modifying past tracking results or accessing future frames, i.e., in a fully online manner. BUSCA generates proposals based on neighboring tracks, motion, and learned tokens. Utilizing a decision Transformer that integrates multimodal visual and spatiotemporal information, it addresses the object-proposal association as a multi-choice question-answering task. BUSCA is trained independently of the underlying tracker, solely on synthetic data, without requiring fine-tuning. Through BUSCA, we showcase consistent performance enhancements across five different trackers and establish a new state-of-the-art baseline across three different benchmarks.
 
 
-![busca_overview]({{ site.baseurl }}/assets/img/publications/2024_lfc/lfc.png){:height="100%" width="100%"}
+![busca_overview]({{ site.baseurl }}/assets/img/publications/2024_busca/busca.png){:height="90%" width="90%"}
 <div class="caption"><b>Overview of BUSCA</b>: Enhancing multi-object trackers by finding undetected objects.
 </div>
 
