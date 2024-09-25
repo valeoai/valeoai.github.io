@@ -21,7 +21,7 @@ permalink: /publications/dinoiser/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://wysoczanska.github.io/">Monika Wysoczańska</a> &nbsp;&nbsp;  <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://michaelramamonjisoa.github.io/">Michaël Ramamonjisoa</a> &nbsp;&nbsp;<a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;<a href="https://scholar.google.com/citations?hl=en&user=bJMRBFoAAAAJ">Tomasz Trzciński</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>   </h3>
+<h3 align="center"> <a href="https://wysoczanska.github.io/">Monika Wysoczańska</a> &nbsp;<a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp; <a href="https://michaelramamonjisoa.github.io/">Michaël Ramamonjisoa</a> &nbsp;<a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;<a href="https://scholar.google.com/citations?hl=en&user=bJMRBFoAAAAJ">Tomasz Trzciński</a> &nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>   </h3>
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
 
