@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/3faa026b-9577-457b-b8a3-6768ff999054)![image](https://github.com/user-attachments/assets/f3e9a4e4-6933-4044-8453-0dd36988a4a0)---
 toc: false
 layout: post
 description: "Björn Michele, Amaia Cardiel, Yuan Yin, Yihong Xu, Nermin Samet, Tuan-Hung Vu, Andrei Bursuc, Éloi Zablocki"
@@ -9,7 +9,7 @@ image: assets/img/posts/2024_eccv/eccv_banner.png
 ---
 
 
-The [European Conference on Computer Vision (ECCV)](https://eccv.ecva.net/) is a biennial landmark conference for the increasingly large community of researchers in computer vision and machine learning from both academia and industry. At the 2024 edition the valeo.ai team will present five papers in the main conference and four in the workshops. We are also organizing two tutorials ([Bayesian Odyssey](https://uqtutorial.github.io/) and [Time is precious: Self-Supervised Learning Beyond Images](https://shashankvkt.github.io/eccv2024-SSLBIG-tutorial.github.io/)), the [Uncertainty Quantification for Computer Vision](https://uncertainty-cv.github.io/2024/) workshop and the [BRAVO challenge](https://github.com/valeoai/bravo_challenge).
+The [European Conference on Computer Vision (ECCV)](https://eccv.ecva.net/) is a biennial landmark conference for the increasingly large community of researchers in computer vision and machine learning from both academia and industry. At the 2024 edition the valeo.ai team will present five papers in the main conference and four in the workshops. We are also organizing two tutorials ([Bayesian Odyssey](https://uqtutorial.github.io/) and [Time is precious: Self-Supervised Learning Beyond Images](https://shashankvkt.github.io/eccv2024-SSLBIG-tutorial.github.io/)), the [Uncertainty Quantification for Computer Vision](https://uncertainty-cv.github.io/2024/) workshop, a talk at the [OmniLabel workshop](https://sites.google.com/view/omnilabel-workshop-eccv24/program), and the [BRAVO challenge](https://github.com/valeoai/bravo_challenge).
 Our team has also contributed to the reviewing process, with seven reviewers, three area chairs, and two outstanding reviewer awards. 
 The team will be at ECCV to present these works and will be happy to discuss more about these projects and ideas, and share our exciting ongoing research. 
 
