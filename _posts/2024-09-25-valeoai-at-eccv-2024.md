@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3faa026b-9577-457b-b8a3-6768ff999054)![image](https://github.com/user-attachments/assets/f3e9a4e4-6933-4044-8453-0dd36988a4a0)---
+---
 toc: false
 layout: post
 description: "Björn Michele, Amaia Cardiel, Yuan Yin, Yihong Xu, Nermin Samet, Tuan-Hung Vu, Andrei Bursuc, Éloi Zablocki"
