@@ -11,6 +11,7 @@ year: 2024
 month: 1
 code_url: https://github.com/wysoczanska/clip-diy
 paper_url: https://arxiv.org/abs/2309.14289
+intern_work: true
 blog_url: 
 slides_url: 
 bib_url: 
