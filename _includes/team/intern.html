@@ -7,7 +7,12 @@
 {%- endfor -%}
 
 <div class="member {{member[1].position ? member[1].position : ''}}">
-    <a href="{{ member[1].url }}" target="_blank">{{ full_name }}</a> - Internship {{ member[1].internship_year }} <br>
+    <a href="{{ member[1].url }}" target="_blank">{{ full_name }}</a>
+    {% if member[1].internship_year %}
+        - Internship {{ member[1].internship_year }} <br>
+    {% else %}
+        - {{ member[1].visiting_type }} ({{ member[1].visiting_period }}) <br>
+    {% endif %}
     {% if member[1].position %}
     Currently: {{ member[1].position }}
     {% endif %}
