@@ -72,6 +72,6 @@ nav_order: 1
 </div>
 
 <br>
-# Alumni interns
-<p>Please visit the <a href="/interns/">dedicated page for interns</a> to meet our past interns and view their projects.</p>
+# Alumni interns and visiting students
+<p>Please visit the <a href="/interns/">dedicated page</a> to meet our past interns and visiting students and view their projects.</p>
 
