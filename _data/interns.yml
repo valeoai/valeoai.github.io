@@ -18,6 +18,18 @@
     firstname: Matteo
     internship_year: 2024
 
+"Simoncini":
+    firstname: Walter
+    visiting_period: April 2024 - May 2024
+    url: https://walter.ashita.nl/
+    visiting_type: Visiting Master student
+    
+"Wysoczanska":
+    firstname: Monika
+    visiting_period: July 2023 - June 2024
+    url: https://wysoczanska.github.io/
+    visiting_type: Visiting PhD student
+    
 "Cardiel":                                                                         
     firstname: Amaia                                                               
     position: PhD student at Valeo.ai and Grenoble Université with Eric Gaussier
