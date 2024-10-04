@@ -13,6 +13,7 @@ code_url: https://github.com/wysoczanska/clip_dinoiser
 paper_url: https://arxiv.org/abs/2312.12359
 blog_url: 
 slides_url: 
+intern_work: true
 bib_url: 
 permalink: /publications/dinoiser/
 ---
