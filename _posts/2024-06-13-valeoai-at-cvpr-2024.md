@@ -15,7 +15,7 @@ Also, the team will present its [winning solution](https://valeoai.github.io/pub
 The team will be at CVPR to present these works and will be happy to discuss more about these projects and ideas, and share our exciting ongoing research.
 We outline our team papers below.
 
-
+![valeo.ai team at CVPR 2024]({{ site.baseurl }}/assets/img/posts/2024_cvpr/valeoai_cvpr.jfif){:height="100%" width="100%"}
 
 ## Three Pillars Improving Vision Foundation Model Distillation for Lidar
 #### Authors: <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>, <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://osimeoni.github.io/">Oriane Siméoni</a>,  <a href="https://csautier.github.io/">Corentin Sautier</a>,  <a href="https://abursuc.github.io/">Andrei Bursuc</a>,  <a href="https://ptrckprz.github.io/">Patrick Pérez</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
