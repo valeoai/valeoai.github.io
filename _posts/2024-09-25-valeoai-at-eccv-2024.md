@@ -13,7 +13,7 @@ The [European Conference on Computer Vision (ECCV)](https://eccv.ecva.net/) is a
 Our team has also contributed to the reviewing process, with seven reviewers, three area chairs, and two outstanding reviewer awards. 
 The team will be at ECCV to present these works and will be happy to discuss more about these projects and ideas, and share our exciting ongoing research. 
 
-![valeo.ai team at ECCV 2024]({{ site.baseurl }}/assets/img/posts/2024_eccv/valeoai_eccv.jfjf){:height="100%" width="100%"}
+![valeo.ai team at ECCV 2024]({{ site.baseurl }}/assets/img/posts/2024_eccv/valeoai_eccv.jfif){:height="100%" width="100%"}
 
 ## Train Till You Drop: Towards Stable and Robust Source-free Unsupervised 3D Domain Adaptation
 ### Authors: <a href="https://bjoernmichele.com">Bjoern Michele</a> &nbsp;&nbsp; <a href="https://boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/">Gilles Puy</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a>
