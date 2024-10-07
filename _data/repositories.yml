@@ -5,12 +5,12 @@ github_repos:
   - valeoai/WoodScape
   - valeoai/ADVENT
   - valeoai/LOST
+  - vita-epfl/UniTraj
+  - valeoai/POCO
   - valeoai/xmuda
   - valeoai/ZS3
-  - valeoai/POCO
   - valeoai/SLidR
   - valeoai/ALSO
-  - vita-epfl/UniTraj
   - valeoai/ConfidNet
   - valeoai/RADIal
   - valeoai/Maskgit-pytorch
@@ -20,11 +20,11 @@ github_repos:
   - valeoai/obow
   - valeoai/carrada_dataset
   - valeoai/PointBeV
-  - valeoai/rainbow-iqn-apex
   - valeoai/rangevit
-  - valeoai/LightConvPoint
-  - valeoai/FOUND
+  - valeoai/rainbow-iqn-apex
   - valeoai/BEVContrast
+  - valeoai/FOUND
+  - valeoai/LightConvPoint
   - valeoai/Awesome-Unsupervised-Object-Localization
   - valeoai/LearningByCheating
   - valeoai/MVRSS
