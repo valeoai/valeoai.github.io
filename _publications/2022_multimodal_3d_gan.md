@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Multi-Modal 3D GAN for Urban Scenes" 
-image: assets/img/publications/2022_multimodal_3d_gan/multimodal_3d_gan.PNG
+image: assets/img/publications/2022_multimodal_3d_gan/2022_multimodal_3d_gan.PNG
 hide: false
 category: [multi-sensor, 3d-reconstruction, 3d-perception, limited-supervision, driving]
 authors: Loïck Chambon, Mickaël Chen, Tuan-Hung Vu, Alexandre Boulch, Andrei Bursuc, Matthieu Cord, Patrick Pérez
