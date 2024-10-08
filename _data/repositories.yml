@@ -53,4 +53,7 @@ github_repos:
   - valeoai/MFEval
   - valeoai/QuEST
   - valeoai/MOCA
-  
+  - astra-vision/DenseMTL
+  - astra-vision/PODA
+  - astra-vision/FAMix
+  - astra-vision/ProLIP
