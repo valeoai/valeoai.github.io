@@ -4,7 +4,7 @@ title: "Fine-Tuning CLIP's Last Visual Projector: A Few-Shot Cornucopia"
 image: assets/img/publications/2025_prolip/prolip_overview.png
 hide: false
 category: [domain-adaptation, limited-supervision, generalization, reliability, foundation]
-authors: Mohammad Fahes, Tuan-Hung Vu, Andrei Bursuc, Patrick Pérez, Raoul de Charettes
+authors: Mohammad Fahes, Tuan-Hung Vu, Andrei Bursuc, Patrick Pérez, Raoul de Charette
 venue: under review
 venue_long: under review
 year: 2025
