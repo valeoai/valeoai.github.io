@@ -6,8 +6,8 @@ github_repos:
   - valeoai/ADVENT
   - valeoai/LOST
   - vita-epfl/UniTraj
-  - valeoai/POCO
   - valeoai/xmuda
+  - valeoai/POCO
   - valeoai/ZS3
   - valeoai/SLidR
   - valeoai/ALSO
@@ -16,6 +16,7 @@ github_repos:
   - valeoai/Maskgit-pytorch
   - valeoai/BF3S
   - valeoai/DADA
+  - astra-vision/PODA
   - valeoai/FLOT
   - valeoai/obow
   - valeoai/carrada_dataset
@@ -28,10 +29,12 @@ github_repos:
   - valeoai/Awesome-Unsupervised-Object-Localization
   - valeoai/LearningByCheating
   - valeoai/MVRSS
+  - astra-vision/DenseMTL
   - valeoai/WaffleIron
   - valeoai/FKAConv
   - valeoai/LaRa
   - valeoai/SALUDA
+  - astra-vision/FAMix
   - valeoai/ScaLR
   - valeoai/obsnet
   - valeoai/3DGenZ
@@ -53,7 +56,4 @@ github_repos:
   - valeoai/MFEval
   - valeoai/QuEST
   - valeoai/MOCA
-  - astra-vision/DenseMTL
-  - astra-vision/PODA
-  - astra-vision/FAMix
   - astra-vision/ProLIP
