@@ -5,6 +5,7 @@ image: assets/img/publications/2024_genval/genval-overview.PNG
 hide: false
 category: [reliability, generalization, robustness, domain-adaptation, foundation, limited-supervision]
 authors: Thibaut Loiseau, Tuan-Hung Vu, Mickael Chen, Patrick Pérez, Matthieu Cord
+authors_internship: <u>Thibaut Loiseau</u>, Tuan-Hung Vu, Mickael Chen, Patrick Pérez, Matthieu Cord
 venue: ECCV
 venue_long: European Conference on Computer Vision
 year: 2024
@@ -15,7 +16,6 @@ blog_url:
 slides_url:
 bib_url:
 intern_work: true
-intern: "Intern: Thibaut Loiseau"
 permalink: /publications/genval/
 ---
 
