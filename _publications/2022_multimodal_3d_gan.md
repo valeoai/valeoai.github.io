@@ -5,6 +5,7 @@ image: assets/img/publications/2022_multimodal_3d_gan/2022_multimodal_3d_gan.PNG
 hide: false
 category: [multi-sensor, 3d-reconstruction, 3d-perception, limited-supervision, driving]
 authors: Loïck Chambon, Mickaël Chen, Tuan-Hung Vu, Alexandre Boulch, Andrei Bursuc, Matthieu Cord, Patrick Pérez
+authors_internship: <u>Loïck Chambon</u>, Mickaël Chen, Tuan-Hung Vu, Alexandre Boulch, Andrei Bursuc, Matthieu Cord, Patrick Pérez
 venue: NeurIPS ML4AD Workshop
 venue_long: NeurIPS Machine Learning for Autonomous Driving Workshop
 year: 2022
