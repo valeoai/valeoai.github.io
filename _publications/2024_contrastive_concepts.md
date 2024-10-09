@@ -7,7 +7,7 @@ category:  [foundation, generalization, zero-shot]
 authors: Monika Wysoczańska, Antonin Vobecky, Amaia Cardiel, Tomasz Trzciński, Renaud Marlet, Andrei Bursuc, Oriane Siméoni
 authors_internship: <u>Monika Wysoczańska</u>, Antonin Vobecky, Amaia Cardiel, Tomasz Trzciński, Renaud Marlet, Andrei Bursuc, Oriane Siméoni
 venue: under review
-venue_long:
+venue_long: under review
 year: 2025
 month: 01
 code_url:
