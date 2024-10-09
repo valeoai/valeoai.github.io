@@ -5,6 +5,7 @@ image: assets/img/publications/2023_octet/octet.png
 hide: false
 category: [explainability, driving]
 authors: Mehdi Zemni, Mickaël Chen, Éloi Zablocki, Hédi Ben-Younes, Patrick Pérez, Matthieu Cord
+authors_internship: <u>Mehdi Zemni</u>, Mickaël Chen, Éloi Zablocki, Hédi Ben-Younes, Patrick Pérez, Matthieu Cord
 venue: CVPR
 venue_long: Computer Vision and Pattern Recognition
 year: 2023
