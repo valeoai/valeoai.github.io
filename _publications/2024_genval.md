@@ -15,6 +15,7 @@ blog_url:
 slides_url:
 bib_url:
 intern_work: true
+intern: "Intern: Thibaut Loiseau"
 permalink: /publications/genval/
 ---
 
