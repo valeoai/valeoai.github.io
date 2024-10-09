@@ -5,6 +5,7 @@ image: assets/img/publications/2024_llm_wrapper/llm_wrapper.PNG
 hide: false
 category:  [foundation, generalization]
 authors: Amaia Cardiel, Éloi Zablocki, Oriane Siméoni, Elias Ramzi, Matthieu Cord
+authors_internship: <u>Amaia Cardiel</u>, Éloi Zablocki, Oriane Siméoni, Elias Ramzi, Matthieu Cord
 venue: ECCV Workshop EVAL-FoMo
 venue_long: ECCV Workshop Emergent Visual Abilities and Limits of Foundation Models (EVAL-FoMo)
 year: 2024
