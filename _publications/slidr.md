@@ -5,6 +5,7 @@ image: assets/img/publications/slidr/slidr.png
 hide: false
 category: [3d-perception, limited-supervision, self-supervised]
 authors: Corentin Sautier, Gilles Puy, Spyros Gidaris, Alexandre Boulch, Andrei Bursuc, and Renaud Marlet
+authors_internship: <u>Corentin Sautier</u>, Gilles Puy, Spyros Gidaris, Alexandre Boulch, Andrei Bursuc, and Renaud Marlet
 venue: CVPR
 venue_long: Computer Vision and Pattern Recognition
 year: 2022
