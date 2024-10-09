@@ -5,6 +5,7 @@ image: assets/img/publications/2024_dinoiser/dinoiser-examples.png
 hide: false
 category: [limited-supervision, zero shot]
 authors: Monika Wysoczańska, Oriane Siméoni, Michaël Ramamonjisoa, Andrei Bursuc, Tomasz Trzciński, Patrick Pérez
+authors_internship: <u>Monika Wysoczańska</u>, Oriane Siméoni, Michaël Ramamonjisoa, Andrei Bursuc, Tomasz Trzciński, Patrick Pérez
 venue: ECCV
 venue_long: European Conference on Computer Vision
 year: 2024
