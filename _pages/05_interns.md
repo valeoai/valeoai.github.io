@@ -22,5 +22,5 @@ nav_order: 6
 {% assign publications_by_year = publications |  sort: 'year' |  reverse %}
 {% assign publications_by_year = publications_by_year | group_by: 'year'%}
 
-{% include publications_list.html -%}
+{% include publications_list_internship.html -%}
 
