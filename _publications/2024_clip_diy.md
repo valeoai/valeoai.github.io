@@ -5,6 +5,7 @@ image: assets/img/publications/2024_clip_diy/clip_diy.png
 hide: false
 category: [limited-supervision, zero shot]
 authors: Monika Wysoczańska, Michaël Ramamonjisoa, Tomasz Trzciński, Oriane Siméoni
+authors_internship: <u>Monika Wysoczańska</u>, Michaël Ramamonjisoa, Tomasz Trzciński, Oriane Siméoni
 venue: WACV
 venue_long: Winter Conference on Applications of Computer Vision (WACV)
 year: 2024
