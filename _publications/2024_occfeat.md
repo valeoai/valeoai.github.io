@@ -5,6 +5,7 @@ image: assets/img/publications/2024_occfeat/occfeat_teaser.png
 hide: false
 category: [multi-sensor, 3d-perception, self-supervision, distillation, pretraining, BEV segmentation, foundation]
 authors: Sophia Sirko-Galouchenko, Alexandre Boulch, Spyros Gidaris, Andrei Bursuc, Antonin Vobecky, Patrick Pérez, Renaud Marlet
+authors_internship: <u>Sophia Sirko-Galouchenko</u>, Alexandre Boulch, Spyros Gidaris, Andrei Bursuc, Antonin Vobecky, Patrick Pérez, Renaud Marlet
 venue: WAD
 venue_long: CVPR Workshop on Autonomous Driving (WAD)
 year: 2024
