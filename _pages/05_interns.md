@@ -16,7 +16,7 @@ nav_order: 6
 </div>
 
 <br>
-# Projects led or contributed to by interns
+# Projects led or contributed to by <u>interns</u>
 
 {% assign publications = site.publications | where: 'hide', false | where: 'intern_work', true %}
 {% assign publications_by_year = publications |  sort: 'year' |  reverse %}
