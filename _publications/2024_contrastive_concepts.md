@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Test-Time Contrastive Concepts for Open-World Semantic Segmentation"
-image: assets/img/publications/2024_contrastive_concepts/contrastive_concepts.PNG
+image: assets/img/publications/2024_contrastive_concepts/contrastive_concepts.png
 hide: false
 category:  [foundation, generalization, zero-shot]
 authors: Monika Wysoczańska, Antonin Vobecky, Amaia Cardiel, Tomasz Trzciński, Renaud Marlet, Andrei Bursuc, Oriane Siméoni
