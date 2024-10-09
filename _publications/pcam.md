@@ -5,6 +5,7 @@ image: assets/img/publications/pcam/pcam.png
 hide: false
 category: [3d-perception]
 authors: Anh-Quan Cao, Gilles Puy, Alexandre Boulch, and Renaud Marlet
+authors_internship: <u>Anh-Quan Cao</u>, Gilles Puy, Alexandre Boulch, and Renaud Marlet
 venue: ICCV
 venue_long: International Conference on Computer Vision (ICCV)
 year: 2021
