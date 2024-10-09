@@ -5,6 +5,7 @@ image: assets/img/publications/2023_found/found.png
 hide: false
 category: [limited-supervision, unsupervised]
 authors: Oriane Siméoni, Chloé Sekkat, Gilles Puy, Antonin Vobecky, Éloi Zablocki, Patrick Pérez
+authors_internship: Oriane Siméoni, <u>Chloé Sekkat</u>, Gilles Puy, Antonin Vobecky, Éloi Zablocki, Patrick Pérez
 venue: CVPR
 venue_long: Computer Vision and Pattern Recognition
 year: 2023
