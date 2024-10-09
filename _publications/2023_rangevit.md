@@ -5,6 +5,7 @@ image: assets/img/publications/2023_rangevit/rangevit-teaser.png
 hide: false
 category: [3d-perception, limited-supervision]
 authors: Angelika Ando, Spyros Gidaris, Andrei Bursuc, Gilles Puy, Alexandre Boulch, and Renaud Marlet
+authors_internship: <u>Angelika Ando</u>, Spyros Gidaris, Andrei Bursuc, Gilles Puy, Alexandre Boulch, and Renaud Marlet
 venue: CVPR
 venue_long: Computer Vision and Pattern Recognition
 year: 2023
