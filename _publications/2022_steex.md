@@ -5,6 +5,7 @@ image: assets/img/publications/2022_steex/steex.png
 hide: false
 category: [explainability, driving]
 authors: Paul Jacob, Éloi Zablocki, Hédi Ben-Younes, Mickaël Chen, Patrick Pérez, Matthieu Cord
+authors_internship: <u>Paul Jacob</u>, Éloi Zablocki, Hédi Ben-Younes, Mickaël Chen, Patrick Pérez, Matthieu Cord
 venue: ECCV
 venue_long: European Conference on Computer Vision
 year: 2022
