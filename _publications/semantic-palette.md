@@ -6,6 +6,7 @@ image: assets/img/publications/semanticpalette/semantic_palette_teaser.jpg
 hide: false
 category: [limited-supervision, domain-adaptation, unsupervised, generalization]
 authors: Guillaume Le Moing, Tuan-Hung Vu, Himalaya Jain, Patrick Pérez and Matthieu Cord
+authors_internship: <u>Guillaume Le Moing</u>, Tuan-Hung Vu, Himalaya Jain, Patrick Pérez and Matthieu Cord
 venue: CVPR
 venue_long: Computer Vision and Pattern Recognition
 year: 2021
