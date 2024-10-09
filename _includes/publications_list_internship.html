@@ -44,8 +44,11 @@
         
             <!-- Author -->
             <div class="author">
-            {{entry.authors_internship}}
-    
+            {%- if authors_internship -%}
+                {{entry.authors_internship}}
+            {%- else -%}
+                {{entry.authors}}
+            {%- endif -%}
             </div>
     
             <!-- Journal/Book title and date -->
