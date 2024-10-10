@@ -1,15 +1,14 @@
 ---
 layout: publication
 title: "Test-Time Contrastive Concepts for Open-World Semantic Segmentation"
-image: assets/img/publications/2024_contrastive_concepts/contrastive_concepts.png
+image: assets/img/publications/2024_contrastive_concepts/contrastive_concepts.PNG
 hide: false
-category:  [foundation, generalization, zero-shot]
+category:  [foundation, generalization]
 authors: Monika Wysoczańska, Antonin Vobecky, Amaia Cardiel, Tomasz Trzciński, Renaud Marlet, Andrei Bursuc, Oriane Siméoni
-authors_internship: <u>Monika Wysoczańska</u>, Antonin Vobecky, Amaia Cardiel, Tomasz Trzciński, Renaud Marlet, Andrei Bursuc, Oriane Siméoni
 venue: under review
-venue_long: under review
-year: 2025
-month: 01
+venue_long:
+year: 2024
+month: 07
 code_url:
 paper_url: https://arxiv.org/abs/2407.05061
 blog_url:
