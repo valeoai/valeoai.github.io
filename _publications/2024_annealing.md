@@ -3,7 +3,7 @@ layout: publication
 title: "Annealed Multiple Choice Learning: Overcoming limitations of Winner-takes-all with annealing"
 image: images/publications/2024_annealing/annealing.png
 hide: false
-category: [reliability]
+category: [reliability, deep-learning]
 authors: David Perera*, Victor Letzelter*, Théo Mariotte, Adrien Cortés, Mickael Chen, Slim Essid, Gaël Richard
 venue: ICML
 venue_long: Advances in Neural Information Processing Systems (NeurIPS), 2024
