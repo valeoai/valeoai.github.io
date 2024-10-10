@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "ManiPose: Manifold-Constrained Multi-Hypothesis 3D Human Pose Estimation"
-image: images/publications/2024_manipose/ManiPose_teaser.png
+image: assets/img/publications/2024_manipose/ManiPose_teaser.png
 hide: false
 category: [3d-perception]
 authors: Cédric Rommel, Victor Letzelter, Nermin Samet, Renaud Marlet, Matthieu Cord, Patrick Pérez, Eduardo Valle
