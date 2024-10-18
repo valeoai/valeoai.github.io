@@ -8,7 +8,7 @@
 
 "Boulch":
     firstname: Alexandre
-    position: Research Scientist
+    position: Senior Scientist
     profilepic: alexandre_boulch.jpg
     bib_firstname: ["Alexandre", "A."]
     url: http://www.boulch.eu/
@@ -57,7 +57,7 @@
 
 "Gidaris":
     firstname: Spyros
-    position: Research Scientist
+    position: Senior Scientist
     profilepic: spyros_gidaris.jpg
     bib_firstname: ["Spyros", "S."]
     scholar: https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en
@@ -104,7 +104,7 @@
 
 "Puy":
     firstname: Gilles
-    position: Research Scientist
+    position: Senior Scientist
     profilepic: gilles_puy.jpg
     bib_firstname: ["Gilles", "G."]
     url: https://sites.google.com/site/puygilles/home
@@ -167,7 +167,7 @@
 
 "Vu":
     firstname: Tuan-Hung
-    position: Research Scientist
+    position: Senior Scientist
     profilepic: tuan-hung_vu.jpg
     bib_firstname: ["Tuan-Hung", "T."]
     url: https://tuanhungvu.github.io/
