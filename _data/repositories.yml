@@ -10,9 +10,9 @@ github_repos:
   - valeoai/POCO
   - valeoai/ZS3
   - valeoai/SLidR
+  - valeoai/RADIal
   - valeoai/ALSO
   - valeoai/ConfidNet
-  - valeoai/RADIal
   - valeoai/Maskgit-pytorch
   - valeoai/BF3S
   - valeoai/DADA
@@ -25,16 +25,16 @@ github_repos:
   - valeoai/rainbow-iqn-apex
   - valeoai/BEVContrast
   - valeoai/FOUND
-  - valeoai/LightConvPoint
   - valeoai/Awesome-Unsupervised-Object-Localization
-  - valeoai/LearningByCheating
+  - valeoai/LightConvPoint
   - valeoai/MVRSS
+  - valeoai/LearningByCheating
   - astra-vision/DenseMTL
   - valeoai/WaffleIron
   - valeoai/FKAConv
   - valeoai/LaRa
-  - valeoai/SALUDA
   - astra-vision/FAMix
+  - valeoai/SALUDA
   - valeoai/ScaLR
   - valeoai/obsnet
   - valeoai/3DGenZ
@@ -43,6 +43,7 @@ github_repos:
   - valeoai/NeeDrop
   - valeoai/xmuda_journal
   - valeoai/MTAF
+  - valeoai/TTYD
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
@@ -57,3 +58,7 @@ github_repos:
   - valeoai/QuEST
   - valeoai/MOCA
   - astra-vision/ProLIP
+  - valeoai/ReGentS
+  - valeoai/valeo4cast
+  - valeoai/MF_aWTA
+
