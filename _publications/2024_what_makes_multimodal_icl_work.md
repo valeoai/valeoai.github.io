@@ -5,8 +5,8 @@ image: assets/img/publications/2024_multimodal_icl/multimodal-icl.PNG
 hide: false
 category: [multimodal, deep-learning]
 authors: Folco Bertini Baldassini, Mustafa Shukor, Matthieu Cord, Laure Soulier, Benjamin Piwowarski
-venue: CVPR 2024 Workshop on Prompting in Vision
-venue_long: CVPR 2024 Workshop on Prompting in Vision
+venue: CVPR Workshop on Prompting in Vision
+venue_long: CVPR Workshop on Prompting in Vision
 year: 2024
 month: 6
 code_url: https://gitlab.com/folbaeni/multimodal-icl
