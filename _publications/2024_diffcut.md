@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut" 
-image: assets/img/publications/2024_neurips/diffcut.png
+image: assets/img/publications/2024_neurips/diffcut.PNG
 hide: false
 category: [deep-learning, foundation, zero-shot, limited-supervision, unsupervised]
 authors: Paul Couairon, Mustafa Shukor, Jean-Emmanuel Haugeard, Matthieu Cord, Nicolas Thome
