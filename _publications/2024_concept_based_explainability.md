@@ -6,7 +6,7 @@ hide: false
 category: [explainability, deep-learning, foundation]
 authors: Jayneel Parekh, Pegah Khayatan, Mustafa Shukor, Alasdair Newson, Matthieu Cord
 venue: NeurIPS
-venue_long: Neural Information Processing Systems
+venue_long: Advances in Neural Information Processing Systems
 year: 2024
 month: 12
 code_url: https://github.com/mshukor/xl-vlms
