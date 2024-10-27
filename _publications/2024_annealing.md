@@ -6,7 +6,7 @@ hide: false
 category: [reliability, deep-learning]
 authors: David Perera*, Victor Letzelter*, Théo Mariotte, Adrien Cortés, Mickael Chen, Slim Essid, Gaël Richard
 venue: ICML
-venue_long: Advances in Neural Information Processing Systems (NeurIPS), 2024
+venue_long: Advances in Neural Information Processing Systems
 year: 2024
 month: 12
 code_url: 
