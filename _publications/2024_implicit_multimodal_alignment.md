@@ -6,7 +6,7 @@ hide: false
 category: [multimodal, deep-learning, foundation]
 authors: Mustafa Shukor, Matthieu Cord
 venue: NeurIPS
-venue_long: Neural Information Processing Systems
+venue_long: Advances in Neural Information Processing Systems
 year: 2024
 month: 12
 code_url: https://github.com/mshukor/ima-lmms
