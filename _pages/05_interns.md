@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Alumni interns and visiting students
+title: Internships
 permalink: /interns/
 description: 
 nav: true
 nav_order: 6
 ---
+
+Alumni interns and visiting students
 
 {% assign sorted_interns = site.data.interns %}
 
