@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-Alumni interns and visiting students
+# Alumni interns and visiting students
 
 {% assign sorted_interns = site.data.interns %}
 
