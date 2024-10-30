@@ -3,7 +3,7 @@ layout: page
 title: Alumni interns and visiting students
 permalink: /interns/
 description: 
-nav: false
+nav: true
 nav_order: 6
 ---
 
