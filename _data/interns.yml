@@ -1,6 +1,7 @@
 "Adjileye":
     firstname: Achraff
     internship_year: 2024
+    position: PhD student
     
 "Callard":
     firstname: Baptiste
@@ -9,14 +10,18 @@
 "Gerard":
     firstname: Valentin
     internship_year: 2024
+    position: PhD student
     
 "Kirby":
     firstname: Ellington
     internship_year: 2024
+    position: Computer Vision engineer at Parrot
     
 "Marengo":
     firstname: Matteo
     internship_year: 2024
+    position: Research Intern at Harvard Medical School
+
 
 "Simoncini":
     firstname: Walter
