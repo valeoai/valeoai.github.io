@@ -225,6 +225,7 @@
     bib_firstname: ["Léon", "L."]
     alumni_phd: True
     alumni: True
+    alumni_now: now at Huawei
     phd_defense: 2024
     url: https://scholar.google.com/citations?user=7gq9f6CfBnAC
     
