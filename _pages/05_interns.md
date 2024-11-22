@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Internships
 permalink: /interns/
 description: 
@@ -7,11 +7,10 @@ nav: true
 nav_order: 6
 ---
 
-We are looking for students finishing their MSc with a solid background in computer vision and machine learning, particularly in deep learning with strong PyTorch coding skills.
-Interns work on research topics, typically for 6 months (usually spring and summer), resulting for a great part in paper submissions to top-tier conferences. Some trainees go on to do a PhD thesis in the lab.
-
 # Open Internship Proposals
 
+We are looking for students finishing their MSc with a solid background in computer vision and machine learning, particularly in deep learning with strong PyTorch coding skills.
+Interns work on research topics, typically for 6 months (usually spring and summer), resulting for a great part in paper submissions to top-tier conferences. Some trainees go on to do a PhD thesis in the lab.
 We currently have four exciting internship opportunities for MSc students!  
 
 ### How to Apply  
