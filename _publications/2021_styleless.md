@@ -6,7 +6,7 @@ hide: false
 category: [reliability]
 authors: Julien Rebut, Andrei Bursuc, and Patrick Pérez
 venue: IROS
-venue_long: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+venue_long: International Conference on Intelligent Robots and Systems (IROS)
 year: 2021
 month: 9
 code_url: 
