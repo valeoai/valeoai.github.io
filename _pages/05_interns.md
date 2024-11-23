@@ -53,7 +53,7 @@ This project focuses on generating LiDAR point cloud objects by leveraging pre-t
 </div>
 
 <br>
-# Projects led or contributed to by <u>interns</u>
+<h1 id="intern-papers"> Projects led or contributed to by <u>interns</u></h1>
 
 {% assign publications = site.publications | where: 'hide', false | where: 'intern_work', true %}
 {% assign publications_by_year = publications |  sort: 'year' |  reverse %}
