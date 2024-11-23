@@ -22,22 +22,22 @@ Send an email to the supervisors (one email per application) with the following:
 **Available Topics:**  
 
 **Universal 2D-3D Transformer**  
-*Keywords*: Transformer, Representation learning, Self-supervised learning, Multi-modal 
+*Keywords*: Transformer, Representation learning, Self-supervised learning, Multi-modal  
 *Supervisors*: [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Gilles Puy](mailto:gilles.puy@valeo.com), [Spyros Gidaris](mailto:spyros.gidaris@valeo.com)  
 This project aims to develop a novel transformer architecture capable of processing 2D and 3D data simultaneously, probing synergistic multi-modal representations between imagery and LiDAR data.  
 
 **Learning from One Continuous Long-Range Video Stream**  
-*Keywords*: Video understanding, Continual learning, Transformer, Self-supervised pretraining 
+*Keywords*: Video understanding, Continual learning, Transformer, Self-supervised pretraining  
 *Supervisors*: [Shashanka Venkataramanan](mailto:shashanka.venkataramanan@valeo.com), [Andrei Bursuc](mailto:andrei.bursuc@valeo.com)  
 This internship involves building a video understanding model inspired by human episodic memory to learn continuously from long-range streams. It includes exploring continual learning, memory integration, and advanced pretraining techniques using real-world video datasets.  
 
 **Scenario Generation for Robust Autonomous Driving using Diffusion Models**  
-*Keywords*: Diffusion models, Long-tail distribution, Online mapping, Motion prediction 
+*Keywords*: Diffusion models, Long-tail distribution, Online mapping, Motion prediction  
 *Supervisors*: [Yuan Yin](mailto:yuan.yin@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)  
 This internship explores using diffusion models to generate driving scenarios, focusing on map and trajectory creation. The goal is to develop robust, vector-based maps and diverse vehicle behaviors to enhance motion forecasting and planning.  
 
 **Object Generation from Range Images**  
-*Keywords*: Diffusion models, Point clouds, Controllable generative models 
+*Keywords*: Diffusion models, Point clouds, Controllable generative models  
 *Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)  
 This project focuses on generating LiDAR point cloud objects by leveraging pre-trained diffusion models on range image representations. The goal is to improve the controllability of LiDAR object generation in a computationally efficient way.  
 
