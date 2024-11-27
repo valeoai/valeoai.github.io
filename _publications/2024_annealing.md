@@ -5,11 +5,11 @@ image: assets/img/publications/2024_annealing/annealing.png
 hide: false
 category: [reliability, deep-learning]
 authors: David Perera*, Victor Letzelter*, Théo Mariotte, Adrien Cortés, Mickael Chen, Slim Essid, Gaël Richard
-venue: ICML
+venue: NeurIPS
 venue_long: Advances in Neural Information Processing Systems
 year: 2024
 month: 12
-code_url: 
+code_url: https://github.com/Victorletzelter/annealed_mcl
 paper_url: https://arxiv.org/abs/2407.15580
 blog_url: 
 slides_url: 

@@ -4,8 +4,8 @@ github_users:
 github_repos:
   - valeoai/WoodScape
   - valeoai/ADVENT
-  - valeoai/LOST
   - vita-epfl/UniTraj
+  - valeoai/LOST
   - valeoai/xmuda
   - valeoai/POCO
   - valeoai/ZS3
@@ -18,9 +18,9 @@ github_repos:
   - valeoai/DADA
   - astra-vision/PODA
   - valeoai/FLOT
+  - valeoai/PointBeV  
   - valeoai/obow
   - valeoai/carrada_dataset
-  - valeoai/PointBeV
   - valeoai/rangevit
   - valeoai/rainbow-iqn-apex
   - valeoai/BEVContrast
@@ -32,10 +32,10 @@ github_repos:
   - astra-vision/DenseMTL
   - valeoai/WaffleIron
   - valeoai/FKAConv
+  - valeoai/ScaLR
   - valeoai/LaRa
   - astra-vision/FAMix
   - valeoai/SALUDA
-  - valeoai/ScaLR
   - valeoai/obsnet
   - valeoai/3DGenZ
   - valeoai/SemanticPalette
