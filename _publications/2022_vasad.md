@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "VASAD: a Volume and Semantic dataset for Building Reconstruction from Point Clouds"
-image: assets/img/publications/2022_dsrv/2022_vasad_teaser.png
+image: assets/img/publications/2022_vasad/2022_vasad_teaser.png
 hide: false
 category: [3d-reconstruction, 3d-perception]
 authors: Pierre-Alain Langlois, Yang Xiao, Alexandre Boulch, Renaud Marlet
