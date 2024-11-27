@@ -14,7 +14,7 @@ paper_url: https://imagine.enpc.fr/~marletr/publi/ICIP-2021-Langlois-et-al.pdf
 blog_url:
 slides_url:
 bib_url:
-permalink: /publications/vasad/
+permalink: /publications/surf_param/
 ---
 
 <h1 align="center"> {{page.title}} </h1>
