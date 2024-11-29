@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Explainability of deep vision-based autonomous driving systems: Review and challenges" 
-image: assets/img/publications/2022_xai_survey/logo_explainable.png
+image: assets/img/publications/2022_xai_survey/xai_survey.png
 hide: false
 category: [explainability, driving, survey]
 authors: Éloi Zablocki*, Hédi Ben-Younes*, Patrick Pérez, Matthieu Cord
