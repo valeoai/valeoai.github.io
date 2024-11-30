@@ -5,8 +5,8 @@ image: assets/img/publications/2024_valeo4cast/valeo4cast.PNG
 hide: false
 category: [driving, motion forecasting, multi-sensor]
 authors: Yihong Xu, Éloi Zablocki, Alexandre Boulch, Gilles Puy, Mickael Chen, Florent Bartoccioni, Nermin Samet, Oriane Siméoni, Spyros Gidaris, Tuan-Hung Vu, Andrei Bursuc, Eduardo Valle, Renaud Marlet, Matthieu Cord
-venue: Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR WAD
-venue_long: Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR Worshop on Autonomous Driving (WAD)
+venue: ECCV Workshop ROAD++
+venue_long: ECCV Workshop ROAD++ and Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR Worshop on Autonomous Driving (WAD)
 year: 2024
 month: 6
 code_url: 
@@ -15,6 +15,7 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/valeo4cast/
+award: Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR WAD
 ---
 
 <h1 align="center"> {{page.title}} </h1>
