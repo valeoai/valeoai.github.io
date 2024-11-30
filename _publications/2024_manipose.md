@@ -9,7 +9,7 @@ venue: NeurIPS
 venue_long: Advances in Neural Information Processing Systems
 year: 2024
 month: 12
-code_url: 
+code_url: https://github.com/cedricrommel/manipose 
 paper_url: https://arxiv.org/abs/2312.06386
 blog_url:
 slides_url: 
@@ -21,7 +21,7 @@ permalink: /publications/manipose/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">  <a href="https://cedricrommel.github.io/">Cédric Rommel</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>  &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez<a href="https://eduardovalle.com/">Eduardo Valle</a></h3>
+<h3 align="center">  <a href="https://cedricrommel.github.io/">Cédric Rommel</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>  &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a></h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>

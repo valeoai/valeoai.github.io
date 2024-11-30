@@ -2,6 +2,7 @@
 layout: publication
 title: "Annealed Multiple Choice Learning: Overcoming limitations of Winner-takes-all with annealing"
 image: assets/img/publications/2024_annealing/annealing.png
+image2: assets/img/publications/2024_annealing/amcl_gif.gif
 hide: false
 category: [reliability, deep-learning]
 authors: David Perera*, Victor Letzelter*, Théo Mariotte, Adrien Cortés, Mickael Chen, Slim Essid, Gaël Richard
@@ -56,6 +57,11 @@ permalink: /publications/annealing/
 <h2  align="center"> Abstract</h2>
 
 <p align="justify">We introduce Annealed Multiple Choice Learning (aMCL) which combines simulated annealing with MCL. MCL is a learning framework handling ambiguous tasks by predicting a small set of plausible hypotheses. These hypotheses are trained using the Winner-takes-all (WTA) scheme, which promotes the diversity of the predictions. However, this scheme may converge toward an arbitrarily suboptimal local minimum, due to the greedy nature of WTA. We overcome this limitation using annealing, which enhances the exploration of the hypothesis space during training. We leverage insights from statistical physics and information theory to provide a detailed description of the model training trajectory. Additionally, we validate our algorithm by extensive experiments on synthetic datasets, on the standard UCI benchmark, and on speech separation.</p>
+
+<hr>
+<div class="publication-teaser">
+    <img src="../../{{ page.image2 }}" alt="annealing"/>
+</div>
 
 <hr>
 <hr>
