@@ -17,6 +17,7 @@ slides_url:
 bib_url: 
 intern_work: true
 permalink: /publications/octet/
+video: https://www.youtube.com/watch?v=Xfq0uRcw9jQ
 ---
 
 <h1 align="center"> {{page.title}} </h1>
