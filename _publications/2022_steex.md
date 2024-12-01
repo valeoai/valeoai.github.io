@@ -17,6 +17,7 @@ slides_url:
 bib_url: 
 intern_work: true
 permalink: /publications/steex/
+video: https://youtu.be/79SMlEtscuY
 ---
 
 <h1 align="center"> {{page.title}} </h1>
