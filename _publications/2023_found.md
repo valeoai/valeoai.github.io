@@ -17,6 +17,7 @@ slides_url:
 bib_url: 
 intern_work: true
 permalink: /publications/found/
+video: https://www.youtube.com/watch?v=jfYQfFcrJBE
 ---
 
 <h1 align="center"> {{page.title}} </h1>
