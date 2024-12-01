@@ -8,14 +8,14 @@ authors: Yihong Xu, Éloi Zablocki, Alexandre Boulch, Gilles Puy, Mickael Chen, 
 venue: ECCV Workshop ROAD++
 venue_long: ECCV Workshop ROAD++ and Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR Worshop on Autonomous Driving (WAD)
 year: 2024
-month: 6
+month: 10
 code_url: 
 paper_url: https://arxiv.org/abs/2406.08113
 blog_url: 
 slides_url: 
 bib_url: 
 permalink: /publications/valeo4cast/
-award: Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR WAD
+award: Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR
 ---
 
 <h1 align="center"> {{page.title}} </h1>
