@@ -3,25 +3,25 @@ layout: publication
 title: "No Train, all Gain: Self-Supervised Gradients Improve Deep Frozen Representations"
 image: assets/img/publications/2024_fungi/overview.jpg
 hide: false
-category: [3d-perception, limited-supervision, foundation, unsupervised, self-supervised]
-authors: Gilles Puy, Spyros Gidaris, Alexandre Boulch, Oriane Siméoni, Corentin Sautier, Patrick Pérez, Andrei Bursuc, Renaud Marlet
-venue: CVPR
-venue_long: Computer Vision and Pattern Recognition
+category: [foundation, limited-supervision]
+authors: Walter Simoncini, Spyros Gidaris, Andrei Bursuc, Yuki M. Asano
+venue: NeurIPS
+venue_long: Advances in Neural Information Processing Systems
 year: 2024
-month: 6
-code_url: https://github.com/valeoai/ScaLR
-paper_url: https://arxiv.org/abs/2310.17504
+month: 12
+code_url: https://github.com/WalterSimoncini/fungivision
+paper_url: https://arxiv.org/abs/2407.10964
 blog_url:
 slides_url:
 bib_url:
-permalink: /publications/scalr/
+permalink: /publications/fungi/
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>  &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://csautier.github.io/">Corentin Sautier</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a></h3>
+<h3 align="center"> <a href="https://walter.ashita.nl/">Walter Simoncini</a>  &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp;  <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://yukimasano.github.io/">Yuki M. Asano</a></h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
@@ -55,7 +55,7 @@ permalink: /publications/scalr/
 
 <h2  align="center"> Abstract</h2>
 
-<p align="justify">Self-supervised image backbones can be used to address complex 2D tasks (e.g., semantic segmentation, object discovery) very efficiently and with little or no downstream supervision. Ideally, 3D backbones for lidar should be able to inherit these properties after distillation of these powerful 2D features. The most recent methods for image-to-lidar distillation on autonomous driving data show promising results, obtained thanks to distillation methods that keep improving. Yet, we still notice a large performance gap when measuring the quality of distilled and fully supervised features by linear probing. In this work, instead of focusing only on the distillation method, we study the effect of three pillars for distillation: the 3D backbone, the pretrained 2D backbones, and the pretraining dataset. In particular, thanks to our scalable distillation method named ScaLR, we show that scaling the 2D and 3D backbones and pretraining on diverse datasets leads to a substantial improvement of the feature quality. This allows us to significantly reduce the gap between the quality of distilled and fully-supervised 3D features, and to improve the robustness of the pretrained backbones to domain gaps and perturbations. </p>
+<p align="justify">This paper introduces FUNGI: Features from UNsupervised GradIents, a method to enhance the features of vision encoders by leveraging self-supervised gradients. Our method is simple: given any pretrained model, we first compute gradients from various self-supervised objectives for each input. These are projected to a lower dimension and then concatenated with the model's embedding. The resulting features are evaluated on k-nearest neighbor classification over 11 datasets from vision, 5 from natural language processing, and 2 from audio. Across backbones spanning various sizes and pretraining strategies, FUNGI features provide consistent performance improvements over the embeddings. We also show that using FUNGI features can benefit linear classification and image retrieval, and that they significantly improve the retrieval-based in-context scene understanding abilities of pretrained models, for example improving upon DINO by +17% for semantic segmentation — without any training. </p>
 
 
 <hr>
@@ -64,10 +64,10 @@ permalink: /publications/scalr/
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{puy24scalr,
-  title={Three Pillars improving Vision Foundation Model Distillation for Lidar},
-  author={Puy, Gilles and Gidaris, Spyros and Boulch, Alexandre and Sim\'eoni, Oriane and Sautier, Corentin and P\'erez, Patrick and Bursuc, Andrei and Marlet, Renaud},
-  booktitle={CVPR},
+@inproceedings{simoncini2024fungi,
+  title={No Train, all Gain: Self-Supervised Gradients Improve Deep Frozen Representations}, 
+  author={Walter Simoncini and Spyros Gidaris and Andrei Bursuc and Yuki M. Asano},
+  booktitle={NeurIPS},
   year={2024}
 }</pre>
 </left>
