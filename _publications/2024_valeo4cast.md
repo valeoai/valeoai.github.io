@@ -16,6 +16,7 @@ slides_url:
 bib_url: 
 permalink: /publications/valeo4cast/
 award: Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR
+video: https://www.youtube.com/watch?v=2BvoPbW4vpc&t=1107s
 ---
 
 <h1 align="center"> {{page.title}} </h1>
