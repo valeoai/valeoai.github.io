@@ -5,6 +5,8 @@ image: assets/img/publications/2024_fungi/overview.jpg
 hide: false
 category: [foundation, limited-supervision]
 authors: Walter Simoncini, Spyros Gidaris, Andrei Bursuc, Yuki M. Asano
+authors_internship: <u>Walter Simoncini</u>, Spyros Gidaris, Andrei Bursuc, Yuki M. Asano
+intern_work: true
 venue: NeurIPS
 venue_long: Advances in Neural Information Processing Systems
 year: 2024
