@@ -5,7 +5,7 @@ description: "Victor Letzelter, Nermin Samet, Yuan Yin, Andrei Bursuc, Éloi Zab
 categories: [3d perception, multi-sensor, limited supervision, reliability, motion forecasting, robustness, generalization, driving, deep-learning]
 title: "valeo.ai at NeurIPS 2024"
 hide: false
-image: assets/img/posts/2024_neurips/neurips_banner.PNG
+image: assets/img/posts/2023_neurips/logo_neurips.svg
 ---
 
 
@@ -13,166 +13,86 @@ The [Neural Information Processing Systems Conference (NeurIPS)](https://neurips
 
 We will be happy to discuss more about these projects and ideas, and share our exciting ongoing research. Take a quick view of our papers below and come meet us at the posters or catch us for a coffee in the hallways.
 
-## Train Till You Drop: Towards Stable and Robust Source-free Unsupervised 3D Domain Adaptation
-### Authors: <a href="https://bjoernmichele.com">Bjoern Michele</a> &nbsp;&nbsp; <a href="https://boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/">Gilles Puy</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a>
+<hr>
 
+## No Train, all Gain: Self-Supervised Gradients Improve Deep Frozen Representations
+### Authors: <a href="https://walter.ashita.nl/">Walter Simoncini</a>  &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp;  <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://yukimasano.github.io/">Yuki M. Asano</a>
 
-<h4 align="center"> [<a href="https://arxiv.org/abs/2409.04409">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/TTYD">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/ttyd/">Project page</a>]</h4>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2407.10964">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/WalterSimoncini/fungivision">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/fungi">Project page</a>]</h4>
 
-![ttdy_overview]({{ site.baseurl }}/assets/img/publications/2024_ttyd/featured.png){:height="100%" width="100%"}
-<div class="caption"><b>Evolution of the performance of baselines without degradation prevention strategies as they train over 20k iterations.</b> Our method (TTYDcore) uses an unsupervised criterion to stop training. The horizontal dotted line illustrates that we keep the model obtained at the stopping point (marked with a cross).
-</div>
+![fungi_overview]({{ site.baseurl }}/assets/img/publications/2024_fungi/overview.jpg){:height="100%" width="100%"}
 
-We tackle the challenging problem of source-free unsupervised domain adaptation (SFUDA) for 3D semantic segmentation. It amounts to performing domain adaptation on an unlabeled target domain without any access to source data; the available information is a model trained to achieve good performance on the source domain. A common issue with existing SFUDA approaches is that performance degrades after some training time, which is a by-product of an under-constrained and ill-posed problem. We discuss two strategies to alleviate this issue. First, we propose a sensible way to regularize the learning problem. Second, we introduce a novel criterion based on agreement with a reference model. It is used (1) to stop the training when appropriate and (2) as validator to select hyperparameters without any knowledge on the target domain. Our contributions are easy to implement and readily amenable for all SFUDA methods, ensuring stable improvements over all baselines. We validate our findings on various 3D lidar settings, achieving state-of-the-art performance.
-
-![ttyd_results]({{ site.baseurl }}/assets/img/posts/2024_eccv/ttyd_results.PNG){:height="100%" width="100%"}
-<div class="caption"><b>Examples of results with TTYDstop</b>: ground truth (GT), initial model trained only on source data, training with our training scheme when using our stopping criterion, and “full” training for 20k iterations. Notable errors due to degradation are marked with a dashed rectangle.
-</div>
-
+This paper introduces FUNGI: Features from UNsupervised GradIents, a method to enhance the features of vision encoders by leveraging self-supervised gradients. Our method is simple: given any pretrained model, we first compute gradients from various self-supervised objectives for each input. These are projected to a lower dimension and then concatenated with the model's embedding. The resulting features are evaluated on k-nearest neighbor classification over 11 datasets from vision, 5 from natural language processing, and 2 from audio. Across backbones spanning various sizes and pretraining strategies, FUNGI features provide consistent performance improvements over the embeddings. We also show that using FUNGI features can benefit linear classification and image retrieval, and that they significantly improve the retrieval-based in-context scene understanding abilities of pretrained models, for example improving upon DINO by +17% for semantic segmentation — without any training.
 
 <hr>
 
-##  UniTraj: A Unified Framework for Scalable Vehicle Trajectory Prediction
-#### Authors: <a href="https://alan-lanfeng.github.io/">Lan Feng</a> &nbsp;&nbsp; <a href="https://mohammadhossein-bahari.github.io/">Mohammadhossein Bahari</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=X0teZIAAAAAJ">Kaouther Messaoud Ben Amor</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://people.epfl.ch/alexandre.alahi">Alexandre Alahi</a>
+## ManiPose: Manifold-Constrained Multi-Hypothesis 3D Human Pose Estimation
+### Authors: <a href="https://cedricrommel.github.io/">Cédric Rommel</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>  &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a>
 
-<h4 align="center"> [<a href="https://arxiv.org/abs/2403.15098">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/vita-epfl/unitraj">Code</a>] &nbsp;&nbsp; [<a href="https://vita-epfl.github.io/UniTraj/">Project page</a>] &nbsp;&nbsp; [<a href="https://www.youtube.com/watch?v=2IzuUtiNA_4">Video</a>]</h4>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2312.06386">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/cedricrommel/manipose">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/manipose/">Project page</a>]</h4>
 
-Vehicle trajectory prediction has increasingly relied on data-driven solutions, but their ability to scale to different data domains and the impact of larger dataset sizes on their generalization remain under-explored. While these questions can be studied by employing multiple datasets, it is challenging due to several discrepancies, e.g., in data formats, map resolution, and semantic annotation types. To address these challenges, we introduce UniTraj, a comprehensive framework that unifies various datasets, models, and evaluation criteria, presenting new opportunities for the vehicle trajectory prediction field. In particular, using UniTraj, we conduct extensive experiments and find that model performance significantly drops when transferred to other datasets. However, enlarging data size and diversity can substantially improve performance, leading to a new state-of-the-art result for the nuScenes dataset. We provide insights into dataset characteristics to explain these findings.
+We propose ManiPose, a manifold-constrained multi-hypothesis model for human-pose 2D-to-3D lifting.  We provide theoretical and empirical evidence that, due to the depth ambiguity inherent to monocular 3D human pose estimation, traditional regression models suffer from pose-topology consistency issues, which standard evaluation metrics (MPJPE, P-MPJPE and PCK) fail to assess.  ManiPose addresses depth ambiguity by proposing multiple candidate 3D poses for each 2D input, each with its estimated plausibility. Unlike previous multi-hypothesis approaches, ManiPose forgoes generative models, greatly facilitating its training and usage.  By constraining the outputs to lie on the human pose manifold, ManiPose guarantees the consistency of all hypothetical poses, in contrast to previous works.  We showcase the performance of ManiPose on real-world datasets, where it outperforms state-of-the-art models in pose consistency by a large margin while being very competitive on the MPJPE metric.
 
-![unitraj_overview]({{ site.baseurl }}/assets/img/publications/2024_unitraj/unitraj.PNG){:height="100%" width="100%"}
-<div class="caption"><b>Overview of UniTraj: a unified platform for comprehensive research in trajectory prediction.</b>
-</div>
+![manipose_overview]({{ site.baseurl }}/assets/img/publications/2024_manipose/ManiPose_teaser.png){:height="90%" width="90%"}
 
 <hr>
 
-## Lost and Found: Overcoming Detector Failures in Online Multi-Object Tracking
-#### Authors: <a href="https://citius.gal/team/lorenzo-vaquero-otal/">Lorenzo Vaquero</a> &nbsp;&nbsp; <a href="https://github.com/yihongXU">Yihong Xu</a> &nbsp;&nbsp; <a href="https://xavirema.eu/">Xavier Alameda-Pineda</a> &nbsp;&nbsp; <a href="https://citius.gal/team/victor-manuel-brea-sanchez/">Víctor M. Brea</a> &nbsp;&nbsp; <a href="https://persoal.citius.usc.es/manuel.mucientes/">Manuel Mucientes</a>
+## Annealed Multiple Choice Learning: Overcoming limitations of Winner-takes-all with annealing
+### Authors: <a href="https://adasp.telecom-paris.fr/members/">David Perera</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=q3HZFcwAAAAJ">Théo Mariotte </a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/c1adrien/">Adrien Cortés</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> &nbsp;&nbsp; <a href="https://slimessid.github.io/research/">Slim Essid</a> &nbsp;&nbsp; <a href="https://www.telecom-paris.fr/gael-richard">Gaël Richard</a>
 
-<h4 align="center"> [<a href="https://arxiv.org/abs/2407.10151">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/lorenzovaquero/BUSCA">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/busca/">Project page</a>]</h4>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2407.15580">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/Victorletzelter/annealed_mcl">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/annealing/">Project page</a>]</h4>
 
-Multi-object tracking (MOT) endeavors to precisely estimate the positions and identities of multiple objects over time. The prevailing approach, tracking-by-detection (TbD), first detects objects and then links detections, resulting in a simple yet effective method. However, contemporary detectors may occasionally miss some objects in certain frames, causing trackers to cease tracking prematurely. To tackle this issue, we propose BUSCA, meaning 'to search', a versatile framework compatible with any online TbD system, enhancing its ability to persistently track those objects missed by the detector, primarily due to occlusions. Remarkably, this is accomplished without modifying past tracking results or accessing future frames, i.e., in a fully online manner. BUSCA generates proposals based on neighboring tracks, motion, and learned tokens. Utilizing a decision Transformer that integrates multimodal visual and spatiotemporal information, it addresses the object-proposal association as a multi-choice question-answering task. BUSCA is trained independently of the underlying tracker, solely on synthetic data, without requiring fine-tuning. Through BUSCA, we showcase consistent performance enhancements across five different trackers and establish a new state-of-the-art baseline across three different benchmarks.
+We introduce Annealed Multiple Choice Learning (aMCL) which combines simulated annealing with MCL. MCL is a learning framework handling ambiguous tasks by predicting a small set of plausible hypotheses. These hypotheses are trained using the Winner-takes-all (WTA) scheme, which promotes the diversity of the predictions. However, this scheme may converge toward an arbitrarily suboptimal local minimum, due to the greedy nature of WTA. We overcome this limitation using annealing, which enhances the exploration of the hypothesis space during training. We leverage insights from statistical physics and information theory to provide a detailed description of the model training trajectory. Additionally, we validate our algorithm by extensive experiments on synthetic datasets, on the standard UCI benchmark, and on speech separation.
 
-
-![busca_overview]({{ site.baseurl }}/assets/img/publications/2024_busca/busca.png){:height="90%" width="90%"}
-<div class="caption"><b>Overview of BUSCA</b>: Enhancing multi-object trackers by finding undetected objects.
-</div>
+![annealing_overview]({{ site.baseurl }}/assets/img/publications/2024_annealing/amcl_gif.gif){:height="100%" width="100%"}
 
 <hr>
 
+## GEPS: Boosting Generalization in Parametric PDE Neural Solvers through Adaptive Conditioning
+### Authors: <a href="https://itsakk.github.io/">Armand Kassaï Koupaï</a> &nbsp;&nbsp; <a href="https://www.isir.upmc.fr/personnel/mifsutbenet/">Jorge Mifsut-Benet</a> &nbsp;&nbsp; <a href="https://yuan-yin.github.io">Yuan Yin</a> &nbsp;&nbsp; <a href="https://webia.lip6.fr/~vittaut/">Jean-Noël Vittaut</a> &nbsp;&nbsp; <a href="https://pages.isir.upmc.fr/gallinari/">Patrick Gallinari</a> 
 
-## CLIP-DINOiser: Teaching CLIP a few DINO tricks for open-vocabulary semantic segmentation 
-#### Authors: <a href="https://wysoczanska.github.io/">Monika Wysoczańska</a> &nbsp;<a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp; <a href="https://michaelramamonjisoa.github.io/">Michaël Ramamonjisoa</a> &nbsp;<a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;<a href="https://scholar.google.com/citations?hl=en&user=bJMRBFoAAAAJ">Tomasz Trzciński</a> &nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2410.23889">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/itsakk/geps">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/geps/">Project page</a>]</h4>
 
-<h4 align="center"> [<a href="https://arxiv.org/abs/2312.12359">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/wysoczanska/clip_dinoiser/">Code</a>] &nbsp;&nbsp; [<a href="https://wysoczanska.github.io/CLIP_DINOiser/">Project page</a>]</h4>
+Solving parametric partial differential equations (PDEs) presents significant challenges for data-driven methods due to the sensitivity of spatio-temporal dynamics to variations in PDE parameters. Machine learning approaches often struggle to capture this variability. To address this, data-driven approaches learn parametric PDEs by sampling a very large variety of trajectories with varying PDE parameters. We first show that incorporating conditioning mechanisms for learning parametric PDEs is essential and that among them, \textit{adaptive conditioning}, allows stronger generalization. As existing adaptive conditioning methods do not scale well with respect to the number of PDE parameters, we propose GEPS, a simple adaptation mechanism to boost GEneralization in Pde Solvers via a first-order optimization and low-rank rapid adaptation of a small set of context parameters. We demonstrate the versatility of our approach for both fully data-driven and for physics-aware neural solvers. Validation performed on a whole range of spatio-temporal forecasting problems demonstrates excellent performance for generalizing to unseen conditions including initial conditions, PDE coefficients, forcing terms and solution domain.
 
-The popular CLIP model displays impressive zero-shot capabilities thanks to its seamless interaction with arbitrary text prompts. However, its lack of spatial awareness makes it unsuitable for dense computer vision tasks, e.g., semantic segmentation, without an additional fine-tuning step that often uses annotations and can potentially suppress its original open-vocabulary properties. Meanwhile, self-supervised representation methods have demonstrated good localization properties without human-made annotations nor explicit supervision. In this work, we take the best of both worlds and propose an open-vocabulary semantic segmentation method, which does not require any annotations.
-
-![dinoiser_example]({{ site.baseurl }}/assets/img/publications/2024_dinoiser/dinoiser-examples.png){:height="100%" width="100%"}
-<div class="caption"><b>Examples of open-vocabulary semantic segmentation results obtained with our method CLIP-DINOiser on ‘in-the-wild’ images vs. those of MaskCLIP.</b>
-</div>
-
-We propose to locally improve dense MaskCLIP features, which are computed with a simple modification of CLIP’s last pooling layer, by integrating localization priors extracted from self-supervised features from DINO. By doing so, we greatly improve the performance of MaskCLIP and produce smooth outputs. Moreover, we show that the used self-supervised feature properties can directly be learnt from CLIP features. Our method CLIP-DINOiser needs only a single forward pass of CLIP and two light convolutional layers at inference, no extra supervision nor extra memory and reaches state-of-the-art results on challenging and fine-grained benchmarks such as COCO, Pascal Context, Cityscapes and ADE20k.
-
-![dinoiser_overview]({{ site.baseurl }}/assets/img/posts/2024_eccv/dinoiser_overview.PNG){:height="100%" width="100%"}
-<div class="caption"><b>Overview of CLIP-DINOiser.</b> We use DINO as a teacher which ‘teaches’ CLIP how to extract localization information with similar patch correlations.  At inference, an input image is forwarded through the frozen CLIP image backbone and MaskCLIP projection. The produced features are then improved with our pooling strategy which is guided by correlations predicted with a trained convolutional layer applied on CLIP.</div>
+![geps_example]({{ site.baseurl }}/assets/img/publications/2024_geps/geps.png){:height="100%" width="100%"}
 
 <hr>
 
+## A Concept-Based Explainability Framework for Large Multimodal Models
 
-## Reliability in Semantic Segmentation: Can We Use Synthetic Data
+### Authors: <a href="https://jayneelparekh.github.io/">Jayneel Parekh</a> &nbsp;&nbsp; <a href="https://pegah-kh.github.io/">Pegah Khayatan</a> &nbsp;&nbsp; <a href="https://mustafashukor.github.io/">Mustafa Shukor</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/alasdairnewson/">Alasdair Newson</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 
-#### Authors: <a href="https://imagine-lab.enpc.fr/staff-members/thibaut-loiseau/">Thibaut Loiseau</a>  &nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>  &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=QnRpMJAAAAAJ">Mickael Chen</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2406.08074">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/mshukor/xl-vlms">Code</a>] &nbsp;&nbsp; [<a href="https://jayneelparekh.github.io/LMM_Concept_Explainability/">Project page</a>]</h4>
 
-<h4 align="center"> [<a href="https://arxiv.org/abs/2312.09231">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/GenVal">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/genval">Project page</a>]</h4>
+Large multimodal models (LMMs) combine unimodal encoders and large language models (LLMs) to perform multimodal tasks. Despite recent advancements towards the interpretability of these models, understanding internal representations of LMMs remains largely a mystery. In this paper, we present a novel framework for the interpretation of LMMs. We propose a dictionary learning based approach, applied to the representation of tokens. The elements of the learned dictionary correspond to our proposed concepts. We show that these concepts are well semantically grounded in both vision and text. Thus we refer to these as "multi-modal concepts". We qualitatively and quantitatively evaluate the results of the learnt concepts. We show that the extracted multimodal concepts are useful to interpret representations of test samples. Finally, we evaluate the disentanglement between different concepts and the quality of grounding concepts visually and textually.
 
-Assessing the reliability of perception models to covariate shifts and out-of-distribution (OOD) detection is crucial for safety-critical applications such as autonomous vehicles. By nature of the task, however, the relevant data is difficult to collect and annotate. In this paper, we challenge cutting-edge generative models to automatically synthesize data for assessing reliability in semantic segmentation. By fine-tuning Stable Diffusion, we perform zero-shot generation of synthetic data in OOD domains or inpainted with OOD objects. Synthetic data is employed to provide an initial assessment of pretrained segmenters, thereby offering insights into their performance when confronted with real edge cases. Through extensive experiments, we demonstrate a high correlation between the performance on synthetic data and the performance on real OOD data, showing the validity approach. Furthermore, we illustrate how synthetic data can be utilized to enhance the calibration and OOD detection capabilities of segmenters.
+![concept_overview]({{ site.baseurl }}/assets/img/publications/2024_neurips/concept_xai.PNG){:height="100%" width="100%"}
 
-![genval_overview]({{ site.baseurl }}/assets/img/publications/2024_genval/genval-overview.PNG){:height="100%" width="100%"}
-<div class="caption"><b>Assessing 40 pretrained segmenters under covariate shifts.</b>
-Segmentation models under scrutiny were trained on Cityscapes train set only (in-domain data). They are evaluated on (i) Cityscapes validation set, (ii) real OOD data, and (iii) proposed synthetic data. We observe a strong correlation between results on (ii) and (iii).
-</div>
+<hr>
+
+## DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut
+### Authors: <a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ">Paul Couairon</a> &nbsp;&nbsp; <a href="https://mustafashukor.github.io/">Mustafa Shukor</a> &nbsp;&nbsp; <a href="https://dblp.org/pid/92/6849.html">Jean-Emmanuel Haugeard</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://thome.isir.upmc.fr/">Nicolas Thome/a>
+
+<h4 align="center"> [<a href="https://arxiv.org/abs/2406.02842">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/PaulCouairon/DiffCut">Code</a>] &nbsp;&nbsp; [<a href="https://diffcut-segmentation.github.io/">Project page</a>]</h4>
+
+Foundation models have emerged as powerful tools across various domains including language, vision, and multimodal tasks. While prior works have addressed unsupervised image segmentation, they significantly lag behind supervised models. In this paper, we use a diffusion UNet encoder as a foundation vision encoder and introduce DiffCut, an unsupervised zero-shot segmentation method that solely harnesses the output features from the final self-attention block. Through extensive experimentation, we demonstrate that the utilization of these diffusion features in a graph based segmentation algorithm, significantly outperforms previous state-of-the-art methods on zero-shot segmentation. Specifically, we leverage a recursive Normalized Cut algorithm that softly regulates the granularity of detected objects and produces well-defined segmentation maps that precisely capture intricate image details. Our work highlights the remarkably accurate semantic knowledge embedded within diffusion UNet encoders that could then serve as foundation vision encoders for downstream tasks.
+
+![diffcut_overview]({{ site.baseurl }}/assets/img/publications/2024_neurips/diffcut.PNG){:height="100%" width="100%"}
 
 <hr>
 
 
-## Valeo4Cast: A Modular Approach to End-to-End Forecasting
-<p class="page-description"><a href="https://sites.google.com/view/road-eccv2024/home">ECCV 2024 ROAD++ Workshop</a></p>
-<p class="page-description"><a href="https://www.argoverse.org/E2EForecasting.html">Winning solution in Argoverse 2 Unified Detection, Tracking and Forecasting Challenge</a></p>
+## Implicit Multimodal Alignment: On the Generalization of Frozen LLMs to Multimodal Inputs
+### Authors: <a href="https://mustafashukor.github.io/">Mustafa Shukor</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 
-#### Authors: <a href="https://scholar.google.fr/citations?user=vMLRRVkAAAAJ">Yihong Xu</a>, <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a>,  <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>,   <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a>, <a href="https://f-barto.github.io/">Florent Bartoccioni</a>,  <a href="https://nerminsamet.github.io/">Nermin Samet</a>,   <a href="https://osimeoni.github.io/">Oriane Siméoni</a>,   <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ">Spyros Gidaris</a>,   <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>,  <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ">Eduardo Valle</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>,  <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2405.16700">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/mshukor/ima-lmms">Code</a>] &nbsp;&nbsp; [<a href="https://ima-lmms.github.io/">Project page</a>]</h4>
 
-<h4 align="center"> [<a href="https://arxiv.org/abs/2406.08113">Paper</a>] &nbsp;&nbsp; [<a href="https://eval.ai/web/challenges/challenge-page/2006/leaderboard/4752">leaderboard</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/valeo4cast/">page</a>]</h4>
+Large Language Models (LLMs) have demonstrated impressive performance on multimodal tasks, without any multimodal finetuning. They are the building block for Large Multimodal Models, yet, we still lack a proper understanding of their success. In this work, we expose frozen LLMs to image, video, audio and text inputs and analyse their internal representation aiming to understand their generalization beyond textual inputs.
+Findings. Perceptual tokens (1) are easily distinguishable from textual ones inside LLMs, with significantly different representations, and complete translation to textual tokens does not exist. Yet, (2) both perceptual and textual tokens activate similar LLM weights. Despite being different, (3) perceptual and textual tokens are implicitly aligned inside LLMs, we call this the implicit multimodal alignment (IMA), and argue that this is linked to architectural design, helping LLMs to generalize. This provide more evidence to believe that the generalization of LLMs to multimodal inputs is mainly due to their architecture.
+Implications. (1) We find a positive correlation between the implicit alignment score and the task performance, suggesting that this could act as a proxy metric for model evaluation and selection. (2) A negative correlation exists regarding hallucinations, revealing that this problem is mainly due to misalignment between the internal perceptual and textual representations. (3) Perceptual tokens change slightly throughout the model, thus, we propose different approaches to skip computations (e.g. in FFN layers), and significantly reduce the inference cost. (4) Due to the slowly changing embeddings across layers, and the high overlap between textual and multimodal activated weights, we compress LLMs by keeping only 1 subnetwork that works well across a wide range of multimodal tasks. 
 
-Motion forecasting is crucial in autonomous driving systems to anticipate the future trajectories of surrounding agents such as pedestrians, vehicles, and traffic signals. In end-to-end forecasting, the model must jointly detect from sensor data (cameras or LiDARs) the position and past trajectories of the different elements of the scene and predict their future location. We depart from the current trend of tackling this task via end-to-end training from perception to forecasting and we use a modular approach instead. Following a recent study, we individually build and train detection, tracking, and forecasting modules. We then only use consecutive finetuning steps to integrate the modules better and alleviate compounding errors. Our study reveals that this simple yet effective approach significantly improves performance on the end-to-end forecasting benchmark. Consequently, our solution ranks first in the Argoverse 2 end-to-end Forecasting Challenge held at CVPR 2024 Workshop on Autonomous Driving (WAD), with 63.82 mAPf. We surpass forecasting results by +17.1 points over last year's winner and by +13.3 points over this year's runner-up. This remarkable performance in forecasting can be explained by our modular paradigm, which integrates finetuning strategies and significantly outperforms the end-to-end-trained counterparts.
-
-![valeo4cast_overview]({{ site.baseurl }}/assets/img/publications/2024_valeo4cast/valeo4cast.PNG){:height="80%" width="80%"}
-<div class="caption"><b>Valeo4Cast overview.</b>
-</div>
+![implicit_overview]({{ site.baseurl }}/assets/img/publications/2024_neurips/ima_llm.PNG){:height="100%" width="100%"}
 
 <hr>
-
-
-## PAFUSE: Part-based Diffusion for 3D Whole-Body Pose Estimation
-<p class="page-description"><a href="https://sites.google.com/view/t-cap-2024/home">ECCV 2024 Workshop Towards a Complete Analysis of People (T-CAP)</a></p>
-
-
-#### Authors: <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="https://cedricrommel.github.io/">Cédric Rommel</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a> &nbsp;&nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a>
-
-<h4 align="center"> [<a href="https://arxiv.org/abs/2407.10220">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/PAFUSE">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/pafuse">Project page</a>]</h4>
-
-We introduce a novel approach for 3D whole-body pose estimation, addressing the challenge of scale- and deformability- variance across body parts brought by the challenge of extending the 17 major joints on the human body to fine-grained keypoints on the face and hands. In addition to addressing the challenge of exploiting motion in unevenly sampled data, we combine stable diffusion to a hierarchical part representation which predicts the relative locations of fine-grained keypoints within each part (e.g., face) with respect to the part's local reference frame. On the H3WB dataset, our method greatly outperforms the current state of the art, which fails to exploit the temporal information. We also show considerable improvements compared to other spatiotemporal 3D human-pose estimation approaches that fail to account for the body part specificities.
-
-![pafuse_overview]({{ site.baseurl }}/assets/img/posts/2024_eccv/pafuse.PNG){:height="100%" width="100%"}
-<div class="caption"><b>Overview of PAFUSE.</b>
-</div>
-
-<hr>
-
-## LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Foundation Models
-<p class="page-description"><a href="https://sites.google.com/view/eval-fomo-24/home">ECCV 2024 Workshop on Emergent Visual Abilities and Limits of Foundation Models (Eval-FoMo)</a></p>
-
-#### Authors: Amaia Cardiel &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://elias-ramzi.github.io/">Elias Ramzi</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
-
-<h4 align="center"> [<a href="https://arxiv.org/abs/2409.11919">Paper</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/llm_wrapper">Project page</a>]</h4>
-
-Vision Language Models (VLMs) have shown impressive performances on numerous tasks but their zero-shot capabilities can be limited compared to dedicated or fine-tuned models. Yet, fine-tuning VLMs comes with strong limitations as it requires a ‘white-box’ access to the model’s architecture and weights while some recent models are proprietary (e.g., Grounding DINO 1.5). It also requires expertise to design the fine-tuning objectives and optimize the hyper-parameters, which are specific to each VLM and downstream task. In this work, we propose LLM-wrapper, a novel approach to adapt VLMs in a ‘black-box’ and semantic-aware manner by leveraging large language models (LLMs) so as to reason on their outputs. 
-
-![llm-wrapper_overview]({{ site.baseurl }}/assets/img/publications/2024_llm_wrapper/llm_wrapper.PNG){:height="80%" width="80%"}
-<div class="caption"><b>Overview of LLM-Wrapper.</b>
-</div>
-
-We demonstrate the effectiveness of LLM-wrapper on Referring Expression Comprehension (REC), a challenging open-vocabulary task that requires spatial and semantic reasoning. Our approach significantly boosts the performance of off-the-shelf models, yielding results that are on par or competitive when compared with classic VLM fine-tuning (cf ‘FT VLM’ in our main results). Despite a few failure cases due to the LLM ‘blindness’ (cf Qualitative results, bottom right)), LLM-wrapper shows better semantic, spatial and relational reasoning, as illustrated in our qualitative results below.
-
-![llm-wrapper_results]({{ site.baseurl }}/assets/img/posts/2024_eccv/llm_wrapper_results.PNG){:height="90%" width="90%"}
-<div class="caption"><b>LLM-Wrapper results.</b>
-</div>
-
-<hr>
-
-## ReGentS: Real-World Safety-Critical Driving Scenario Generation Made Stable
-<p class="page-description"><a href="https://coda-dataset.github.io/w-coda2024/">ECCV 2024 Workshop on Multimodal Perception and Comprehension of Corner Cases in Autonomous Driving (W-CODA)</a></p>
-
-#### Authors: <a href="https://yuan-yin.github.io/">Yuan Yin</a> &nbsp;&nbsp; <a href="https://pegah-kh.github.io/">Pegah Khayatan</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
-
-<h4 align="center"> [<a href="https://arxiv.org/abs/2409.07830">Paper</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/regents">Project page</a>]</h4>
-
-Machine learning based autonomous driving systems often face challenges with safety-critical scenarios that are rare in real-world data, hindering their large-scale deployment. While increasing real-world training data coverage could address this issue, it is costly and dangerous. This work explores generating safety-critical driving scenarios by modifying complex real-world regular scenarios through trajectory optimization. We propose ReGentS, which stabilizes generated trajectories and introduces heuristics to avoid obvious collisions and optimization problems. Our approach addresses unrealistic diverging trajectories and unavoidable collision scenarios that are not useful for training robust planner. We also extend the scenario generation framework to handle real-world data with up to 32 agents. Additionally, by using a differentiable simulator, our approach simplifies gradient descent-based optimization involving a simulator, paving the way for future advancements.
-
-![regents_overview]({{ site.baseurl }}/assets/img/publications/2024_regents/regents_page.png){:height="100%" width="100%"}
-
-<hr>
-
-## The BRAVO Semantic Segmentation Challenge Results in UNCV2024
-<p class="page-description"><a href="https://uncertainty-cv.github.io/2024/challenge/">ECCV 2024 Workshop on Uncertainty Quantification for Computer Vision</a></p>
-
-#### Authors: <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>  &nbsp;&nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="">Tommie Kerssies</a> &nbsp;&nbsp; <a href="">Daan de Geus</a> &nbsp;&nbsp; <a href="">Gijs Dubbelman</a> &nbsp;&nbsp; <a href="">Long Qian</a> &nbsp;&nbsp; <a href="">Bingke Zhu</a> &nbsp;&nbsp; <a href="">Yingying Chen</a> &nbsp;&nbsp; <a href="">Ming Tang</a> &nbsp;&nbsp; <a href="">Jinqiao Wang</a> &nbsp;&nbsp; <a href="">Tomáš Vojíř</a> &nbsp;&nbsp; <a href="">Jan Šochman</a> &nbsp;&nbsp; <a href="">Jiří Matas</a> &nbsp;&nbsp; <a href="">Michael Smith</a> &nbsp;&nbsp; <a href="">Frank Ferrie</a> &nbsp;&nbsp; <a href="">Shamik Basu</a> &nbsp;&nbsp; <a href="">Christos Sakaridis</a> &nbsp;&nbsp; <a href="">Luc Van Gool</a>
-
-<h4 align="center"> [<a href="https://arxiv.org/abs/2409.15107">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/bravo_challenge">Code</a>] &nbsp;&nbsp; [<a href="https://benchmarks.elsa-ai.eu/?ch=1&com=introduction">Project page</a>]</h4>
-
-We propose the unified BRAVO challenge to benchmark the reliability of semantic segmentation models under realistic perturbations and unknown out-of-distribution (OOD) scenarios. We define two categories of reliability: (1) semantic reliability, which reflects the model's accuracy and calibration when exposed to various perturbations; and (2) OOD reliability, which measures the model's ability to detect object classes that are unknown during training. The challenge attracted nearly 100 submissions from international teams representing notable research institutions. The results reveal interesting insights into the importance of large-scale pre-training and minimal architectural design in developing robust and reliable semantic segmentation models.
-
-![bravo_overview]({{ site.baseurl }}/assets/img/publications/2024_bravo/bravo-overview.PNG){:height="80%" width="80%"}
-<div class="caption"><b>All submissions.</b> Aggregated metrics (out-of-distribution and semantic) on axes, ranking metric (BRAVO Index) on level set. More freedom on the training dataset (Task 2, in orange) did not translate into better results.
-</div>
-
 
