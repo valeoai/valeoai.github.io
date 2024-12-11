@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: "LOGen: Toward Lidar Object Generation by Point Diffusion"
-image: assets/img/publications/2025_logen/car_merge.mp4
+image: assets/img/publications/2025_logen/merged.gif
 hide: false
 category: [3d-perception,multi-sensor,deep learning]
 authors: Ellington Kirby, Mickaël Chen, Renaud Marlet, Nermin Samet
 venue: under review
 venue_long: under review
 year: 2025
-month: 6
+month: 12
 code_url: 
 paper_url: https://arxiv.org/abs/2412.07385
 blog_url: https://nerminsamet.github.io/logen/
