@@ -5,6 +5,7 @@ image: assets/img/publications/2025_logen/merged.gif
 hide: false
 category: [3d-perception,multi-sensor,deep learning]
 authors: Ellington Kirby, Mickaël Chen, Renaud Marlet, Nermin Samet
+authors_internship: <u>Ellington Kirby</u>, Mickaël Chen, Renaud Marlet, Nermin Samet
 venue: under review
 venue_long: under review
 year: 2025
