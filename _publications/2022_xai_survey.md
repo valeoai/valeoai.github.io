@@ -21,7 +21,7 @@ permalink: /publications/xai-driving-survey/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"><a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=IFLcfvUAAAAJ">Hédi Ben-Younes </a> &nbsp;&nbsp;  <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
+<h3 align="center"><a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=IFLcfvUAAAAJ">Hédi Ben-Younes </a> &nbsp;&nbsp;  <a href="https://ptrckprz.github.io/">Patrick Pérez</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
