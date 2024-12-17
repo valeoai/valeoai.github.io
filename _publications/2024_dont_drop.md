@@ -15,6 +15,7 @@ blog_url: https://nicolas-dufour.github.io/cad.html
 slides_url:
 bib_url:
 permalink: /publications/2024_dont_drop/
+award: highlight
 ---
 
 <h1 align="center"> {{page.title}} </h1>
