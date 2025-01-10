@@ -35,6 +35,13 @@ jobs:
         #      uses: ruby/setup-ruby@v1
         #      with:
         #        ruby-version: '3.2'
+
+    - name: Set GEM_HOME
+      run: echo "export GEM_HOME=$HOME/.gem" >> $GITHUB_ENV
+
+    - name: Update PATH for gems
+      run: echo "export PATH=$HOME/.gem/bin:$PATH" >> $GITHUB_ENV
+
     - name: Install Bundler
       run: gem install bundler:2.5.11
     - name: Install deps
