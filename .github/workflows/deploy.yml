@@ -16,10 +16,25 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2'
+    # Install Ruby manually since it cannot be installed automatically
+    - name: Install Ruby
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y git curl libssl-dev zlib1g-dev
+        git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+        echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+        echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+        source ~/.bashrc
+        git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+        ~/.rbenv/bin/rbenv install 3.2.2
+        ~/.rbenv/bin/rbenv global 3.2.2
+    # Verify Ruby installation
+    - name: Check Ruby Version
+      run: ruby --version
+        #    - name: Setup Ruby
+        #      uses: ruby/setup-ruby@v1
+        #      with:
+        #        ruby-version: '3.2'
     - name: Install Bundler
       run: gem install bundler:2.5.11
     - name: Install deps
