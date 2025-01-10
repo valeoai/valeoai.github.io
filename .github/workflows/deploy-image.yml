@@ -7,8 +7,9 @@ on:
 jobs: 
 
   build:
-
-    runs-on: ubuntu-latest
+    #
+    #runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04 # debug deploy image
     if: github.repository_owner == 'alshedivat'
 
     steps:
