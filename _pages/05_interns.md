@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 
+<!-- 
 # Open Internship Proposals
 
 We are looking for students finishing their MSc with a solid background in computer vision and machine learning, particularly in deep learning with strong PyTorch coding skills.
@@ -41,6 +42,7 @@ This internship explores using diffusion models to generate driving scenarios, f
 *Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)  
 This project focuses on generating LiDAR point cloud objects by leveraging pre-trained diffusion models on range image representations. The goal is to improve the controllability of LiDAR object generation in a computationally efficient way.  
 
+ -->
 
 # Alumni interns and visiting students
 
