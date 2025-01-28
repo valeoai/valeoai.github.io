@@ -3,7 +3,7 @@ layout: project
 title: Explainability of Deep Models
 permalink: /projects/explainability
 description: The concept of explainability has several facets and the need for explainability is strong in safety-critical applications such as autonomous driving. We investigate methods providing post-hoc explanations to black-box systems, and approaches to directly design more interpretable models.
-image: "assets/img/projects/logo_explainable.png"
+image: "assets/img/publications/2022_xai_survey/xai_survey.png"
 category: project
 subcategory: dependable
 url: ""
