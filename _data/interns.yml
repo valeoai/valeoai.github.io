@@ -15,7 +15,7 @@
 "Kirby":
     firstname: Ellington
     internship_year: 2024
-    position: Computer Vision engineer at Parrot
+    position: Research Engineer at valeo.ai
     
 "Marengo":
     firstname: Matteo
@@ -39,14 +39,14 @@
     
 "Cardiel":                                                                         
     firstname: Amaia                                                               
-    position: PhD student at Valeo.ai and Grenoble Université with Eric Gaussier
+    position: PhD student at valeo.ai and Grenoble Université with Eric Gaussier
     profilepic: amaia_cardiel.jpg                                                  
     bib_firstname: ["Amaia", "A."]                                                 
     internship_year: 2023
                                                                                    
 "Sirko-Galouchenko":                                                               
     firstname: Sophia                                                              
-    position: PhD student at Valeo.ai and Sorbonne Université with Nicolas Thome
+    position: PhD student at valeo.ai and Sorbonne Université with Nicolas Thome
     profilepic: sophia_sirko-galouchenko.jpg                                       
     bib_firstname: ["Sophia", "S."]                                                
     internship_year: 2023
@@ -71,7 +71,7 @@
 
 "Chambon":                                                                         
     firstname: Loïck                                                               
-    position: PhD student at Valeo.ai and Sorbonne Université with Matthieu Cord
+    position: PhD student at valeo.ai and Sorbonne Université with Matthieu Cord
     profilepic: loick_chambon.jpg                                                  
     bib_firstname: ["Loïck", "L."]                                                 
     url: https://loickch.github.io/                                                
@@ -103,7 +103,7 @@
                                                                                    
 "Sautier":                                                                         
     firstname: Corentin                                                            
-    position: PhD student at Valeo.ai and ENPC with Vincent Lepetit
+    position: PhD student at valeo.ai and ENPC with Vincent Lepetit
     profilepic: corentin_sautier.jpg                                               
     bib_firstname: ["Corentin", "C."]                                              
     url: https://csautier.github.io/                                               
@@ -129,7 +129,7 @@
                                                                                    
 "Michele":                                                                         
     firstname: Björn                                                               
-    position: PhD student at Valeo.ai and IRISA OBELIX with Nicolas Courty
+    position: PhD student at valeo.ai and IRISA OBELIX with Nicolas Courty
     profilepic: bjoern_michele.jpg                                                 
     bib_firstname: ["Björn", "B."]                                                 
     url: https://bjoernmichele.com                                                 
@@ -145,13 +145,13 @@
 
 "Besnier":                                                                                                                                                                                                                                                                             
     firstname: Victor                                                          
-    position: Research scientist at valeo.ai. PhD at Valeo and ENPC with David Picard
+    position: Research scientist at valeo.ai. PhD at valeo and ENPC with David Picard
     url: https://scholar.google.com/citations?user=n_C2h-QAAAAJ
     internship_year: 2019
 
 "Bartoccioni":                                                                                                                                                                                                                                                                             
     firstname: Florent                                                          
-    position: Research engineer at valeo.ai. PhD at Valeo.ai and INRIA with Karteek Alahari.
+    position: Research engineer at valeo.ai. PhD at valeo.ai and INRIA with Karteek Alahari.
     profilepic: florent_bartoccioni.jpg                                         
     bib_firstname: ["Florent", "F."]                                            
     url: https://f-barto.github.io/                                                
