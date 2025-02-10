@@ -76,6 +76,12 @@
     bib_firstname: ["David", "D."]
     scholar: https://scholar.google.cz/citations?user=XY1PVwYAAAAJ&hl=en
 
+"Kirby":
+    firstname: Ellington
+    position: Research Engineer
+    profilepic: ellington_kirby.jpg
+    url: https://ellingtonkirby.github.io/
+
 "Letzelter":
     firstname: Victor
     position: Phd Student W/ Telecom Paris
