@@ -6,19 +6,19 @@ github_repos:
   - valeoai/ADVENT
   - vita-epfl/UniTraj
   - valeoai/LOST
-  - valeoai/xmuda
   - valeoai/POCO
-  - valeoai/ZS3
-  - valeoai/SLidR
   - valeoai/RADIal
+  - valeoai/xmuda
+  - valeoai/SLidR
+  - valeoai/ZS3
+  - valeoai/Maskgit-pytorch
   - valeoai/ALSO
   - valeoai/ConfidNet
-  - valeoai/Maskgit-pytorch
   - valeoai/BF3S
   - valeoai/DADA
   - astra-vision/PODA
-  - valeoai/FLOT
   - valeoai/PointBeV  
+  - valeoai/FLOT
   - valeoai/obow
   - valeoai/carrada_dataset
   - valeoai/rangevit
@@ -36,6 +36,7 @@ github_repos:
   - valeoai/LaRa
   - astra-vision/FAMix
   - valeoai/SALUDA
+  - WalterSimoncini/fungivision
   - valeoai/obsnet
   - valeoai/3DGenZ
   - valeoai/SemanticPalette
@@ -62,5 +63,4 @@ github_repos:
   - valeoai/valeo4cast
   - valeoai/MF_aWTA
   - Victorletzelter/annealed_mcl
-  - WalterSimoncini/fungivision
   - cedricrommel/manipose
