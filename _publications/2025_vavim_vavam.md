@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "VaViM and VaVAM: Autonomous Driving through Video Generative Modeling" 
-image: assets/img/publications/2025_vavim_vavam.png
+image: assets/img/publications/vavim_vavam.png
 hide: false
 category: [driving, foundation, limited-supervision, generalization]
 authors: Florent Bartoccioni, Elias Ramzi, Victor Besnier, Shashanka Venkataramanan, Tuan-Hung Vu, Yihong Xu, Loick Chambon, Spyros Gidaris, Serkan Odabas, David Hurych, Renaud Marlet, Alexandre Boulch, Mickael Chen, Éloi Zablocki, Andrei Bursuc, Eduardo Valle, Matthieu Cord
