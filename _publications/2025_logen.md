@@ -9,7 +9,7 @@ authors_internship: <u>Ellington Kirby</u>, Mickaël Chen, Renaud Marlet, Nermin
 venue: under review
 venue_long: under review
 year: 2025
-month: 12
+month: 01
 code_url: 
 paper_url: https://arxiv.org/abs/2412.07385
 blog_url: https://nerminsamet.github.io/logen/
