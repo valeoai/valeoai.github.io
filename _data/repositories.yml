@@ -19,6 +19,7 @@ github_repos:
   - astra-vision/PODA
   - valeoai/PointBeV  
   - valeoai/FLOT
+  - valeoai/VideoActionModel
   - valeoai/obow
   - valeoai/carrada_dataset
   - valeoai/rangevit
