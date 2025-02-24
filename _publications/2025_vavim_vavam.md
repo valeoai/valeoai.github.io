@@ -8,7 +8,7 @@ authors: Florent Bartoccioni, Elias Ramzi, Victor Besnier, Shashanka Venkatarama
 venue: preprint
 venue_long: preprint
 year: 2025
-month: 02
+month: 06
 code_url: https://github.com/valeoai/VideoActionModel
 paper_url: https://arxiv.org/abs/2502.15672
 blog_url: https://valeoai.github.io/vavim-vavam/
