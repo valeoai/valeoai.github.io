@@ -1,8 +1,8 @@
 ---
 layout: publication
 title: "LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Models for Referring Expression Comprehension"
-image: assets/img/publications/2024_llm_wrapper/llm_wrapper_pipeline.PNG
-image_2: assets/img/publications/2024_llm_wrapper/llm_wrapper_talk2car.PNG
+image: assets/img/publications/2024_llm_wrapper/llm_wrapper_pipeline.png
+image_2: assets/img/publications/2024_llm_wrapper/llm_wrapper_talk2car.png
 hide: false
 category:  [foundation, generalization]
 authors: Amaia Cardiel, Éloi Zablocki, Elias Ramzi, Oriane Siméoni, Matthieu Cord
