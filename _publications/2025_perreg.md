@@ -14,7 +14,7 @@ paper_url: [https://arxiv.org/abs/2403.15098](https://arxiv.org/abs/2501.04815)
 blog_url: 
 slides_url: 
 bib_url: 
-permalink: /publications/perreg/
+permalink: /publications/PerReg/
 ---
 
 <h1 align="center"> {{page.title}} </h1>
