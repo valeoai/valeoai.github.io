@@ -10,7 +10,7 @@ venue_long: CVPR
 year: 2025
 month: 06
 code_url: 
-paper_url: [https://arxiv.org/abs/2403.15098](https://arxiv.org/abs/2501.04815)
+paper_url: https://arxiv.org/abs/2501.04815
 blog_url: 
 slides_url: 
 bib_url: 
