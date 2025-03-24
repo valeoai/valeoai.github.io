@@ -57,7 +57,7 @@ permalink: /publications/2025_halton_maskgit/
 <p>Traditional MaskGIT uses a Confidence scheduler, which selects tokens based on logit distribution but tends to cluster token selection, leading to reduced image diversity. The Halton Scheduler addresses this by leveraging <strong>low-discrepancy sequences</strong>, the Halton sequence, to distribute token selection more uniformly across the image.</p>
 
 <div style="text-align: center;">
-    <img src="../../assets/img/publications/2025_halton_maskgit/imagenet_quali.png" alt="Halton exemple on ImageNet" style="max-width: 400px; border-radius: 5px;">
+    <img src="../../assets/img/publications/2025_halton_maskgit/imagenet_quali.png" alt="Halton exemple on ImageNet" style="width: auto; height: auto; border-radius: 5px;">
     <p style="font-size: 14px; color: #555;">Figure 1: MaskGIT using our Halton scheduler on ImageNet 256.</p>
 </div>
 
@@ -69,12 +69,12 @@ permalink: /publications/2025_halton_maskgit/
 </ul>
 
 <div style="text-align: center;">
-    <img src="../../assets/img/publications/2025_halton_maskgit/txt2img_halton.jpg" alt="Halton exemple" style="max-width: 400px; border-radius: 5px;">
+    <img src="../../assets/img/publications/2025_halton_maskgit/txt2img_halton.jpg" alt="Halton exemple" style="width: auto; height: auto; border-radius: 5px;">
     <p style="font-size: 14px; color: #555;">Figure 2: MaskGIT using our Halton scheduler for text-to-image.</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="../../assets/img/publications/2025_halton_maskgit/txt2img_conf.jpg" alt="Confidence exemple" style="max-width: 400px; border-radius: 5px;">
+    <img src="../../assets/img/publications/2025_halton_maskgit/txt2img_conf.jpg" alt="Confidence exemple" style="width: auto; height: auto; border-radius: 5px;">
     <p style="font-size: 14px; color: #555;">Figure 3: MaskGIT using the Confidence scheduler for text-to-image.</p>
 </div>
 
