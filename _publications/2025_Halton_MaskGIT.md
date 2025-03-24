@@ -18,6 +18,9 @@ permalink: /publications/Halton_MaskGIT/
 ---
 
 <h1 align="center"> {{page.title}} </h1>
+<!-- Simple call of authors -->
+<!-- <h3 align="center"> {{page.authors}} </h3> -->
+<!-- Alternatively you can add links to author pages -->
 <h3 align="center">  &nbsp; <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> 
                      &nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> 
                      &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a>
@@ -49,7 +52,7 @@ permalink: /publications/Halton_MaskGIT/
 </div>
 
 
-<div class="publication-teaser">
+<div>
     <img src="../../assets/img/publications/2025_Halton_MaskGIT/schematics.png" alt="project teaser"/>
 </div>
 
@@ -57,11 +60,11 @@ permalink: /publications/Halton_MaskGIT/
 
 <br>
 
-<div class="container">
-<p>Masked Generative Image Transformers (MaskGIT) have gained popularity for their fast and efficient image generation capabilities. However, the sampling strategy used to progressively <em>"unmask"</em> tokens in these models plays a crucial role in determining image quality and diversity. Our new research paper, presented at <span class="highlight">ICLR 2025</span>, introduces the <strong>Halton Scheduler</strong>—a novel approach that significantly enhances MaskGIT's image generation performance.</p>
+<div>
+<p>Masked Generative Image Transformers (MaskGIT) have gained popularity for their fast and efficient image generation capabilities. However, the sampling strategy used to progressively <em>"unmask"</em> tokens in these models plays a crucial role in determining image quality and diversity. Our new research paper, introduces the <strong>Halton Scheduler</strong>—a novel approach that significantly enhances MaskGIT's image generation performance.</p>
 
 <h2>From Confidence to Halton: What’s New?</h2>
-<p>Traditional MaskGIT uses a <span class="highlight">Confidence scheduler</span>, which selects tokens based on logit distribution but tends to cluster token selection, leading to reduced image diversity. The Halton Scheduler addresses this by leveraging <strong>low-discrepancy sequences</strong>, the Halton sequence, to distribute token selection more uniformly across the image.</p>
+<p>Traditional MaskGIT uses a Confidence scheduler, which selects tokens based on logit distribution but tends to cluster token selection, leading to reduced image diversity. The Halton Scheduler addresses this by leveraging <strong>low-discrepancy sequences</strong>, the Halton sequence, to distribute token selection more uniformly across the image.</p>
 
 <div style="text-align: center;">
     <img src="../../assets/img/publications/2025_Halton_MaskGIT/imagenet_quali.png" alt="Halton exemple on ImageNet" style="max-width: 400px; border-radius: 5px;">
@@ -87,7 +90,7 @@ permalink: /publications/Halton_MaskGIT/
 
 
 <h2>Results: ImageNet and COCO Benchmarks</h2>
-<p>On benchmark datasets like <span class="highlight">ImageNet (256×256)</span> and <span class="highlight">COCO</span>, the Halton Scheduler outperforms the baseline Confidence scheduler:</p>
+<p>On benchmark datasets like ImageNet (256×256) and COCO, the Halton Scheduler outperforms the baseline Confidence scheduler:</p>
 <ul>
     <li><strong>Reduced Fréchet Inception Distance (FID):</strong> Indicating better image realism.</li>
     <li><strong>Improved Precision and Recall:</strong> Reflecting a more diverse image generation.</li>
