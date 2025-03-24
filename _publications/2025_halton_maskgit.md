@@ -21,7 +21,7 @@ permalink: /publications/2025_halton_maskgit/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"><a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a> &nbsp; <a href="https://eduardovalle.com/ ">Eduardo Valle</a> &nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
+<h3 align="center"><a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a> &nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a> &nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
 
 <h3 align="center"> {{page.venue}} {{page.year}} (poster) </h3>
 
