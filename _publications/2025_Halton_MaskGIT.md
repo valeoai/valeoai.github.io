@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Halton Scheduler For Masked Generative Image Transformer"
-image: images/publications/2025_Halton-MaskGIT
+image: assets/img/publications/2025_Halton_MaskGIT/schematics.png
 hide: true
 category: [Image Synthesis]
 authors: Victor Besnier, Mickael Chen, David Hurych, Eduardo Valle and Matthieu Cord
@@ -14,13 +14,13 @@ paper_url: https://arxiv.org/abs/2503.17076
 blog_url:
 slides_url:
 bib_url:
-permalink: /publications/Halton-MaskGIT
+permalink: /publications/Halton_MaskGIT/
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <h3 align="center">  &nbsp; <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> 
                      &nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> 
-                     &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao"> David Hurych</a>
+                     &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a>
                      &nbsp; <a href="https://eduardovalle.com/ ">Eduardo Valle</a> 
                      &nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> 
 </h3>
@@ -50,7 +50,7 @@ permalink: /publications/Halton-MaskGIT
 
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image }}/schematics.png" alt="project teaser"/>
+    <img src="../../assets/img/publications/2025_Halton_MaskGIT/schematics.png" alt="project teaser"/>
 </div>
 
 <hr>
@@ -64,7 +64,7 @@ permalink: /publications/Halton-MaskGIT
 <p>Traditional MaskGIT uses a <span class="highlight">Confidence scheduler</span>, which selects tokens based on logit distribution but tends to cluster token selection, leading to reduced image diversity. The Halton Scheduler addresses this by leveraging <strong>low-discrepancy sequences</strong>, the Halton sequence, to distribute token selection more uniformly across the image.</p>
 
 <div style="text-align: center;">
-    <img src="../../{{ page.image }}/imagenet_quali.png" alt="Halton exemple on ImageNet" style="max-width: 400px; border-radius: 5px;">
+    <img src="../../assets/img/publications/2025_Halton_MaskGIT/imagenet_quali.png" alt="Halton exemple on ImageNet" style="max-width: 400px; border-radius: 5px;">
     <p style="font-size: 14px; color: #555;">Figure 1: MaskGIT using our Halton scheduler on ImageNet 256.</p>
 </div>
 
@@ -76,12 +76,12 @@ permalink: /publications/Halton-MaskGIT
 </ul>
 
 <div style="text-align: center;">
-    <img src="../../{{ page.image }}/txt2img_halton.jpg" alt="Halton exemple" style="max-width: 400px; border-radius: 5px;">
+    <img src="../../assets/img/publications/2025_Halton_MaskGIT/txt2img_halton.jpg" alt="Halton exemple" style="max-width: 400px; border-radius: 5px;">
     <p style="font-size: 14px; color: #555;">Figure 1: MaskGIT using our Halton scheduler.</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="../../{{ page.image }}/txt2img_conf.jpg" alt="Confidence exemple" style="max-width: 400px; border-radius: 5px;">
+    <img src="../../assets/img/publications/2025_Halton_MaskGIT/txt2img_conf.jpg" alt="Confidence exemple" style="max-width: 400px; border-radius: 5px;">
     <p style="font-size: 14px; color: #555;">Figure 2: MaskGIT using the Confidence scheduler.</p>
 </div>
 
