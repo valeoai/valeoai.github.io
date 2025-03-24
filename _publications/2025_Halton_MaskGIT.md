@@ -2,7 +2,7 @@
 layout: publication
 title: "Halton Scheduler For Masked Generative Image Transformer"
 image: assets/img/publications/2025_Halton_MaskGIT/schematics.png
-hide: true
+hide: false
 category: [Image Synthesis]
 authors: Victor Besnier, Mickael Chen, David Hurych, Eduardo Valle and Matthieu Cord
 venue: ICLR
@@ -21,13 +21,7 @@ permalink: /publications/Halton_MaskGIT/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">  &nbsp; <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> 
-                     &nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> 
-                     &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a>
-                     &nbsp; <a href="https://eduardovalle.com/ ">Eduardo Valle</a> 
-                     &nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> 
-</h3>
-
+<h3 align="center"><a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a> &nbsp; <a href="https://eduardovalle.com/ ">Eduardo Valle</a> &nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
 
 <h3 align="center"> {{page.venue}} {{page.year}} (poster) </h3>
 
@@ -51,7 +45,7 @@ permalink: /publications/Halton_MaskGIT/
   </p>
 </div>
 
-![](../../assets/img/publications/2025_Halton_MaskGIT/schematics.png)
+![](../../assets/img/publications/2025_Halton_MaskGIT/schematics.png){:width="100%"}
 
 <hr>
 
@@ -62,7 +56,7 @@ permalink: /publications/Halton_MaskGIT/
 <h2>From Confidence to Halton: What’s New?</h2>
 <p>Traditional MaskGIT uses a Confidence scheduler, which selects tokens based on logit distribution but tends to cluster token selection, leading to reduced image diversity. The Halton Scheduler addresses this by leveraging <strong>low-discrepancy sequences</strong>, the Halton sequence, to distribute token selection more uniformly across the image.</p>
 
-![](../../assets/img/publications/2025_Halton_MaskGIT/imagenet_quali.png)
+![](../../assets/img/publications/2025_Halton_MaskGIT/imagenet_quali.png){:width="100%"}
 *Figure 1: MaskGIT using our Halton scheduler on ImageNet 256.*
 
 <h2>Key Insights and Benefits</h2>
@@ -72,11 +66,11 @@ permalink: /publications/Halton_MaskGIT/
     <li><strong>Faster and More Balanced Sampling:</strong> By reducing token correlation, the Halton Scheduler allows MaskGIT to progressively add fine details while avoiding local sampling errors.</li>
 </ul>
 
-![](../../assets/img/publications/2025_Halton_MaskGIT/txt2img_halton.jpg)
+![](../../assets/img/publications/2025_Halton_MaskGIT/txt2img_halton.jpg){:width="100%"}
 *Figure 2: MaskGIT using our Halton scheduler for text-to-image.*
 
 
-![](../../assets/img/publications/2025_Halton_MaskGIT/txt2img_conf.jpg)
+![](../../assets/img/publications/2025_Halton_MaskGIT/txt2img_conf.jpg){:width="100%"}
 *Figure 3: MaskGIT using the Confidence scheduler for text-to-image.*
 
 
