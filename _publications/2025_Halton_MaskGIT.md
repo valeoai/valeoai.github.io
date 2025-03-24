@@ -51,14 +51,10 @@ permalink: /publications/Halton_MaskGIT/
   </p>
 </div>
 
-
-<div>
-    <img src="../../assets/img/publications/2025_Halton_MaskGIT/schematics.png" alt="project teaser"/>
-</div>
+![](../../assets/img/publications/2025_Halton_MaskGIT/schematics.png)
 
 <hr>
 
-<br>
 
 <div>
 <p>Masked Generative Image Transformers (MaskGIT) have gained popularity for their fast and efficient image generation capabilities. However, the sampling strategy used to progressively <em>"unmask"</em> tokens in these models plays a crucial role in determining image quality and diversity. Our new research paper, introduces the <strong>Halton Scheduler</strong>—a novel approach that significantly enhances MaskGIT's image generation performance.</p>
@@ -66,10 +62,8 @@ permalink: /publications/Halton_MaskGIT/
 <h2>From Confidence to Halton: What’s New?</h2>
 <p>Traditional MaskGIT uses a Confidence scheduler, which selects tokens based on logit distribution but tends to cluster token selection, leading to reduced image diversity. The Halton Scheduler addresses this by leveraging <strong>low-discrepancy sequences</strong>, the Halton sequence, to distribute token selection more uniformly across the image.</p>
 
-<div style="text-align: center;">
-    <img src="../../assets/img/publications/2025_Halton_MaskGIT/imagenet_quali.png" alt="Halton exemple on ImageNet" style="max-width: 400px; border-radius: 5px;">
-    <p style="font-size: 14px; color: #555;">Figure 1: MaskGIT using our Halton scheduler on ImageNet 256.</p>
-</div>
+![](../../assets/img/publications/2025_Halton_MaskGIT/imagenet_quali.png)
+*Figure 1: MaskGIT using our Halton scheduler on ImageNet 256.*
 
 <h2>Key Insights and Benefits</h2>
 <ul>
@@ -78,15 +72,12 @@ permalink: /publications/Halton_MaskGIT/
     <li><strong>Faster and More Balanced Sampling:</strong> By reducing token correlation, the Halton Scheduler allows MaskGIT to progressively add fine details while avoiding local sampling errors.</li>
 </ul>
 
-<div style="text-align: center;">
-    <img src="../../assets/img/publications/2025_Halton_MaskGIT/txt2img_halton.jpg" alt="Halton exemple" style="max-width: 400px; border-radius: 5px;">
-    <p style="font-size: 14px; color: #555;">Figure 1: MaskGIT using our Halton scheduler.</p>
-</div>
+![](../../assets/img/publications/2025_Halton_MaskGIT/txt2img_halton.jpg)
+*Figure 2: MaskGIT using our Halton scheduler for text-to-image.*
 
-<div style="text-align: center;">
-    <img src="../../assets/img/publications/2025_Halton_MaskGIT/txt2img_conf.jpg" alt="Confidence exemple" style="max-width: 400px; border-radius: 5px;">
-    <p style="font-size: 14px; color: #555;">Figure 2: MaskGIT using the Confidence scheduler.</p>
-</div>
+
+![](../../assets/img/publications/2025_Halton_MaskGIT/txt2img_conf.jpg)
+*Figure 3: MaskGIT using the Confidence scheduler for text-to-image.*
 
 
 <h2>Results: ImageNet and COCO Benchmarks</h2>
@@ -96,6 +87,8 @@ permalink: /publications/Halton_MaskGIT/
     <li><strong>Improved Precision and Recall:</strong> Reflecting a more diverse image generation.</li>
 </ul>
 </div>
+
+<hr>
 
 <h2  align="center">BibTeX</h2>
 <left>
