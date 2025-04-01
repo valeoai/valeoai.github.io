@@ -70,7 +70,7 @@ Vision Language Models (VLMs) have demonstrated remarkable capabilities in vario
 <hr>
 
 ## MOCA: Self-supervised Representation Learning by Predicting Masked Online Codebook Assignments
-### Authors: <a href="https://scholar.google.com/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>&nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp;  <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://vobecant.github.io/">Antonin Vobecky</a> &nbsp;&nbsp;  <br> <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>
+### Authors: <a href="https://scholar.google.com/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>&nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp;  <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://vobecant.github.io/">Antonin Vobecky</a> &nbsp;&nbsp; <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>
 <h4 align="center"> [<a href="https://arxiv.org/abs/2312.15297">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/MOCA">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/moca/">Project page</a>]</h4>
 
 ![moca_teaser]({{ site.baseurl }}/assets/img/publications/2024_moca/moca-teaser.png){:height="100%" width="100%"}
