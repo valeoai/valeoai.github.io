@@ -9,7 +9,7 @@ image: assets/img/posts/2025_iclr.jpg
 ---
 
 
-The [International Conference on Learning Representations (ICLR)](https://iclr.cc/) is a major interdisciplinary event that brings together researchers and practitioners in machine learning, deep learning, optimization, statistics, but also neuroscience, cognitive science, and various application domains, fostering advances in representation learning and its real-world impact. This year, at the thirteen edition of ICLR, the [valeo.ai](../) team will present 5 papers in the main conference. 
+The [International Conference on Learning Representations (ICLR)](https://iclr.cc/) is a leading conference that brings together researchers and practitioners in deep learning, representation learning, and artificial intelligence. It covers a wide range of topics, including optimization, generative models, interpretability, robustness. This year, at the thirteen edition of ICLR, the [valeo.ai](../../) team will present 5 papers in the main conference. 
 
 We will be happy to discuss more about these projects and ideas, and share our exciting ongoing research. Take a quick view of our papers below and come meet us at the posters or catch us for a coffee in the hallways.
 
