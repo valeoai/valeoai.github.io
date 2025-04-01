@@ -69,9 +69,27 @@ Vision Language Models (VLMs) have demonstrated remarkable capabilities in vario
 
 <hr>
 
+## MOCA: Self-supervised Representation Learning by Predicting Masked Online Codebook Assignments
+### Authors: <a href="https://scholar.google.com/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>&nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp;  <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://vobecant.github.io/">Antonin Vobecky</a> &nbsp;&nbsp;  <br> <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2312.15297">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/MOCA">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/moca/">Project page</a>]</h4>
+
+![moca_teaser]({{ site.baseurl }}/assets/img/publications/2024_moca/moca-teaser.png){:height="100%" width="100%"}
+
+Self-supervised learning can be used for mitigating the greedy needs of Vision Transformer networks for very large fully-annotated datasets. Different classes of self-supervised learning offer representations with either good contextual reasoning properties, e.g., using masked image modeling strategies, or invariance to image perturbations, e.g., with contrastive methods. In this work, we propose a single-stage and standalone method, MOCA, which unifies both desired properties using novel mask-and-predict objectives defined with high-level features (instead of pixel-level details). Moreover, we show how to effectively employ both learning paradigms in a synergistic and computation-efficient way. Doing so, we achieve new state-of-the-art results on low-shot settings and strong experimental results in various evaluation protocols with a training that is at least 3 times faster than prior methods.
+
+<hr>
+
+## Learning a Neural Solver for Parametric PDEs to Enhance Physics-Informed Methods
+### Authors: <a href="https://2ailesb.github.io/">Lise Le Boudec</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=KvZw5gYAAAAJ">Emmanuel de Bezenac</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ">Louis Serrano</a> &nbsp;&nbsp; <a href="https://rd-regueiroespino.github.io/">Ramon Daniel Regueiro-Espino</a> &nbsp;&nbsp; <a href="https://yuan-yin.github.io">Yuan Yin</a> &nbsp;&nbsp; <a href="https://pages.isir.upmc.fr/gallinari/">Patrick Gallinari</a>
+<h4 align="center"> [<a href="https://arxiv.org/abs/2410.06820">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/2ailesB/neural-parametric-solver">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/neural-parametric-solver/">Project page</a>]</h4>
+
+![neural_solver_pdf]({{ site.baseurl }}/assets/img/publications/2025_neural_parametric_solver.png){:height="100%" width="100%"}
+
+Physics-informed deep learning often faces optimization challenges due to the complexity of solving partial differential equations (PDEs), which involve exploring large solution spaces, require numerous iterations, and can lead to unstable training. These challenges arise particularly from the ill-conditioning of the optimization problem, caused by the differential terms in the loss function. To address these issues, we propose learning a solver, i.e., solving PDEs using a physics-informed iterative algorithm trained on data. Our method learns to condition a gradient descent algorithm that automatically adapts to each PDE instance, significantly accelerating and stabilizing the optimization process and enabling faster convergence of physics-aware models. Furthermore, while traditional physics-informed methods solve for a single PDE instance, our approach addresses parametric PDEs. Specifically, our method integrates the physical loss gradient with the PDE parameters to solve over a distribution of PDE parameters, including coefficients, initial conditions, or boundary conditions. We demonstrate the effectiveness of our method through empirical experiments on multiple datasets, comparing training and test-time optimization performance.
+
+<hr>
+
 ## ToddlerDiffusion: Interactive Structured Image Generation with Cascaded Schrödinger Bridge
-### Authors: <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> &nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a> &nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a> &nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
-<h4 align="center"> [<a href="https://arxiv.org/abs/2503.17076">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/Halton-MaskGIT">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/2025_halton_maskgit">Project page</a>]</h4>
-
-
+### Authors: Eslam Abdelrahman &nbsp;&nbsp; Liangbing Zhao &nbsp;&nbsp; Vincent Tao Hu &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Perez</a> &nbsp;&nbsp; Mohamed Elhoseiny
+<h4 align="center"> [<a href="https://arxiv.org/abs/2311.14542">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/toddlerdiffusion/code">Code</a>] &nbsp;&nbsp; [<a href="https://toddlerdiffusion.github.io/website/">Project page</a>]</h4>
 
