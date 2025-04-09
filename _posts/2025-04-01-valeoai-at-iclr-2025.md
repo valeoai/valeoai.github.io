@@ -58,7 +58,7 @@ We will be happy to discuss more about these projects and ideas, and share our e
 <hr>
 
 ## LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Models for Referring Expression Comprehension
-### Authors: Amaia Cardiel &nbsp;&nbsp; <a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://elias-ramzi.github.io/">Elias Ramzi</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
+### Authors: Amaia Cardiel &nbsp;&nbsp; <a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://elias-ramzi.github.io/">Elias Ramzi</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 <h4 align="center"> [<a href="https://arxiv.org/abs/2409.11919">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/LLM_wrapper">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/llm_wrapper/">Project page</a>]</h4>
 
 ![llm_wrapper_overview]({{ site.baseurl }}/assets/img/publications/2024_llm_wrapper/llm_wrapper_pipeline.png){:height="100%" width="100%"}
