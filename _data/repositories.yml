@@ -2,8 +2,6 @@ github_users:
   # - astra-vision
 
 github_repos:
-  - valeoai/Alpine
-  - valeoai/UNIT
   - valeoai/WoodScape
   - valeoai/ADVENT
   - vita-epfl/UniTraj
@@ -56,6 +54,8 @@ github_repos:
   - valeoai/CAB
   - valeoai/MFEval
   - valeoai/MuHDi
+  - valeoai/Alpine
+  - valeoai/UNIT
   - valeoai/sfrik
   - valeoai/diffhpe
   - valeoai/BEEF
