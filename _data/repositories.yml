@@ -6,18 +6,18 @@ github_repos:
   - valeoai/ADVENT
   - vita-epfl/UniTraj
   - valeoai/LOST
+  - valeoai/Maskgit-pytorch
   - valeoai/POCO
   - valeoai/RADIal
-  - valeoai/xmuda
   - valeoai/SLidR
+  - valeoai/xmuda
   - valeoai/ZS3
-  - valeoai/Maskgit-pytorch
   - valeoai/ALSO
   - valeoai/ConfidNet
   - valeoai/BF3S
+  - valeoai/PointBeV  
   - valeoai/DADA
   - astra-vision/PODA
-  - valeoai/PointBeV  
   - valeoai/FLOT
   - valeoai/VideoActionModel
   - valeoai/obow
@@ -25,17 +25,17 @@ github_repos:
   - valeoai/rangevit
   - valeoai/rainbow-iqn-apex
   - valeoai/BEVContrast
-  - valeoai/FOUND
   - valeoai/Awesome-Unsupervised-Object-Localization
+  - valeoai/FOUND
   - valeoai/LightConvPoint
   - valeoai/MVRSS
   - valeoai/LearningByCheating
-  - astra-vision/DenseMTL
   - valeoai/WaffleIron
+  - astra-vision/DenseMTL
+  - astra-vision/FAMix
   - valeoai/FKAConv
   - valeoai/ScaLR
   - valeoai/LaRa
-  - astra-vision/FAMix
   - valeoai/SALUDA
   - WalterSimoncini/fungivision
   - valeoai/obsnet
@@ -44,22 +44,23 @@ github_repos:
   - valeoai/PCAM
   - valeoai/NeeDrop
   - valeoai/xmuda_journal
+  - valeoai/GaussRender
+  - astra-vision/ProLIP
   - valeoai/MTAF
   - valeoai/TTYD
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
   - valeoai/CAB
+  - valeoai/MFEval
   - valeoai/MuHDi
   - valeoai/sfrik
   - valeoai/diffhpe
   - valeoai/BEEF
   - valeoai/SP4ASC
   - valeoai/bownet
-  - valeoai/MFEval
   - valeoai/QuEST
   - valeoai/MOCA
-  - astra-vision/ProLIP
   - valeoai/ReGentS
   - valeoai/valeo4cast
   - valeoai/MF_aWTA
