@@ -15,5 +15,4 @@ blog_url: https://astra-vision.github.io/LiDPM/
 slides_url:
 bib_url:
 permalink: /publications/lidpm/
-award: oral
 ---
