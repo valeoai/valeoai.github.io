@@ -176,6 +176,7 @@
     bib_firstname: ["Antonín", "A."]
     alumni_phd: True
     alumni: True
+    phd_defense: 2025
     url: https://vobecant.github.io/
     scholar: https://scholar.google.com/citations?user=DGhPzZ0AAAAJ&hl
     github: https://github.com/vobecant
