@@ -38,37 +38,39 @@ github_repos:
   - valeoai/LaRa
   - valeoai/SALUDA
   - WalterSimoncini/fungivision
+  - valeoai/GaussRender
   - valeoai/obsnet
   - valeoai/3DGenZ
   - valeoai/SemanticPalette
   - valeoai/PCAM
   - valeoai/NeeDrop
   - valeoai/xmuda_journal
-  - valeoai/GaussRender
+  - astra-vision/LiDPM
   - astra-vision/ProLIP
   - valeoai/MTAF
   - valeoai/TTYD
   - valeoai/Occfeat
+  - valeoai/Alpine
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
+  - valeoai/ReGentS
   - valeoai/CAB
   - valeoai/MFEval
   - valeoai/MuHDi
-  - valeoai/Alpine
   - valeoai/UNIT
   - valeoai/sfrik
   - valeoai/diffhpe
+  - valeoai/MF_aWTA
   - valeoai/BEEF
   - valeoai/SP4ASC
   - valeoai/bownet
   - valeoai/QuEST
   - valeoai/MOCA
-  - valeoai/ReGentS
   - valeoai/valeo4cast
-  - valeoai/MF_aWTA
   - Victorletzelter/annealed_mcl
   - cedricrommel/manipose
+  - PaulCouairon/JAFAR
   - valeoai/LLM_wrapper
-  - astra-vision/LiDPM
+
 
