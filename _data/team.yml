@@ -34,13 +34,13 @@
 
 "Cardiel":
     firstname: Amaia
-    position: Phd Student W/ Université Grenoble Alpes
+    position: PhD Student W/ Université Grenoble Alpes
     profilepic: amaia_cardiel.jpg
     bib_firstname: ["Amaia", "A."]
 
 "Chambon":
     firstname: Loïck
-    position: Phd Student W/ Sorbonne U.
+    position: PhD Student W/ Sorbonne U.
     profilepic: loick_chambon.jpg
     bib_firstname: ["Loïck", "L."]
     url: https://loickch.github.io/
@@ -56,7 +56,7 @@
 
 "Galaaoui":
     firstname: Salma
-    position: Phd Student W/ ENPC
+    position: PhD Student W/ ENPC
     profilepic: salma_galaaoui.jpg
     scholar: https://scholar.google.fr/citations?user=ZhKRoS0AAAAJ 
     bib_firstname: ["Salma", "S."]
@@ -84,7 +84,7 @@
 
 "Letzelter":
     firstname: Victor
-    position: Phd Student W/ Telecom Paris
+    position: PhD Student W/ Telecom Paris
     profilepic: victor_letzelter.jpg
     bib_firstname: ["Victor", "V."]
     scholar: https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en
@@ -100,7 +100,7 @@
 
 "Martyniuk":
     firstname: Tetiana
-    position: Phd Student W/ Inria Paris
+    position: PhD Student W/ Inria Paris
     profilepic: tetiana_martyniuk.jpg
     bib_firstname: ["Tetiana", "T."]
     url: https://t-martyniuk.github.io/
@@ -108,7 +108,7 @@
 
 "Michele":
     firstname: Björn
-    position: Phd Student W/ U. Bretagne Sud
+    position: PhD Student W/ U. Bretagne Sud
     profilepic: bjoern_michele.jpg
     bib_firstname: ["Björn", "B."]
     url: https://bjoernmichele.com
@@ -140,7 +140,7 @@
 
 "Sautier":
     firstname: Corentin
-    position: Phd Student W/ Enpc
+    position: PhD Student W/ Enpc
     profilepic: corentin_sautier.jpg
     bib_firstname: ["Corentin", "C."]
     url: https://csautier.github.io/
@@ -148,7 +148,7 @@
 
 "Sirko-Galouchenko":
     firstname: Sophia
-    position: Phd Student W/ Sorbonne U.
+    position: PhD Student W/ Sorbonne U.
     profilepic: sophia_sirko-galouchenko.jpg
     bib_firstname: ["Sophia", "S."]
 
@@ -171,7 +171,7 @@
 
 "Vobecký":
     firstname: Antonín
-    position: Phd Student W/ Ctu
+    position: PhD Student W/ Ctu
     profilepic: antonin_vobecky.png
     bib_firstname: ["Antonín", "A."]
     alumni_phd: True
@@ -191,6 +191,12 @@
     github: https://github.com/tuanhungvu
     twitter: https://twitter.com/tuanhungvu89
 
+"Wysoczanska":
+    firstname: Monika
+    position: Postdoc
+    profilepic: monika.jpg
+    url: https://wysoczanska.github.io/
+    
 "Xu":
     firstname: Yihong
     position: Research Scientist
@@ -236,7 +242,7 @@
 
 "Zheng":
     firstname: Léon
-    position: Phd Student W/ ENS Lyon
+    position: PhD Student W/ ENS Lyon
     profilepic: leon_zheng.jpg
     bib_firstname: ["Léon", "L."]
     alumni_phd: True
@@ -247,7 +253,7 @@
     
 "Calem":
     firstname: Laura
-    position: Phd Student W/ Cnam
+    position: PhD Student W/ Cnam
     profilepic: laura_calem.jpg
     bib_firstname: ["Laura", "L."]
     alumni_phd: True
@@ -270,7 +276,7 @@
     
 "Corbière":
     firstname: Charles
-    position: Phd Student W/ Cnam
+    position: PhD Student W/ Cnam
     profilepic: charles_corbiere.jpg
     bib_firstname: ["Charles", "C."]
     alumni_phd: True
@@ -281,7 +287,7 @@
     
 "Ouaknine":
     firstname: Arthur
-    position: Phd Student W/ Telecom
+    position: PhD Student W/ Telecom
     profilepic: arthur_ouaknine.jpg
     bib_firstname: ["Arthur", "A."]
     alumni_phd: True
@@ -292,7 +298,7 @@
 
 "Roburin":
     firstname: Simon
-    position: Phd Student W/ Ponts
+    position: PhD Student W/ Ponts
     profilepic: simon_roburin.jpg
     bib_firstname: ["Simon", "S."]
     alumni_phd: True
@@ -303,7 +309,7 @@
 
 "Saporta":
     firstname: Antoine
-    position: Phd Student W/ Sorbonne U.
+    position: PhD Student W/ Sorbonne U.
     profilepic: antoine_saporta.jpg
     bib_firstname: ["Antoine", "A."]
     alumni_phd: True
@@ -314,7 +320,7 @@
     
 "Vo":
     firstname: Huy
-    position: Phd Student W/ Inria
+    position: PhD Student W/ Inria
     profilepic: huy_van_vo.jpg
     bib_firstname: ["Huy", "H."]
     alumni_phd: True
@@ -337,7 +343,7 @@
 
 "Toromanoff":
     firstname: Marin
-    position: Phd Student
+    position: PhD Student
     profilepic: marin_toromanoff.jpg
     bib_firstname: ["Marin", "M."]
     alumni_phd: True
@@ -348,7 +354,7 @@
     
 "Jaritz":
     firstname: Maximilian
-    position: Phd Student W/ INRIA
+    position: PhD Student W/ INRIA
     profilepic: maximilian_jaritz.jpg
     bib_firstname: ["Maximilian", "M."]
     alumni_phd: True
