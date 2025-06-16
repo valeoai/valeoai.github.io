@@ -15,7 +15,7 @@ paper_url: https://arxiv.org/abs/2502.05040
 blog_url:
 slides_url:
 bib_url:
-intern_work: true
+intern_work: false
 permalink: /publications/gaussrender/
 ---
 
