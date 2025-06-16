@@ -11,7 +11,7 @@ venue_long: under review
 year: 2025
 month: 7
 code_url: https://github.com/PaulCouairon/JAFAR
-paper_url: https://jafar-upsampler.github.io
+paper_url: https://arxiv.org/abs/2506.11136
 website_url: https://jafar-upsampler.github.io
 blog_url:
 slides_url:
