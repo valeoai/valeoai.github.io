@@ -7,8 +7,8 @@ github_repos:
   - vita-epfl/UniTraj
   - valeoai/LOST
   - valeoai/Maskgit-pytorch
-  - valeoai/POCO
   - valeoai/RADIal
+  - valeoai/POCO
   - valeoai/SLidR
   - valeoai/xmuda
   - valeoai/ZS3
@@ -16,16 +16,16 @@ github_repos:
   - valeoai/ConfidNet
   - valeoai/BF3S
   - valeoai/PointBeV  
-  - valeoai/DADA
   - astra-vision/PODA
+  - valeoai/DADA
+  - valeoai/carrada_dataset
   - valeoai/FLOT
   - valeoai/VideoActionModel
   - valeoai/obow
-  - valeoai/carrada_dataset
   - valeoai/rangevit
   - PaulCouairon/JAFAR
-  - valeoai/rainbow-iqn-apex
   - valeoai/BEVContrast
+  - valeoai/rainbow-iqn-apex
   - valeoai/Awesome-Unsupervised-Object-Localization
   - valeoai/FOUND
   - valeoai/LightConvPoint
