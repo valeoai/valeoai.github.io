@@ -23,20 +23,8 @@ permalink: /publications/gaussrender/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> 
-{% for author in page.authors_internship %}
-{% assign author_link = author | replace: "<u>", "" | replace: "</u>", "" | downcase | replace: " ", "-" %}
-{% if author contains "<u>" %}
-<u><a href="/team/#{{ author_link }}">{{ author | replace: "<u>", "" | replace: "</u>", "" }}</a></u>
-{% else %}
-{{ author }}
-{% endif %}
-{% unless forloop.last %}, {% endunless %}
-{% endfor %}
-</h3>
-<h3 align="center">
-<sup>1</sup>Valeo.ai, <sup>2</sup>Sorbonne University, <sup>3</sup>Hcompany.ai
-</h3>
+<h3 align="center"> <a href="https://loickch.github.io/">Loïck Chambon</a> &nbsp;&nbsp; <a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
+
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
 
 <div class="row justify-content-center">
