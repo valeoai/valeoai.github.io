@@ -23,6 +23,7 @@ github_repos:
   - valeoai/obow
   - valeoai/carrada_dataset
   - valeoai/rangevit
+  - PaulCouairon/JAFAR
   - valeoai/rainbow-iqn-apex
   - valeoai/BEVContrast
   - valeoai/Awesome-Unsupervised-Object-Localization
@@ -64,13 +65,12 @@ github_repos:
   - valeoai/MF_aWTA
   - valeoai/BEEF
   - valeoai/SP4ASC
+  - valeoai/MOCA
+  - valeoai/LLM_wrapper
+  - valeoai/valeo4cast
   - valeoai/bownet
   - valeoai/QuEST
-  - valeoai/MOCA
-  - valeoai/valeo4cast
   - Victorletzelter/annealed_mcl
   - cedricrommel/manipose
-  - PaulCouairon/JAFAR
-  - valeoai/LLM_wrapper
 
 
