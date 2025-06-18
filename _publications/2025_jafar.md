@@ -3,7 +3,7 @@ layout: publication
 title: "JAFAR: Jack up Any Feature at Any Resolution"
 image: assets/img/publications/2025_jafar/teaser.png
 hide: false
-category: [foundation, upsampling, feature-extraction, multi-task]
+category: [foundation, deep-learning]
 authors: Paul Couairon*, Loick Chambon*, Louis Serrano, Jean-Emmanuel Haugeard, Matthieu Cord, Nicolas Thome
 authors_internship: <u>Paul Couairon*</u>, <u>Loick Chambon*</u>, Louis Serrano, Jean-Emmanuel Haugeard, Matthieu Cord, Nicolas Thome
 venue: under review
