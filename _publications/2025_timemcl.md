@@ -19,7 +19,7 @@ permalink: /publications/timemcl/
 
 <h1 align="center"> {{page.title}} </h1>
 
-<h3 align="center">  <a href="https://scholar.google.com/citations?user=Pw40NpYAAAAJ&hl=en&oi=sra">Adrien Cortés*</a>&nbsp;&nbsp; Rémi Rehm </a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter*</a></h3>
+<h3 align="center">  <a href="https://scholar.google.com/citations?user=Pw40NpYAAAAJ&hl=en&oi=sra">Adrien Cortés*</a>&nbsp;&nbsp; Rémi Rehm</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter*</a></h3>
 
 <p align="center"><em>*Equal Contribution</em></p>
 
