@@ -6,10 +6,10 @@ hide: false
 category:  [foundation, generalization, zero-shot]
 authors: Monika Wysoczańska, Antonin Vobecky, Amaia Cardiel, Tomasz Trzciński, Renaud Marlet, Andrei Bursuc, Oriane Siméoni
 authors_internship: <u>Monika Wysoczańska</u>, Antonin Vobecky, Amaia Cardiel, Tomasz Trzciński, Renaud Marlet, Andrei Bursuc, Oriane Siméoni
-venue: under review
-venue_long: under review
+venue: TMLR
+venue_long: TMLR
 year: 2025
-month: 01
+month: 05
 code_url:
 paper_url: https://arxiv.org/abs/2407.05061
 blog_url:
@@ -64,14 +64,11 @@ permalink: /publications/contrastive_concepts/
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@misc{wysoczańska2024studytesttimecontrastiveconcepts,
+@inproceedings{wysoczańska2024studytesttimecontrastiveconcepts,
       title={A Study of Test-time Contrastive Concepts for Open-world, Open-vocabulary Semantic Segmentation},
       author={Monika Wysoczańska and Antonin Vobecky and Amaia Cardiel and Tomasz Trzciński and Renaud Marlet and Andrei Bursuc and Oriane Siméoni},
-      year={2024},
-      eprint={2407.05061},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2407.05061},
+      booktitle = {TMLR},
+      year={2025}
 }
 </pre>
 </left>
