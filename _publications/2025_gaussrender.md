@@ -5,11 +5,10 @@ image: assets/img/publications/2025_gaussrender/teaser.png
 hide: false
 category: [3d-perception, 3d-reconstruction, multi-sensor, driving, gaussian-splatting]
 authors: Loick Chambon, Eloi Zablocki, Alexandre Boulch, Mickael Chen, Matthieu Cord
-authors_internship: <u>Loick Chambon</u>, Eloi Zablocki, Alexandre Boulch, Mickael Chen, Matthieu Cord
-venue: arXiv
-venue_long: arXiv preprint
+venue: ICCV
+venue_long: ICCV
 year: 2025
-month: 2
+month: 10
 code_url: https://github.com/valeoai/GaussRender
 paper_url: https://arxiv.org/abs/2502.05040
 blog_url:
