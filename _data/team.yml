@@ -153,14 +153,6 @@
     profilepic: sophia_sirko-galouchenko.jpg
     bib_firstname: ["Sophia", "S."]
 
-"Valle":
-    firstname: Eduardo
-    position: Senior Scientist
-    profilepic: eduardo_valle.jpg
-    bib_firstname: ["Eduardo", "E."]
-    scholar: https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=en
-    github: https://github.com/dreavjr
-    alumni: True
 
 "Venkataramanan":
     firstname: Shashanka
@@ -430,6 +422,14 @@
     alumni: True
     alumni_now: now at Meta
 
+"Valle":
+    firstname: Eduardo
+    position: Senior Scientist
+    profilepic: eduardo_valle.jpg
+    bib_firstname: ["Eduardo", "E."]
+    scholar: https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=en
+    github: https://github.com/dreavjr
+    alumni: True
 
 "Wirbel":
     firstname: Emilie
