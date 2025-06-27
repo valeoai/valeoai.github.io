@@ -160,6 +160,7 @@
     bib_firstname: ["Eduardo", "E."]
     scholar: https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=en
     github: https://github.com/dreavjr
+    alumni: True
 
 "Venkataramanan":
     firstname: Shashanka
