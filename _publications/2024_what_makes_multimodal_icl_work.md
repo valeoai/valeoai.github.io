@@ -3,7 +3,7 @@ layout: publication
 title: "What Makes Multimodal In-Context Learning Work?" 
 image: assets/img/publications/2024_multimodal_icl/multimodal-icl.PNG
 hide: false
-category: [multimodal, deep-learning]
+category: [multimodal, explainability, deep-learning]
 authors: Folco Bertini Baldassini, Mustafa Shukor, Matthieu Cord, Laure Soulier, Benjamin Piwowarski
 venue: CVPR Workshop on Prompting in Vision
 venue_long: CVPR Workshop on Prompting in Vision
