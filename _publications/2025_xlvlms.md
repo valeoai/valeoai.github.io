@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Analyzing Fine-tuning Representation Shift for Multimodal LLMs Steering alignment" 
-image: assets/img/publications/2025_xlxvlm.PNG
+image: assets/img/publications/2025_xlxvlm.png
 hide: false
 category: [multimodal, deep-learning, explainability]
 authors: Pegah Khayatan*, Mustafa Shukor*, Jayneel Parekh*, Matthieu Cord
