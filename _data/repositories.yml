@@ -28,25 +28,27 @@ github_repos:
   - valeoai/rainbow-iqn-apex
   - valeoai/Awesome-Unsupervised-Object-Localization
   - valeoai/FOUND
-  - valeoai/LightConvPoint
+  - astra-vision/LiDPM
   - valeoai/MVRSS
+  - valeoai/LightConvPoint
   - valeoai/LearningByCheating
+  - valeoai/ScaLR
   - valeoai/WaffleIron
   - astra-vision/DenseMTL
   - astra-vision/FAMix
   - valeoai/FKAConv
-  - valeoai/ScaLR
   - valeoai/LaRa
   - valeoai/SALUDA
   - WalterSimoncini/fungivision
   - valeoai/GaussRender
   - valeoai/obsnet
   - valeoai/3DGenZ
+  - Victorletzelter/timeMCL
   - valeoai/SemanticPalette
   - valeoai/PCAM
   - valeoai/NeeDrop
   - valeoai/xmuda_journal
-  - astra-vision/LiDPM
+  - mshukor/xl-vlms
   - astra-vision/ProLIP
   - valeoai/MTAF
   - valeoai/TTYD
@@ -73,4 +75,3 @@ github_repos:
   - valeoai/QuEST
   - Victorletzelter/annealed_mcl
   - cedricrommel/manipose
-  - Victorletzelter/timeMCL
