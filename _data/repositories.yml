@@ -21,6 +21,7 @@ github_repos:
   - valeoai/PointBeV  
   - astra-vision/PODA
   - valeoai/DADA
+  - vobecant/POP3D
   - valeoai/carrada_dataset
   - valeoai/FLOT
   - valeoai/VideoActionModel
@@ -29,6 +30,7 @@ github_repos:
   - valeoai/BEVContrast
   - valeoai/rainbow-iqn-apex
   - valeoai/FOUND
+  - gkakogeorgiou/attmask
   - valeoai/Awesome-Unsupervised-Object-Localization
   - astra-vision/LiDPM
   - valeoai/MVRSS
@@ -68,6 +70,7 @@ github_repos:
   - astra-vision/ProLIP
   - valeoai/MTAF
   - valeoai/Occfeat
+  - valeoai/bravo_challenge
   - huyvvo/LOD
   - mshukor/ima-lmms
   - valeoai/STEEX
@@ -90,11 +93,15 @@ github_repos:
   - valeoai/LLM_wrapper
   - valeoai/SP4ASC
   - valeoai/valeo4cast
+  - ymontmarin/adamsrt
   - Victorletzelter/VoronoiWTA
   - valeoai/bownet
   - Victorletzelter/annealed_mcl
   - Victorletzelter/code-rMCL
+  - 2ailesB/neural-parametric-solver
   - valeoai/QuEST
   - itsakk/geps
+  - vobecant/DummyNet
   - cedricrommel/manipose
   - lcalem/diva
+  - leonzheng2/efficient-butterfly
