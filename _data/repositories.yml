@@ -44,6 +44,7 @@ github_repos:
   - valeoai/LaRa
   - valeoai/GaussRender
   - sirkosophia/DIP
+  - ENSTA-U2IS-AI/LDU
   - PaulCouairon/DiffCut
   - valeoai/SALUDA
   - raphaelsulzer/dgnn
@@ -65,6 +66,7 @@ github_repos:
   - astra-vision/ProLIP
   - valeoai/MTAF
   - valeoai/Occfeat
+  - mshukor/ima-lmms
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
@@ -73,6 +75,7 @@ github_repos:
   - palanglois/vasad
   - valeoai/MFEval
   - valeoai/MF_aWTA
+  - pgodet/star_flow
   - valeoai/MuHDi
   - valeoai/diffhpe
   - huyvvo/OSD
@@ -80,11 +83,13 @@ github_repos:
   - valeoai/sfrik
   - valeoai/MOCA
   - valeoai/BEEF
-  - valeoai/SP4ASC
   - valeoai/LLM_wrapper
+  - valeoai/SP4ASC
   - valeoai/valeo4cast
+  - Victorletzelter/VoronoiWTA
   - valeoai/bownet
   - Victorletzelter/annealed_mcl
   - Victorletzelter/code-rMCL
   - valeoai/QuEST
+  - itsakk/geps
   - cedricrommel/manipose
