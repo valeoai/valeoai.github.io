@@ -9,8 +9,10 @@ github_repos:
   - valeoai/Maskgit-pytorch
   - valeoai/RADIal
   - valeoai/POCO
+  - nv-nguyen/nope
   - valeoai/SLidR
   - valeoai/xmuda
+  - aboulch/ConvPoint
   - valeoai/ZS3
   - valeoai/ALSO
   - valeoai/ConfidNet
@@ -30,6 +32,7 @@ github_repos:
   - valeoai/Awesome-Unsupervised-Object-Localization
   - astra-vision/LiDPM
   - valeoai/MVRSS
+  - gkakogeorgiou/spot
   - valeoai/LightConvPoint
   - valeoai/LearningByCheating
   - valeoai/WaffleIron
@@ -40,15 +43,20 @@ github_repos:
   - valeoai/LaRa
   - valeoai/GaussRender
   - sirkosophia/DIP
+  - PaulCouairon/DiffCut
   - valeoai/SALUDA
+  - raphaelsulzer/dgnn
   - WalterSimoncini/fungivision
+  - valeoai/GenVal
   - Victorletzelter/timeMCL
   - valeoai/3DGenZ
   - valeoai/obsnet
+  - wysoczanska/clip-diy
   - valeoai/Alpine
   - valeoai/xmuda_journal
   - valeoai/SemanticPalette
   - valeoai/PCAM
+  - nerminsamet/seedal
   - valeoai/NeeDrop
   - valeoai/TTYD
   - mshukor/xl-vlms
@@ -60,10 +68,12 @@ github_repos:
   - valeoai/OCTET
   - valeoai/ReGentS
   - valeoai/CAB
+  - palanglois/vasad
   - valeoai/MFEval
   - valeoai/MF_aWTA
   - valeoai/MuHDi
   - valeoai/diffhpe
+  - huyvvo/OSD
   - valeoai/UNIT
   - valeoai/sfrik
   - valeoai/MOCA
@@ -73,5 +83,6 @@ github_repos:
   - valeoai/valeo4cast
   - valeoai/bownet
   - Victorletzelter/annealed_mcl
+  - Victorletzelter/code-rMCL
   - valeoai/QuEST
   - cedricrommel/manipose
