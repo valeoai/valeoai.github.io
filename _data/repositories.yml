@@ -37,6 +37,7 @@ github_repos:
   - valeoai/LearningByCheating
   - valeoai/WaffleIron
   - valeoai/ScaLR
+  - nicolas-dufour/CAD
   - astra-vision/DenseMTL
   - astra-vision/FAMix
   - valeoai/FKAConv
@@ -56,6 +57,7 @@ github_repos:
   - valeoai/xmuda_journal
   - valeoai/SemanticPalette
   - valeoai/PCAM
+  - huyvvo/BiB
   - nerminsamet/seedal
   - valeoai/NeeDrop
   - valeoai/TTYD
