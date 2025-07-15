@@ -35,6 +35,7 @@ github_repos:
   - gkakogeorgiou/spot
   - valeoai/LightConvPoint
   - valeoai/LearningByCheating
+  - vobecant/DriveAndSegment
   - valeoai/WaffleIron
   - valeoai/ScaLR
   - nicolas-dufour/CAD
@@ -56,6 +57,7 @@ github_repos:
   - wysoczanska/clip-diy
   - valeoai/Alpine
   - valeoai/xmuda_journal
+  - Sta8is/FUTURIST
   - valeoai/SemanticPalette
   - valeoai/PCAM
   - huyvvo/BiB
@@ -66,6 +68,7 @@ github_repos:
   - astra-vision/ProLIP
   - valeoai/MTAF
   - valeoai/Occfeat
+  - huyvvo/LOD
   - mshukor/ima-lmms
   - valeoai/STEEX
   - valeoai/ESL
@@ -82,6 +85,7 @@ github_repos:
   - valeoai/UNIT
   - valeoai/sfrik
   - valeoai/MOCA
+  - valeoai/PAFUSE
   - valeoai/BEEF
   - valeoai/LLM_wrapper
   - valeoai/SP4ASC
@@ -93,3 +97,4 @@ github_repos:
   - valeoai/QuEST
   - itsakk/geps
   - cedricrommel/manipose
+  - lcalem/diva
