@@ -14,8 +14,8 @@ github_repos:
   - valeoai/ZS3
   - valeoai/ALSO
   - valeoai/ConfidNet
-  - valeoai/BF3S
   - PaulCouairon/JAFAR
+  - valeoai/BF3S
   - valeoai/PointBeV  
   - astra-vision/PODA
   - valeoai/DADA
@@ -26,52 +26,52 @@ github_repos:
   - valeoai/rangevit
   - valeoai/BEVContrast
   - valeoai/rainbow-iqn-apex
-  - valeoai/Awesome-Unsupervised-Object-Localization
   - valeoai/FOUND
+  - valeoai/Awesome-Unsupervised-Object-Localization
   - astra-vision/LiDPM
   - valeoai/MVRSS
   - valeoai/LightConvPoint
   - valeoai/LearningByCheating
-  - valeoai/ScaLR
   - valeoai/WaffleIron
+  - valeoai/ScaLR
   - astra-vision/DenseMTL
   - astra-vision/FAMix
   - valeoai/FKAConv
   - valeoai/LaRa
+  - valeoai/GaussRender
+  - sirkosophia/DIP
   - valeoai/SALUDA
   - WalterSimoncini/fungivision
-  - valeoai/GaussRender
-  - valeoai/obsnet
-  - valeoai/3DGenZ
   - Victorletzelter/timeMCL
+  - valeoai/3DGenZ
+  - valeoai/obsnet
+  - valeoai/Alpine
+  - valeoai/xmuda_journal
   - valeoai/SemanticPalette
   - valeoai/PCAM
   - valeoai/NeeDrop
-  - valeoai/xmuda_journal
+  - valeoai/TTYD
   - mshukor/xl-vlms
   - astra-vision/ProLIP
   - valeoai/MTAF
-  - valeoai/TTYD
   - valeoai/Occfeat
-  - valeoai/Alpine
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
   - valeoai/ReGentS
   - valeoai/CAB
   - valeoai/MFEval
+  - valeoai/MF_aWTA
   - valeoai/MuHDi
+  - valeoai/diffhpe
   - valeoai/UNIT
   - valeoai/sfrik
-  - valeoai/diffhpe
-  - valeoai/MF_aWTA
+  - valeoai/MOCA
   - valeoai/BEEF
   - valeoai/SP4ASC
-  - valeoai/MOCA
   - valeoai/LLM_wrapper
-  - sirkosophia/DIP
   - valeoai/valeo4cast
   - valeoai/bownet
-  - valeoai/QuEST
   - Victorletzelter/annealed_mcl
+  - valeoai/QuEST
   - cedricrommel/manipose
