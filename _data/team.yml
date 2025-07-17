@@ -252,6 +252,7 @@
     bib_firstname: ["Laura", "L."]
     alumni_phd: True
     alumni: True
+    alumni_now: now at Safran.AI
     phd_defense: 2024
     url: https://scholar.google.com/citations?user=Asfcs8YAAAAJ
 
