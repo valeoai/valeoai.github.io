@@ -1,39 +1,47 @@
 "Chiter":
     firstname: Elhadi
     internship_year: 2025
+    url: https://www.linkedin.com/in/elhadichiter/
 
 "Ludvig":
     firstname: Victor
     internship_year: 2025
+    url: https://www.linkedin.com/in/victor-ludvig
     
 "Sereyjol-Garros":
     firstname: Nicolas
     internship_year: 2025
+    url: https://scholar.google.com/citations?user=9Mr--hUAAAAJ
 
 "Adjileye":
     firstname: Achraff
     internship_year: 2024
     position: Founder at BALLER
+    url: https://www.linkedin.com/in/achraff-adjileye-3740a5211
     
 "Callard":
     firstname: Baptiste
     internship_year: 2024
     position: Research Engineer at Raidium
+    url: https://www.linkedin.com/in/baptiste-callard-24b592159
 
 "Gerard":
     firstname: Valentin
     internship_year: 2024
     position: PhD student at EPFL with Alexandre Alahi
+    url: https://people.epfl.ch/valentin.gerard
     
 "Kirby":
     firstname: Ellington
     internship_year: 2024
     position: Research Engineer at valeo.ai
+    url: https://ellingtonkirby.github.io/
     
 "Marengo":
     firstname: Matteo
     internship_year: 2024
     position: PhD student at Institut Pasteur and Sanofi
+    url: https://scholar.google.com/citations?user=9SLG6RcAAAAJ
 
 "Simoncini":
     firstname: Walter
