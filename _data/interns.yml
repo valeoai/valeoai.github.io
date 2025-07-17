@@ -63,6 +63,7 @@
     profilepic: amaia_cardiel.jpg                                                  
     bib_firstname: ["Amaia", "A."]                                                 
     internship_year: 2023
+    url: https://scholar.google.com/citations?user=QKdN4SAAAAAJ
                                                                                    
 "Sirko-Galouchenko":                                                               
     firstname: Sophia                                                              
@@ -70,6 +71,7 @@
     profilepic: sophia_sirko-galouchenko.jpg                                       
     bib_firstname: ["Sophia", "S."]                                                
     internship_year: 2023
+    url: https://scholar.google.com/citations?user=3ac3PQMAAAAJ
 
 "Khayatan":
   firstname: Pegah
