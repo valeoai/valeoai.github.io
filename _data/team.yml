@@ -5,6 +5,7 @@
     profilepic: victor_besnier.jpg
     bib_firstname: ["Victor", "V."]
     scholar: https://scholar.google.com/citations?user=n_C2h-QAAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=n_C2h-QAAAAJ&hl=en
 
 "Boulch":
     firstname: Alexandre
@@ -37,6 +38,7 @@
     position: PhD Student W/ Université Grenoble Alpes
     profilepic: amaia_cardiel.jpg
     bib_firstname: ["Amaia", "A."]
+    url: https://scholar.google.com/citations?user=QKdN4SAAAAAJ
 
 "Chambon":
     firstname: Loïck
@@ -58,8 +60,9 @@
     firstname: Salma
     position: PhD Student W/ ENPC
     profilepic: salma_galaaoui.jpg
-    scholar: https://scholar.google.fr/citations?user=ZhKRoS0AAAAJ 
     bib_firstname: ["Salma", "S."]
+    scholar: https://scholar.google.fr/citations?user=ZhKRoS0AAAAJ 
+    url: https://scholar.google.com/citations?user=ZhKRoS0AAAAJ
 
 "Gidaris":
     firstname: Spyros
@@ -67,6 +70,7 @@
     profilepic: spyros_gidaris.jpg
     bib_firstname: ["Spyros", "S."]
     scholar: https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en
+    url: https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en
     github: https://github.com/gidariss
 
 "Hurych":
@@ -75,6 +79,7 @@
     profilepic: david_hurych.png
     bib_firstname: ["David", "D."]
     scholar: https://scholar.google.cz/citations?user=XY1PVwYAAAAJ&hl=en
+    url: https://scholar.google.cz/citations?user=XY1PVwYAAAAJ&hl=en
 
 "Kirby":
     firstname: Ellington
@@ -152,6 +157,8 @@
     position: PhD Student W/ Sorbonne U.
     profilepic: sophia_sirko-galouchenko.jpg
     bib_firstname: ["Sophia", "S."]
+    url: https://scholar.google.com/citations?user=3ac3PQMAAAAJ
+    scholar: https://scholar.google.com/citations?user=3ac3PQMAAAAJ
 
 
 "Venkataramanan":
@@ -197,6 +204,7 @@
     profilepic: yihong_xu.jpg
     bib_firstname: ["Yihong", "Y."]
     scholar: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ&hl=en
+    url: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ&hl=en
 
 "Yin":
     firstname: Yuan
