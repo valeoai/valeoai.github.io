@@ -32,10 +32,10 @@ github_repos:
   - valeoai/FOUND
   - gkakogeorgiou/attmask
   - valeoai/Awesome-Unsupervised-Object-Localization
-  - astra-vision/LiDPM
   - valeoai/MVRSS
   - gkakogeorgiou/spot
   - valeoai/LightConvPoint
+  - astra-vision/LiDPM
   - valeoai/LearningByCheating
   - vobecant/DriveAndSegment
   - valeoai/WaffleIron
@@ -55,13 +55,13 @@ github_repos:
   - valeoai/GenVal
   - Victorletzelter/timeMCL
   - valeoai/3DGenZ
-  - valeoai/obsnet
-  - wysoczanska/clip-diy
   - valeoai/Alpine
   - valeoai/xmuda_journal
+  - valeoai/obsnet
+  - wysoczanska/clip-diy
   - Sta8is/FUTURIST
-  - valeoai/SemanticPalette
   - valeoai/PCAM
+  - valeoai/SemanticPalette
   - huyvvo/BiB
   - nerminsamet/seedal
   - valeoai/NeeDrop
@@ -69,6 +69,7 @@ github_repos:
   - mshukor/xl-vlms
   - astra-vision/ProLIP
   - valeoai/MTAF
+  - yasserben/FLOSS
   - valeoai/Occfeat
   - valeoai/bravo_challenge
   - huyvvo/LOD
@@ -76,6 +77,7 @@ github_repos:
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
+  - SMSD75/MoSiC
   - valeoai/ReGentS
   - valeoai/CAB
   - palanglois/vasad
@@ -84,12 +86,12 @@ github_repos:
   - pgodet/star_flow
   - valeoai/MuHDi
   - valeoai/diffhpe
-  - huyvvo/OSD
-  - valeoai/UNIT
-  - valeoai/sfrik
   - valeoai/MOCA
   - valeoai/PAFUSE
   - valeoai/BEEF
+  - huyvvo/OSD
+  - valeoai/UNIT
+  - valeoai/sfrik
   - valeoai/LLM_wrapper
   - valeoai/SP4ASC
   - valeoai/valeo4cast
