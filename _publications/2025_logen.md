@@ -6,10 +6,10 @@ hide: false
 category: [3d-perception,multi-sensor,deep learning]
 authors: Ellington Kirby, Mickaël Chen, Renaud Marlet, Nermin Samet
 authors_internship: <u>Ellington Kirby</u>, Mickaël Chen, Renaud Marlet, Nermin Samet
-venue: under review
-venue_long: under review
+venue: BMVC
+venue_long: BMVC
 year: 2025
-month: 01
+month: 11
 code_url: 
 paper_url: https://arxiv.org/abs/2412.07385
 blog_url: https://nerminsamet.github.io/logen/
@@ -70,7 +70,7 @@ permalink: /publications/logen/
 @inproceedings{logen,
       title={LOGen: Toward Lidar Object Generation by Point Diffusion},
       author={Ellington Kirby, Mickaël Chen, Renaud Marlet, Nermin Samet},
-      journal = {under review},
+      journal = {BMVC},
       year={2025},
 }
 </pre>
