@@ -3,15 +3,15 @@ github_users:
 
 github_repos:
   - valeoai/WoodScape
-  - valeoai/ADVENT
   - vita-epfl/UniTraj
+  - valeoai/ADVENT
   - valeoai/LOST
   - valeoai/Maskgit-pytorch
+  - valeoai/Franca
   - valeoai/RADIal
   - valeoai/POCO
   - nv-nguyen/nope
   - valeoai/SLidR
-  - valeoai/Franca
   - valeoai/xmuda
   - aboulch/ConvPoint
   - valeoai/ZS3
@@ -47,6 +47,7 @@ github_repos:
   - valeoai/FKAConv
   - valeoai/LaRa
   - valeoai/GaussRender
+  - Victorletzelter/timeMCL
   - sirkosophia/DIP
   - ENSTA-U2IS-AI/LDU
   - PaulCouairon/DiffCut
@@ -54,16 +55,15 @@ github_repos:
   - raphaelsulzer/dgnn
   - WalterSimoncini/fungivision
   - valeoai/GenVal
-  - Victorletzelter/timeMCL
-  - valeoai/3DGenZ
   - valeoai/Alpine
+  - valeoai/3DGenZ
   - valeoai/xmuda_journal
+  - Sta8is/FUTURIST
   - valeoai/obsnet
   - wysoczanska/clip-diy
-  - Sta8is/FUTURIST
   - valeoai/PCAM
-  - valeoai/SemanticPalette
   - huyvvo/BiB
+  - valeoai/SemanticPalette
   - nerminsamet/seedal
   - valeoai/NeeDrop
   - valeoai/TTYD
@@ -72,19 +72,19 @@ github_repos:
   - valeoai/MTAF
   - yasserben/FLOSS
   - valeoai/Occfeat
-  - valeoai/bravo_challenge
   - huyvvo/LOD
+  - valeoai/bravo_challenge
   - mshukor/ima-lmms
   - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
+  - palanglois/vasad
   - SMSD75/MoSiC
   - valeoai/ReGentS
   - valeoai/CAB
-  - palanglois/vasad
-  - valeoai/MFEval
   - valeoai/MF_aWTA
   - pgodet/star_flow
+  - valeoai/MFEval
   - valeoai/MuHDi
   - valeoai/diffhpe
   - valeoai/MOCA
