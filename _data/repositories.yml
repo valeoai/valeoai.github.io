@@ -5,8 +5,8 @@ github_repos:
   - valeoai/WoodScape
   - vita-epfl/UniTraj
   - valeoai/ADVENT
-  - valeoai/LOST
   - valeoai/Maskgit-pytorch
+  - valeoai/LOST
   - valeoai/Franca
   - valeoai/RADIal
   - valeoai/POCO
@@ -38,8 +38,8 @@ github_repos:
   - valeoai/LightConvPoint
   - astra-vision/LiDPM
   - valeoai/LearningByCheating
-  - vobecant/DriveAndSegment
   - valeoai/WaffleIron
+  - vobecant/DriveAndSegment
   - valeoai/ScaLR
   - nicolas-dufour/CAD
   - astra-vision/DenseMTL
@@ -51,9 +51,9 @@ github_repos:
   - sirkosophia/DIP
   - ENSTA-U2IS-AI/LDU
   - PaulCouairon/DiffCut
+  - WalterSimoncini/fungivision
   - valeoai/SALUDA
   - raphaelsulzer/dgnn
-  - WalterSimoncini/fungivision
   - valeoai/GenVal
   - valeoai/Alpine
   - valeoai/3DGenZ
@@ -64,22 +64,22 @@ github_repos:
   - valeoai/PCAM
   - huyvvo/BiB
   - valeoai/SemanticPalette
+  - mshukor/xl-vlms
   - nerminsamet/seedal
   - valeoai/NeeDrop
   - valeoai/TTYD
-  - mshukor/xl-vlms
   - astra-vision/ProLIP
   - valeoai/MTAF
   - yasserben/FLOSS
   - valeoai/Occfeat
   - huyvvo/LOD
+  - valeoai/STEEX
   - valeoai/bravo_challenge
   - mshukor/ima-lmms
-  - valeoai/STEEX
   - valeoai/ESL
   - valeoai/OCTET
-  - palanglois/vasad
   - SMSD75/MoSiC
+  - palanglois/vasad
   - valeoai/ReGentS
   - valeoai/CAB
   - valeoai/MF_aWTA
