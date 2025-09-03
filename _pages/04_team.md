@@ -37,7 +37,7 @@ nav_order: 1
   </tr>
   <tr>
     <th>HR Assistant</th>
-    <td><a href="mailto:alicia.heurtefeu@valeo.com">Alicia Heurtefeu</a></td>
+    <td><a href="mailto:dorra.boubi@valeo.com">Dorra Boubi</a></td>
   </tr>
   <tr>
     <th>Location</th>
