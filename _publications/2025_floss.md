@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "FLOSS: Free Lunch in Open-vocabulary Semantic Segmentation"
-image: assets/img/publications/2025_floss/floss.jpg
+image: assets/img/publications/2025_floss.jpg
 hide: false
 category: [open-vocabulary, zero-shot, domain-adaptation, limited-supervision, generalization, foundation]
 authors: Yasser Benigmim, Mohammad Fahes, Tuan-Hung Vu, Andrei Bursuc, Raoul de Charette
