@@ -3,12 +3,12 @@ layout: publication
 title: "MoSiC: Optimal-Transport Motion Trajectories for Dense Self-Supervised Learning"
 image: assets/img/publications/2025_mosic.png
 hide: false
-category: [optimal-transport, self-supervised learning, learning from video, long-range tracking]
+category: [limited-supervision, foundation, optimal-transport, self-supervised learning, learning from video, long-range tracking]
 authors: Mohammadreza Salehi*, Shashanka Venkataramanan*, Ioana Simion, Efstratios Gavves, Cees G. M. Snoek, Yuki M Asano (* equal contribution)
 venue: ICCV
 venue_long: ICCV
 year: 2025
-month: 4
+month: 10
 code_url: https://github.com/SMSD75/MoSiC/tree/main
 paper_url: https://arxiv.org/abs/2506.08694
 blog_url:
