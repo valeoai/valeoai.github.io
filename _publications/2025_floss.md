@@ -8,7 +8,7 @@ authors: Yasser Benigmim, Mohammad Fahes, Tuan-Hung Vu, Andrei Bursuc, Raoul de 
 venue: ICCV
 venue_long: International Conference on Computer Vision
 year: 2025
-month: 11
+month: 10
 code_url: https://github.com/yasserben/FLOSS
 paper_url: https://arxiv.org/abs/2504.10487
 blog_url:
