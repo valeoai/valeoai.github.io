@@ -6,10 +6,10 @@ hide: false
 category: [foundation, deep-learning]
 authors: Paul Couairon*, Loick Chambon*, Louis Serrano, Jean-Emmanuel Haugeard, Matthieu Cord, Nicolas Thome
 authors_internship: <u>Paul Couairon*</u>, <u>Loick Chambon*</u>, Louis Serrano, Jean-Emmanuel Haugeard, Matthieu Cord, Nicolas Thome
-venue: under review
-venue_long: under review
+venue: NeurIPS
+venue_long: NeurIPS
 year: 2025
-month: 7
+month: 12
 code_url: https://github.com/PaulCouairon/JAFAR
 paper_url: https://arxiv.org/abs/2506.11136
 website_url: https://jafar-upsampler.github.io
@@ -367,6 +367,7 @@ We also clearly see improvements in zero-shot open vocabulary tasks.
       author={Paul Couairon and Loick Chambon and Louis Serrano and Jean-Emmanuel Haugeard and Matthieu Cord and Nicolas Thome},
       year={2025},
       url={https://jafar-upsampler.github.io}, 
+      booktitle={NeurIPS}, 
 }
 </pre>
 </left>
