@@ -66,7 +66,7 @@ We compare existing approaches across several key dimensions, and propose a stru
 <left>
   <pre class="bibtex-box">
 @article{galaaoui20253dhumanposeshape,
-      title={{3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review}}, 
+      title={3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review}, 
       author={Salma Galaaoui and Eduardo Valle and David Picard and Nermin Samet},
       year={2025},
       journal={arXiv preprint arXiv:2509.12197}
