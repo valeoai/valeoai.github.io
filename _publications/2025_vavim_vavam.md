@@ -5,8 +5,8 @@ image: assets/img/publications/vavim_vavam.png
 hide: false
 category: [driving, foundation, limited-supervision, generalization]
 authors: Florent Bartoccioni, Elias Ramzi, Victor Besnier, Shashanka Venkataramanan, Tuan-Hung Vu, Yihong Xu, Loick Chambon, Spyros Gidaris, Serkan Odabas, David Hurych, Renaud Marlet, Alexandre Boulch, Mickael Chen, Éloi Zablocki, Andrei Bursuc, Eduardo Valle, Matthieu Cord
-venue: preprint
-venue_long: preprint
+venue: CoRL Workshop
+venue_long: CoRL Workshop
 year: 2025
 month: 06
 code_url: https://github.com/valeoai/VideoActionModel
