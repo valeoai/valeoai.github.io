@@ -8,7 +8,7 @@ authors: Florent Bartoccioni, Elias Ramzi, Victor Besnier, Shashanka Venkatarama
 venue: CoRL Workshop
 venue_long: CoRL Workshop
 year: 2025
-month: 06
+month: 09
 code_url: https://github.com/valeoai/VideoActionModel
 paper_url: https://arxiv.org/abs/2502.15672
 blog_url: https://valeoai.github.io/vavim-vavam/
