@@ -118,6 +118,9 @@
     profilepic: bjoern_michele.jpg
     bib_firstname: ["Björn", "B."]
     url: https://bjoernmichele.com
+    alumni_phd: True
+    alumni: True
+    phd_defense: 2025
     scholar: https://scholar.google.fr/citations?user=xQcKnXkAAAAJ
     twitter: https://twitter.com/bjoern_michele
 
@@ -150,6 +153,9 @@
     profilepic: corentin_sautier.jpg
     bib_firstname: ["Corentin", "C."]
     url: https://csautier.github.io/
+    alumni_phd: True
+    alumni: True
+    phd_defense: 2025
     scholar: https://scholar.google.com/citations?user=xYDkHEsAAAAJ
 
 "Sirko-Galouchenko":
