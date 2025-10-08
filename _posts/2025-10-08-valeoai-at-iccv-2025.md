@@ -9,6 +9,11 @@ hide: false
 image: assets/img/posts/ICCV_2025.png
 ---
 
+The [International Conference on Computer Vision (ICCV)](https://iccv.thecvf.com/) is a leading conference that brings together researchers and practitioners in computer vision and machine learning. At the 2025 edition, the [valeo.ai](../) team will present five papers in the main conference. We are also co-organizing the [Learning to See: Advancing Spatial Understanding for Embodied Intelligence](https://opendrivelab.com/iccv2025/workshop/) workshop, and contributing to the [Foundational Data for Industrial Tech Transfer](https://iccv2025-found-workshop.limitlab.xyz) workshop with a keynote on [*Towards openness of vision foundation models*](https://iccv2025-found-workshop.limitlab.xyz/program).  
+
+The team will be at ICCV to present these works, exchange ideas, and share our exciting ongoing research. We look forward to seeing you in Honolulu!
+
+
 The [International Conference on Computer Vision (ICCV)](https://iccv.thecvf.com/) is a leading conference that brings together researchers and practitioners in computer vision and machine learning. At the 2025 edition, the [valeo.ai](../) team will present five papers in the main conference. We are also contributing to the [Foundational Data for Industrial Tech Transfer](https://iccv2025-found-workshop.limitlab.xyz) workshop with a keynote on [Towards openness of vision foundation models](https://iccv2025-found-workshop.limitlab.xyz/program).  
 The team will be at ICCV to present these works, exchange ideas, and share our exciting ongoing research. We look forward to seeing you in Honolulu!
 
