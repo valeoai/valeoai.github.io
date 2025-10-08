@@ -6,8 +6,8 @@ github_repos:
   - vita-epfl/UniTraj
   - valeoai/ADVENT
   - valeoai/Maskgit-pytorch
-  - valeoai/LOST
   - valeoai/Franca
+  - valeoai/LOST
   - valeoai/RADIal
   - valeoai/POCO
   - nv-nguyen/nope
@@ -23,9 +23,9 @@ github_repos:
   - astra-vision/PODA
   - valeoai/DADA
   - vobecant/POP3D
+  - valeoai/VideoActionModel
   - valeoai/carrada_dataset
   - valeoai/FLOT
-  - valeoai/VideoActionModel
   - valeoai/obow
   - valeoai/rangevit
   - valeoai/BEVContrast
@@ -39,38 +39,38 @@ github_repos:
   - astra-vision/LiDPM
   - valeoai/LearningByCheating
   - valeoai/WaffleIron
+  - nicolas-dufour/CAD
   - vobecant/DriveAndSegment
   - valeoai/ScaLR
-  - nicolas-dufour/CAD
   - astra-vision/DenseMTL
   - astra-vision/FAMix
   - valeoai/FKAConv
-  - valeoai/LaRa
   - valeoai/GaussRender
   - Victorletzelter/timeMCL
+  - valeoai/LaRa
   - sirkosophia/DIP
   - ENSTA-U2IS-AI/LDU
   - PaulCouairon/DiffCut
+  - raphaelsulzer/dgnn
   - WalterSimoncini/fungivision
   - valeoai/SALUDA
-  - raphaelsulzer/dgnn
   - valeoai/GenVal
   - valeoai/Alpine
+  - mshukor/xl-vlms
+  - Sta8is/FUTURIST
   - valeoai/3DGenZ
   - valeoai/xmuda_journal
-  - Sta8is/FUTURIST
   - valeoai/obsnet
   - wysoczanska/clip-diy
   - valeoai/PCAM
   - huyvvo/BiB
   - valeoai/SemanticPalette
-  - mshukor/xl-vlms
   - nerminsamet/seedal
   - valeoai/NeeDrop
   - valeoai/TTYD
   - astra-vision/ProLIP
-  - valeoai/MTAF
   - yasserben/FLOSS
+  - valeoai/MTAF
   - valeoai/Occfeat
   - huyvvo/LOD
   - valeoai/STEEX
@@ -80,15 +80,16 @@ github_repos:
   - valeoai/OCTET
   - SMSD75/MoSiC
   - palanglois/vasad
-  - valeoai/ReGentS
-  - valeoai/CAB
   - valeoai/MF_aWTA
   - pgodet/star_flow
   - valeoai/MFEval
+  - valeoai/ReGentS
   - valeoai/MuHDi
   - valeoai/diffhpe
-  - valeoai/MOCA
   - valeoai/PAFUSE
+  - valeoai/CAB
+  - valeoai/MOCA
+  - vita-epfl/RAP
   - ctu-vras/let-it-flow
   - valeoai/BEEF
   - huyvvo/OSD
@@ -101,12 +102,11 @@ github_repos:
   - Victorletzelter/VoronoiWTA
   - valeoai/bownet
   - Victorletzelter/annealed_mcl
+  - itsakk/geps
   - Victorletzelter/code-rMCL
   - 2ailesB/neural-parametric-solver
   - valeoai/QuEST
-  - itsakk/geps
   - vobecant/DummyNet
   - cedricrommel/manipose
   - lcalem/diva
   - leonzheng2/efficient-butterfly
-  - vita-epfl/RAP
