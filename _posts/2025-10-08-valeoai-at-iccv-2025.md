@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-description: "Andrei Bursuc, Eloi Zablocki"
+description: "Sophia Sirko-Galouchenko, Loïck Chambon, Shashanka Venkataramanan, Tuan-Hung Vu, Andrei Bursuc, Eloi Zablocki"
 categories: [domain adaptation, 3d perception, reliability, multi-sensor, limited supervision]
 title: "valeo.ai at ICCV 2025"
 permalink: /posts/iccv-2025
