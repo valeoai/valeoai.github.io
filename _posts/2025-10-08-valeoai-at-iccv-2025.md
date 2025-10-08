@@ -16,8 +16,8 @@ The team will be at ICCV to present these works, exchange ideas, and share our e
 
 <hr>
 
-DIP: Unsupervised Dense In-Context Post-training of Visual Representations
-Authors: <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Sophia Sirko-Galouchenko</a>    <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>    <a href="https://vobecant.github.io/">Antonin Vobecky</a>    <a href="https://abursuc.github.io/">Andrei Bursuc</a>    <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Nicolas Thome</a>
+## DIP: Unsupervised Dense In-Context Post-training of Visual Representations
+### Authors: <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Sophia Sirko-Galouchenko</a>    <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>    <a href="https://vobecant.github.io/">Antonin Vobecky</a>    <a href="https://abursuc.github.io/">Andrei Bursuc</a>    <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Nicolas Thome</a>
 <h4 align="center"> [<a href="https://arxiv.org/abs/2506.18463">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/sirkosophia/DIP">Code</a>] </h4>
 
 ![dip_teaser]({{ site.baseurl }}/assets/img/publications/2025_dip.png){:height="100%" width="100%"}
@@ -26,8 +26,8 @@ We introduce DIP, a novel unsupervised post-training method designed to enhance 
 
 <hr>
 
-GaussRender: Learning 3D Occupancy with Gaussian Rendering
-Authors: <a href="https://loickch.github.io/">Loïck Chambon</a>    <a href="https://eloiz.github.io">Éloi Zablocki</a>    <a href="https://boulch.eu/">Alexandre Boulch</a>    <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a>    <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
+## GaussRender: Learning 3D Occupancy with Gaussian Rendering
+### Authors: <a href="https://loickch.github.io/">Loïck Chambon</a>    <a href="https://eloiz.github.io">Éloi Zablocki</a>    <a href="https://boulch.eu/">Alexandre Boulch</a>    <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a>    <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 <h4 align="center"> [<a href="https://arxiv.org/abs/2502.05040">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/GaussRender">Code</a>] </h4>
 
 ![gaussrender_teaser]({{ site.baseurl }}/assets/img/publications/2025_gaussrender/teaser.png){:height="100%" width="100%"}
@@ -42,8 +42,8 @@ GaussRender can be plugged into any 3D model. Dedicated experiments on multiple 
 
 <hr>
 
-MoSiC: Optimal-Transport Motion Trajectories for Dense Self-Supervised Learning
-Authors: <a href="https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en">Mohammadreza Salehi</a>    <a href="https://shashankvkt.github.io/">Shashanka Venkataramanan</a>    Ioana Simion    <a href="https://www.egavves.com/">Efstratios Gavves</a>    <a href="https://www.ceessnoek.info/">Cees Snoek</a>    <a href="https://yukimasano.github.io/">Yuki Asano</a>
+## MoSiC: Optimal-Transport Motion Trajectories for Dense Self-Supervised Learning
+### Authors: <a href="https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en">Mohammadreza Salehi</a>    <a href="https://shashankvkt.github.io/">Shashanka Venkataramanan</a>    Ioana Simion    <a href="https://www.egavves.com/">Efstratios Gavves</a>    <a href="https://www.ceessnoek.info/">Cees Snoek</a>    <a href="https://yukimasano.github.io/">Yuki Asano</a>
 <h4 align="center"> [<a href="https://arxiv.org/abs/2506.08694">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/SMSD75/MoSiC/tree/main">Code</a>] </h4>
 
 ![mosic_teaser]({{ site.baseurl }}/assets/img/publications/2025_mosic.png){:height="100%" width="100%"}
@@ -52,8 +52,8 @@ Dense self-supervised learning has shown great promise for learning pixel- and p
 
 <hr>
 
-FLOSS: Free Lunch in Open-vocabulary Semantic Segmentation
-Authors: <a href="https://yasserben.github.io/">Yasser Benigmim</a>    <a href="https://mfahes.github.io/">Mohammad Fahes</a>    <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>    <a href="https://abursuc.github.io/">Andrei Bursuc</a>    <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">Raoul de Charette</a>
+## FLOSS: Free Lunch in Open-vocabulary Semantic Segmentation
+### Authors: <a href="https://yasserben.github.io/">Yasser Benigmim</a>    <a href="https://mfahes.github.io/">Mohammad Fahes</a>    <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>    <a href="https://abursuc.github.io/">Andrei Bursuc</a>    <a href="https://team.inria.fr/rits/membres/raoul-de-charette/">Raoul de Charette</a>
 <h4 align="center"> [<a href="https://arxiv.org/abs/2504.10487">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/yasserben/FLOSS">Code</a>] </h4>
 
 ![floss_teaser]({{ site.baseurl }}/assets/img/publications/2025_floss.jpg){:height="100%" width="100%"}
@@ -62,8 +62,8 @@ In Open-Vocabulary Semantic Segmentation (OVSS), class-wise text embeddings are 
 
 <hr>
 
-Analyzing Fine-tuning Representation Shift for Multimodal LLMs Steering Alignment
-Authors: <a href="https://pegah-kh.github.io/">Pegah Khayatan</a>    <a href="https://mustafashukor.github.io/">Mustafa Shukor</a>    <a href="https://jayneelparekh.github.io/">Jayneel Parekh</a>    <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
+## Analyzing Fine-tuning Representation Shift for Multimodal LLMs Steering Alignment
+### Authors: <a href="https://pegah-kh.github.io/">Pegah Khayatan</a>    <a href="https://mustafashukor.github.io/">Mustafa Shukor</a>    <a href="https://jayneelparekh.github.io/">Jayneel Parekh</a>    <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 <h4 align="center"> [<a href="https://arxiv.org/abs/2501.03012">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/mshukor/xl-vlms/">Code</a>] </h4>
 
 ![xlvlm_teaser]({{ site.baseurl }}/assets/img/publications/2025_xlxvlm.png){:height="100%" width="100%"}
