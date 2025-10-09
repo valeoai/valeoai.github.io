@@ -157,7 +157,14 @@
     alumni: True
     phd_defense: 2025
     scholar: https://scholar.google.com/citations?user=xYDkHEsAAAAJ
-
+    
+"Sereyjol-Garros":
+    firstname: Nicolas
+    position: Pre-doc
+    profilepic: nicolas_sereyjol-garros.jpg
+    bib_firstname: ["Nicolas", "N."]
+    url: https://scholar.google.com/citations?user=9Mr--hUAAAAJ
+    
 "Sirko-Galouchenko":
     firstname: Sophia
     position: PhD Student W/ Sorbonne U.
