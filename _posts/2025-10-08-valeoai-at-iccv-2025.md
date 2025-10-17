@@ -18,7 +18,7 @@ The team will be at ICCV to present these works, exchange ideas, and share our e
 <hr>
 
 ### DIP: Unsupervised Dense In-Context Post-training of Visual Representations
-##### Authors: <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Sophia Sirko-Galouchenko</a>, <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>, <a href="https://vobecant.github.io/">Antonin Vobecky</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Nicolas Thome</a>
+##### Authors: <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Sophia Sirko-Galouchenko</a>, <a href="https://vobecant.github.io/">Antonin Vobecky</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ&hl=fr">Nicolas Thome</a>, <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>
 <h5 align="center"> [<a href="https://arxiv.org/abs/2506.18463">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/sirkosophia/DIP">Code</a>] </h5>
 
 ![dip_teaser]({{ site.baseurl }}/assets/img/publications/2025_dip.png){:height="100%" width="100%"}
