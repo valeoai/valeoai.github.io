@@ -146,13 +146,13 @@
 
 "Cao":
   firstname: Anh-Quan
-  position: Research scientist at valeo.ai. Previously PhD student at INRIA with Raoul de Charette
+  position: Research scientist at valeo.ai. PhD at INRIA with Raoul de Charette
   url: https://anhquancao.github.io/ 
   internship_year: 2020
                                                                                    
 "Michele":                                                                         
     firstname: Björn                                                               
-    position: PhD student at valeo.ai and IRISA OBELIX with Nicolas Courty
+    position: PhD at valeo.ai and IRISA OBELIX with Nicolas Courty
     profilepic: bjoern_michele.jpg                                                 
     bib_firstname: ["Björn", "B."]                                                 
     url: https://bjoernmichele.com                                                 
@@ -168,7 +168,7 @@
 
 "Besnier":                                                                                                                                                                                                                                                                             
     firstname: Victor                                                          
-    position: Research scientist at valeo.ai. PhD at valeo and ENPC with David Picard
+    position: Research scientist at valeo.ai. PhD at valeo.ai and ENPC with David Picard
     url: https://scholar.google.com/citations?user=n_C2h-QAAAAJ
     internship_year: 2019
 
