@@ -3,7 +3,7 @@ layout: default
 title: Internships
 permalink: /interns/
 description: 
-nav: false
+nav: true
 nav_order: 6
 ---
 
