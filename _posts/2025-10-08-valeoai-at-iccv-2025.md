@@ -13,7 +13,11 @@ The [International Conference on Computer Vision (ICCV)](https://iccv.thecvf.com
 
 The team will be at ICCV to present these works, exchange ideas, and share our exciting ongoing research. We look forward to seeing you in Honolulu!
 
-![valeo.ai team at ICCV 2025]({{ site.baseurl }}/assets/img/posts/valeoai_iccv.png){:height="100%" width="100%"}
+![valeo.ai papers at ICCV 2025]({{ site.baseurl }}/assets/img/posts/valeoai_iccv.png){:height="100%" width="100%"}
+
+<hr>
+
+![valeo.ai team at ICCV 2025]({{ site.baseurl }}/assets/img/posts/vai_at_iccv25.jpg){:height="100%" width="100%"}
 
 <hr>
 
