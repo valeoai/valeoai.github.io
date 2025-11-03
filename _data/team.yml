@@ -112,6 +112,13 @@
     url: https://t-martyniuk.github.io/
     scholar: https://scholar.google.com/citations?user=Ur0vgfMAAAAJ&hl=en
 
+"Meddahi":
+   firstname: Lounes
+   position: Pre-doc
+   bib_firstname: ["Lounes", "L."]
+   url: https://lounesmd.github.io/
+   profilepic: lounes_meddahi.png
+
 "Michele":
     firstname: Björn
     position: PhD Student W/ U. Bretagne Sud
