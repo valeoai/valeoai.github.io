@@ -21,7 +21,7 @@ permalink: /publications/3d_hpe_hmr_lidar_survey/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.com/citations?user=ZhKRoS0AAAAJ">Salma Galaaoui</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=fr">Eduardo Valle</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> </h3>
+<h3 align="center"> <a href="https://salmag98.github.io">Salma Galaaoui</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=fr">Eduardo Valle</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> </h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>
