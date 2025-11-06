@@ -63,11 +63,11 @@ permalink: /publications/alpine/
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{sautier2025alpine,
+@inproceedings{sautier2026alpine,
     title = {Is clustering enough for LiDAR instance segmentation? A state-of-the-art training-free baseline},
     author = {Corentin Sautier and Gilles Puy and Alexandre Boulch and Renaud Marlet and Vincent Lepetit},
     booktitle= {3DV},
-    year = {2025}
+    year = {2026}
 }
 </pre>
 </left>
