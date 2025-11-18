@@ -13,30 +13,32 @@ github_repos:
   - nv-nguyen/nope
   - valeoai/SLidR
   - valeoai/xmuda
+  - PaulCouairon/JAFAR
   - aboulch/ConvPoint
   - valeoai/ZS3
   - valeoai/ALSO
   - valeoai/ConfidNet
-  - PaulCouairon/JAFAR
   - valeoai/BF3S
   - valeoai/PointBeV  
   - astra-vision/PODA
+  - valeoai/VideoActionModel
   - valeoai/DADA
   - vobecant/POP3D
-  - valeoai/VideoActionModel
   - valeoai/carrada_dataset
   - valeoai/FLOT
-  - valeoai/obow
   - valeoai/rangevit
+  - valeoai/obow
+  - vita-epfl/RAP
   - valeoai/BEVContrast
   - valeoai/rainbow-iqn-apex
-  - valeoai/FOUND
+  - astra-vision/LiDPM
   - gkakogeorgiou/attmask
   - valeoai/Awesome-Unsupervised-Object-Localization
-  - valeoai/MVRSS
+  - valeoai/FOUND
   - gkakogeorgiou/spot
+  - valeoai/MVRSS
   - valeoai/LightConvPoint
-  - astra-vision/LiDPM
+  - valeoai/GaussRender
   - valeoai/LearningByCheating
   - valeoai/WaffleIron
   - nicolas-dufour/CAD
@@ -45,7 +47,6 @@ github_repos:
   - astra-vision/DenseMTL
   - astra-vision/FAMix
   - valeoai/FKAConv
-  - valeoai/GaussRender
   - Victorletzelter/timeMCL
   - valeoai/LaRa
   - sirkosophia/DIP
@@ -89,7 +90,6 @@ github_repos:
   - valeoai/PAFUSE
   - valeoai/CAB
   - valeoai/MOCA
-  - vita-epfl/RAP
   - ctu-vras/let-it-flow
   - valeoai/BEEF
   - huyvvo/OSD
