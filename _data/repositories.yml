@@ -12,8 +12,8 @@ github_repos:
   - valeoai/POCO
   - nv-nguyen/nope
   - valeoai/SLidR
-  - valeoai/xmuda
   - PaulCouairon/JAFAR
+  - valeoai/xmuda
   - aboulch/ConvPoint
   - valeoai/ZS3
   - valeoai/ALSO
@@ -26,9 +26,9 @@ github_repos:
   - vobecant/POP3D
   - valeoai/carrada_dataset
   - valeoai/FLOT
+  - vita-epfl/RAP
   - valeoai/rangevit
   - valeoai/obow
-  - vita-epfl/RAP
   - valeoai/BEVContrast
   - valeoai/rainbow-iqn-apex
   - astra-vision/LiDPM
@@ -46,8 +46,9 @@ github_repos:
   - valeoai/ScaLR
   - astra-vision/DenseMTL
   - astra-vision/FAMix
-  - valeoai/FKAConv
   - Victorletzelter/timeMCL
+  - valeoai/NAF
+  - valeoai/FKAConv
   - valeoai/LaRa
   - sirkosophia/DIP
   - ENSTA-U2IS-AI/LDU
