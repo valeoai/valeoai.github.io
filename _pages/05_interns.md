@@ -7,7 +7,6 @@ nav: true
 nav_order: 6
 ---
 
-<!-- 
 # Open Internship Proposals
 
 We are looking for students finishing their MSc with a solid background in computer vision and machine learning, particularly in deep learning with strong PyTorch coding skills.
@@ -22,27 +21,25 @@ Send an email to the supervisors (one email per application) with the following:
 
 **Available Topics:**  
 
-**Universal 2D-3D Transformer**  
-*Keywords*: Transformer, Representation learning, Self-supervised learning, Multi-modal  
-*Supervisors*: [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Gilles Puy](mailto:gilles.puy@valeo.com), [Spyros Gidaris](mailto:spyros.gidaris@valeo.com)  
-This project aims to develop a novel transformer architecture capable of processing 2D and 3D data simultaneously, probing synergistic multi-modal representations between imagery and LiDAR data.  
+**Scoring Trajectories with Vision Language Models**
+*Keywords*: Vision-Language Models (VLM), Trajectory Evaluation, Autonomous Driving, Deep Learning
+*Supervisors*: [Monika Wysoczanska](mailto:monika.wysoczanska@valeo.com), [Ellington Kirby](mailto:ellington.kirby@valeo.com), [Alexandre Boulch](mailto:alexandre.boulch@valeo.com)
+This project investigates the capacity of Vision-Language Models (VLM) to evaluate the quality of vehicle trajectories based on input images, aiming to utilize multi-modal understanding for safer autonomous planning.
 
-**Learning from One Continuous Long-Range Video Stream**  
-*Keywords*: Video understanding, Continual learning, Transformer, Self-supervised pretraining  
-*Supervisors*: [Shashanka Venkataramanan](mailto:shashanka.venkataramanan@valeo.com), [Andrei Bursuc](mailto:andrei.bursuc@valeo.com)  
-This internship involves building a video understanding model inspired by human episodic memory to learn continuously from long-range streams. It includes exploring continual learning, memory integration, and advanced pretraining techniques using real-world video datasets.  
+**LiDAR Video Generation from Range Images**
+*Keywords*: Diffusion Models, Generative AI, LiDAR, Range Images, Video Synthesis
+*Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)
+This internship involves developing a diffusion-based generative model designed to produce temporally consistent and controllable LiDAR video scenes, specifically operating within the range image domain.
 
-**Scenario Generation for Robust Autonomous Driving using Diffusion Models**  
-*Keywords*: Diffusion models, Long-tail distribution, Online mapping, Motion prediction  
-*Supervisors*: [Yuan Yin](mailto:yuan.yin@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)  
-This internship explores using diffusion models to generate driving scenarios, focusing on map and trajectory creation. The goal is to develop robust, vector-based maps and diverse vehicle behaviors to enhance motion forecasting and planning.  
+**Unified Vision Encoders: Multi-Teacher Distillation and Dynamic Transformers**
+*Keywords*: Knowledge Distillation, Vision Transformers, Dynamic Computation, Computer Vision, Representation Learning
+*Supervisors*: [Spyros Gidaris](mailto:spyros.gidaris@valeo.com), [Shashanka Venkataramanan](mailto:shashanka.venkataramanan@valeo.com), [Gilles Puy](mailto:gilles.puy@valeo.com)
+The goal of this project is to efficiently distill knowledge from multiple teacher models into a single vision transformer, augmented with dynamically adaptive computation mechanisms to optimize performance and efficiency.
 
-**Object Generation from Range Images**  
-*Keywords*: Diffusion models, Point clouds, Controllable generative models  
-*Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)  
-This project focuses on generating LiDAR point cloud objects by leveraging pre-trained diffusion models on range image representations. The goal is to improve the controllability of LiDAR object generation in a computationally efficient way.  
-
- -->
+**Unconstrained Dynamic Novel View Synthesis**
+*Keywords*: Novel View Synthesis, Transformers, 3D Computer Vision, Dynamic Scenes, Data-Driven Approaches
+*Supervisors*: [Anh-Quan Cao](mailto:anh-quan.cao@valeo.com), [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)
+This research explores transformer-based, fully data-driven approaches to achieve scalable and generalizable dynamic novel view synthesis, focusing on generating coherent scenes from unconstrained input views.
 
 # Alumni interns and visiting students
 
