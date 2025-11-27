@@ -22,24 +22,32 @@ Send an email to the supervisors (one email per application) with the following:
 **Available Topics:**  
 
 **Scoring Trajectories with Vision Language Models**
+
 *Keywords*: Vision-Language Models (VLM), Trajectory Evaluation, Autonomous Driving, Deep Learning
+
 *Supervisors*: [Monika Wysoczanska](mailto:monika.wysoczanska@valeo.com), [Ellington Kirby](mailto:ellington.kirby@valeo.com), [Alexandre Boulch](mailto:alexandre.boulch@valeo.com)
-This project investigates the capacity of Vision-Language Models (VLM) to evaluate the quality of vehicle trajectories based on input images, aiming to utilize multi-modal understanding for safer autonomous planning.
+
+Investigating the capacity of Vision-Language Models (VLM) to evaluate the quality of a vehicle trajectory given the input images.
+
 
 **LiDAR Video Generation from Range Images**
+
 *Keywords*: Diffusion Models, Generative AI, LiDAR, Range Images, Video Synthesis
+
 *Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)
-This internship involves developing a diffusion-based generative model designed to produce temporally consistent and controllable LiDAR video scenes, specifically operating within the range image domain.
+
+Developing a diffusion-based generative model that produces temporally consistent and controllable LiDAR video scenes in the range image domain.
+
 
 **Unified Vision Encoders: Multi-Teacher Distillation and Dynamic Transformers**
 *Keywords*: Knowledge Distillation, Vision Transformers, Dynamic Computation, Computer Vision, Representation Learning
 *Supervisors*: [Spyros Gidaris](mailto:spyros.gidaris@valeo.com), [Shashanka Venkataramanan](mailto:shashanka.venkataramanan@valeo.com), [Gilles Puy](mailto:gilles.puy@valeo.com)
-The goal of this project is to efficiently distill knowledge from multiple teacher models into a single vision transformer, augmented with dynamically adaptive computation mechanisms to optimize performance and efficiency.
+Distill efficiently multiple teachers into a single vision transformer augmented with dynamically adaptive computation.
 
 **Unconstrained Dynamic Novel View Synthesis**
 *Keywords*: Novel View Synthesis, Transformers, 3D Computer Vision, Dynamic Scenes, Data-Driven Approaches
 *Supervisors*: [Anh-Quan Cao](mailto:anh-quan.cao@valeo.com), [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)
-This research explores transformer-based, fully data-driven approaches to achieve scalable and generalizable dynamic novel view synthesis, focusing on generating coherent scenes from unconstrained input views.
+Explore transformer-based, fully data-driven approaches for scalable and generalizable dynamic novel view synthesis from unconstrained views.
 
 # Alumni interns and visiting students
 
