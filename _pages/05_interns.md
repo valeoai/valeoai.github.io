@@ -21,33 +21,25 @@ Send an email to the supervisors (one email per application) with the following:
 
 **Available Topics:**  
 
-**Scoring Trajectories with Vision Language Models**
+**Scoring Trajectories with Vision Language Models**  
+*Keywords*: Vision-Language Models (VLM), Trajectory Evaluation, Autonomous Driving, Deep Learning  
+*Supervisors*: [Monika Wysoczanska](mailto:monika.wysoczanska@valeo.com), [Ellington Kirby](mailto:ellington.kirby@valeo.com), [Alexandre Boulch](mailto:alexandre.boulch@valeo.com)  
+Investigating the capacity of Vision-Language Models (VLM) to evaluate the quality of a vehicle trajectory given the input images.  
 
-*Keywords*: Vision-Language Models (VLM), Trajectory Evaluation, Autonomous Driving, Deep Learning
+**LiDAR Video Generation from Range Images**  
+*Keywords*: Diffusion Models, Generative AI, LiDAR, Range Images, Video Synthesis  
+*Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)  
+Developing a diffusion-based generative model that produces temporally consistent and controllable LiDAR video scenes in the range image domain.  
 
-*Supervisors*: [Monika Wysoczanska](mailto:monika.wysoczanska@valeo.com), [Ellington Kirby](mailto:ellington.kirby@valeo.com), [Alexandre Boulch](mailto:alexandre.boulch@valeo.com)
+**Unified Vision Encoders: Multi-Teacher Distillation and Dynamic Transformers**  
+*Keywords*: Knowledge Distillation, Vision Transformers, Dynamic Computation, Computer Vision, Representation Learning  
+*Supervisors*: [Spyros Gidaris](mailto:spyros.gidaris@valeo.com), [Shashanka Venkataramanan](mailto:shashanka.venkataramanan@valeo.com), [Gilles Puy](mailto:gilles.puy@valeo.com)  
+Distill efficiently multiple teachers into a single vision transformer augmented with dynamically adaptive computation.  
 
-Investigating the capacity of Vision-Language Models (VLM) to evaluate the quality of a vehicle trajectory given the input images.
-
-
-**LiDAR Video Generation from Range Images**
-
-*Keywords*: Diffusion Models, Generative AI, LiDAR, Range Images, Video Synthesis
-
-*Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)
-
-Developing a diffusion-based generative model that produces temporally consistent and controllable LiDAR video scenes in the range image domain.
-
-
-**Unified Vision Encoders: Multi-Teacher Distillation and Dynamic Transformers**
-*Keywords*: Knowledge Distillation, Vision Transformers, Dynamic Computation, Computer Vision, Representation Learning
-*Supervisors*: [Spyros Gidaris](mailto:spyros.gidaris@valeo.com), [Shashanka Venkataramanan](mailto:shashanka.venkataramanan@valeo.com), [Gilles Puy](mailto:gilles.puy@valeo.com)
-Distill efficiently multiple teachers into a single vision transformer augmented with dynamically adaptive computation.
-
-**Unconstrained Dynamic Novel View Synthesis**
-*Keywords*: Novel View Synthesis, Transformers, 3D Computer Vision, Dynamic Scenes, Data-Driven Approaches
-*Supervisors*: [Anh-Quan Cao](mailto:anh-quan.cao@valeo.com), [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)
-Explore transformer-based, fully data-driven approaches for scalable and generalizable dynamic novel view synthesis from unconstrained views.
+**Unconstrained Dynamic Novel View Synthesis**  
+*Keywords*: Novel View Synthesis, Transformers, 3D Computer Vision, Dynamic Scenes, Data-Driven Approaches  
+*Supervisors*: [Anh-Quan Cao](mailto:anh-quan.cao@valeo.com), [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)  
+Explore transformer-based, fully data-driven approaches for scalable and generalizable dynamic novel view synthesis from unconstrained views.  
 
 # Alumni interns and visiting students
 
