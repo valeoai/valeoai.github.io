@@ -2,14 +2,14 @@
 toc: false
 layout: post
 description: "Loïck Chambon, Spyros Gidaris, Andrei Bursuc, Eloi Zablocki"
-categories: [multi-sensor, 3d-perception, foundation, limited-supervision, zero shot, deep-learning, generalization, explainability]
+categories: [foundation, limited-supervision,  deep-learning, generalization, explainability]
 title: "valeo.ai at NeurIPS 2025"
 permalink: /posts/neurips-2025
 hide: false
 image: assets/img/posts/2025_neurips.jpg
 ---
 
-The [Neural Information Processing Systems Conference (NeurIPS)](https://neurips.cc/) is a major inter-disciplinary event that brings together researchers and practicioners in machine learning, computer vision, natural language processing, optimization, statistics, but also neuroscience, natural sciences, social sciences, etc. This year, at the 39th edition of NeurIPS, the [valeo.ai](../) team will present 5 papers in the main conference and 1 in the workshops. We are honored to announce that our [IPA](https://valeoai.github.io/publications/ipa/) paper on efficient foundation model adaptation has received the outstanding paper award at the [CCFM workshop](https://sites.google.com/view/ccfm-neurips2025). Our team contributed to the technical program committee with multiple reviewers out of whom 1 was awared top reviewer and 2 as top area chairs.  
+The [Neural Information Processing Systems Conference (NeurIPS)](https://neurips.cc/) is a major inter-disciplinary event that brings together researchers and practicioners in machine learning, computer vision, natural language processing, optimization, statistics, but also neuroscience, natural sciences, social sciences, etc. This year, at the 39th edition of NeurIPS, the [valeo.ai](../) team will present 5 papers in the main conference and 1 in the workshops. We are honored to announce that our [IPA](https://valeoai.github.io/publications/ipa/) paper on efficient foundation model adaptation has received the outstanding paper award at the [CCFM workshop](https://sites.google.com/view/ccfm-neurips2025). Our team contributed to the technical program committee with multiple reviewers out of whom 1 was awared top reviewer and 2 as top area chairs.
 
 The team will be at NeurIPS to present these works, exchange ideas, and share our exciting ongoing research. We look forward to seeing you in Honolulu!
 
@@ -18,7 +18,7 @@ The team will be at NeurIPS to present these works, exchange ideas, and share ou
 <hr>
 
 ### JAFAR: Jack up Any Feature at Any Resolution
-##### Authors:<a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr">Paul Couairon*</a>, <a href="https://loickch.github.io/">Loick Chambon*</a> , <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ&hl=fr">Louis Serrano</a>, <a>Jean-Emmanuel Haugeard</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>, <a href="https://thome.isir.upmc.fr">Nicolas Thome</a>
+##### Authors: <a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr">Paul Couairon*</a>, <a href="https://loickch.github.io/">Loick Chambon*</a> , <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ&hl=fr">Louis Serrano</a>, <a>Jean-Emmanuel Haugeard</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>, <a href="https://thome.isir.upmc.fr">Nicolas Thome</a>
 <h5 align="center"> [<a href="https://arxiv.org/abs/2506.11136">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/PaulCouairon/JAFAR">Code</a>] </h5>
 
 ![jafar_teaser]({{ site.baseurl }}/assets/img/publications/2025_jafar/teaser.png){:height="100%" width="100%"}
@@ -69,18 +69,12 @@ Multi-token prediction has emerged as a promising objective for improving langua
 <hr>
 
 
-
-
-
 ### IPA: An Information-Preserving Input Projection Framework for Efficient Foundation Model Adaptation
 <p class="page-description"><a href="https://sites.google.com/view/ccfm-neurips2025">NeurIPS 2025 Workshop on Continual and Compatible Foundation Model Updates (CCFM)</a></p>
-
 
 ##### Authors: <a href="https://yuan-yin.github.io/">Yuan Yin</a>, <a href="https://shashankvkt.github.io/">Shashanka Venkataramanan</a>, <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 
 <h5 align="center"> [<a href="https://arxiv.org/abs/2509.04398">Paper</a>]</h5>
-
-
 
 ![ipa_teaser]({{ site.baseurl }}/assets/img/publications/2025_ipa/ipa.png){:height="100%" width="100%"}
 
