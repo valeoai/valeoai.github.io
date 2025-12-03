@@ -18,7 +18,7 @@ The team will be at NeurIPS to present these works, exchange ideas, and share ou
 <hr>
 
 ### JAFAR: Jack up Any Feature at Any Resolution
-##### Authors: <a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr">Paul Couairon*</a>, <a href="https://loickch.github.io/">Loick Chambon*</a> , <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ&hl=fr">Louis Serrano</a>, <a>Jean-Emmanuel Haugeard</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>, <a href="https://thome.isir.upmc.fr">Nicolas Thome</a>
+##### Authors: <a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr">Paul Couairon</a>, <a href="https://loickch.github.io/">Loick Chambon</a> , <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ&hl=fr">Louis Serrano</a>, <a>Jean-Emmanuel Haugeard</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>, <a href="https://thome.isir.upmc.fr">Nicolas Thome</a>
 <h5 align="center"> [<a href="https://arxiv.org/abs/2506.11136">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/PaulCouairon/JAFAR">Code</a>] </h5>
 
 ![jafar_teaser]({{ site.baseurl }}/assets/img/publications/2025_jafar/teaser.png){:height="100%" width="100%"}
