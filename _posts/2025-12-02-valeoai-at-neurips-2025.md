@@ -50,7 +50,7 @@ Steering has emerged as a practical approach to enable post-hoc guidance of LLMs
 
 ### Boosting Generative Image Modeling via Joint Image-Feature Synthesis
 ##### Authors: <a href="https://scholar.google.com/citations?user=a5vkWc8AAAAJ&hl=en">Theodoros Kouzelis</a>, <a href="https://archimedesai.gr/en/researchers/stathis-karypidis">Efstathios Karypidis</a>, <a href="https://scholar.google.com/citations?user=B_dKcz4AAAAJ">Ioannis Kakogeorgiou</a>, <a href="https://gidariss.github.io/">Spyros Gidaris</a>, <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a>
-<h5 align="center"> [<a href="https://arxiv.org/abs/2504.16064 ">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/zelaki/ReDi">Code</a>] </h5>
+<h5 align="center"> [<a href="https://arxiv.org/abs/2504.16064">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/zelaki/ReDi">Code</a>] </h5>
 
 ![redi_teaser]({{ site.baseurl }}/assets/img/publications/2025_redi/teaser.png){:height="100%" width="100%"}
 
