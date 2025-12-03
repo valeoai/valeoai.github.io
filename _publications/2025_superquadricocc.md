@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "SuperQuadricOcc: Multi-Layer Gaussian Approximation of Superquadrics for Real-Time Self-Supervised Occupancy Estimation"
-image: assets/img/publications/2025_superquadicocc/method.png
+image: assets/img/publications/2025_superquadricocc/method.png
 hide: false
 category: [3d-perception, 3d-reconstruction, driving, gaussian-splatting, quadric]
 authors: Seamie Hayes, Reenu Mohandas, Tim Brophy, Alexandre Boulch, Ganesh Sistu, Ciaran Eising
