@@ -11,7 +11,7 @@ image: assets/img/posts/2025_neurips.jpg
 
 The [Neural Information Processing Systems Conference (NeurIPS)](https://neurips.cc/) is a major inter-disciplinary event that brings together researchers and practicioners in machine learning, computer vision, natural language processing, optimization, statistics, but also neuroscience, natural sciences, social sciences, etc. This year, at the 39th edition of NeurIPS, the [valeo.ai](../) team will present 5 papers in the main conference and 1 in the workshops. We are honored to announce that our [IPA](https://valeoai.github.io/publications/ipa/) paper on efficient foundation model adaptation has received the outstanding paper award at the [CCFM workshop](https://sites.google.com/view/ccfm-neurips2025). Our team contributed to the technical program committee with multiple reviewers out of whom 1 was awared top reviewer and 2 as top area chairs.
 
-The team will be at NeurIPS to present these works, exchange ideas, and share our exciting ongoing research. We look forward to seeing you in Honolulu!
+The team will be at NeurIPS to present these works, exchange ideas, and share our exciting ongoing research. We look forward to seeing you in San Diego!
 
 ![valeo.ai papers at NeurIPS 2025]({{ site.baseurl }}/assets/img/posts/2025_neurips_valeoai_papers.png){:height="100%" width="100%"}
 
