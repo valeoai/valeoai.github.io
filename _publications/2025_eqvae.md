@@ -8,7 +8,7 @@ authors: Theodoros Kouzelis, Ioannis Kakogeorgiou, Spyros Gidaris, and Nikos Kom
 venue: ICML
 venue_long: International Conference on Machine Learning
 year: 2025
-month: 12
+month: 07
 code_url: https://github.com/zelaki/eqvae 
 paper_url: https://arxiv.org/abs/2502.09509  
 blog_url: https://eq-vae.github.io/ 
