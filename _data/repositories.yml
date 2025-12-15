@@ -11,8 +11,8 @@ github_repos:
   - valeoai/RADIal
   - valeoai/POCO
   - nv-nguyen/nope
-  - valeoai/SLidR
   - PaulCouairon/JAFAR
+  - valeoai/SLidR
   - valeoai/xmuda
   - aboulch/ConvPoint
   - valeoai/ZS3
@@ -23,8 +23,8 @@ github_repos:
   - astra-vision/PODA
   - valeoai/VideoActionModel
   - valeoai/DADA
-  - vobecant/POP3D
   - valeoai/carrada_dataset
+  - vobecant/POP3D
   - valeoai/FLOT
   - vita-epfl/RAP
   - valeoai/rangevit
@@ -38,6 +38,8 @@ github_repos:
   - gkakogeorgiou/spot
   - valeoai/MVRSS
   - valeoai/LightConvPoint
+  - valeoai/NAF
+  - valeoai/Alpine
   - valeoai/GaussRender
   - valeoai/LearningByCheating
   - valeoai/WaffleIron
@@ -47,7 +49,6 @@ github_repos:
   - astra-vision/DenseMTL
   - astra-vision/FAMix
   - Victorletzelter/timeMCL
-  - valeoai/NAF
   - valeoai/FKAConv
   - valeoai/LaRa
   - sirkosophia/DIP
@@ -57,7 +58,6 @@ github_repos:
   - WalterSimoncini/fungivision
   - valeoai/SALUDA
   - valeoai/GenVal
-  - valeoai/Alpine
   - mshukor/xl-vlms
   - Sta8is/FUTURIST
   - valeoai/3DGenZ
@@ -68,10 +68,10 @@ github_repos:
   - huyvvo/BiB
   - valeoai/SemanticPalette
   - nerminsamet/seedal
-  - valeoai/NeeDrop
-  - valeoai/TTYD
   - astra-vision/ProLIP
   - yasserben/FLOSS
+  - valeoai/NeeDrop
+  - valeoai/TTYD
   - valeoai/MTAF
   - valeoai/Occfeat
   - huyvvo/LOD
