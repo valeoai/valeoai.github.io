@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: "Fine-Tuning CLIP's Last Visual Projector: A Few-Shot Cornucopia"
+title: "CLIP’s Visual Embedding Projector is a Few-shot Cornucopia"
 image: assets/img/publications/2025_prolip/prolip_overview.png
 hide: false
 category: [domain-adaptation, limited-supervision, generalization, reliability, foundation]
 authors: Mohammad Fahes, Tuan-Hung Vu, Andrei Bursuc, Patrick Pérez, Raoul de Charette
-venue: under review
-venue_long: under review
-year: 2025
-month: 4
+venue: WACV
+venue_long: WACV
+year: 2026
+month: 3
 code_url: https://github.com/astra-vision/ProLIP
 paper_url: https://arxiv.org/abs/2410.05270
 blog_url:
@@ -64,11 +64,11 @@ permalink: /publications/prolip/
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{fahes2025prolip,
-  title={Fine-Tuning CLIP's Last Visual Projector: A Few-Shot Cornucopia},
+@inproceedings{fahes2026prolip,
+  title={CLIP’s Visual Embedding Projector is a Few-shot Cornucopia},
   author={Fahes, Mohammad and Vu, Tuan-Hung and Bursuc, Andrei and P{\'e}rez, Patrick and de Charette, Raoul},
-  booktitle={under review},
-  year={2025}
+  booktitle={WACV},
+  year={2026}
 }
 </pre>
 </left>
