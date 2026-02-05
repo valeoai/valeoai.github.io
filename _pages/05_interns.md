@@ -3,10 +3,11 @@ layout: default
 title: Internships
 permalink: /interns/
 description: 
-nav: true
+nav: false
 nav_order: 6
 ---
 
+<!---
 # Open Internship Proposals
 
 We are looking for students finishing their MSc with a solid background in computer vision and machine learning, particularly in deep learning with strong PyTorch coding skills.
@@ -40,6 +41,7 @@ Distill efficiently multiple teachers into a single vision transformer augmented
 *Keywords*: Novel View Synthesis, Transformers, 3D Computer Vision, Dynamic Scenes, Data-Driven Approaches  
 *Supervisors*: [Anh-Quan Cao](mailto:anh-quan.cao@valeo.com), [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)  
 Explore transformer-based, fully data-driven approaches for scalable and generalizable dynamic novel view synthesis from unconstrained views.  
+-->
 
 # Alumni interns and visiting students
 
