@@ -189,19 +189,6 @@
     url: https://scholar.google.com/citations?user=3ac3PQMAAAAJ
     scholar: https://scholar.google.com/citations?user=3ac3PQMAAAAJ
 
-
-"Venkataramanan":
-    firstname: Shashanka
-    position: Research Scientist
-    profilepic: shashank_venkataramanan.jpg
-    bib_firstname: ["Shashanka", "S.", "Shashank"]
-    url: https://shashankvkt.github.io/ 
-    scholar: https://scholar.google.com/citations?user=CbfH47IAAAAJ
-    twitter: https://x.com/shawshank_v
-    alumni: True
-    alumni_now:
-
-
 "Vobecký":
     firstname: Antonín
     position: PhD Student W/ Ctu
@@ -473,6 +460,17 @@
     github: https://github.com/dreavjr
     alumni: True
     alumni_now: now at Intercom
+
+"Venkataramanan":
+    firstname: Shashanka
+    position: Research Scientist
+    profilepic: shashank_venkataramanan.jpg
+    bib_firstname: ["Shashanka", "S.", "Shashank"]
+    url: https://shashankvkt.github.io/ 
+    scholar: https://scholar.google.com/citations?user=CbfH47IAAAAJ
+    twitter: https://x.com/shawshank_v
+    alumni: True
+    alumni_now:
 
 "Wirbel":
     firstname: Emilie
