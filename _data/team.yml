@@ -40,13 +40,6 @@
     bib_firstname: ["Amaia", "A."]
     url: https://scholar.google.com/citations?user=QKdN4SAAAAAJ
 
-"Chambon":
-    firstname: Loïck
-    position: PhD Student W/ Sorbonne U.
-    profilepic: loick_chambon.jpg
-    bib_firstname: ["Loïck", "L."]
-    url: https://loickch.github.io/
-
 "Cord":
     firstname: Matthieu
     position: Scientific Director (And Prof. At Sorbonne U.)
@@ -161,6 +154,18 @@
     bib_firstname: ["Nermin", "N."]
     url: https://nerminsamet.github.io/
     scholar: https://scholar.google.com/citations?user=kEVeHU0AAAAJ
+
+
+"Chambon":
+    firstname: Loïck
+    position: PhD Student W/ Sorbonne U.
+    profilepic: loick_chambon.jpg
+    bib_firstname: ["Loïck", "L."]
+    url: https://loickch.github.io/
+    alumni_phd: True
+    alumni: True
+    alumni_now: 
+    phd_defense: 2026
 
 "Sautier":
     firstname: Corentin
