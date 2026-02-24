@@ -5,4 +5,12 @@ inline: true
 related_posts: false
 ---
 
-[Loick Chambon](https://loickch.github.io/) defends his PhD entitled "Efficient Representations for Autonomous Driving".
+<a href="https://loickch.github.io/" target="_blank">Loick Chambon</a> defends his PhD entitled "Efficient Representations for Autonomous Driving".
+
+---
+layout: post
+date: 2026-01-31 07:59:00-0400
+inline: true
+---
+
+Two papers accepted at <a href="https://2026.ieee-icra.org/" target="_blank">ICRA 2026</a>: <a href="https://valeoai.github.io/publications/ppt/" target="_blank">`PPT`</a>, and <a href="https://valeoai.github.io/publications/r3dpa/" target="_blank">`R3DPA`</a>.
