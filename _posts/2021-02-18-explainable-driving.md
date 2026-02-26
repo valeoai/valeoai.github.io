@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: "Hedi Ben younes*, Eloi Zablocki*, Matthieu Cord and Patrick Pérez"
+description: "Hedi Ben younes*, Éloi Zablocki*, Matthieu Cord and Patrick Pérez"
 categories: [explainability, interpretability, survey, self-driving]
 title: "How can we make driving systems explainable?"
 permalink: /posts/explainable-driving
