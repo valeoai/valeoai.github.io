@@ -4,7 +4,7 @@ title: "GaussRender: Learning 3D Occupancy with Gaussian Rendering"
 image: assets/img/publications/2025_gaussrender/teaser.png
 hide: false
 category: [3d-perception, 3d-reconstruction, multi-sensor, driving, gaussian-splatting]
-authors: Loick Chambon, Eloi Zablocki, Alexandre Boulch, Mickael Chen, Matthieu Cord
+authors: Loick Chambon, Éloi Zablocki, Alexandre Boulch, Mickael Chen, Matthieu Cord
 venue: ICCV
 venue_long: ICCV
 year: 2025
