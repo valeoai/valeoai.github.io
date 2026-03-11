@@ -24,7 +24,7 @@ nav_order: 1
 {% assign core_members = core_members | sort_natural %}
 {% assign phd_students = phd_students | sort_natural %}
 
-<h2>valeo.ai Team</h2>
+<h2>valeo.ai core team</h2>
 <div class="team">
 {% for name in core_members %}
   {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
@@ -32,7 +32,7 @@ nav_order: 1
 {% endfor %}
 </div>
 
-<h2>PhD Students</h2>
+<h2>PhD students</h2>
 <div class="team">
 {% for name in phd_students %}
   {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
