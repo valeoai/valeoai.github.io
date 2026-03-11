@@ -13,7 +13,7 @@ nav_order: 1
   {% if member[1].alumni != true %}
     {% assign position_down = member[1].position | downcase %}
     {% comment %} Check if the position string contains 'phd' {% endcomment %}
-    {% if position_down contains 'phd' or position_down contains 'ph.d' %}
+{% if position_down contains 'phd' or position_down contains 'ph.d' or position_down contains 'pre-doc' %}
       {% assign phd_students = phd_students | push: member[0] %}
     {% else %}
       {% assign core_members = core_members | push: member[0] %}
