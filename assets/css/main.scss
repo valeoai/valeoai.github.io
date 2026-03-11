@@ -13,31 +13,54 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
 /* Container for the whole list */
 .partners-list {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem; /* Adjust this value for the vertical spacing between institutions */
+  gap: 2.5rem; /* Regular, uniform spacing between each partner block */
 }
 
-/* Individual partner block */
+/* Individual partner block: Logo left, Names right */
 .partner-block {
   display: flex;
-  align-items: center; /* Vertically centers the logo with the names */
-  gap: 2rem; /* Adjust this value for the horizontal space between the logo and the names */
+  align-items: center;
 }
 
-/* Keeps the logo fixed in size so long names don't squish it */
+/* Logo container styling */
 .partner-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em; /* Spacing between the logo and the names */
+  width: 120px; /* Keeps the left column width uniform so all names align nicely */
   flex-shrink: 0; 
-  width: 150px; /* Set a uniform width for all logos if needed */
 }
 
-/* Stacks the names neatly if there are multiple */
+/* YOUR ORIGINAL LOGO SIZES RESTORED 
+*/
+.partner-logo img {
+  height: 40px;
+  object-fit: contain;
+}
+
+.partner-logo .epfl-logo {
+  height: 30px;
+}
+
+.partner-logo .enpc-logo {
+  height: 52px;
+}
+
+.partner-logo .ubs-logo { /* Included just in case you use it elsewhere! */
+  height: 45px;
+}
+
+/* Names grouping */
 .partner-names {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem; /* Space between individual names */
+  gap: 0.25rem; /* Small gap if there are multiple names */
 }
 
 .group a {
