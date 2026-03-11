@@ -4,7 +4,7 @@ title:
 permalink: /
 subtitle: valeo.ai research page
 
-description: We are an international team based in Paris, conducting AI research for Valeo automotive applications, in collaboration with world-class academics. Our main research is towards better, clearer & safer automotive AI. <br>Find out more about our research <a href='/publications' target='_blank'>here</a>!
+description: We are an international team based in Paris, conducting AI research for Valeo automotive applications, in collaboration with world-class academics. Our main research is towards better, clearer & safer automotive AI. Find out more about our research <a href='/publications' target='_blank'>here</a>!<br>The team is led by Director <a href='https://cord.isir.upmc.fr/' target='_blank'>Matthieu Cord</a>, and Deputy Director <a href='https://abursuc.github.io/' target='_blank'>Andrei Bursuc</a>.
 
 profile:
   image: vai_cropped.jpg
