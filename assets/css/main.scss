@@ -13,54 +13,31 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
-
-.partner-item {
+/* Container for the whole list */
+.partners-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 45%;
-  margin-bottom: 20px;
+  gap: 2.5rem; /* Adjust this value for the vertical spacing between institutions */
 }
 
-.partner-item img {
-  max-width: 70%;
-  height: auto;
-}
-
-.partner-row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1em;
-  align-items: center;
-  height: 160px;
-}
-
-.partner-logo {
+/* Individual partner block */
+.partner-block {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 1em;
+  align-items: center; /* Vertically centers the logo with the names */
+  gap: 2rem; /* Adjust this value for the horizontal space between the logo and the names */
 }
 
-.partner-name {
-  align-items: center;
+/* Keeps the logo fixed in size so long names don't squish it */
+.partner-logo {
+  flex-shrink: 0; 
+  width: 150px; /* Set a uniform width for all logos if needed */
 }
 
-.partner-logo img {
-  height: 40px;
-  object-fit: contain;
-}
-
-.partner-logo .epfl-logo {
-  height: 30px;
-}
-
-.partner-logo .enpc-logo {
-  height: 52px;
-}
-
-.partner-logo .ubs-logo {
-  height: 45px;
+/* Stacks the names neatly if there are multiple */
+.partner-names {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Space between individual names */
 }
 
 .group a {
