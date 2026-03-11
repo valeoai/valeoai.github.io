@@ -19,7 +19,7 @@
 
 "Bursuc":
     firstname: Andrei
-    position: Deputy Director
+    position: Deputy Director of valeo.ai
     profilepic: andrei_bursuc.jpg
     bib_firstname: ["Andrei", "A."]
     url: https://abursuc.github.io/
@@ -42,7 +42,7 @@
 
 "Cord":
     firstname: Matthieu
-    position: Director of valeo.ai (And Prof. At Sorbonne U.)
+    position: Director of valeo.ai (and Professor at Sorbonne Univ.)
     profilepic: matthieu_cord.jpg
     bib_firstname: ["Matthieu", "M."]
     url: https://cord.isir.upmc.fr/
