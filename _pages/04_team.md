@@ -6,19 +6,35 @@ description:
 nav: true
 nav_order: 1
 ---
+{% assign core_members = "" | split: ',' %}
+{% assign phd_students = "" | split: ',' %}
 
-<!-- pages/team.md -->
-<!-- sort active members -->
-{% assign names_sorted = "" | split: ',' %}
 {% for member in site.data.team %}
   {% if member[1].alumni != true %}
-    {% assign names_sorted = names_sorted | push: member[0] %}
+    {% assign position_down = member[1].position | downcase %}
+    {% comment %} Check if the position string contains 'phd' {% endcomment %}
+    {% if position_down contains 'phd' or position_down contains 'ph.d' %}
+      {% assign phd_students = phd_students | push: member[0] %}
+    {% else %}
+      {% assign core_members = core_members | push: member[0] %}
+    {% endif %}
   {% endif %}
 {% endfor %}
-{% assign names_sorted = names_sorted | sort_natural %}
 
+{% assign core_members = core_members | sort_natural %}
+{% assign phd_students = phd_students | sort_natural %}
+
+<h2>valeo.ai Team</h2>
 <div class="team">
-{% for name in names_sorted %}
+{% for name in core_members %}
+  {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
+  {% include team/member.html member=member %}
+{% endfor %}
+</div>
+
+<h2>PhD Students</h2>
+<div class="team">
+{% for name in phd_students %}
   {% assign member = "" | split: ',' | push: name | push: site.data.team[name] %}
   {% include team/member.html member=member %}
 {% endfor %}
