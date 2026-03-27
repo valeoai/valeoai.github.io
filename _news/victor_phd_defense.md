@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://victorletzelter.github.io/" target="_blank">Victor Letzelter</a> defends his PhD at Télécom Paris.
+<a href="https://victorletzelter.github.io/" target="_blank">Victor Letzelter</a> defends his PhD entitled "Multiple Choice Learning from Ambiguous Signals".
