@@ -94,6 +94,10 @@
     scholar: https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en
     github: https://github.com/Victorletzelter
     url: https://victorletzelter.github.io/
+    alumni_phd: True
+    alumni: True
+    phd_defense: 2026
+    alumni_now: 
 
 "Marlet":
     firstname: Renaud
