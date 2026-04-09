@@ -6,7 +6,7 @@ hide: false
 category: [explainability, driving, foundation]
 authors: Amaia Cardiel, Éloi Zablocki, Elias Ramzi, Eric Gaussier
 venue: ACL Findings
-venue_long: Internation Conference on Representation Learning (ICLR)
+venue_long: Annual Meeting of the Association for Computational Linguistics (Findings)
 year: 2026
 month: 07
 code_url:
@@ -68,7 +68,7 @@ permalink: /publications/drivex/
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{cardiel2025llmwrapper,
+@inproceedings{cardiel2026drivex,
   title={DRIV-EX: Counterfactual Explanations for Driving LLMs},
   author    = {Amaia Cardiel and
                \'{E}loi Zablocki and
