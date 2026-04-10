@@ -5,7 +5,6 @@ github_repos:
   - valeoai/WoodScape
   - vita-epfl/UniTraj
   - valeoai/ADVENT
-  - valeoai/Maskgit-pytorch
   - valeoai/Franca
   - valeoai/LOST
   - valeoai/RADIal
@@ -114,3 +113,27 @@ github_repos:
   - cedricrommel/manipose
   - lcalem/diva
   - leonzheng2/efficient-butterfly
+  - valeoai/3D-Human-Pose-Shape-Estimation-from-LiDAR
+  - valeoai/Halton-MaskGIT
+  - valeoai/OccAny
+  - valeoai/REPA-G
+  - valeoai/ppt
+  - valeoai/muddos
+  - abc-125/segad
+  - astra-vision/StableMTL
+  - ENSTA-U2IS/torch-uncertainty
+  - F-Barto/LiDARTouch
+  - giannifranchi/TRADI_Tracking_DNN_weights
+  - giannifranchi/deeplabv3-superpixelmix
+  - huyvvo/rOSD
+  - lorenzovaquero/BUSCA
+  - nasosger/MuToR
+  - raphaelsulzer/dsrv-data
+  - seamie6/SuperQuadricOcc
+  - SimondeMoreau/LED
+  - Sta8is/DINO-Foresight
+  - toddlerdiffusion/code
+  - wysoczanska/clip_dinoiser
+  - YoungXIAO13/PoseContrast
+  - zelaki/ReDi
+  - zelaki/eqvae

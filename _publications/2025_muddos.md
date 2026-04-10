@@ -9,7 +9,7 @@ venue: BMVC
 venue_long: The British Machine Vision Conference
 year: 2025
 month: 11
-code_url: hhttps://github.com/valeoai/muddos
+code_url: https://github.com/valeoai/muddos
 paper_url: https://arxiv.org/abs/2511.17455
 blog_url:
 slides_url:
