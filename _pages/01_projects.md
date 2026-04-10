@@ -6,150 +6,64 @@ nav: true
 nav_order: 2 
 ---
 
+<div class="research-axes">
 
-# Multi-sensor scene understanding
+# 3D Perception and Scene Understanding
 
-<div class="projects_list">
-
-<ol class="projects">
-
-{% for projects in site.projects %}
-
-
-{% if projects.category == "project" %}
-{% if projects.subcategory == "perception" %}
-
-<li>
-
-<div class="row">
-    <div class="col-md-4">
-        <div class="pubteaserbs">
-            <a href="{{site.url  | append: site.baseurl | append: projects.permalink}}">
-                <img class="preview" src="../{{ projects.image }}" alt="{{projects.image}} project teaser"/>
-           </a>
-        </div>
-    </div>
-    <div class="col-md-8">
-        <div class="pubitembs">
-            <h2><a href="{{site.url  | append: site.baseurl | append: projects.permalink}}">{{ projects.title }}</a></h2>
-            <div class="description">
-            {{ projects.description }}
-            </div>
-        </div>
+<div class="row align-items-center mb-4">
+<div class="col-md-4">
+<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_multi2.PNG' | relative_url }}" alt="3D Perception and Scene Understanding"/>
 </div>
+<div class="col-md-8">
+<p>
+Autonomous vehicles rely on a diverse range of sensors — cameras, LiDARs, radars, ultrasonics — to perceive their surroundings. We study how to fuse and interpret these multi-modal signals to build accurate 3D representations of the driving scene, including object detection, semantic segmentation, depth estimation, motion forecasting, and pose estimation.
+</p>
 </div>
-
-</li>
-
-{% if forloop.last == false %}
-<hr>
-{% endif %}
-
-{% endif %}
-
-{% endif %}
-
-{% endfor %} 
-
-</ol>
-</div>
-
-
-<br>
-<br>
-# Data and annotation efficient learning
-
-<div class="projects_list">
-
-<ol class="projects">
-
-{% for projects in site.projects %}
-
-
-{% if projects.category == "project" %}
-{% if projects.subcategory == "frugal" %}
-
-<li>
-
-<div class="row">
-    <div class="col-md-4">
-        <div class="pubteaserbs">
-            <a href="{{site.url  | append: site.baseurl | append: projects.permalink}}">
-                <img class="preview" src="../{{ projects.image }}" alt="{{projects.image}} project teaser"/>
-           </a>
-        </div>
-    </div>
-    <div class="col-md-8">
-        <div class="pubitembs">
-            <h2><a href="{{site.url  | append: site.baseurl | append: projects.permalink}}">{{ projects.title }}</a></h2>
-            <div class="description">
-            {{ projects.description }}
-            </div>
-        </div>
-</div>
-</div>
-
-</li>
-
-{% if forloop.last == false %}
-<hr>
-{% endif %}
-
-{% endif %}
-
-{% endif %}
-
-{% endfor %} 
-
-</ol>
 </div>
 
 <br>
+
+# Foundation Models and World Modeling
+
+<div class="row align-items-center mb-4">
+<div class="col-md-4">
+<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_wm.jpg' | relative_url }}" alt="Foundation Models and World Modeling"/>
+</div>
+<div class="col-md-8">
+<p>
+Large-scale pretrained models can go beyond fixed ontologies and adapt to a wide variety of downstream tasks. We investigate vision and vision-language foundation models, as well as world models that learn to simulate and predict how driving scenes evolve over time, enabling better generalization with less task-specific supervision.
+</p>
+</div>
+</div>
+
 <br>
-# Dependable models
 
-<div class="projects_list">
+# Physical AI and End-to-End Planning
 
-<ol class="projects">
-
-{% for projects in site.projects %}
-
-
-{% if projects.category == "project" %}
-{% if projects.subcategory == "dependable" %}
-
-<li>
-
-<div class="row">
-    <div class="col-md-4">
-        <div class="pubteaserbs">
-            <a href="{{site.url  | append: site.baseurl | append: projects.permalink}}">
-                <img class="preview" src="../{{ projects.image }}" alt="{{projects.image}} project teaser"/>
-           </a>
-        </div>
-    </div>
-    <div class="col-md-8">
-        <div class="pubitembs">
-            <h2><a href="{{site.url  | append: site.baseurl | append: projects.permalink}}">{{ projects.title }}</a></h2>
-            <div class="description">
-            {{ projects.description }}
-            </div>
-        </div>
+<div class="row align-items-center mb-4">
+<div class="col-md-4">
+<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_e2e.jpg' | relative_url }}" alt="Physical AI and End-to-End Planning"/>
+</div>
+<div class="col-md-8">
+<p>
+Rather than treating perception and decision-making as separate modules, end-to-end approaches learn to map sensor inputs directly to driving actions. We explore neural planning architectures and physical AI methods that reason jointly about scene understanding and trajectory planning, aiming for driving systems that are both simpler and more effective.
+</p>
 </div>
 </div>
 
-</li>
+<br>
 
-{% if forloop.last == false %}
-<hr>
-{% endif %}
+# Robust, Reliable and Explainable Models
 
-{% endif %}
-
-{% endif %}
-
-{% endfor %} 
-
-</ol>
+<div class="row align-items-center mb-4">
+<div class="col-md-4">
+<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_dependable2.PNG' | relative_url }}" alt="Robust, Reliable and Explainable Models"/>
+</div>
+<div class="col-md-8">
+<p>
+Safety-critical applications demand models that are resilient to distribution shifts, adverse conditions, and unexpected inputs. We work on uncertainty estimation, domain generalization, robustness to corruptions and adversarial perturbations, and explainability methods that help understand and trust the decisions made by deep learning systems.
+</p>
+</div>
+</div>
 
 </div>

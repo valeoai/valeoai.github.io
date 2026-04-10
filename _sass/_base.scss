@@ -175,19 +175,20 @@ blockquote {
     justify-content: space-around;
     flex-wrap: wrap;
     article {
-      width: 25%;
+      width: 22%;
       text-align: justify;
       font-weight: bold;
       overflow-wrap: break-word;
       min-width: 90px;
       hyphens: auto;
+      padding: 0 0.5em;
       .title {
         text-align: center;
       }
       img {
         width: 100%;
         border-radius: 50%;
-        border: 3px solid var(--global-text-color);
+        border: 1.5px solid var(--global-text-color);
         aspect-ratio: 1;
         background-color: var(--global-bg-color);
       }
