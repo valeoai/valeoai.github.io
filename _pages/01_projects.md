@@ -8,7 +8,7 @@ nav_order: 2
 
 <div class="research-axes">
 
-# 3D Perception and Scene Understanding
+<h1>3D Perception and Scene Understanding</h1>
 
 <div class="row align-items-center mb-4">
 <div class="col-md-4">
@@ -23,7 +23,7 @@ Autonomous vehicles rely on a diverse range of sensors — cameras, LiDARs, rada
 
 <br>
 
-# Foundation Models and World Modeling
+<h1>Foundation Models and World Modeling</h1>
 
 <div class="row align-items-center mb-4">
 <div class="col-md-4">
@@ -38,7 +38,7 @@ Large-scale pretrained models can go beyond fixed ontologies and adapt to a wide
 
 <br>
 
-# Physical AI and End-to-End Planning
+<h1>Physical AI and End-to-End Planning</h1>
 
 <div class="row align-items-center mb-4">
 <div class="col-md-4">
@@ -53,7 +53,7 @@ Rather than treating perception and decision-making as separate modules, end-to-
 
 <br>
 
-# Robust, Reliable and Explainable Models
+<h1>Robust, Reliable and Explainable Models</h1>
 
 <div class="row align-items-center mb-4">
 <div class="col-md-4">
