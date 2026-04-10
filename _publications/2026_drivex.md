@@ -2,6 +2,7 @@
 layout: publication
 title: "DRIV-EX: Counterfactual Explanations for Driving LLMs"
 image: assets/img/publications/2026_drivex/drivex.png
+image_2: assets/img/publications/2026_drivex/drivex_cf_vy.png
 hide: false
 category: [explainability, driving, foundation]
 authors: Amaia Cardiel, Éloi Zablocki, Elias Ramzi, Eric Gaussier
@@ -57,6 +58,7 @@ permalink: /publications/drivex/
 
 <p align="justify">Large language models (LLMs) are increasingly used as reasoning engines in autonomous driving, yet their decision-making remains opaque. We propose to study their decision process through counterfactual explanations, which identify the minimal semantic changes to a scene description required to alter a driving plan. We introduce DRIV-EX, a method that leverages gradient-based optimization on continuous embeddings to identify the input shifts required to flip the model’s decision. Crucially, to avoid the incoherent text typical of unconstrained continuous optimization, DRIV-EX uses these optimized embeddings solely as a semantic guide: they are used to bias a controlled decoding process that re-generates the original scene description. This approach effectively steers the generation toward the counterfactual target while guaranteeing the linguistic fluency, domain validity, and proximity to the original input essential for interpretability. Evaluated using the LC-LLM planner on the textual highD dataset, DRIV-EX generates valid, fluent counterfactuals more reliably than existing baselines. It successfully exposes latent biases and provides concrete insights to improve the robustness of LLM-based driving agents.</p>
 
+<p align="justify">As an illustration, DRIV-EX identified that the LC-LLM planner, instantiated with Llama3 8B, learnt a shortcut between the ego car's own lateral velocity ('vy') and the lane change decision, at the expense of physical safety.</p>
 
 <div class="publication-teaser">
     <img src="../../{{ page.image_2 }}" alt="project teaser 2"/>
