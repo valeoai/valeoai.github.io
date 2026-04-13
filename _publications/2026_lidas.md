@@ -11,8 +11,7 @@ year: 2026
 month: 6
 code_url:
 paper_url: https://arxiv.org/abs/2512.08912
-website_url: https://simondemoreau.github.io/LiDAS/
-blog_url:
+blog_url: https://simondemoreau.github.io/LiDAS/
 slides_url:
 bib_url:
 permalink: /publications/lidas/
@@ -34,9 +33,6 @@ permalink: /publications/lidas/
   <p>
     {% if page.paper_url %}
     <a href="{{ page.paper_url }}"><i class="far fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
-    {% endif %}
-    {% if page.website_url %}
-    <a href="{{ page.website_url }}"><i class="fas fa-globe"></i> Website</a> &nbsp;&nbsp;
     {% endif %}
     {% if page.code_url %}
     <a href="{{ page.code_url }}"><i class="fab fa-github"></i> Code</a> &nbsp;&nbsp;

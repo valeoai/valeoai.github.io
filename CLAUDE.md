@@ -68,3 +68,4 @@ Edit `_bibliography/references.bib`. Author self-highlighting is configured via 
 When adding a new paper page under `_publications/` (e.g., `2026_foo.md`):
 - Always create the matching teaser image folder at `assets/img/publications/<year>_<slug>/` (even if empty — the user will drop the image in later).
 - If the paper has a `code_url`, add the corresponding `owner/repo` entry to `_data/repositories.yml` so it shows up on the repositories page.
+- For project/website pages, use the existing `blog_url` field — do NOT introduce a `website_url` field.
