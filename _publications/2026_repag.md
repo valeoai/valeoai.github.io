@@ -15,7 +15,7 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/repag/
-intern_work: true
+intern_work: false
 ---
 
 <h1 align="center"> {{page.title}} </h1>
