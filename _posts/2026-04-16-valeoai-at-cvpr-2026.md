@@ -32,7 +32,7 @@ Vision Foundation Models produce spatially downsampled representations that crea
 <hr>
 
 ### Driving on Registers
-##### Authors: Ellington Kirby, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://scholar.google.fr/citations?user=vMLRRVkAAAAJ">Yihong Xu</a>, <a href="https://yuan-yin.github.io/">Yuan Yin</a>, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>, <a href="https://eloiz.github.io">Eloi Zablocki</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://gidariss.github.io/">Spyros Gidaris</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>, <a href="https://f-barto.github.io/">Florent Bartoccioni</a>, <a href="https://anhquancao.github.io/">Anh-Quan Cao</a>, <a href="https://nerminsamet.github.io/">Nermin Samet</a>, <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
+##### Authors: <a href="https://ellingtonkirby.github.io/">Ellington Kirby</a>, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://scholar.google.fr/citations?user=vMLRRVkAAAAJ">Yihong Xu</a>, <a href="https://yuan-yin.github.io/">Yuan Yin</a>, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>, <a href="https://eloiz.github.io">Eloi Zablocki</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://gidariss.github.io/">Spyros Gidaris</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>, <a href="https://f-barto.github.io/">Florent Bartoccioni</a>, <a href="https://anhquancao.github.io/">Anh-Quan Cao</a>, <a href="https://nerminsamet.github.io/">Nermin Samet</a>, <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 <h5 align="center"> [<a href="https://arxiv.org/abs/2601.05083">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/DrivoR">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/driving-on-registers/">Project page</a>] </h5>
 
 ![drivor_teaser]({{ site.baseurl }}/assets/img/publications/drivor.gif){:height="100%" width="100%"}
@@ -62,7 +62,7 @@ We present Franca, the first fully open-source (data, code, weights) vision foun
 <hr>
 
 ### MAD: Motion Appearance Decoupling for efficient Driving World Models
-##### Authors: Ahmad Rahimi, Valentin Gerard, <a href="https://eloiz.github.io">Eloi Zablocki</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>, Alexandre Alahi
+##### Authors: <a href="https://scholar.google.com/citations?user=Lc1LR18AAAAJ&hl=en">Ahmad Rahimi</a>, <a href="https://scholar.google.com/citations?user=zDeI0iEAAAAJ&hl=en">Valentin Gerard</a>, <a href="https://eloiz.github.io">Eloi Zablocki</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>, Alexandre Alahi
 <h5 align="center"> [<a href="https://arxiv.org/abs/2601.09452">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/vita-epfl/MAD-World-Model-Code/">Code</a>] &nbsp;&nbsp; [<a href="https://vita-epfl.github.io/MAD-World-Model/">Project page</a>] </h5>
 
 ![mad_teaser]({{ site.baseurl }}/assets/img/publications/mad.gif){:height="100%" width="100%"}
