@@ -14,7 +14,7 @@ The [IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)](https
 
 
 ## Image-to-Lidar Self-Supervised Distillation for Autonomous Driving Data 
-#### Authors: Corentin Sautier, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>,  <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>,  <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
+#### Authors: Corentin Sautier, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>,  <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>,  <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
 
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2203.16258">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/SLidR">Code</a>] &nbsp;&nbsp; [<a href="../publications/slidr/">Project page</a>]</h4>

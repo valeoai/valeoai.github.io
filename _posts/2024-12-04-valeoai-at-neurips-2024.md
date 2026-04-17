@@ -16,7 +16,7 @@ We will be happy to discuss more about these projects and ideas, and share our e
 <hr>
 
 ## No Train, all Gain: Self-Supervised Gradients Improve Deep Frozen Representations
-### Authors: <a href="https://walter.ashita.nl/">Walter Simoncini</a>  &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp;  <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://yukimasano.github.io/">Yuki M. Asano</a>
+### Authors: <a href="https://walter.ashita.nl/">Walter Simoncini</a>  &nbsp;&nbsp; <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp;  <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://yukimasano.github.io/">Yuki M. Asano</a>
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2407.10964">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/WalterSimoncini/fungivision">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/fungi">Project page</a>]</h4>
 

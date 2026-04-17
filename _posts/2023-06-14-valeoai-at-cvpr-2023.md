@@ -68,7 +68,7 @@ Recent advances in self-supervised visual representation learning have paved the
 
 
 ## RangeViT: Towards Vision Transformers for 3D Semantic Segmentation in Autonomous Driving 
-#### Authors: Angelika Ando, <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
+#### Authors: Angelika Ando, <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
 
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2301.10222">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/rangevit">Code</a>] &nbsp;&nbsp; [<a href="https://www.youtube.com/watch?v=urd2ZIJ70WY">Video</a>]  &nbsp;&nbsp; [<a href="../publications/rangevit/">Project page</a>]</h4>

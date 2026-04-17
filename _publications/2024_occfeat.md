@@ -23,7 +23,7 @@ permalink: /publications/occfeat/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="">Sophia Sirko-Galouchenko</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp;  <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a> &nbsp;&nbsp; <br> <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;  <a href="https://vobecant.github.io/">Antonin Vobecky</a>  &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></h3>
+<h3 align="center"> <a href="">Sophia Sirko-Galouchenko</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp;  <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a> &nbsp;&nbsp; <br> <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;  <a href="https://vobecant.github.io/">Antonin Vobecky</a>  &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></h3>
 
 
 

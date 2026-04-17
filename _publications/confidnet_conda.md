@@ -21,7 +21,7 @@ permalink: /publications/confidnet_conda/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://chcorbi.github.io/">Charles Corbière</a>&nbsp;&nbsp; <a href="https://http://cedric.cnam.fr/~thomen/">Nicolas Thome</a>&nbsp;&nbsp; <a href="https://www.lip6.fr/actualite/personnes-fiche.php?ident=D2317">Antoine Saporta</a>&nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>&nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> </h3>
+<h3 align="center"> <a href="https://chcorbi.github.io/">Charles Corbière</a>&nbsp;&nbsp; <a href="https://https://thome.isir.upmc.fr/">Nicolas Thome</a>&nbsp;&nbsp; <a href="https://www.lip6.fr/actualite/personnes-fiche.php?ident=D2317">Antoine Saporta</a>&nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>&nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> </h3>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} </h3>

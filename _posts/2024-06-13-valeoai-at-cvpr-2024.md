@@ -18,7 +18,7 @@ We outline our team papers below.
 ![valeo.ai team at CVPR 2024]({{ site.baseurl }}/assets/img/posts/2024_cvpr/valeoai_cvpr.jfif){:height="100%" width="100%"}
 
 ## Three Pillars Improving Vision Foundation Model Distillation for Lidar
-#### Authors: <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>, <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://osimeoni.github.io/">Oriane Siméoni</a>,  <a href="https://csautier.github.io/">Corentin Sautier</a>,  <a href="https://abursuc.github.io/">Andrei Bursuc</a>,  <a href="https://ptrckprz.github.io/">Patrick Pérez</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
+#### Authors: <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>, <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://osimeoni.github.io/">Oriane Siméoni</a>,  <a href="https://csautier.github.io/">Corentin Sautier</a>,  <a href="https://abursuc.github.io/">Andrei Bursuc</a>,  <a href="https://ptrckprz.github.io/">Patrick Pérez</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
 
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2310.17504">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/ScalR">Code</a>] &nbsp;&nbsp; [<a href="https://youtu.be/yksj5WuJY4I">Video</a>]  &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/scalr/">Project page</a>]</h4>
@@ -146,7 +146,7 @@ The procedure begins with training a single DNN $\omega_{\text{MAP}}$, followed 
 
 ### Highlight
 
-#### Authors: <a href="https://scholar.google.com/citations?user=B_dKcz4AAAAJ">Ioannis Kakogeorgiou</a>, <a href="https://scholar.google.com/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>, <a href="http://users.ntua.gr/karank/">Konstantinos Karantzalos</a>,   <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a>
+#### Authors: <a href="https://scholar.google.com/citations?user=B_dKcz4AAAAJ">Ioannis Kakogeorgiou</a>, <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>, <a href="http://users.ntua.gr/karank/">Konstantinos Karantzalos</a>,   <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a>
 
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2312.00648">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/gkakogeorgiou/spot">Code</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/spot/">page</a>]</h4>
@@ -196,7 +196,7 @@ The practicality of 3D object pose estimation remains limited for many applicati
 <p class="page-description"><a href="https://www.argoverse.org/E2EForecasting.html">Winning solution in Argoverse 2 Unified Detection, Tracking and Forecasting Challenge, at CVPR WAD 2024</a></p>
 
 
-#### Authors: <a href="https://scholar.google.fr/citations?user=vMLRRVkAAAAJ">Yihong Xu</a>, <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a>,  <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>,   <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a>, <a href="https://f-barto.github.io/">Florent Bartoccioni</a>,  <a href="https://nerminsamet.github.io/">Nermin Samet</a>,   <a href="https://osimeoni.github.io/">Oriane Siméoni</a>,   <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ">Spyros Gidaris</a>,   <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>,  <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ">Eduardo Valle</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>,  <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
+#### Authors: <a href="https://scholar.google.fr/citations?user=vMLRRVkAAAAJ">Yihong Xu</a>, <a href="https://scholar.google.fr/citations?user=dOkbUmEAAAAJ">Éloi Zablocki</a>,  <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>,   <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a>, <a href="https://f-barto.github.io/">Florent Bartoccioni</a>,  <a href="https://nerminsamet.github.io/">Nermin Samet</a>,   <a href="https://osimeoni.github.io/">Oriane Siméoni</a>,   <a href="https://gidariss.github.io/">Spyros Gidaris</a>,   <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>, <a href="https://abursuc.github.io/">Andrei Bursuc</a>,  <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ">Eduardo Valle</a>, <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>,  <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2406.08113">Paper</a>] &nbsp;&nbsp; [<a href="https://eval.ai/web/challenges/challenge-page/2006/leaderboard/4752">leaderboard</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/valeo4cast/">page</a>]</h4>
 
@@ -213,7 +213,7 @@ Motion forecasting is crucial in autonomous driving systems to anticipate the fu
 <p class="page-description"><a href="https://cvpr2024.wad.vision/">CVPR 2024 Workshop on Autonomous Driving (WAD)</a></p>
 
 
-#### Authors: Sophia Sirko-Galouchenko, <a href="https://www.boulch.eu/">Alexandre Boulch</a>,  <a href="https://scholar.google.fr/citations?user=7atfg7EAAAAJ&hl=en">Spyros Gidaris</a>,  <a href="https://abursuc.github.io/">Andrei Bursuc</a>,   <a href="https://vobecant.github.io/">Antonin Vobecky</a>,   <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>,  <a href="https://ptrckprz.github.io/">Patrick Pérez</a>
+#### Authors: Sophia Sirko-Galouchenko, <a href="https://www.boulch.eu/">Alexandre Boulch</a>,  <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>,  <a href="https://abursuc.github.io/">Andrei Bursuc</a>,   <a href="https://vobecant.github.io/">Antonin Vobecky</a>,   <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>,  <a href="https://ptrckprz.github.io/">Patrick Pérez</a>
 
 <h4 align="center"> [<a href="https://arxiv.org/abs/2404.14027">Paper</a>] &nbsp;&nbsp; [<a href="https://valeoai.github.io/publications/occfeat/">page</a>]</h4>
 
