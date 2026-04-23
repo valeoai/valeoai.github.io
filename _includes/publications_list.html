@@ -1,14 +1,41 @@
-<div class="publications">
+<div class="publications" data-publications-root>
 
+    {%- assign prev_year = 0 -%}
     <ol class="bibliography">
-    
+
     {% for year_publications in publications_by_year %}
-    
     {% assign curr_publications = year_publications.items | sort: 'month' | reverse %}
-    
+
     {% for entry in curr_publications %}
-    
-    <li>
+
+    {%- comment -%} Compute axis slugs matched by this entry's category tags {%- endcomment -%}
+    {%- assign entry_axes_str = "" -%}
+    {%- for axis in site.data.axes -%}
+      {%- assign axis_hit = false -%}
+      {%- for cat in axis.categories -%}
+        {%- if axis_hit == false -%}
+        {%- for entry_cat in entry.category -%}
+          {%- assign a = cat | downcase | strip -%}
+          {%- assign b = entry_cat | downcase | strip -%}
+          {%- if a == b -%}{%- assign axis_hit = true -%}{%- break -%}{%- endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- if axis_hit -%}
+        {%- assign entry_axes_str = entry_axes_str | append: axis.slug | append: " " -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- assign entry_axes_str = entry_axes_str | strip -%}
+
+    {%- if entry.year != prev_year %}
+    <li class="year-marker" data-year-marker="{{ entry.year }}"><h2 class="year-header">{{ entry.year }}</h2></li>
+    {%- assign prev_year = entry.year -%}
+    {%- endif %}
+
+    <li class="pub-entry"
+        data-year="{{ entry.year }}"
+        data-axes="{{ entry_axes_str }}"
+        data-search="{{ entry.title | downcase | strip_html | escape_once }} {{ entry.authors | downcase | strip_html | escape_once }} {{ entry.venue | downcase | escape_once }}">
     <div class="row">
         <div class="col-sm-4">
         {%- if entry.image -%}
@@ -29,7 +56,7 @@
             {%- endif -%}
         {%- endif -%}
         </div>
-    
+
         <div id="{{entry.title}}" class="col-sm-8">
             <!-- Title -->
             <div class="title">
@@ -41,13 +68,13 @@
             {{entry.title}}
             </a>
             </div>
-        
+
             <!-- Author -->
             <div class="author">
             {{entry.authors}}
-    
+
             </div>
-    
+
             <!-- Journal/Book title and date -->
             <div class="periodical">
                 <em>{{ entry.venue }}, {{ entry.year }}</em>
@@ -55,7 +82,7 @@
                   <span class="award">{{entry.award}}</span>
                 {%- endif -%}
             </div>
-    
+
             <!-- Links/Buttons -->
             <div class="links">
             {%- if entry.abstract %}
@@ -106,21 +133,19 @@
               <a href="{{ entry.live_demo }}" class="btn btn-sm z-depth-0" role="button">Live demo</a>
             {%- endif %}
             </div>
-    
+
         </div>
-    
+
     </div>
-    
+
     </li>
-    
-    {% if forloop.last == false %}
-    <hr>
-    {% endif %}
-    
+
     {% endfor %}
-    
+
     {% endfor %}
-    
+
     </ol>
-    
-    </div>
+
+    <div class="no-results" hidden>No publications match your filters.</div>
+
+</div>

@@ -1,0 +1,114 @@
+# Research axes -> category-tag buckets.
+# The `categories` list below maps each `category` value used in
+# `_publications/*.md` front matter onto one of four research axes.
+# Matching is case-insensitive and tolerant of hyphens vs spaces.
+# An entry with multiple `category` values will match each corresponding axis.
+
+- slug: 3d-perception
+  label: "3D Perception"
+  long_label: "3D Perception and Scene Understanding"
+  image: research/axis_multi2.PNG
+  categories:
+    - 3d-perception
+    - 3d-reconstruction
+    - 3d
+    - multi-sensor
+    - lidar
+    - point-cloud
+    - segmentation
+    - semantic segmentation
+    - bev segmentation
+    - occupancy
+    - scene understanding
+    - pose
+    - monocular depth estimation
+    - surface normal estimation
+    - gaussian-splatting
+    - quadric
+    - 2d tracking
+    - multi-target tracking
+    - perception
+    - distillation
+
+- slug: foundation
+  label: "Foundation & World Models"
+  long_label: "Foundation Models and World Modeling"
+  image: research/axis_wm.jpg
+  categories:
+    - foundation
+    - limited-supervision
+    - self-supervised
+    - self-supervision
+    - self-supervised-learning
+    - self-supervised learning
+    - representation learning
+    - representation-learning
+    - large language models
+    - multimodal
+    - vision-language
+    - instruction tuning
+    - in-context learning
+    - zero shot
+    - zero-shot
+    - open-vocabulary
+    - pretraining
+    - post-training
+    - parameter efficient finetuning
+    - low-rank adaptation
+    - transfer learning
+    - active learning
+    - meta-learning
+    - generative model
+    - diffusion
+    - gan
+    - image synthesis
+    - unsupervised
+    - learning from video
+    - long-range tracking
+    - optimal-transport
+
+- slug: physical-ai
+  label: "Physical AI & E2E"
+  long_label: "Physical AI and End-to-End Planning"
+  image: research/axis_e2e.jpg
+  categories:
+    - driving
+    - autonomous-driving
+    - motion forecasting
+    - motion-forecasting
+    - motion-planning
+    - planning
+    - trajectory-prediction
+    - trajectory-optimization
+    - prediction
+    - dynamics
+    - end-to-end
+    - world-model
+    - corner-case-generation
+    - multi-task
+    - multi-task learning
+    - video compression
+
+- slug: robust
+  label: "Robust & Reliable"
+  long_label: "Robust, Reliable and Explainable Models"
+  image: research/axis_dependable2.PNG
+  categories:
+    - reliability
+    - robustness
+    - explainability
+    - interpretability
+    - guidance
+    - anomaly detection
+    - ood
+    - adversarial
+    - generalization
+    - domain-adaptation
+    - domain adaptation
+    - differential equation
+    - solver
+    - physics-informed neural networks
+    - survey
+    - diversity
+    - deep-learning
+    - deep learning
