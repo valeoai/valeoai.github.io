@@ -1,13 +1,19 @@
 # Research axes -> category-tag buckets.
-# The `categories` list below maps each `category` value used in
+# The `categories` list maps each `category` value used in
 # `_publications/*.md` front matter onto one of four research axes.
-# Matching is case-insensitive and tolerant of hyphens vs spaces.
-# An entry with multiple `category` values will match each corresponding axis.
+# Matching is case-insensitive.
+# An entry with multiple `category` values matches each corresponding axis.
 
 - slug: 3d-perception
   label: "3D Perception"
   long_label: "3D Perception and Scene Understanding"
   image: research/axis_multi2.PNG
+  description: >
+    Autonomous vehicles rely on cameras, LiDARs, radars, and ultrasonics to
+    perceive their surroundings. We study how to fuse and interpret these
+    multi-modal signals to build accurate 3D representations of the driving
+    scene — object detection, semantic segmentation, depth estimation,
+    motion forecasting, and pose estimation.
   categories:
     - 3d-perception
     - 3d-reconstruction
@@ -34,6 +40,12 @@
   label: "Foundation & World Models"
   long_label: "Foundation Models and World Modeling"
   image: research/axis_wm.jpg
+  description: >
+    Large-scale pretrained models can go beyond fixed ontologies and adapt to
+    a wide variety of downstream tasks. We investigate vision and
+    vision-language foundation models, as well as world models that learn to
+    simulate and predict how driving scenes evolve over time — enabling
+    better generalization with less task-specific supervision.
   categories:
     - foundation
     - limited-supervision
@@ -71,6 +83,12 @@
   label: "Physical AI & E2E"
   long_label: "Physical AI and End-to-End Planning"
   image: research/axis_e2e.jpg
+  description: >
+    Rather than treating perception and decision-making as separate modules,
+    end-to-end approaches learn to map sensor inputs directly to driving
+    actions. We explore neural planning architectures and physical AI methods
+    that reason jointly about scene understanding and trajectory planning —
+    aiming for driving systems that are both simpler and more effective.
   categories:
     - driving
     - autonomous-driving
@@ -93,6 +111,13 @@
   label: "Robust & Reliable"
   long_label: "Robust, Reliable and Explainable Models"
   image: research/axis_dependable2.PNG
+  description: >
+    Safety-critical applications demand models that are resilient to
+    distribution shifts, adverse conditions, and unexpected inputs. We work
+    on uncertainty estimation, domain generalization, robustness to
+    corruptions and adversarial perturbations, and explainability methods
+    that help understand and trust the decisions made by deep learning
+    systems.
   categories:
     - reliability
     - robustness

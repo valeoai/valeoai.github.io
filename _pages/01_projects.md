@@ -3,67 +3,69 @@ layout: default
 title: Research
 permalink: /research/
 nav: true
-nav_order: 2 
+nav_order: 2
 ---
 
-<div class="research-axes">
+<div class="research-axes-page">
 
-<h1>3D Perception and Scene Understanding</h1>
+<h1 class="page-title">Research</h1>
+<p class="page-lede">Our work spans four intertwined axes. Click any axis to browse matching publications.</p>
 
-<div class="row align-items-center mb-4">
-<div class="col-md-4">
-<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_multi2.PNG' | relative_url }}" alt="3D Perception and Scene Understanding"/>
-</div>
-<div class="col-md-8">
-<p>
-Autonomous vehicles rely on a diverse range of sensors — cameras, LiDARs, radars, ultrasonics — to perceive their surroundings. We study how to fuse and interpret these multi-modal signals to build accurate 3D representations of the driving scene, including object detection, semantic segmentation, depth estimation, motion forecasting, and pose estimation.
-</p>
-</div>
-</div>
+{% assign all_pubs = site.publications | where: 'hide', false %}
 
-<br>
+{% for axis in site.data.axes %}
 
-<h1>Foundation Models and World Modeling</h1>
+  {%- comment -%} Collect publications whose `category` matches this axis {%- endcomment -%}
+  {%- assign axis_pubs = "" | split: "," -%}
+  {%- for entry in all_pubs -%}
+    {%- assign hit = false -%}
+    {%- for cat in axis.categories -%}
+      {%- if hit == false -%}
+        {%- for ecat in entry.category -%}
+          {%- assign a = cat | downcase | strip -%}
+          {%- assign b = ecat | downcase | strip -%}
+          {%- if a == b -%}{%- assign hit = true -%}{%- break -%}{%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if hit -%}
+      {%- assign axis_pubs = axis_pubs | push: entry -%}
+    {%- endif -%}
+  {%- endfor -%}
 
-<div class="row align-items-center mb-4">
-<div class="col-md-4">
-<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_wm.jpg' | relative_url }}" alt="Foundation Models and World Modeling"/>
-</div>
-<div class="col-md-8">
-<p>
-Large-scale pretrained models can go beyond fixed ontologies and adapt to a wide variety of downstream tasks. We investigate vision and vision-language foundation models, as well as world models that learn to simulate and predict how driving scenes evolve over time, enabling better generalization with less task-specific supervision.
-</p>
-</div>
-</div>
+  {%- assign axis_pubs_sorted = axis_pubs | sort: 'year' | reverse -%}
+  {%- assign recent_pubs = axis_pubs_sorted | slice: 0, 4 -%}
 
-<br>
+<section class="axis-section" id="{{ axis.slug }}">
+  <a class="axis-header" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">
+    <div class="axis-header-image">
+      <img src="{{ axis.image | prepend: '/assets/img/' | relative_url }}" alt="{{ axis.long_label }}" loading="lazy">
+    </div>
+    <div class="axis-header-text">
+      <h2 class="axis-name">{{ axis.long_label }} <span class="axis-arrow">→</span></h2>
+      <p class="axis-desc">{{ axis.description }}</p>
+    </div>
+  </a>
 
-<h1>Physical AI and End-to-End Planning</h1>
+  {% if recent_pubs.size > 0 %}
+  <div class="axis-recent">
+    <h3 class="axis-recent-title">Recent key works</h3>
+    <ul class="axis-recent-list">
+      {% for pub in recent_pubs %}
+      <li>
+        <a href="{% if pub.blog_url %}{{ pub.blog_url }}{% else %}{{ pub.permalink | relative_url }}{% endif %}"
+           {% if pub.blog_url %}target="_blank" rel="noopener"{% endif %}>
+          <span class="recent-title">{{ pub.title }}</span>
+        </a>
+        <span class="recent-meta">{{ pub.venue }} {{ pub.year }}{% if pub.award %} · <span class="recent-award">{{ pub.award }}</span>{% endif %}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="axis-more" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">All {{ axis_pubs_sorted.size }} papers in this axis →</a>
+  </div>
+  {% endif %}
+</section>
 
-<div class="row align-items-center mb-4">
-<div class="col-md-4">
-<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_e2e.jpg' | relative_url }}" alt="Physical AI and End-to-End Planning"/>
-</div>
-<div class="col-md-8">
-<p>
-Rather than treating perception and decision-making as separate modules, end-to-end approaches learn to map sensor inputs directly to driving actions. We explore neural planning architectures and physical AI methods that reason jointly about scene understanding and trajectory planning, aiming for driving systems that are both simpler and more effective.
-</p>
-</div>
-</div>
-
-<br>
-
-<h1>Robust, Reliable and Explainable Models</h1>
-
-<div class="row align-items-center mb-4">
-<div class="col-md-4">
-<img class="img-fluid rounded" src="{{ 'assets/img/research/axis_dependable2.PNG' | relative_url }}" alt="Robust, Reliable and Explainable Models"/>
-</div>
-<div class="col-md-8">
-<p>
-Safety-critical applications demand models that are resilient to distribution shifts, adverse conditions, and unexpected inputs. We work on uncertainty estimation, domain generalization, robustness to corruptions and adversarial perturbations, and explainability methods that help understand and trust the decisions made by deep learning systems.
-</p>
-</div>
-</div>
+{% endfor %}
 
 </div>
