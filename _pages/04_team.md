@@ -66,8 +66,7 @@ nav_order: 1
 <!-- <h2 class="alumni">Alumni</h2> -->
 
 <!-- Alumni with alumni_phd: True -->
-<br>
-# PhD student alumni
+## PhD student alumni
 <div class="team alumni">
 {% for member in site.data.team %}
   {% if member[1].alumni_phd == true %}
@@ -77,8 +76,7 @@ nav_order: 1
 </div>
 
 <!-- Alumni without alumni: True -->
-<br>
-# Permament member alumni
+## Permanent member alumni
 <div class="team alumni">
 {% for member in site.data.team %}
   {% if member[1].alumni == true and (member[1].alumni_phd != true or member[0] == "Bartoccioni") %}
@@ -87,7 +85,6 @@ nav_order: 1
 {% endfor %}
 </div>
 
-<br>
-# Alumni interns and visiting students
+## Alumni interns and visiting students
 <p>Please visit the <a href="/interns/">dedicated page</a> to meet our past interns and visiting students and view their projects.</p>
 
