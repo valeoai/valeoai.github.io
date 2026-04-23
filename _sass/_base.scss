@@ -712,15 +712,12 @@ footer.sticky-bottom {
 
 .repositories.repo-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
   margin: 1.5rem 0 2.5rem 0;
 }
 
-@media (max-width: 900px) {
-  .repositories.repo-grid { grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 520px) {
+@media (max-width: 600px) {
   .repositories.repo-grid { grid-template-columns: 1fr; }
 }
 
@@ -731,9 +728,9 @@ footer.sticky-bottom {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 0.875rem 1rem 0.5rem 1rem;
+    padding: 1rem 1.125rem 0.75rem 1.125rem;
     border: 1px solid var(--global-divider-color);
-    border-radius: 10px;
+    border-radius: 12px;
     background: var(--global-card-bg-color);
     color: var(--global-text-color);
     text-decoration: none;
@@ -750,9 +747,9 @@ footer.sticky-bottom {
   }
 
   .repo-head {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     line-height: 1.3;
-    margin-bottom: 0.375rem;
+    margin-bottom: 0.625rem;
   }
 
   .repo-owner {
@@ -767,11 +764,14 @@ footer.sticky-bottom {
   }
 
   .repo-stats {
+    // NOTE: do NOT set display here — the theme layer toggles
+    // .repo-img-light vs .repo-img-dark via display:none/block and
+    // we must not override its specificity (the whole dual-image
+    // swap breaks if both are forced to display:block).
     img {
       width: 100%;
       height: auto;
       max-width: 100%;
-      display: block;
     }
   }
 }
