@@ -14,6 +14,11 @@
     </a>
     <span class="member-role">{{ member[1].position }}</span>
   {% else %}
-    <a href="{{ member[1].url }}" target="_blank">{{ full_name }}</a> — {{ member[1].position }}{% if member[1].alumni_now != "" and member[1].alumni_now != nil %} — {{ member[1].alumni_now }}{% endif %}
+    {%- assign now_clean = member[1].alumni_now | remove_first: 'now at ' | remove_first: 'now ' | strip -%}
+    <a class="alumni-name" href="{{ member[1].url }}" target="_blank">{{ full_name }}</a>
+    <div class="alumni-sub">{{ member[1].position }}</div>
+    {% if now_clean != "" and now_clean != nil %}
+    <div class="alumni-now">→ {{ now_clean }}</div>
+    {% endif %}
   {% endif %}
 </div>
