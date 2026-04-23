@@ -1,14 +1,19 @@
 <div class="publications">
 
+    {%- assign prev_year = 0 -%}
     <ol class="bibliography">
-    
+
     {% for year_publications in publications_by_year %}
-    
     {% assign curr_publications = year_publications.items | sort: 'month' | reverse %}
-    
+
     {% for entry in curr_publications %}
-    
-    <li>
+
+    {%- if entry.year != prev_year %}
+    <li class="year-marker"><h2 class="year-header">{{ entry.year }}</h2></li>
+    {%- assign prev_year = entry.year -%}
+    {%- endif %}
+
+    <li class="pub-entry">
     <div class="row">
         <div class="col-sm-4">
         {%- if entry.image -%}
@@ -29,7 +34,7 @@
             {%- endif -%}
         {%- endif -%}
         </div>
-    
+
         <div id="{{entry.title}}" class="col-sm-8">
             <!-- Title -->
             <div class="title">
@@ -41,7 +46,7 @@
             {{entry.title}}
             </a>
             </div>
-        
+
             <!-- Author -->
             <div class="author">
             {%- if entry.authors_internship -%}
@@ -50,7 +55,7 @@
                 {{entry.authors}}
             {%- endif -%}
             </div>
-    
+
             <!-- Journal/Book title and date -->
             <div class="periodical">
                 <em>{{ entry.venue }}, {{ entry.year }}</em>
@@ -58,13 +63,12 @@
                   <span class="award">{{entry.award}}</span>
                 {%- endif -%}
             </div>
-    
+
             <!-- Links/Buttons -->
             <div class="links">
             {%- if entry.abstract %}
               <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
             {%- endif %}
-              <!-- <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> Corentin: I could not make it work-->
             {%- if entry.blog_url %}
               <a href="{{ entry.blog_url }}" class="btn btn-sm z-depth-0" role="button">Project page</a>
             {%- endif %}
@@ -109,21 +113,17 @@
               <a href="{{ entry.live_demo }}" class="btn btn-sm z-depth-0" role="button">Live demo</a>
             {%- endif %}
             </div>
-    
+
         </div>
-    
+
     </div>
-    
+
     </li>
-    
-    {% if forloop.last == false %}
-    <hr>
-    {% endif %}
-    
+
     {% endfor %}
-    
+
     {% endfor %}
-    
+
     </ol>
-    
+
     </div>

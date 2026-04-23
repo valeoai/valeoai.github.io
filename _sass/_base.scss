@@ -320,6 +320,72 @@ blockquote {
   }
 }
 
+// Interns page (/interns/)
+.interns-page {
+  margin-top: 1rem;
+
+  .page-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.5rem 0;
+  }
+
+  .page-lede {
+    color: var(--global-text-color-light);
+    font-size: 1.05rem;
+    line-height: 1.65;
+    max-width: 64ch;
+    margin: 0 0 2.5rem 0;
+  }
+
+  h2 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-weight: 500;
+    font-size: 1.75rem;
+    letter-spacing: -0.015em;
+    margin: 3rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .interns-year {
+    margin-bottom: 1.75rem;
+  }
+
+  .interns-year-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    margin: 1.25rem 0 0.75rem 0;
+    padding-bottom: 0.375rem;
+    border-bottom: 1px dotted var(--global-divider-color);
+  }
+
+  // The interns grid overrides the default alumni grid gap so year-bucket
+  // rows stay visually tight.
+  .interns-grid.team.alumni {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 1.75rem;
+
+    .member {
+      padding: 0.625rem 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .interns-grid.team.alumni { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 480px) {
+    .interns-grid.team.alumni { grid-template-columns: 1fr; }
+  }
+}
+
 // Research page (/research/)
 .research-axes-page {
   margin-top: 1rem;

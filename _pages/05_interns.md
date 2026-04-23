@@ -2,7 +2,7 @@
 layout: default
 title: Internships
 permalink: /interns/
-description: 
+description:
 nav: false
 nav_order: 6
 ---
@@ -12,53 +12,54 @@ nav_order: 6
 
 We are looking for students finishing their MSc with a solid background in computer vision and machine learning, particularly in deep learning with strong PyTorch coding skills.
 Interns work on research topics, typically for 6 months (usually spring and summer), resulting for a great part in paper submissions to top-tier conferences. Some trainees go on to do a PhD thesis in the lab.
-We currently have four exciting internship opportunities for MSc students!  
+We currently have four exciting internship opportunities for MSc students!
 
-### How to Apply  
-Send an email to the supervisors (one email per application) with the following:  
-- A cover letter explaining your interest and qualifications for the topic.  
-- Your CV/resume.  
-- Transcripts of your grades from last year (and this year, if available).  
-
-**Available Topics:**  
-
-**Scoring Trajectories with Vision Language Models**  
-*Keywords*: Vision-Language Models (VLM), Trajectory Evaluation, Autonomous Driving, Deep Learning  
-*Supervisors*: [Monika Wysoczanska](mailto:monika.wysoczanska@valeo.com), [Ellington Kirby](mailto:ellington.kirby@valeo.com), [Alexandre Boulch](mailto:alexandre.boulch@valeo.com)  
-Investigating the capacity of Vision-Language Models (VLM) to evaluate the quality of a vehicle trajectory given the input images.  
-
-**LiDAR Video Generation from Range Images**  
-*Keywords*: Diffusion Models, Generative AI, LiDAR, Range Images, Video Synthesis  
-*Supervisors*: [Nermin Samet](mailto:nermin.samet@valeo.com), [Victor Besnier](mailto:victor.besnier@valeo.com)  
-Developing a diffusion-based generative model that produces temporally consistent and controllable LiDAR video scenes in the range image domain.  
-
-**Unified Vision Encoders: Multi-Teacher Distillation and Dynamic Transformers**  
-*Keywords*: Knowledge Distillation, Vision Transformers, Dynamic Computation, Computer Vision, Representation Learning  
-*Supervisors*: [Spyros Gidaris](mailto:spyros.gidaris@valeo.com), [Shashanka Venkataramanan](mailto:shashanka.venkataramanan@valeo.com), [Gilles Puy](mailto:gilles.puy@valeo.com)  
-Distill efficiently multiple teachers into a single vision transformer augmented with dynamically adaptive computation.  
-
-**Unconstrained Dynamic Novel View Synthesis**  
-*Keywords*: Novel View Synthesis, Transformers, 3D Computer Vision, Dynamic Scenes, Data-Driven Approaches  
-*Supervisors*: [Anh-Quan Cao](mailto:anh-quan.cao@valeo.com), [Tuan-Hung Vu](mailto:tuan-hung.vu@valeo.com), [Yihong Xu](mailto:yihong.xu@valeo.com)  
-Explore transformer-based, fully data-driven approaches for scalable and generalizable dynamic novel view synthesis from unconstrained views.  
+### How to Apply
+Send an email to the supervisors (one email per application) with the following:
+- A cover letter explaining your interest and qualifications for the topic.
+- Your CV/resume.
+- Transcripts of your grades from last year (and this year, if available).
 -->
 
-# Alumni interns and visiting students
+<div class="interns-page">
 
-{% assign sorted_interns = site.data.interns %}
+<h1 class="page-title">Internships</h1>
+<p class="page-lede">Interns work with us on open research topics for ~6 months, often resulting in top-tier publications. Many go on to do a PhD with the team. Below: former interns and visiting students, and the papers they led or contributed to.</p>
 
-<div class="team alumni">
-{% for member in sorted_interns %}
-  {% include team/intern.html member=member %}
+<h2>Alumni interns &amp; visiting students</h2>
+
+{% comment %} Group by year: internship_year for interns, the ending year of visiting_period for visitors {% endcomment %}
+{%- assign year_buckets = "" | split: "," -%}
+{%- for m in site.data.interns -%}
+  {%- if m[1].internship_year -%}
+    {%- assign y = m[1].internship_year -%}
+  {%- else -%}
+    {%- assign y = "Visiting" -%}
+  {%- endif -%}
+  {%- assign year_buckets = year_buckets | push: y -%}
+{%- endfor -%}
+{%- assign unique_years = year_buckets | uniq | sort | reverse -%}
+
+{% for year in unique_years %}
+  <div class="interns-year">
+    <h3 class="interns-year-label">{% if year == "Visiting" %}Visiting{% else %}{{ year }}{% endif %}</h3>
+    <div class="team alumni interns-grid">
+    {% for member in site.data.interns %}
+      {%- assign my = member[1].internship_year | default: "Visiting" -%}
+      {% if my == year %}
+        {% include team/intern.html member=member %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
 {% endfor %}
-</div>
 
-<br>
-<h1 id="intern-papers"> Projects led or contributed to by <u>interns</u></h1>
+<h2 id="intern-papers">Papers led or co-authored by interns</h2>
 
 {% assign publications = site.publications | where: 'hide', false | where: 'intern_work', true %}
-{% assign publications_by_year = publications |  sort: 'year' |  reverse %}
-{% assign publications_by_year = publications_by_year | group_by: 'year'%}
+{% assign publications_by_year = publications | sort: 'year' | reverse %}
+{% assign publications_by_year = publications_by_year | group_by: 'year' %}
 
 {% include publications_list_internship.html -%}
 
+</div>
