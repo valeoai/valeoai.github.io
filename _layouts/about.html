@@ -78,14 +78,14 @@ layout: default
     </section>
     {% endif %}
 
-    {% comment %} ---------- FEATURED WORK ---------- {% endcomment %}
-    {% if page.selected_papers %}
-      {% include selected_papers.html %}
-    {% endif %}
-
     {% comment %} ---------- NEWS ---------- {% endcomment %}
     {% if page.news %}
       {% include news.html %}
+    {% endif %}
+
+    {% comment %} ---------- FEATURED WORK ---------- {% endcomment %}
+    {% if page.selected_papers %}
+      {% include selected_papers.html %}
     {% endif %}
 
     {% comment %} ---------- PARTNERS ---------- {% endcomment %}
