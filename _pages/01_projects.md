@@ -15,9 +15,11 @@ nav_order: 2
 
 {% for axis in site.data.axes %}
 
-  {%- comment -%} Collect publications whose `category` matches this axis {%- endcomment -%}
+  {%- comment -%} Collect publications whose `category` matches this axis, excluding preprints {%- endcomment -%}
   {%- assign axis_pubs = "" | split: "," -%}
   {%- for entry in all_pubs -%}
+    {%- assign venue_norm = entry.venue | downcase | strip -%}
+    {%- if venue_norm == "preprint" or venue_norm == "arxiv" -%}{%- continue -%}{%- endif -%}
     {%- assign hit = false -%}
     {%- for cat in axis.categories -%}
       {%- if hit == false -%}
