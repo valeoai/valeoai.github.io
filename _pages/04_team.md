@@ -79,7 +79,7 @@ nav_order: 1
 ## Permanent member alumni
 <div class="team alumni">
 {% for member in site.data.team %}
-  {% if member[1].alumni == true and (member[1].alumni_phd != true or member[0] == "Bartoccioni") %}
+  {% if member[1].alumni == true and member[1].alumni_phd != true or member[0] == "Bartoccioni" %}
     {% include team/member.html member=member %}
   {% endif %}
 {% endfor %}
