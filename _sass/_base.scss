@@ -238,14 +238,26 @@ blockquote {
     font-weight: 600;
     letter-spacing: -0.035em;
     line-height: 1.05;
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
     color: var(--global-text-color);
   }
 
+  .home-hero-motto {
+    font-family: 'Newsreader', Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    color: var(--global-theme-color);
+    margin: 0 0 1.5rem 0;
+    max-width: 20ch;
+  }
+
   .home-hero-lede {
-    font-size: 1.125rem;
+    font-size: 1.05rem;
     line-height: 1.7;
-    color: var(--global-text-color);
+    color: var(--global-text-color-light);
     max-width: 64ch;
     margin: 0 0 2rem 0;
   }
@@ -266,6 +278,7 @@ blockquote {
 
 @media (max-width: 576px) {
   .home-hero .home-hero-title { font-size: 2.5rem; }
+  .home-hero .home-hero-motto { font-size: 1.5rem; }
 }
 
 // Home stats strip

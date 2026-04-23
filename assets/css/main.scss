@@ -14,53 +14,92 @@ $max-content-width: {{ site.max_width }};
   "distill"
 ;
 
-/* Container for the whole list */
+/* Academic partners – centered 3-col grid (wraps to 2, then 1) */
 .partners-list {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem; /* Regular, uniform spacing between each partner block */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 1rem 0 2.5rem 0;
+  justify-items: stretch;
 }
 
-/* Individual partner block: Logo left, Names right */
+@media (max-width: 900px) {
+  .partners-list { grid-template-columns: repeat(2, 1fr); }
+  /* 5 partners → last row has 1 card; center it */
+  .partners-list .partner-block:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    justify-self: center;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 520px) {
+  .partners-list { grid-template-columns: 1fr; }
+  .partners-list .partner-block:last-child:nth-child(odd) {
+    max-width: none;
+  }
+}
+
 .partner-block {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  padding: 1.25rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background: var(--global-card-bg-color);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
-/* Logo container styling */
+.partner-block:hover {
+  border-color: var(--global-theme-color);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
 .partner-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 2em; /* Spacing between the logo and the names */
-  width: 120px; /* Keeps the left column width uniform so all names align nicely */
-  flex-shrink: 0; 
-}
-
-/* YOUR ORIGINAL LOGO SIZES RESTORED 
-*/
-.partner-logo img {
-  height: 40px;
-  object-fit: contain;
-}
-
-.partner-logo .epfl-logo {
-  height: 30px;
-}
-
-.partner-logo .enpc-logo {
   height: 52px;
+  margin: 0;
+  width: 100%;
+  flex-shrink: 0;
 }
 
-.partner-logo .ubs-logo { /* Included just in case you use it elsewhere! */
-  height: 45px;
+.partner-logo img {
+  max-height: 44px;
+  max-width: 80%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
-/* Names grouping */
+.partner-logo .epfl-logo { max-height: 30px; }
+.partner-logo .enpc-logo { max-height: 48px; }
+.partner-logo .ubs-logo  { max-height: 44px; }
+
 .partner-names {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem; /* Small gap if there are multiple names */
+  align-items: center;
+  gap: 0.125rem;
+  font-size: 0.95rem;
+}
+
+.partner-names a {
+  color: var(--global-text-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.partner-names a:hover {
+  color: var(--global-theme-color);
+  border-bottom-color: var(--global-theme-color);
+  text-decoration: none;
 }
 
 .group a {

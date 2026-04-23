@@ -14,7 +14,7 @@ For the comprehensive collection of our research papers, see <a href="https://sc
   <div class="filter-chips" role="group" aria-label="Filter by research axis">
     <button type="button" class="chip is-active" data-axis="all">All</button>
     {% for axis in site.data.axes -%}
-    <button type="button" class="chip" data-axis="{{ axis.slug }}">{{ axis.label }}</button>
+    <button type="button" class="chip" data-axis="{{ axis.slug }}">{{ axis.long_label }}</button>
     {% endfor -%}
   </div>
   <input type="search" class="search-input" placeholder="Search title, author, venue…" aria-label="Search publications" data-publications-search>
