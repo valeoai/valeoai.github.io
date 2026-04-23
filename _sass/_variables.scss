@@ -32,7 +32,23 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 
+// Modern palette (indigo / ink)
+$ink-color:           #0a0a0b;
+$ink-muted:           #6b7280;
+$indigo-700:          #4338ca;
+$indigo-800:          #3730a3;
+$indigo-400:          #818cf8;
+$divider-light:       #e5e7eb;
+$bg-off-white:        #fafafa;
+
+// Dark-mode layered surfaces
+$surface-dark-bg:     #0b0b0d;
+$surface-dark-card:   #141418;
+$surface-dark-border: #2a2a2f;
+$surface-dark-text:   #e8e8ea;
+
+
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
+$code-bg-color-light:     rgba($indigo-700, 0.06);
+$code-bg-color-dark:      #1c1c22 !default;
