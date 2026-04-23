@@ -28,31 +28,48 @@ Send an email to the supervisors (one email per application) with the following:
 
 <h2>Alumni interns &amp; visiting students</h2>
 
-{% comment %} Group by year: internship_year for interns, the ending year of visiting_period for visitors {% endcomment %}
+{% comment %}
+  Collect distinct numeric internship years. We keep "Visiting" out of
+  this list because Liquid's `sort` can't compare a String with an
+  Integer (mixed-type sort raises on Jekyll 4.3 / Liquid 4).
+{% endcomment %}
 {%- assign year_buckets = "" | split: "," -%}
 {%- for m in site.data.interns -%}
   {%- if m[1].internship_year -%}
-    {%- assign y = m[1].internship_year -%}
-  {%- else -%}
-    {%- assign y = "Visiting" -%}
+    {%- assign year_buckets = year_buckets | push: m[1].internship_year -%}
   {%- endif -%}
-  {%- assign year_buckets = year_buckets | push: y -%}
 {%- endfor -%}
 {%- assign unique_years = year_buckets | uniq | sort | reverse -%}
 
 {% for year in unique_years %}
   <div class="interns-year">
-    <h3 class="interns-year-label">{% if year == "Visiting" %}Visiting{% else %}{{ year }}{% endif %}</h3>
+    <h3 class="interns-year-label">{{ year }}</h3>
     <div class="team alumni interns-grid">
     {% for member in site.data.interns %}
-      {%- assign my = member[1].internship_year | default: "Visiting" -%}
-      {% if my == year %}
+      {% if member[1].internship_year == year %}
         {% include team/intern.html member=member %}
       {% endif %}
     {% endfor %}
     </div>
   </div>
 {% endfor %}
+
+{%- assign visiting_any = false -%}
+{%- for m in site.data.interns -%}
+  {%- unless m[1].internship_year -%}{%- assign visiting_any = true -%}{%- endunless -%}
+{%- endfor -%}
+{% if visiting_any %}
+  <div class="interns-year">
+    <h3 class="interns-year-label">Visiting</h3>
+    <div class="team alumni interns-grid">
+    {% for member in site.data.interns %}
+      {% unless member[1].internship_year %}
+        {% include team/intern.html member=member %}
+      {% endunless %}
+    {% endfor %}
+    </div>
+  </div>
+{% endif %}
 
 <h2 id="intern-papers">Papers led or co-authored by interns</h2>
 
