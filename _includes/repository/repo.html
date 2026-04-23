@@ -1,16 +1,7 @@
 {% assign repo_url = include.repository | split: '/' %}
 
-{% if site.data.repositories.github_users contains repo_url.first %}
-  {% assign show_owner = false %}
-{% else %}
-  {% assign show_owner = true %}
-{% endif %}
-
 <div class="repo">
   <a class="repo-link" href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener">
-    <div class="repo-head">
-      {% if show_owner %}<span class="repo-owner">{{ repo_url.first }} /</span> {% endif %}<span class="repo-name">{{ repo_url.last }}</span>
-    </div>
     <div class="repo-stats">
       <img class="repo-img-light" alt="{{ include.repository }} stats" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_light }}&hide_border=true&bg_color=00000000">
       <img class="repo-img-dark" alt="{{ include.repository }} stats" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&hide_border=true&bg_color=00000000">
