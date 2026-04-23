@@ -2,29 +2,13 @@ github_users:
   # - astra-vision
 
 # -----------------------------------------------------------------------------
-# Featured repositories
+# Repositories
 # -----------------------------------------------------------------------------
-# Hand-picked flagship releases, rendered at the top of /repositories/ with
-# large cards (teaser image, venue tag, paper title, linked code & paper).
-#
-# For each entry:
-# - `repo`         : owner/repo (required)
-# - `description`  : manual fallback if the matched publication has no
-#                    image or if the repo has no publication at all.
-# - `image`        : manual fallback teaser (relative to site root).
-# - `link_override`: if the README/demo site is better than the paper page,
-#                    point here instead of /publications/<slug>.
-# The paper match is automatic: any `_publications/*.md` whose `code_url`
-# contains `github.com/<owner>/<repo>` is linked. `image`, `title`, `venue`,
-# `year`, and `permalink` are pulled from that publication when present.
-featured_repos:
-  - repo: valeoai/WoodScape
-  - repo: vita-epfl/UniTraj
-  - repo: valeoai/ADVENT
-  - repo: valeoai/Halton-MaskGIT
-  - repo: wysoczanska/clip_dinoiser
-  - repo: valeoai/Franca
-
+# The /repositories/ page auto-takes the first 6 entries below as "Featured
+# releases" (rendered with large teaser + paper tie-in); the rest follow in
+# the "All open-source releases" grid. The list is sorted by GitHub star
+# count, so the featured strip always mirrors the current top 6 without
+# manual curation — just re-sort this list periodically.
 github_repos:
   - valeoai/WoodScape
   - vita-epfl/UniTraj

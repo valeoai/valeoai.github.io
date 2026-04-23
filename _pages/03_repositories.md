@@ -7,11 +7,15 @@ nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.featured_repos %}
+{% if site.data.repositories.github_repos %}
+{%- assign featured_count = 6 -%}
+{%- assign featured = site.data.repositories.github_repos | slice: 0, featured_count -%}
+{%- assign rest = site.data.repositories.github_repos | slice: featured_count, 999 -%}
+
 <h2 class="repos-section-title">Featured releases</h2>
 <div class="featured-repo-grid">
-  {% for entry in site.data.repositories.featured_repos %}
-    {% include repository/featured_card.html entry=entry %}
+  {% for repo in featured %}
+    {% include repository/featured_card.html repo=repo %}
   {% endfor %}
 </div>
 {% endif %}
@@ -28,10 +32,10 @@ nav_order: 4
 ---
 {% endif %}
 
-{% if site.data.repositories.github_repos %}
+{% if rest %}
 <h2 class="repos-section-title">All open-source releases</h2>
 <div class="repositories repo-grid">
-  {% for repo in site.data.repositories.github_repos %}
+  {% for repo in rest %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>

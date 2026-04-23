@@ -1,15 +1,12 @@
-{%- assign entry = include.entry -%}
-{%- assign repo = entry.repo -%}
+{%- assign repo = include.repo -%}
 {%- assign parts = repo | split: "/" -%}
 {%- assign owner = parts[0] -%}
 {%- assign name  = parts[1] -%}
 
 {%- comment -%}
   Find a matching publication: any entry whose `code_url` contains
-  `github.com/<owner>/<name>`. Compared case-insensitively because
-  GitHub URLs are case-preserved but case-insensitive (valeoai/WoodScape
-  and valeoai/woodscape resolve to the same repo and both spellings
-  appear across our data/publications).
+  `github.com/<owner>/<name>`. Case-insensitive (GitHub URLs are
+  case-preserved but case-insensitive).
 {%- endcomment -%}
 {%- assign needle = "github.com/" | append: repo | downcase -%}
 {%- assign matched_pub = nil -%}
@@ -21,10 +18,10 @@
   {%- endif -%}
 {%- endfor -%}
 
-{%- assign card_image       = entry.image | default: matched_pub.image -%}
+{%- assign card_image       = matched_pub.image -%}
 {%- assign card_title       = matched_pub.title | default: name -%}
-{%- assign card_description = entry.description | default: matched_pub.abstract -%}
-{%- assign card_paper_link  = entry.link_override | default: matched_pub.permalink -%}
+{%- assign card_description = matched_pub.abstract -%}
+{%- assign card_paper_link  = matched_pub.permalink -%}
 {%- assign card_venue       = matched_pub.venue -%}
 {%- assign card_year        = matched_pub.year -%}
 
