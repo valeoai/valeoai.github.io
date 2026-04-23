@@ -20,12 +20,10 @@ github_users:
 featured_repos:
   - repo: valeoai/WoodScape
   - repo: vita-epfl/UniTraj
+  - repo: valeoai/ADVENT
   - repo: valeoai/Halton-MaskGIT
   - repo: wysoczanska/clip_dinoiser
   - repo: valeoai/Franca
-  - repo: valeoai/POCO
-  - repo: PaulCouairon/JAFAR
-  - repo: valeoai/ADVENT
 
 github_repos:
   - valeoai/WoodScape
