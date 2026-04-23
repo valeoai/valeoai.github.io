@@ -6,9 +6,8 @@ nav: true
 nav_order: 3
 ---
 
-# Publications
-
-For the comprehensive collection of our research papers, see <a href="https://scholar.google.com/citations?user=eM4nZ1sAAAAJ&hl=en" target="_blank">our team's Google Scholar page</a>. Follow the account to be notified of new papers from the team.
+<h1 class="page-title">Publications</h1>
+<p class="page-lede">For the comprehensive collection of our research papers, see <a href="https://scholar.google.com/citations?user=eM4nZ1sAAAAJ&hl=en" target="_blank">our team's Google Scholar page</a>. Follow the account to be notified of new papers from the team.</p>
 
 <div class="publications-toolbar">
   <div class="filter-chips" role="group" aria-label="Filter by research axis">
