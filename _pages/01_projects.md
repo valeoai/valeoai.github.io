@@ -61,7 +61,7 @@ nav_order: 2
       </li>
       {% endfor %}
     </ul>
-    <a class="axis-more" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">All {{ axis_pubs_sorted.size }} papers in this axis →</a>
+    <a class="axis-more" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">See all papers in this axis →</a>
   </div>
   {% endif %}
 </section>
