@@ -7,11 +7,16 @@ layout: default
 
   {% comment %} ---------- HERO ---------- {% endcomment %}
   <section class="home-hero">
-    <h1 class="home-hero-title">valeo.ai</h1>
     {% if page.motto %}
     <p class="home-hero-motto">{{ page.motto }}</p>
     {% endif %}
-    <p class="home-hero-lede">{{ page.description }}</p>
+    {%- assign description_parts = page.description | split: '<br>' -%}
+    {%- for part in description_parts -%}
+      {%- assign trimmed = part | strip -%}
+      {%- if trimmed != "" -%}
+    <p class="home-hero-lede">{{ trimmed }}</p>
+      {%- endif -%}
+    {%- endfor -%}
     {% if page.profile and page.profile.image %}
       {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
       <div class="home-hero-image">

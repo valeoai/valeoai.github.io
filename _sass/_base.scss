@@ -232,26 +232,15 @@ blockquote {
   margin-top: 1.5rem;
   margin-bottom: 2.5rem;
 
-  .home-hero-title {
-    font-family: 'Newsreader', Georgia, serif;
-    font-size: 3.75rem;
-    font-weight: 600;
-    letter-spacing: -0.035em;
-    line-height: 1.05;
-    margin: 0 0 0.5rem 0;
-    color: var(--global-text-color);
-  }
-
   .home-hero-motto {
     font-family: 'Newsreader', Georgia, serif;
     font-style: italic;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 1.2;
-    letter-spacing: -0.015em;
+    font-weight: 500;
+    font-size: 2.75rem;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
     color: var(--global-theme-color);
     margin: 0 0 1.5rem 0;
-    max-width: 20ch;
   }
 
   .home-hero-lede {
@@ -259,7 +248,11 @@ blockquote {
     line-height: 1.7;
     color: var(--global-text-color-light);
     max-width: 64ch;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
+
+    &:last-of-type {
+      margin-bottom: 2rem;
+    }
   }
 
   .home-hero-image {
@@ -277,8 +270,7 @@ blockquote {
 }
 
 @media (max-width: 576px) {
-  .home-hero .home-hero-title { font-size: 2.5rem; }
-  .home-hero .home-hero-motto { font-size: 1.5rem; }
+  .home-hero .home-hero-motto { font-size: 1.875rem; }
 }
 
 // Home stats strip
