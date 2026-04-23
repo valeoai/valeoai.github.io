@@ -10,7 +10,6 @@ nav_order: 4
 {% if site.data.repositories.github_repos %}
 {%- assign featured_count = 6 -%}
 {%- assign featured = site.data.repositories.github_repos | slice: 0, featured_count -%}
-{%- assign rest = site.data.repositories.github_repos | slice: featured_count, 999 -%}
 
 <h2 class="repos-section-title">Featured releases</h2>
 <div class="featured-repo-grid">
@@ -32,10 +31,10 @@ nav_order: 4
 ---
 {% endif %}
 
-{% if rest %}
+{% if site.data.repositories.github_repos %}
 <h2 class="repos-section-title">All open-source releases</h2>
 <div class="repositories repo-grid">
-  {% for repo in rest %}
+  {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.html repository=repo %}
   {% endfor %}
 </div>
