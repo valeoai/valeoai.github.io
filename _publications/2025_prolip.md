@@ -3,7 +3,7 @@ layout: publication
 title: "CLIP’s Visual Embedding Projector is a Few-shot Cornucopia"
 image: assets/img/publications/2025_prolip/prolip_overview.png
 hide: false
-category: [domain-adaptation, limited-supervision, generalization, reliability, foundation]
+category: [foundation]
 authors: Mohammad Fahes, Tuan-Hung Vu, Andrei Bursuc, Patrick Pérez, Raoul de Charette
 venue: WACV
 venue_long: WACV
