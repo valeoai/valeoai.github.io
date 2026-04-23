@@ -1,4 +1,12 @@
-{% assign repo_url = include.repository | split: '/' %}
+{%- assign repo_url = include.repository | split: '/' -%}
+{%- assign needle = "github.com/" | append: include.repository -%}
+{%- assign matched_pub = nil -%}
+{%- for p in site.publications -%}
+  {%- if p.hide != true and p.code_url contains needle -%}
+    {%- assign matched_pub = p -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
 
 <div class="repo">
   <a class="repo-link" href="https://github.com/{{ include.repository }}" target="_blank" rel="noopener">
@@ -7,4 +15,9 @@
       <img class="repo-img-dark" alt="{{ include.repository }} stats" src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url.first }}&repo={{ repo_url.last }}&theme={{ site.repo_theme_dark }}&hide_border=true&bg_color=00000000">
     </div>
   </a>
+  {%- if matched_pub -%}
+  <a class="repo-paper-tag" href="{{ matched_pub.permalink | relative_url }}" title="Go to paper page">
+    From <em>{{ matched_pub.title | strip_html | truncate: 60 }}</em> &middot; {{ matched_pub.venue }} {{ matched_pub.year }}
+  </a>
+  {%- endif -%}
 </div>

@@ -1,0 +1,68 @@
+{%- assign entry = include.entry -%}
+{%- assign repo = entry.repo -%}
+{%- assign parts = repo | split: "/" -%}
+{%- assign owner = parts[0] -%}
+{%- assign name  = parts[1] -%}
+
+{%- comment -%}
+  Find a matching publication: any entry whose `code_url` contains
+  `github.com/<owner>/<name>`.
+{%- endcomment -%}
+{%- assign needle = "github.com/" | append: repo -%}
+{%- assign matched_pub = nil -%}
+{%- for p in site.publications -%}
+  {%- if p.hide != true and p.code_url contains needle -%}
+    {%- assign matched_pub = p -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign card_image       = entry.image | default: matched_pub.image -%}
+{%- assign card_title       = matched_pub.title | default: name -%}
+{%- assign card_description = entry.description | default: matched_pub.abstract -%}
+{%- assign card_paper_link  = entry.link_override | default: matched_pub.permalink -%}
+{%- assign card_venue       = matched_pub.venue -%}
+{%- assign card_year        = matched_pub.year -%}
+
+<div class="featured-repo-card">
+  {%- if card_image -%}
+    {%- if card_paper_link -%}
+      <a class="featured-repo-thumb" href="{{ card_paper_link | relative_url }}">
+    {%- else -%}
+      <a class="featured-repo-thumb" href="https://github.com/{{ repo }}" target="_blank" rel="noopener">
+    {%- endif -%}
+      {% if card_image contains '://' %}
+        <img src="{{ card_image }}" alt="{{ card_title | escape }}" loading="lazy">
+      {% else %}
+        <img src="{{ card_image | relative_url }}" alt="{{ card_title | escape }}" loading="lazy">
+      {% endif %}
+    </a>
+  {%- endif -%}
+
+  <div class="featured-repo-body">
+    {%- if card_venue -%}
+    <div class="featured-repo-venue">{{ card_venue }}{% if card_year %} {{ card_year }}{% endif %}</div>
+    {%- endif -%}
+
+    <div class="featured-repo-title">
+      {%- if card_paper_link -%}
+        <a href="{{ card_paper_link | relative_url }}">{{ card_title }}</a>
+      {%- else -%}
+        {{ card_title }}
+      {%- endif -%}
+    </div>
+
+    {%- if card_description -%}
+    <div class="featured-repo-desc">{{ card_description | strip_html | truncate: 180 }}</div>
+    {%- endif -%}
+
+    <div class="featured-repo-links">
+      <a class="featured-repo-code" href="https://github.com/{{ repo }}" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i> {{ repo }}
+      </a>
+      {%- if card_paper_link -%}
+      <a class="featured-repo-paper" href="{{ card_paper_link | relative_url }}">Paper →</a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

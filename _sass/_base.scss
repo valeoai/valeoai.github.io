@@ -988,6 +988,148 @@ footer.sticky-bottom {
 
 // Repositories
 
+.repos-section-title {
+  font-family: 'Newsreader', Georgia, serif;
+  font-weight: 500;
+  font-size: 1.75rem;
+  letter-spacing: -0.015em;
+  margin: 2.5rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+// Featured release cards (rich cards at the top of the page)
+.featured-repo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin: 1rem 0 2.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .featured-repo-grid { grid-template-columns: 1fr; }
+}
+
+.featured-repo-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border-color: var(--global-theme-color);
+
+    .featured-repo-title a { color: var(--global-theme-color); }
+  }
+
+  .featured-repo-thumb {
+    display: block;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--global-code-bg-color);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .featured-repo-body {
+    padding: 0.875rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    flex: 1;
+  }
+
+  .featured-repo-venue {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  .featured-repo-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      transition: color 0.15s ease;
+      &:hover { text-decoration: none; }
+    }
+  }
+
+  .featured-repo-desc {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+    margin-top: 0.125rem;
+  }
+
+  .featured-repo-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: auto;
+    padding-top: 0.625rem;
+    border-top: 1px dotted var(--global-divider-color);
+    font-size: 0.8125rem;
+  }
+
+  .featured-repo-code {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    transition: color 0.15s ease;
+    i { font-size: 0.9rem; }
+    &:hover { color: var(--global-theme-color); text-decoration: none; }
+  }
+
+  .featured-repo-paper {
+    color: var(--global-theme-color);
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    &:hover { text-decoration: none; color: var(--global-hover-color); }
+  }
+}
+
+// Small "From <paper>" tag under each long-tail repo card.
+.repo-paper-tag {
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  color: var(--global-text-color-light);
+  text-decoration: none;
+  padding: 0.375rem 1rem 0.625rem 1rem;
+  margin-top: -0.125rem;
+
+  em { font-style: italic; color: var(--global-text-color); }
+
+  &:hover {
+    text-decoration: none;
+    color: var(--global-theme-color);
+    em { color: var(--global-theme-color); }
+  }
+}
+
 .repositories.repo-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1001,25 +1143,26 @@ footer.sticky-bottom {
 
 .repo {
   display: flex;
+  flex-direction: column;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background: var(--global-card-bg-color);
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border-color: var(--global-theme-color);
+  }
 
   .repo-link {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0.75rem 1rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 12px;
-    background: var(--global-card-bg-color);
+    display: block;
+    padding: 0.75rem 1rem 0.5rem 1rem;
     color: var(--global-text-color);
     text-decoration: none;
-    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 
-    &:hover {
-      text-decoration: none;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-      border-color: var(--global-theme-color);
-    }
+    &:hover { text-decoration: none; }
   }
 
   .repo-stats {

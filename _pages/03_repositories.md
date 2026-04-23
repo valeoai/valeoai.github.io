@@ -9,6 +9,15 @@ nav_order: 4
 
 Official GitHub account: [github.com/valeoai](https://github.com/valeoai/)
 
+{% if site.data.repositories.featured_repos %}
+<h2 class="repos-section-title">Featured releases</h2>
+<div class="featured-repo-grid">
+  {% for entry in site.data.repositories.featured_repos %}
+    {% include repository/featured_card.html entry=entry %}
+  {% endfor %}
+</div>
+{% endif %}
+
 {% if site.data.repositories.github_users %}
 ## GitHub users
 
@@ -22,6 +31,7 @@ Official GitHub account: [github.com/valeoai](https://github.com/valeoai/)
 {% endif %}
 
 {% if site.data.repositories.github_repos %}
+<h2 class="repos-section-title">All open-source releases</h2>
 <div class="repositories repo-grid">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.html repository=repo %}
