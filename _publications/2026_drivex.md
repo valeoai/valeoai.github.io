@@ -4,7 +4,7 @@ title: "DRIV-EX: Counterfactual Explanations for Driving LLMs"
 image: assets/img/publications/2026_drivex/drivex.png
 image_2: assets/img/publications/2026_drivex/drivex_cf_vy.png
 hide: false
-category: [explainability, driving, foundation]
+category: [explainability]
 authors: Amaia Cardiel, Éloi Zablocki, Elias Ramzi, Eric Gaussier
 venue: ACL Findings
 venue_long: Annual Meeting of the Association for Computational Linguistics (Findings)

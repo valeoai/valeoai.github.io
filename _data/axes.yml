@@ -104,8 +104,6 @@
     - end-to-end
     - world-model
     - corner-case-generation
-    - multi-task
-    - multi-task learning
     - video compression
 
 - slug: robust
