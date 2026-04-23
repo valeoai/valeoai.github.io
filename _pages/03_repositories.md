@@ -2,12 +2,10 @@
 layout: page
 permalink: /repositories/
 title: Code & Data
-description: As part of our commitment to transparency and open research, explore our codes, models, weights, and datasets.
+description: As part of our commitment to transparency and open research, explore our codes, models, weights, and datasets. Official GitHub account: [github.com/valeoai](https://github.com/valeoai/)
 nav: true
 nav_order: 4
 ---
-
-Official GitHub account: [github.com/valeoai](https://github.com/valeoai/)
 
 {% if site.data.repositories.featured_repos %}
 <h2 class="repos-section-title">Featured releases</h2>
