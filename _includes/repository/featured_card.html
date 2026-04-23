@@ -6,12 +6,16 @@
 
 {%- comment -%}
   Find a matching publication: any entry whose `code_url` contains
-  `github.com/<owner>/<name>`.
+  `github.com/<owner>/<name>`. Compared case-insensitively because
+  GitHub URLs are case-preserved but case-insensitive (valeoai/WoodScape
+  and valeoai/woodscape resolve to the same repo and both spellings
+  appear across our data/publications).
 {%- endcomment -%}
-{%- assign needle = "github.com/" | append: repo -%}
+{%- assign needle = "github.com/" | append: repo | downcase -%}
 {%- assign matched_pub = nil -%}
 {%- for p in site.publications -%}
-  {%- if p.hide != true and p.code_url contains needle -%}
+  {%- assign pub_code_url = p.code_url | downcase -%}
+  {%- if p.hide != true and pub_code_url contains needle -%}
     {%- assign matched_pub = p -%}
     {%- break -%}
   {%- endif -%}

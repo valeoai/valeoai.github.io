@@ -19,8 +19,6 @@ github_users:
 # `year`, and `permalink` are pulled from that publication when present.
 featured_repos:
   - repo: valeoai/WoodScape
-    description: Dataset and tooling for fisheye-camera automotive perception.
-    image: assets/img/publications/woodscape.png
   - repo: vita-epfl/UniTraj
   - repo: valeoai/Halton-MaskGIT
   - repo: wysoczanska/clip_dinoiser
