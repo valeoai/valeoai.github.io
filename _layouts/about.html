@@ -3,119 +3,94 @@ layout: default
 ---
 
 <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-            <!-- commented the next line to replace it with an image -->
-           <!-- {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %} -->
-	   <!-- <img src="assets/img/valeoai_logo.png" alt="valeo.ai" style="width: 25%;"> -->
-           <div style="margin-top: 30px;"></div>
-          </h1>
-          <!-- commented the next line as the subtitle was ugly and uninformative -->
-          <!-- <p class="desc">{{ page.subtitle }}</p> -->
-        </header>
+<div class="post">
 
-        <article>
-          {% if page.profile -%}
-          <div class="profile align-center">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+  {% comment %} ---------- HERO ---------- {% endcomment %}
+  <section class="home-hero">
+    <h1 class="home-hero-title">valeo.ai</h1>
+    <p class="home-hero-lede">{{ page.description }}</p>
+    {% if page.profile and page.profile.image %}
+      {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+      <div class="home-hero-image">
+        {% include figure.html
+           path=profile_image_path
+           class="img-fluid rounded hero-img"
+           alt=page.profile.image -%}
+      </div>
+    {% endif %}
+  </section>
 
-              {% if page.profile.image_circular %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle center" -%}
-              {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-              {% endif %}
+  {% comment %} ---------- STATS STRIP ---------- {% endcomment %}
+  {% if page.stats %}
+  {%- assign n_team = site.data.team | size -%}
+  {%- assign n_repos = site.data.repositories.github_repos | size -%}
+  {%- assign pubs_active = site.publications | where: 'hide', false -%}
+  {%- assign n_pubs = pubs_active | size -%}
+  {%- assign current_year = 'now' | date: '%Y' | plus: 0 -%}
+  {%- assign pubs_this_year = pubs_active | where: 'year', current_year -%}
+  {%- assign n_pubs_year = pubs_this_year | size -%}
+  <section class="home-stats">
+    <div class="stat">
+      <div class="stat-value">{{ n_pubs }}</div>
+      <div class="stat-label">Publications</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ n_pubs_year }}</div>
+      <div class="stat-label">In {{ current_year }}</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ n_team }}</div>
+      <div class="stat-label">Team members</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">{{ n_repos }}</div>
+      <div class="stat-label">Open-source repos</div>
+    </div>
+  </section>
+  {% endif %}
 
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
-              {%- if page.profile.image_date %}
-                <div class="profile imgdate">{{page.profile.image_date}}</div>
-              {%- endif %}
-            {% endif -%}
-          </div>
-          {%- endif %}
+  <article>
 
-          <div class="team-description">
-            {{ page.description }}
-          </div>
+    {% comment %} ---------- RESEARCH AXES ---------- {% endcomment %}
+    {% if page.researches %}
+    <section class="research">
+      <div class="section-head">
+        <h2>Research</h2>
+      </div>
+      <div class="axes">
+        {%- for axis in site.data.axes -%}
+        <a class="axis-card" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">
+          {%- assign axis_img = axis.image | prepend: 'assets/img/' -%}
+          {% include figure.html path=axis_img class="axis" alt=axis.long_label -%}
+          <div class="axis-title">{{ axis.long_label }}</div>
+        </a>
+        {%- endfor -%}
+      </div>
+    </section>
+    {% endif %}
 
-          {% if page.researches -%}
-          <!-- Researches -->
-          <div class="research">
-            <h2>Research axes</h2>
-            <div class="axes">
-              <article>
-                  {%- assign im_path = "research/axis_multi2.PNG" | prepend: 'assets/img/' -%}
+    {% comment %} ---------- FEATURED WORK ---------- {% endcomment %}
+    {% if page.selected_papers %}
+      {% include selected_papers.html %}
+    {% endif %}
 
-                  {% include figure.html
-                  path=im_path
-                  class="axis"
-                  alt="3D Perception and Scene Understanding" -%}
-                  <div class="title">3D Perception and Scene Understanding</div>
-              </article>
-              <article>
-                  {%- assign im_path = "research/axis_wm.jpg" | prepend: 'assets/img/' -%}
+    {% comment %} ---------- NEWS ---------- {% endcomment %}
+    {% if page.news %}
+      {% include news.html %}
+    {% endif %}
 
-                  {% include figure.html
-                  path=im_path
-                  class="axis"
-                  alt="Foundation Models and World Modeling" -%}
-                  <div class="title">Foundation Models and World Modeling</div>
-              </article>
-              <article>
-                  {%- assign im_path = "research/axis_e2e.jpg" | prepend: 'assets/img/' -%}
+    {% comment %} ---------- PARTNERS ---------- {% endcomment %}
+    {% include academic_partners.html %}
 
-                  {% include figure.html
-                  path=im_path
-                  class="axis"
-                  alt="Physical AI and End-to-End Planning" -%}
-                  <div class="title">Physical AI and End-to-End Planning</div>
-              </article>
-              <article>
-                  {%- assign im_path = "research/axis_dependable2.PNG" | prepend: 'assets/img/' -%}
-
-                  {% include figure.html
-                  path=im_path
-                  class="axis"
-                  alt="Robust, Reliable and Explainable models" -%}
-                  <div class="title">Robust, Reliable and Explainable Models</div>
-              </article>
-            </div>
-          </div>
-          {%- endif %}
-
-          {% if page.news -%}
-          <!-- News -->
-          {%- include news.html %}
-          {%- endif %}
-
-	  {% include academic_partners.html %}
-
-          {% if page.selected_papers -%}
-            <!-- Selected papers -->
-            {%- include selected_papers.html %}
-          {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
-          <div class="social">
-            <div class="contact-icons">
-            {% include social.html %}
-            </div>
-
-            <div class="contact-note">
-              {{ site.contact_note }}
-            </div>
-            
-          </div>
-          {%- endif %}
-        </article>
-<!--             {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
-            {%- endif %}
- -->
+    {%- if page.social %}
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+      <div class="contact-note">
+        {{ site.contact_note }}
+      </div>
+    </div>
+    {%- endif %}
+  </article>
 </div>

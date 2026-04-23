@@ -1,5 +1,36 @@
+{%- assign selected = site.publications | where: 'hide', false | where: 'selected', true -%}
+{%- if selected == empty -%}
+  {%- assign selected = site.publications | where: 'hide', false | where_exp: 'p', 'p.award != blank' -%}
+{%- endif -%}
+{%- assign featured = selected | sort: 'year' | reverse | slice: 0, 6 -%}
 
-          <div class="publications">
-            <h2>selected publications</h2>
-            {% bibliography -f papers -q @*[selected=true]* %}
-          </div>
+<div class="selected-papers">
+  <div class="section-head">
+    <h2>Featured work</h2>
+    <a class="section-link" href="{{ '/publications/' | relative_url }}">All publications →</a>
+  </div>
+
+  <div class="selected-grid">
+    {% for entry in featured %}
+    <a class="selected-card" href="{% if entry.blog_url %}{{ entry.blog_url }}{% else %}{{ entry.permalink | relative_url }}{% endif %}"
+       {% if entry.blog_url %}target="_blank" rel="noopener"{% endif %}>
+      {%- if entry.image -%}
+      <div class="selected-thumb">
+        {% if entry.image contains '://' -%}
+        <img src="{{ entry.image }}" alt="{{ entry.title | escape }}" loading="lazy">
+        {%- else -%}
+        <img src="{{ entry.image | relative_url }}" alt="{{ entry.title | escape }}" loading="lazy">
+        {%- endif %}
+      </div>
+      {%- endif -%}
+      <div class="selected-body">
+        <div class="selected-venue">
+          <span>{{ entry.venue }} {{ entry.year }}</span>
+          {%- if entry.award %}<span class="selected-award">{{ entry.award }}</span>{%- endif %}
+        </div>
+        <div class="selected-title">{{ entry.title }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>

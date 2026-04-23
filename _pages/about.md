@@ -17,6 +17,7 @@ profile:
 
 researches: true # display research topics
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # renders the Featured work strip (auto-falls-back to award-flagged papers)
+stats: true # renders the numeric stats strip below the hero
 social: false  # includes social icons at the bottom of the page
 ---
