@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-categories: [multi-sensor, limited supervision, reliability, deep-learning]
+categories: [multi-sensor, limited-supervision, reliability, deep-learning]
 title: "valeo.ai at NeurIPS 2023"
 permalink: /posts/neurips-2023
 hide: false

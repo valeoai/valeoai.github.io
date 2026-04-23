@@ -2,7 +2,7 @@
 toc: true
 layout: post
 description: "Tuan-Hung Vu, Andrei Bursuc"
-categories: [domain adaptation, semantic segmentation, object detection ]
+categories: [domain-adaptation, semantic-segmentation, object-detection]
 title: "ADVENT - Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation"
 permalink: /posts/advent
 hide: false

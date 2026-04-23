@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [3d perception, multi-sensor, limited supervision, reliability, motion forecasting, robustness, generalization, driving]
+categories: [3d-perception, multi-sensor, limited-supervision, reliability, motion-forecasting, robustness, generalization, driving]
 title: "valeo.ai at ECCV 2024"
 hide: false
 image: assets/img/posts/2024_eccv/eccv_banner.png

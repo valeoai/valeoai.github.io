@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [domain adaptation, 3d perception, multi-sensor, limited supervision]
+categories: [domain-adaptation, 3d-perception, multi-sensor, limited-supervision]
 title: "valeo.ai at CVPR 2022"
 permalink: /posts/cvpr-2022
 hide: false

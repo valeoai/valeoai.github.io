@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [limited supervision, reliability, foundation, robustness, generalization, deep-learning]
+categories: [limited-supervision, reliability, foundation, robustness, generalization, deep-learning]
 title: "valeo.ai at ICLR 2025"
 hide: false
 image: assets/img/posts/2025_iclr.jpg

@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [3d perception, multi-sensor, limited supervision, reliability, motion forecasting, driving]
+categories: [3d-perception, multi-sensor, limited-supervision, reliability, motion-forecasting, driving]
 title: "valeo.ai at CVPR 2024"
 hide: false
 image: assets/img/posts/2024_cvpr/cvpr_banner.PNG

@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [foundation, limited-supervision,  deep-learning, generalization, explainability]
+categories: [foundation, limited-supervision, deep-learning, generalization, explainability]
 title: "valeo.ai at NeurIPS 2025"
 permalink: /posts/neurips-2025
 hide: false

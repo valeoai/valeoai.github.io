@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [3d perception, multi-sensor, limited supervision, reliability]
+categories: [3d-perception, multi-sensor, limited-supervision, reliability]
 title: "valeo.ai at CVPR 2023"
 permalink: /posts/cvpr-2023
 hide: false

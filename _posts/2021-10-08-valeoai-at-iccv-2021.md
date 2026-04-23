@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [domain adaptation, 3d perception, reliability, multi-sensor, limited supervision]
+categories: [domain-adaptation, 3d-perception, reliability, multi-sensor, limited-supervision]
 title: "valeo.ai at ICCV 2021"
 permalink: /posts/iccv-2021
 hide: false

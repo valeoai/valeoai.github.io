@@ -3,7 +3,7 @@ layout: publication
 title: "Cross-modal Learning for Domain Adaptation in 3D Semantic Segmentation"
 image: assets/img/publications/2022_xmossda/xmossda.png
 hide: false
-category: [domain-adaptation, multi-sensor, domain adaptation, generalization, 3d-perception]
+category: [domain-adaptation, multi-sensor, generalization, 3d-perception]
 authors: Maximilian Jaritz, Tuan-Hung Vu, Raoul de Charette, Émilie Wirbel, and Patrick Pérez
 venue: T-PAMI
 venue_long: IEEE Transactions on Pattern Analysis and Machine Intelligence

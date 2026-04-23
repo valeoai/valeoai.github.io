@@ -3,7 +3,7 @@ layout: publication
 title: "Cross-task Attention Mechanism for Dense Multi-task Learning"
 image: assets/img/publications/2022_densemtl/teaser.png
 hide: false
-category: [multi-task learning, semantic segmentation, monocular depth estimation, surface normal estimation, attention, domain adaptation, generalization]
+category: [multi-task learning, semantic segmentation, monocular depth estimation, surface normal estimation, attention, domain-adaptation, generalization]
 authors: Ivan Lopes , Tuan-Hung Vu and Raoul de Charette
 venue: WACV
 venue_long: IEEE/CVF Winter Conference on Applications of Computer Vision

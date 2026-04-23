@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [multi-sensor, 3d-perception, foundation, limited-supervision, zero shot, deep-learning, generalization, explainability]
+categories: [multi-sensor, 3d-perception, foundation, limited-supervision, zero-shot, deep-learning, generalization, explainability]
 title: "valeo.ai at ICCV 2025"
 permalink: /posts/iccv-2025
 hide: false

@@ -3,7 +3,7 @@ layout: publication
 title: "Multi-Head Distillation for Continual Unsupervised Domain Adaptation in Semantic Segmentation"
 image: assets/img/publications/2022_muhdi/teaser.png
 hide: false
-category: [domain-adaptation, domain adaptation, generalization]
+category: [domain-adaptation, generalization]
 authors: Antoine Saporta, Arthur Douillard, Tuan-Hung Vu, Patrick Pérez and Matthieu Cord
 venue: CVPRW
 venue_long: Computer Vision and Pattern Recognition Workshop

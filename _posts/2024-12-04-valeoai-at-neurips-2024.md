@@ -1,7 +1,7 @@
 ---
 toc: false
 layout: post
-categories: [3d perception, multi-sensor, limited supervision, reliability, motion forecasting, robustness, generalization, driving, deep-learning]
+categories: [3d-perception, multi-sensor, limited-supervision, reliability, motion-forecasting, robustness, generalization, driving, deep-learning]
 title: "valeo.ai at NeurIPS 2024"
 hide: false
 image: assets/img/posts/2023_neurips/logo_neurips.svg
