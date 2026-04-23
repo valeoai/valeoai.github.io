@@ -1,7 +1,6 @@
 ---
 toc: true
 layout: post
-description: "Victor Letzelter, Antonin Vobecky, Mickael Chen, Cedric Rommel, Matthieu Cord, Andrei Bursuc"
 categories: [multi-sensor, limited supervision, reliability, deep-learning]
 title: "valeo.ai at NeurIPS 2023"
 permalink: /posts/neurips-2023

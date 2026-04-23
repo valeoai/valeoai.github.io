@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Andrei Bursuc, Eloi Zablocki"
 categories: [3d-perception, driving, foundation, deep-learning, generalization, generative-model]
 title: "valeo.ai at CVPR 2026"
 permalink: /posts/cvpr-2026

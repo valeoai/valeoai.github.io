@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Alexandre Boulch, Oriane Siméoni, Gilles Puy, Éloi Zablocki, Spyros Gidaris, Andrei Bursuc"
 categories: [3d perception, multi-sensor, limited supervision, reliability]
 title: "valeo.ai at CVPR 2023"
 permalink: /posts/cvpr-2023

@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Andrei Bursuc, Gilles Puy, Arthur Ouaknine, Antoine Saporta"
 categories: [domain adaptation, 3d perception, reliability, multi-sensor, limited supervision]
 title: "valeo.ai at ICCV 2021"
 permalink: /posts/iccv-2021

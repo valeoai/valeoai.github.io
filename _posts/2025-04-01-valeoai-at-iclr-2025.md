@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Amaia Cardiel, Victor Besnier, Yuan Yin, Andrei Bursuc, Éloi Zablocki"
 categories: [limited supervision, reliability, foundation, robustness, generalization, deep-learning]
 title: "valeo.ai at ICLR 2025"
 hide: false

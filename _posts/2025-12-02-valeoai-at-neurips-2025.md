@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Loïck Chambon, Spyros Gidaris, Andrei Bursuc, Eloi Zablocki"
 categories: [foundation, limited-supervision,  deep-learning, generalization, explainability]
 title: "valeo.ai at NeurIPS 2025"
 permalink: /posts/neurips-2025

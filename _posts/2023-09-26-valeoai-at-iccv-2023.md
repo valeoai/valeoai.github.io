@@ -1,7 +1,6 @@
 ---
 toc: true
 layout: post
-description: "Gilles Puy, Tuan-Hung Vu, Oriane Siméoni, Matthieu Cord, Cédric Rommel, Andrei Bursuc"
 categories: [3d perception, multi-sensor, limited supervision, reliability, domain-adaptation]
 title: "valeo.ai at ICCV 2023"
 permalink: /posts/iccv-2023

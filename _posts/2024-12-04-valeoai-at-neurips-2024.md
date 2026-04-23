@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Victor Letzelter, Nermin Samet, Yuan Yin, Andrei Bursuc, Éloi Zablocki"
 categories: [3d perception, multi-sensor, limited supervision, reliability, motion forecasting, robustness, generalization, driving, deep-learning]
 title: "valeo.ai at NeurIPS 2024"
 hide: false

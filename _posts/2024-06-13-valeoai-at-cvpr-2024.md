@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Gilles Puy, Loïck Chambon, Victor Besnier, Sophia Sirko-Galouchenko, Spyros Gidaris, Alexandre Boulch, Renaud Marlet, Andrei Bursuc, Éloi Zablocki"
 categories: [3d perception, multi-sensor, limited supervision, reliability, motion forecasting, driving]
 title: "valeo.ai at CVPR 2024"
 hide: false

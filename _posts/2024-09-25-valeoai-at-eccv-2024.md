@@ -1,7 +1,6 @@
 ---
 toc: false
 layout: post
-description: "Björn Michele, Amaia Cardiel, Yuan Yin, Yihong Xu, Nermin Samet, Tuan-Hung Vu, Andrei Bursuc, Éloi Zablocki"
 categories: [3d perception, multi-sensor, limited supervision, reliability, motion forecasting, robustness, generalization, driving]
 title: "valeo.ai at ECCV 2024"
 hide: false
