@@ -1,16 +1,14 @@
-<div class="Box">
-    {%- if post.image -%}
-    <div class="col-md-4">
-        <img class="preview " src="{{ post.image | relative_url }}" />
-      </div>
-    {%- endif -%}
-    <div class="col-md-8">
-        <h3>
-          <a class="title" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        <p class="post-meta-description">{{ post.description }}</p>
-          <p class="post-meta">{{ post.date | date: date_format }}</p>
-      </div>
+<a class="Box" href="{{ post.url | relative_url }}">
+  {%- if post.image -%}
+  <div class="post-card-thumb">
+    <img class="preview" src="{{ post.image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy">
   </div>
+  {%- endif -%}
+  <div class="post-card-body">
+    <h3 class="title">{{ post.title | escape }}</h3>
+    {%- if post.description and post.description != "" -%}
+    <p class="post-meta-description">{{ post.description }}</p>
+    {%- endif -%}
+    <p class="post-meta">{{ post.date | date: date_format }}</p>
+  </div>
+</a>

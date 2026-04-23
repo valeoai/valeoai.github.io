@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 ---
 
-# Posts
+<h1 class="page-title">Posts</h1>
 
  {% assign rawposts = site.posts %}
  
