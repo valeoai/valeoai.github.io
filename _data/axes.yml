@@ -78,6 +78,7 @@
     - learning from video
     - long-range tracking
     - optimal-transport
+    - world model
 
 - slug: physical-ai
   label: "Physical AI & E2E"
@@ -127,7 +128,6 @@
     - anomaly detection
     - ood
     - adversarial
-    - generalization
     - domain-adaptation
     - domain adaptation
     - differential equation

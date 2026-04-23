@@ -3,7 +3,7 @@ layout: publication
 title: "LiDAS: Lighting-driven Dynamic Active Sensing for Nighttime Perception"
 image: assets/img/publications/2026_lidas/lidas.png
 hide: false
-category: [driving, perception]
+category: [perception]
 authors: Simon de Moreau, Andrei Bursuc, Hafid El-Idrissi, Fabien Moutarde
 venue: CVPR
 venue_long: IEEE/CVF Conference on Computer Vision and Pattern Recognition

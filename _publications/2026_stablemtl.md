@@ -3,7 +3,7 @@ layout: publication
 title: "StableMTL: Repurposing Latent Diffusion Models for Multi-Task Learning from Partially Annotated Synthetic Datasets" 
 image: assets/img/publications/stablemtl.png
 hide: false
-category: [driving, foundation, multi-task]
+category: [foundation, multi-task]
 authors: Anh-Quan Cao, Ivan Lopes, Raoul de Charette
 venue: CVPR
 venue_long: CVPR

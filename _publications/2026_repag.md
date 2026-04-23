@@ -3,7 +3,7 @@ layout: publication
 title: "REPA-G: Test-Time Conditioning with Representation-Aligned Visual Features"
 image: assets/img/publications/2026_repag/teaser.png
 hide: false
-category: [generative model, guidance, representation learning]
+category: [generative model, representation learning]
 authors: Nicolas Sereyjol-Garros, Ellington Kirby, Victor Letzelter, Victor Besnier, Nermin Samet
 venue: preprint
 venue_long: preprint
