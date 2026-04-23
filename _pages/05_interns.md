@@ -29,14 +29,26 @@ Send an email to the supervisors (one email per application) with the following:
 <h2>Alumni interns &amp; visiting students</h2>
 
 {% comment %}
-  Collect distinct numeric internship years. We keep "Visiting" out of
-  this list because Liquid's `sort` can't compare a String with an
-  Integer (mixed-type sort raises on Jekyll 4.3 / Liquid 4).
+  Collect distinct numeric years. Interns carry `internship_year`
+  directly; visiting students carry a `visiting_period` string like
+  "July 2023 - June 2024" from which we extract the LAST 4-digit
+  token as the bucket year. Everything is coerced to int so Liquid's
+  `sort` doesn't choke on mixed String/Integer comparison.
 {% endcomment %}
 {%- assign year_buckets = "" | split: "," -%}
 {%- for m in site.data.interns -%}
-  {%- if m[1].internship_year -%}
-    {%- assign year_buckets = year_buckets | push: m[1].internship_year -%}
+  {%- assign y = m[1].internship_year -%}
+  {%- if y == nil and m[1].visiting_period -%}
+    {%- assign parts = m[1].visiting_period | split: " " -%}
+    {%- for p in parts -%}
+      {%- assign token = p | strip | replace: ",", "" -%}
+      {%- if token.size == 4 -%}
+        {%- assign y = token | plus: 0 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if y -%}
+    {%- assign year_buckets = year_buckets | push: y -%}
   {%- endif -%}
 {%- endfor -%}
 {%- assign unique_years = year_buckets | uniq | sort | reverse -%}
@@ -46,7 +58,17 @@ Send an email to the supervisors (one email per application) with the following:
     <h3 class="interns-year-label">{{ year }}</h3>
     <div class="team alumni interns-grid">
     {% for member in site.data.interns %}
-      {% if member[1].internship_year == year %}
+      {%- assign my = member[1].internship_year -%}
+      {%- if my == nil and member[1].visiting_period -%}
+        {%- assign vparts = member[1].visiting_period | split: " " -%}
+        {%- for p in vparts -%}
+          {%- assign token = p | strip | replace: ",", "" -%}
+          {%- if token.size == 4 -%}
+            {%- assign my = token | plus: 0 -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {% if my == year %}
         {% include team/intern.html member=member %}
       {% endif %}
     {% endfor %}
@@ -54,24 +76,7 @@ Send an email to the supervisors (one email per application) with the following:
   </div>
 {% endfor %}
 
-{%- assign visiting_any = false -%}
-{%- for m in site.data.interns -%}
-  {%- unless m[1].internship_year -%}{%- assign visiting_any = true -%}{%- endunless -%}
-{%- endfor -%}
-{% if visiting_any %}
-  <div class="interns-year">
-    <h3 class="interns-year-label">Visiting</h3>
-    <div class="team alumni interns-grid">
-    {% for member in site.data.interns %}
-      {% unless member[1].internship_year %}
-        {% include team/intern.html member=member %}
-      {% endunless %}
-    {% endfor %}
-    </div>
-  </div>
-{% endif %}
-
-<h2 id="intern-papers">Papers led or co-authored by interns</h2>
+<h2 id="intern-papers">Papers led or co-authored by <u>interns</u></h2>
 
 {% assign publications = site.publications | where: 'hide', false | where: 'intern_work', true %}
 {% assign publications_by_year = publications | sort: 'year' | reverse %}
