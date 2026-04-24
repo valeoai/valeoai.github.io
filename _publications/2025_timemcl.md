@@ -3,7 +3,7 @@ layout: publication
 title: "Winner-takes-all for Multivariate Probabilistic Time Series Forecasting"
 image: assets/img/publications/2025_timemcl/timemcl.png
 hide: false
-category: [reliability, deep-learning, multi-sensor]
+category: [reliability, deep-learning]
 authors: Adrien Cortés*, Rémi Rehm, and Victor Letzelter*
 venue: ICML
 venue_long: International Conference on Machine Learning

@@ -3,7 +3,7 @@ layout: publication
 title: "OccAny: Generalized Unconstrained Urban 3D Occupancy" 
 image: assets/img/publications/teaser_occany.gif
 hide: false
-category: [foundation]
+category: [3d-perception, foundation]
 authors: Anh-Quan Cao, Tuan-Hung Vu
 venue: CVPR
 venue_long: CVPR

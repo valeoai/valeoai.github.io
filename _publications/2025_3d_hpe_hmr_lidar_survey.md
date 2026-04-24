@@ -3,7 +3,7 @@ layout: publication
 title: "3D Human Pose and Shape Estimation from LiDAR Point Clouds: A Review"
 image: assets/img/publications/2025_3d_hpe_hmr_lidar_survey.png
 hide: false
-category: [3d-perception, motion-forecasting, multi-sensor, pose, survey]
+category: [3d-perception, multi-sensor, pose, survey]
 authors: Salma Galaaoui, Eduardo Valle, David Picard, Nermin Samet
 venue: preprint
 venue_long: preprint
