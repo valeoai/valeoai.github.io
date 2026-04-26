@@ -1747,31 +1747,40 @@ article>h2.alumni {
         }
       }
       .title {
-        font-weight: bolder;
+        font-size: 1.05rem;
+        font-weight: 600;
+        line-height: 1.35;
         text-align: left;
+        margin-bottom: 0.25rem;
       }
       .title a {
         color: var(--global-text-color);
       }
-      .award {
-        margin-left: 1em;
-        padding: 0.1em;
-        color: $red-color-dark !important;
-        border: 1px solid $red-color-dark;
-      }
+
       .author {
+        font-family: 'Inter', sans-serif;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        color: var(--global-text-color-light);
+        margin-bottom: 0.5rem;
+
         a.team {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
+          font-weight: 500;
+          border-bottom: 1px dashed var(--global-divider-color);
+          text-decoration: none;
           &:hover {
-              border-bottom-style: solid;
+              border-bottom-color: var(--global-theme-color);
+              color: var(--global-theme-color);
               text-decoration: none;
           }
         }
         a:not(.team) {
           color: var(--global-text-color-light);
-          border-bottom: 1px dashed var(--global-text-color-light);
+          border-bottom: 1px dashed transparent;
+          text-decoration: none;
           &:hover {
-              border-bottom-style: solid;
+              border-bottom-color: var(--global-text-color-light);
               text-decoration: none;
           }
         }
@@ -1789,17 +1798,82 @@ article>h2.alumni {
           }
         }
       }
-      .links {
-        a.btn {
+
+      // Venue chip + year + award chip — replaces the old italic
+      // "VENUE, YEAR" line.
+      .periodical {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.6rem;
+
+        .venue {
+          font-family: 'Inter', sans-serif;
+          font-size: 0.7rem;
+          font-weight: 700;
+          letter-spacing: 0.08em;
+          text-transform: uppercase;
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding: 0.2rem 0.55rem;
+          border: 1px solid var(--global-divider-color);
+          border-radius: 4px;
+          line-height: 1;
+        }
+
+        .venue-year {
+          font-family: 'Inter', sans-serif;
+          font-size: 0.8125rem;
+          color: var(--global-text-color-light);
+          font-variant-numeric: tabular-nums;
+        }
+
+        .award {
+          font-family: 'Inter', sans-serif;
+          font-size: 0.7rem;
+          font-weight: 700;
+          letter-spacing: 0.06em;
+          color: var(--global-theme-color);
+          padding: 0.2rem 0.55rem;
+          border: 1px solid var(--global-theme-color);
+          border-radius: 4px;
+          line-height: 1;
+          background: var(--global-code-bg-color);
+        }
+      }
+
+      // Lighter, icon-prefixed action links — no hard outline.
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0 1rem;
+
+        a.pub-link {
+          font-family: 'Inter', sans-serif;
+          font-size: 0.8125rem;
+          font-weight: 500;
+          color: var(--global-text-color-light);
+          text-decoration: none;
+          background: transparent;
+          border: 0;
+          padding: 0.15rem 0;
+          display: inline-flex;
+          align-items: center;
+          gap: 0.3rem;
+          cursor: pointer;
+          transition: color 0.15s ease;
+
+          i {
+            font-size: 0.85rem;
+            color: var(--global-text-color-light);
+            transition: color 0.15s ease;
+          }
+
           &:hover {
             color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+            text-decoration: none;
+            i { color: var(--global-theme-color); }
           }
         }
       }
