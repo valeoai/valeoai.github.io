@@ -8,3 +8,5 @@ _site
 .tweet-cache
 vendor
 
+# Jupyter editor backups
+**/.ipynb_checkpoints/
