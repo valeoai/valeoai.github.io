@@ -39,9 +39,9 @@
             <!-- Title -->
             <div class="title">
             {%- if entry.blog_url %}
-            <a href="{{ entry.blog_url }}" target="_blank">
+            <a href="{{ entry.blog_url }}" target="_blank" rel="noopener noreferrer">
             {%- else -%}
-                <a href="{{ entry.permalink }}" target="_blank">
+                <a href="{{ entry.permalink | relative_url }}">
             {%- endif %}
             {{entry.title}}
             </a>

@@ -4,6 +4,7 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 2
+seo_description: The valeo.ai research axes — perception and 3D scene understanding, foundation models for driving, generative AI, and trustworthy AI. Browse our work by topic.
 ---
 
 <div class="research-axes-page">

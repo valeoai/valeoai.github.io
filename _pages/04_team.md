@@ -3,6 +3,7 @@ layout: page
 title: Team
 permalink: /team/
 description: 
+seo_description: Meet the valeo.ai team — researchers, engineers, and PhD students based in Paris working on computer vision, autonomous driving, and foundation models.
 nav: true
 nav_order: 1
 ---

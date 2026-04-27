@@ -4,6 +4,7 @@ title: Posts
 permalink: /posts/
 nav: true
 nav_order: 4
+seo_description: Blog posts and research notes from the valeo.ai team — deep dives into our papers, releases, and ideas in computer vision and autonomous driving.
 ---
 
 <h1 class="page-title">Posts</h1>

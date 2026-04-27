@@ -4,6 +4,7 @@ title: Publications
 permalink: /publications/
 nav: true
 nav_order: 5
+seo_description: Peer-reviewed publications from the valeo.ai research team — papers at CVPR, NeurIPS, ICCV, ICLR and more on computer vision, autonomous driving, 3D perception, and foundation models.
 ---
 
 <h1 class="page-title">Publications</h1>
