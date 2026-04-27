@@ -15,6 +15,7 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/seedal/
+abstract: "We propose SeedAL, a method to seed active learning for efficient annotation of 3D point clouds for semantic segmentation."
 ---
 
 
@@ -22,11 +23,11 @@ permalink: /publications/seedal/
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a>&nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/">Gilles Puy</a>&nbsp;&nbsp; <a href="https://ponimatkin.github.io/">Georgy Ponimatkin</a>&nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>&nbsp;&nbsp; <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a></h3>
+<p class="pub-authors"> <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a>&nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/">Gilles Puy</a>&nbsp;&nbsp; <a href="https://ponimatkin.github.io/">Georgy Ponimatkin</a>&nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>&nbsp;&nbsp; <a href="https://vincentlepetit.github.io/">Vincent Lepetit</a></p>
 
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

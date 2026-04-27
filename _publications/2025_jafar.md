@@ -18,16 +18,17 @@ slides_url:
 bib_url:
 intern_work: false
 permalink: /publications/jafar/
+abstract: "Foundation Vision Encoders have become essential for a wide range of dense vision tasks. However, their low-resolution spatial feature outputs necessitate feature upsampling to produce the high-resolution modalities required for downstream tasks."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">  <a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr">Paul Couairon*</a>&nbsp;&nbsp; <a href="https://loickch.github.io/">Loick Chambon*</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ&hl=fr">Louis Serrano</a>&nbsp;&nbsp; <a>Jean-Emmanuel Haugeard</a>&nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>&nbsp;&nbsp; <a href="https://thome.isir.upmc.fr">Nicolas Thome</a></h3>
+<p class="pub-authors">  <a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr">Paul Couairon*</a>&nbsp;&nbsp; <a href="https://loickch.github.io/">Loick Chambon*</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ&hl=fr">Louis Serrano</a>&nbsp;&nbsp; <a>Jean-Emmanuel Haugeard</a>&nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>&nbsp;&nbsp; <a href="https://thome.isir.upmc.fr">Nicolas Thome</a></p>
 
 <p align="center"><em>*Equal Contribution</em></p>
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div class="row justify-content-center">
   <div class="column">

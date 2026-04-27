@@ -17,16 +17,17 @@ slides_url:
 bib_url:
 intern_work: true
 permalink: /publications/rangevit/
+abstract: "Casting semantic segmentation of outdoor LiDAR point clouds as a 2D problem, e.g., via range projection, is an effective and popular approach."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="">Angelika Ando</a>  &nbsp;&nbsp; <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a></h3>
+<p class="pub-authors"> <a href="">Angelika Ando</a>  &nbsp;&nbsp; <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>  &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

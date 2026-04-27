@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/dada/
+abstract: "Unsupervised domain adaptation (UDA) is important for applications where large scale annotation of representative data is challenging."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>&nbsp;&nbsp; <a href="https://himalayajain.github.io/">Himalaya Jain</a>&nbsp;&nbsp; <a href="https://maximebucher.github.io/">Maxime Bucher</a>&nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></h3>
+<p class="pub-authors"> <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>&nbsp;&nbsp; <a href="https://himalayajain.github.io/">Himalaya Jain</a>&nbsp;&nbsp; <a href="https://maximebucher.github.io/">Maxime Bucher</a>&nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

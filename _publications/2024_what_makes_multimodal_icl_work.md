@@ -15,16 +15,17 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/multimodal-icl/
+abstract: "Large Language Models have demonstrated remarkable performance across various tasks, exhibiting the capacity to swiftly acquire new skills, such as through In-Context Learning (ICL) with minimal demonstration examples."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://www.folbaeni.com/">Folco Bertini Baldassini</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lhp9mRgAAAAJ&hl=en">Mustafa Shukor</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://pages.isir.upmc.fr/soulier/">Laure Soulier</a> &nbsp;&nbsp; <a href="https://www.piwowarski.fr/">Benjamin Piwowarski</a></h3>
+<p class="pub-authors"> <a href="https://www.folbaeni.com/">Folco Bertini Baldassini</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lhp9mRgAAAAJ&hl=en">Mustafa Shukor</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://pages.isir.upmc.fr/soulier/">Laure Soulier</a> &nbsp;&nbsp; <a href="https://www.piwowarski.fr/">Benjamin Piwowarski</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

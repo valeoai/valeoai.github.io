@@ -16,11 +16,12 @@ slides_url:
 bib_url:
 permalink: /publications/woodscape/
 award: oral
+abstract: "Fisheye cameras are commonly employed for obtaining a large field of view in surveillance, augmented reality and in particular automotive applications."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

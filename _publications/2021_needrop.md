@@ -15,6 +15,7 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/needrop/
+abstract: "There has been recently a growing interest for implicit shape representations. Contrary to explicit representations, they have no resolution limitations and they easily deal with a wide variety of surface topologies."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
@@ -22,15 +23,15 @@ permalink: /publications/needrop/
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
 
-<h3 align="center">
+<p class="pub-authors">
 <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp;
 <a href="https://imagine.enpc.fr/~langloip/">Pierre-Alain Langlois</a> &nbsp;&nbsp;
 <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a> &nbsp;&nbsp;
 <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>
-</h3>
+</p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

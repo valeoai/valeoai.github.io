@@ -15,16 +15,17 @@ blog_url: https://arthurouaknine.github.io/codeanddata/mvrss
 slides_url: 
 bib_url: 
 permalink: /publications/mvrss/
+abstract: "Understanding the scene around the ego-vehicle is key to assisted and autonomous driving. Nowadays, this is mostly conducted using cameras and laser scanners, despite their reduced performances in adverse weather conditions."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://arthurouaknine.github.io/">Arthur Ouaknie</a>&nbsp;&nbsp;<a href="https://sites.google.com/site/alasdairnewson/">Alasdair Newson</a>&nbsp;&nbsp;<a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://perso.telecom-paristech.fr/tupin/">Florence Tupin</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ&hl=fr">Julien Rebut</a> </h3>
+<p class="pub-authors"> <a href="https://arthurouaknine.github.io/">Arthur Ouaknie</a>&nbsp;&nbsp;<a href="https://sites.google.com/site/alasdairnewson/">Alasdair Newson</a>&nbsp;&nbsp;<a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://perso.telecom-paristech.fr/tupin/">Florence Tupin</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ&hl=fr">Julien Rebut</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

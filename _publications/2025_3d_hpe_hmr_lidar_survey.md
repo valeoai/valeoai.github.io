@@ -15,16 +15,17 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/3d_hpe_hmr_lidar_survey/
+abstract: "In this paper, we present a comprehensive review of 3D human pose estimation and human mesh recovery from in-the-wild LiDAR point clouds."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://salmag98.github.io">Salma Galaaoui</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=fr">Eduardo Valle</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> </h3>
+<p class="pub-authors"> <a href="https://salmag98.github.io">Salma Galaaoui</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ&hl=fr">Eduardo Valle</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

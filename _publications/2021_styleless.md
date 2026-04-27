@@ -15,16 +15,17 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/styleless/
+abstract: "Deep Neural Networks (DNNs) are a critical component for self-driving vehicles. They achieve impressive performance by reaping information from high amounts of labeled data."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ">Julien Rebut </a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></h3>
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ">Julien Rebut </a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

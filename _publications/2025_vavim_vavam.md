@@ -17,4 +17,5 @@ bib_url:
 permalink: /publications/vavim-vavam/
 award: 
 video: 
+abstract: "VaViM and VaVAM: Autonomous Driving through Video Generative Modeling. Published at CoRL Workshop 2025. By Florent Bartoccioni, Elias Ramzi, Victor Besnier, Shashanka Venkataramanan, Tuan-Hung Vu, Yihong Xu, Loick Chambon, Spyros Gidaris, Serkan…"
 ---

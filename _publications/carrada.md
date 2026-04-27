@@ -15,16 +15,17 @@ blog_url: https://arthurouaknine.github.io/codeanddata/carrada
 slides_url: 
 bib_url: 
 permalink: /publications/carrada/
+abstract: "High quality perception is essential for autonomous driving (AD) systems. To reach the accuracy and robustness that are required by such systems, several types of sensors must be combined."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://arthurouaknine.github.io/">Arthur Ouaknine</a>&nbsp;&nbsp;<a href="https://sites.google.com/site/alasdairnewson/">Alasdair Newson</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ&hl=fr">Julien Rebut</a>&nbsp;&nbsp; <a href="https://perso.telecom-paristech.fr/tupin/">Florence Tupin</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> </h3>
+<p class="pub-authors"> <a href="https://arthurouaknine.github.io/">Arthur Ouaknine</a>&nbsp;&nbsp;<a href="https://sites.google.com/site/alasdairnewson/">Alasdair Newson</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ&hl=fr">Julien Rebut</a>&nbsp;&nbsp; <a href="https://perso.telecom-paristech.fr/tupin/">Florence Tupin</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

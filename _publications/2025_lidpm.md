@@ -16,4 +16,5 @@ slides_url:
 bib_url:
 permalink: /publications/lidpm/
 award: oral
+abstract: "LiDPM: Rethinking Point Diffusion for Lidar Scene Completion. Published at IEEE IV 2025. By Tetiana Martyniuk, Gilles Puy, Alexandre Boulch, Renaud Marlet, Raoul de Charette. Research from valeo.ai."
 ---

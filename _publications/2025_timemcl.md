@@ -15,15 +15,16 @@ blog_url:
 slides_url: 
 bib_url:
 permalink: /publications/timemcl/
+abstract: "We introduce TimeMCL, a method leveraging the Multiple Choice Learning (MCL) paradigm to forecast multiple plausible time series futures."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 
-<h3 align="center">  <a href="https://scholar.google.com/citations?user=Pw40NpYAAAAJ&hl=en&oi=sra">Adrien Cortés*</a> &nbsp;&nbsp; Rémi Rehm &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter*</a></h3>
+<p class="pub-authors">  <a href="https://scholar.google.com/citations?user=Pw40NpYAAAAJ&hl=en&oi=sra">Adrien Cortés*</a> &nbsp;&nbsp; Rémi Rehm &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter*</a></p>
 
 <p align="center"><em>*Equal Contribution</em></p>
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

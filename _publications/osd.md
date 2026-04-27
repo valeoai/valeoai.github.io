@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/osd/
+abstract: "Learning with complete or partial supervision is power- ful but relies on ever-growing human annotation efforts."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.com/citations?user=gIf5VqUAAAAJ&hl=en">Huy V. Vo</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/~fbach/">Francis Bach</a>&nbsp;&nbsp; <a href="http://cvlab.postech.ac.kr/~mcho/">Minsu Cho</a>&nbsp;&nbsp; <a href="http://www.hankai.org/">Kai Han</a>&nbsp;&nbsp; <a href="http://yann.lecun.com/">Yann LeCun</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/~ponce/">Jean Ponce</a> </h3>
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=gIf5VqUAAAAJ&hl=en">Huy V. Vo</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/~fbach/">Francis Bach</a>&nbsp;&nbsp; <a href="http://cvlab.postech.ac.kr/~mcho/">Minsu Cho</a>&nbsp;&nbsp; <a href="http://www.hankai.org/">Kai Han</a>&nbsp;&nbsp; <a href="http://yann.lecun.com/">Yann LeCun</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/~ponce/">Jean Ponce</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

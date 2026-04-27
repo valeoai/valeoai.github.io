@@ -15,17 +15,18 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/hybrid-planner/
+abstract: "Deep learning-based methods are growing prominence for planning purposes. In this paper, we present a hybrid planner that combines a graph machine learning model and an optimal solver based on branch and bound tree search for path-planning tasks."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> Kevin Osanlou&nbsp;&nbsp; Christophe Guettier&nbsp;&nbsp;  <a href="https://www.lamsade.dauphine.fr/~cazenave/">Tristan Cazenave</a>&nbsp;&nbsp; <a href="http://www.st-cyr.terre.defense.gouv.fr/index.php/crec/Centre-de-recherche-des-ecoles-de-Saint-Cyr-Coetquidan/Menu-Principal/Les-poles/Sciences-et-technologies-de-defense/Les-chercheurs-du-pole-Sciences-et-technologies-de-defense/Eric-JACOPIN">Eric Jacopin</a></h3>
+<p class="pub-authors"> Kevin Osanlou&nbsp;&nbsp; Christophe Guettier&nbsp;&nbsp;  <a href="https://www.lamsade.dauphine.fr/~cazenave/">Tristan Cazenave</a>&nbsp;&nbsp; <a href="http://www.st-cyr.terre.defense.gouv.fr/index.php/crec/Centre-de-recherche-des-ecoles-de-Saint-Cyr-Coetquidan/Menu-Principal/Les-poles/Sciences-et-technologies-de-defense/Les-chercheurs-du-pole-Sciences-et-technologies-de-defense/Eric-JACOPIN">Eric Jacopin</a></p>
 
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

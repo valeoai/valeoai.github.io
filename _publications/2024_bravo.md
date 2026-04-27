@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/bravo/
+abstract: "We propose the unified BRAVO challenge to benchmark the reliability of semantic segmentation models under realistic perturbations and unknown out-of-distribution (OOD) scenarios."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>  &nbsp;&nbsp; <a href="">Eduardo Valle</a> &nbsp;&nbsp; <a href="">Andrei Bursuc</a> &nbsp;&nbsp; <a href="">Tommie Kerssies</a> &nbsp;&nbsp; <a href="">Daan de Geus</a> &nbsp;&nbsp; <a href="">Gijs Dubbelman</a> &nbsp;&nbsp; <a href="">Long Qian</a> &nbsp;&nbsp; <a href="">Bingke Zhu</a> &nbsp;&nbsp; <a href="">Yingying Chen</a> &nbsp;&nbsp; <a href="">Ming Tang</a> &nbsp;&nbsp; <a href="">Jinqiao Wang</a> &nbsp;&nbsp; <a href="">Tomáš Vojíř</a> &nbsp;&nbsp; <a href="">Jan Šochman</a> &nbsp;&nbsp; <a href="">Jiří Matas</a> &nbsp;&nbsp; <a href="">Michael Smith</a> &nbsp;&nbsp; <a href="">Frank Ferrie</a> &nbsp;&nbsp; <a href="">Shamik Basu</a> &nbsp;&nbsp; <a href="">Christos Sakaridis</a> &nbsp;&nbsp; <a href="">Luc Van Gool</a> </h3>
+<p class="pub-authors"> <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>  &nbsp;&nbsp; <a href="">Eduardo Valle</a> &nbsp;&nbsp; <a href="">Andrei Bursuc</a> &nbsp;&nbsp; <a href="">Tommie Kerssies</a> &nbsp;&nbsp; <a href="">Daan de Geus</a> &nbsp;&nbsp; <a href="">Gijs Dubbelman</a> &nbsp;&nbsp; <a href="">Long Qian</a> &nbsp;&nbsp; <a href="">Bingke Zhu</a> &nbsp;&nbsp; <a href="">Yingying Chen</a> &nbsp;&nbsp; <a href="">Ming Tang</a> &nbsp;&nbsp; <a href="">Jinqiao Wang</a> &nbsp;&nbsp; <a href="">Tomáš Vojíř</a> &nbsp;&nbsp; <a href="">Jan Šochman</a> &nbsp;&nbsp; <a href="">Jiří Matas</a> &nbsp;&nbsp; <a href="">Michael Smith</a> &nbsp;&nbsp; <a href="">Frank Ferrie</a> &nbsp;&nbsp; <a href="">Shamik Basu</a> &nbsp;&nbsp; <a href="">Christos Sakaridis</a> &nbsp;&nbsp; <a href="">Luc Van Gool</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

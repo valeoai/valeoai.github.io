@@ -68,6 +68,38 @@ layout: default
 
 <div class="publication">
 
-  {{ content }}
+  {%- comment -%}
+    Fallback rendering: if the markdown body is empty (no hand-curated
+    layout in the file), render the standard paper card from front matter.
+    Detected by stripping all HTML and whitespace from `content`.
+  {%- endcomment -%}
+  {%- assign content_text = content | strip_html | strip_newlines | strip -%}
+  {%- if content_text == "" -%}
+    <h1 class="paper-title">{{ page.title }}</h1>
+    {%- if page.authors %}
+    <p class="pub-authors">{{ page.authors }}</p>
+    {%- endif %}
+    {%- if page.venue %}
+    <p class="pub-venue">{{ page.venue }} {{ page.year }}{% if page.award %} · {{ page.award }}{% endif %}</p>
+    {%- endif %}
+    <div class="pub-links">
+      {%- if page.paper_url %}<a href="{{ page.paper_url }}"><i class="far fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;{% endif -%}
+      {%- if page.code_url %}<a href="{{ page.code_url }}"><i class="fab fa-github"></i> Code</a>&nbsp;&nbsp;{% endif -%}
+      {%- if page.blog_url %}<a href="{{ page.blog_url }}"><i class="fab fa-blogger"></i> Blog</a>&nbsp;&nbsp;{% endif -%}
+      {%- if page.slides_url %}<a href="{{ page.slides_url }}"><i class="far fa-file-pdf"></i> Slides</a>{% endif -%}
+    </div>
+    {%- if page.image %}
+    <div class="publication-teaser">
+      <img src="{{ page.image | prepend: '/' | replace: '//', '/' | relative_url }}" alt="{{ page.title | escape }}" loading="lazy"/>
+    </div>
+    {%- endif %}
+    {%- if page.abstract %}
+    <hr>
+    <h2>Abstract</h2>
+    <p>{{ page.abstract }}</p>
+    {%- endif %}
+  {%- else -%}
+    {{ content }}
+  {%- endif -%}
 
 </div>

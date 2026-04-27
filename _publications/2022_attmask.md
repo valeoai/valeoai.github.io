@@ -15,16 +15,17 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/attmask/
+abstract: "Transformers and masked language modeling are quickly being adopted and explored in computer vision as vision transformers and masked image modeling (MIM)."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.com/citations?user=B_dKcz4AAAAJ">Ioannis Kakogeorgiou</a>&nbsp;&nbsp; <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>&nbsp;&nbsp;  <a href="http://users.ntua.gr/psomasbill/">Bill Psomas</a> &nbsp;&nbsp;  <a href="https://avrithis.net/">Yannis Avrithis</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp;  <a href="http://users.ntua.gr/karank/">Konstantinos Karantzalos</a> &nbsp;&nbsp;  <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a></h3>
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=B_dKcz4AAAAJ">Ioannis Kakogeorgiou</a>&nbsp;&nbsp; <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a>&nbsp;&nbsp;  <a href="http://users.ntua.gr/psomasbill/">Bill Psomas</a> &nbsp;&nbsp;  <a href="https://avrithis.net/">Yannis Avrithis</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp;  <a href="http://users.ntua.gr/karank/">Konstantinos Karantzalos</a> &nbsp;&nbsp;  <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

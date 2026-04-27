@@ -16,21 +16,22 @@ slides_url:
 bib_url:
 permalink: /publications/repag/
 intern_work: false
+abstract: "REPA-G: Test-Time Conditioning with Representation-Aligned Visual Features. Published at preprint 2026. By Nicolas Sereyjol-Garros, Ellington Kirby, Victor Letzelter, Victor Besnier, Nermin Samet. Research from valeo.ai."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">
+<p class="pub-authors">
   <a href="https://scholar.google.com/citations?user=9Mr--hUAAAAJ" target="_blank">Nicolas&nbsp;Sereyjol-Garros</a> &ensp; <b>&middot;</b> &ensp;
   <a href="https://ellingtonkirby.github.io/" target="_blank">Ellington&nbsp;Kirby</a> &ensp; <b>&middot;</b> &ensp;
   <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en" target="_blank">Victor&nbsp;Letzelter</a> &ensp; <b>&middot;</b> &ensp;
   <a href="https://scholar.google.com/citations?user=n_C2h-QAAAAJ&hl=en" target="_blank">Victor&nbsp;Besnier</a> &ensp; <b>&middot;</b> &ensp;
-  <a href="https://nerminsamet.github.io/" target="_blank">Nermin&nbsp;Samet</a></h3>
+  <a href="https://nerminsamet.github.io/" target="_blank">Nermin&nbsp;Samet</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

@@ -15,16 +15,17 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/neural-parametric-solver/
+abstract: "Physics-informed deep learning often faces optimization challenges due to the complexity of solving partial differential equations (PDEs), which involve exploring large solution spaces, require numerous iterations, and can lead to unstable training."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://2ailesb.github.io/">Lise Le Boudec</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=KvZw5gYAAAAJ">Emmanuel de Bezenac</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ">Louis Serrano</a> &nbsp;&nbsp; <a href="https://rd-regueiroespino.github.io/">Ramon Daniel Regueiro-Espino</a> &nbsp;&nbsp; <a href="https://yuan-yin.github.io">Yuan Yin</a> &nbsp;&nbsp; <a href="https://pages.isir.upmc.fr/gallinari/">Patrick Gallinari</a>  </h3>
+<p class="pub-authors"> <a href="https://2ailesb.github.io/">Lise Le Boudec</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=KvZw5gYAAAAJ">Emmanuel de Bezenac</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=fKlo-lUAAAAJ">Louis Serrano</a> &nbsp;&nbsp; <a href="https://rd-regueiroespino.github.io/">Ramon Daniel Regueiro-Espino</a> &nbsp;&nbsp; <a href="https://yuan-yin.github.io">Yuan Yin</a> &nbsp;&nbsp; <a href="https://pages.isir.upmc.fr/gallinari/">Patrick Gallinari</a>  </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

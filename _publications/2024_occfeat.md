@@ -17,17 +17,18 @@ slides_url:
 bib_url:
 intern_work: true
 permalink: /publications/occfeat/
+abstract: "We introduce a self-supervised pretraining method, called OcFeat, for camera-only Bird's-Eye-View (BEV) segmentation networks. With OccFeat, we pretrain a BEV network via occupancy prediction and feature distillation tasks."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="">Sophia Sirko-Galouchenko</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp;  <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a> &nbsp;&nbsp; <br> <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;  <a href="https://vobecant.github.io/">Antonin Vobecky</a>  &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></h3>
+<p class="pub-authors"> <a href="">Sophia Sirko-Galouchenko</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp;  <a href="https://gidariss.github.io/&hl=en">Spyros Gidaris</a> &nbsp;&nbsp; <br> <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;  <a href="https://vobecant.github.io/">Antonin Vobecky</a>  &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></p>
 
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

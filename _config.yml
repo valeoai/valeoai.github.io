@@ -3,20 +3,20 @@
 # -----------------------------------------------------------------------------
 
 title: valeo.ai # the website title (if blank, full name will be used instead)
-subtitle: valeo.ai research page
-first_name: 
-middle_name: 
-last_name: 
+subtitle: AI research at Valeo
+first_name:
+middle_name:
+last_name:
 title_logo: valeoai_logo.png # keep empty to use text as title
-email: anonymous@anonymous.com
+email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  valeo.ai research page
-footer_text: > 
+  valeo.ai is an international research team based in Paris working at the intersection of computer vision, AI, and autonomous driving. We publish at top venues, release open-source code, and shape the AI future of Valeo.
+footer_text: >
   valeo.ai research page
 #  Uses <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 #  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: computer vision, ai, valeo, artificial intelligence, research, deep learning  # add your own keywords or leave empty
+keywords: computer vision, autonomous driving, deep learning, artificial intelligence, 3D perception, foundation models, valeo, valeo.ai, research lab, Paris  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: valeoai_logo_256x256.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -105,7 +105,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: GTM-MFXZC5HX # GA4 (G-XXXXXXXX) or Google Tag Manager (GTM-XXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification: # your google-site-verification ID (Google Search Console)
@@ -304,9 +304,9 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true  # enables google analytics
+enable_google_analytics:    true   # enables google analytics / GTM
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: true  # enables google site verification
+enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)

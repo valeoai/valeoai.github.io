@@ -15,13 +15,14 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/radial/
+abstract: "With their robustness to adverse weather conditions and ability to measure speeds, radar sensors have been part of the automotive landscape for more than two decades."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
-<h3 align="center">  <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ">Julien Rebut</a>&nbsp;&nbsp;<a href="https://arthurouaknine.github.io/">Arthur Ouaknine</a>&nbsp;&nbsp;Waqas Walik&nbsp;&nbsp;<a href="https://ptrckprz.github.io/">Patrick Pérez</a></h3>
+<p class="pub-authors">  <a href="https://scholar.google.com/citations?user=BJcQNcoAAAAJ">Julien Rebut</a>&nbsp;&nbsp;<a href="https://arthurouaknine.github.io/">Arthur Ouaknine</a>&nbsp;&nbsp;Waqas Walik&nbsp;&nbsp;<a href="https://ptrckprz.github.io/">Patrick Pérez</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

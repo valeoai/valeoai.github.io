@@ -15,21 +15,22 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/2020_starflow/
+abstract: "We present a new lightweight CNN-based algorithm for multi-frame optical flow estimation. Our solution introduces a double recurrence over spatial scale and time through repeated use of a generic \"STaR\" (SpatioTemporal Recurrent) cell."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">
+<p class="pub-authors">
 <a href="https://pgodet.github.io/"> Pierre Godet</a> &nbsp;&nbsp;
 <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp;
 <a href="https://scholar.google.fr/citations?user=zzRUDj8AAAAJ&hl=en">Aurelien Plyer</a> &nbsp;&nbsp;
 <a href="https://scholar.google.fr/citations?user=r8V306wAAAAJ&hl=fr">Guy Le Besnerais</a>&nbsp;&nbsp;
-</h3>
+</p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

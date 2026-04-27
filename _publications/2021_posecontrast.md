@@ -16,6 +16,7 @@ slides_url:
 bib_url:
 permalink: /publications/posecontrast/
 award: oral
+abstract: "Motivated by the need of estimating the pose (viewpoint) of arbitrary objects in the wild, which is only covered by scarce and small datasets, we consider the challenging problem of class-agnostic 3D object pose estimation, with no 3D shape…"
 ---
 
 <h1 align="center"> {{page.title}} </h1>
@@ -23,10 +24,10 @@ award: oral
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
 
-<h3 align="center"> {{page.authors}} </h3>
+<p class="pub-authors"> {{page.authors}} </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

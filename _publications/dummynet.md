@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/dummynet/
+abstract: "Existing datasets for training pedestrian detectors in images suffer from limited appearance and pose variation."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.com/citations?user=DGhPzZ0AAAAJ&hl=en&oi=ao">Antonín Vobecký</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=en&oi=ao">David Hurych</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=ovLIfioAAAAJ">Michal Uříčář</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=NCtKHnQAAAAJ">Josef Šivic</a> </h3>
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=DGhPzZ0AAAAJ&hl=en&oi=ao">Antonín Vobecký</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=en&oi=ao">David Hurych</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=ovLIfioAAAAJ">Michal Uříčář</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=NCtKHnQAAAAJ">Josef Šivic</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

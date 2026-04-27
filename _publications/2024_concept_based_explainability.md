@@ -14,5 +14,6 @@ paper_url: https://arxiv.org/abs/2406.08074
 blog_url: https://jayneelparekh.github.io/LMM_Concept_Explainability/
 slides_url: 
 bib_url: 
+abstract: "A Concept-Based Explainability Framework for Large Multimodal Models. Published at Advances in Neural Information Processing Systems 2024. By Jayneel Parekh, Pegah Khayatan, Mustafa Shukor, Alasdair Newson, Matthieu Cord. Research from valeo.ai."
 ---
 

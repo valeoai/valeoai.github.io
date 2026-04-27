@@ -17,4 +17,5 @@ bib_url:
 permalink: /publications/drivor/
 award: 
 video: 
+abstract: "Driving on Registers. Published at CVPR 2026. By Ellington Kirby, Alexandre Boulch, Yihong Xu, Yuan Yin, Gilles Puy, Éloi Zablocki, Andrei Bursuc, Spyros Gidaris, Renaud Marlet, Florent Bartoccioni, Anh-Quan Cao, Nermin Samet, Tuan-Hung VU,…"
 ---

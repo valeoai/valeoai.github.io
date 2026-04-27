@@ -15,22 +15,23 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/superquadricocc/
+abstract: "Semantic occupancy estimation enables comprehensive scene understanding for automated driving, providing dense spatial and semantic information essential for perception and planning."
 ---
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">  
+<p class="pub-authors">  
 <a href="https://scholar.google.com/citations?user=3fffnjYAAAAJ&hl=en">Seamie Hayes</a>&nbsp;&nbsp;
 <a href="https://pure.ul.ie/en/persons/reenu-mohandas/">Reenu Mohandas</a> &nbsp;&nbsp; 
 <a href="https://pure.ul.ie/en/persons/tim-brophy/">Tim Brophy</a> &nbsp;&nbsp; 
 <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp; 
 <a href="https://scholar.google.com/citations?user=356ahmwAAAAJ&hl=en">Ganesh Sistu</a>&nbsp;&nbsp;
 <a href="https://pure.ul.ie/en/persons/ciaran-eising/">Ciaran Eising</a>
-</h3>
+</p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

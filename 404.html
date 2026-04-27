@@ -2,8 +2,17 @@
 layout: page
 permalink: /404.html
 title: "Page not found"
-description: "Looks like there has been a mistake. Nothing exists here."
-redirect: true
+description: "The page you were looking for does not exist."
 ---
 
-<p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="{{ site.baseurl }}/">here</a>.</p>
+<div class="not-found">
+  <p>Sorry, the page you requested could not be found.</p>
+  <p>You might be interested in:</p>
+  <ul>
+    <li><a href="{{ '/' | relative_url }}">Home</a> — about valeo.ai</li>
+    <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+    <li><a href="{{ '/research/' | relative_url }}">Research axes</a></li>
+    <li><a href="{{ '/team/' | relative_url }}">Team</a></li>
+    <li><a href="{{ '/repositories/' | relative_url }}">Code &amp; data</a></li>
+  </ul>
+</div>

@@ -15,17 +15,18 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/lod/
+abstract: "Existing approaches to unsupervised object discovery (UOD) do not scale up to large datasets without approximations that compromise their performance."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> 
-  <a href="https://huyvvo.github.io/">Huy V. Vo</a>&nbsp;&nbsp; <a href="https://esizikova.github.io/">Elena Sizikova</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/willow/people_webpages/cordelia/">Cordelia Schmid</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/~ponce/">Jean Ponce</a> </h3>
+<p class="pub-authors"> 
+  <a href="https://huyvvo.github.io/">Huy V. Vo</a>&nbsp;&nbsp; <a href="https://esizikova.github.io/">Elena Sizikova</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/willow/people_webpages/cordelia/">Cordelia Schmid</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://www.di.ens.fr/~ponce/">Jean Ponce</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

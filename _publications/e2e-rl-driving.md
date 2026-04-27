@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/e2e-rl-driving/
+abstract: "Reinforcement Learning (RL) aims at learning an optimal behavior policy from its own experiments and not rule-based control methods. However, there is no RL algorithm yet capable of handling a task as difficult as urban driving."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.com/citations?user=Yu47MFYAAAAJ&hl=fr">Marin Toromanoff</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=Z7wRy_cAAAAJ&hl=en">Emilie Wirbel</a>&nbsp;&nbsp; <a href="https://people.minesparis.psl.eu/fabien.moutarde/">Fabien Moutarde</a></h3>
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=Yu47MFYAAAAJ&hl=fr">Marin Toromanoff</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=Z7wRy_cAAAAJ&hl=en">Emilie Wirbel</a>&nbsp;&nbsp; <a href="https://people.minesparis.psl.eu/fabien.moutarde/">Fabien Moutarde</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

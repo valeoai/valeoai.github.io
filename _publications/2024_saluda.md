@@ -15,16 +15,17 @@ blog_url: https://www.bjoernmichele.com/publication/saluda/
 slides_url: https://github.com/valeoai/SALUDA/blob/main/doc/Slides_SALUDA.pdf
 bib_url:
 permalink: /publications/SALUDA/
+abstract: "Learning models on one labeled dataset that generalize well on another domain is a difficult task, as several shifts might happen between the data domains."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">  <a href="https://www.bjoernmichele.com/">Björn Michele</a>&nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a> &nbsp;&nbsp;  <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>&nbsp;&nbsp; <a href="https://people.irisa.fr/Nicolas.Courty">Nicolas Courty</a></h3>
+<p class="pub-authors">  <a href="https://www.bjoernmichele.com/">Björn Michele</a>&nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a> &nbsp;&nbsp;  <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>&nbsp;&nbsp; <a href="https://people.irisa.fr/Nicolas.Courty">Nicolas Courty</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

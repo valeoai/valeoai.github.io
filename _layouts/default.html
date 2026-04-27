@@ -12,6 +12,11 @@
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
+    {%- if site.enable_google_analytics and site.google_analytics contains 'GTM-' %}
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_analytics }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    {%- endif %}
+
     <!-- Header -->
     {%- include header.html %}
 
@@ -29,6 +34,5 @@
     {% include scripts/masonry.html %}
     {% include scripts/misc.html %}
     {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
   </body>
 </html>

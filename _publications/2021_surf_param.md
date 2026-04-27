@@ -15,13 +15,14 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/surf_param/
+abstract: "We introduce an approach for computing a 3D mesh from one or more views of an object by establishing dense correspondences between pixels in the views and 3D locations on a learnable parameterized surface."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
-<h3 align="center">  <a href="https://palanglois.github.io/">Pierre-Alain Langlois</a>&nbsp;&nbsp;<a href="https://techmatt.github.io/">Matthew Fisher</a>&nbsp;&nbsp;<a href="https://www.oliverwang.info/">Oliver Wang</a>&nbsp;&nbsp;<a href="http://www.vovakim.com/">Vladimir Kim</a>&nbsp;&nbsp;<a href="https://boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp;<a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>&nbsp;&nbsp;<a href="https://bryanrussell.org/">Bryan Russell</a></h3>
+<p class="pub-authors">  <a href="https://palanglois.github.io/">Pierre-Alain Langlois</a>&nbsp;&nbsp;<a href="https://techmatt.github.io/">Matthew Fisher</a>&nbsp;&nbsp;<a href="https://www.oliverwang.info/">Oliver Wang</a>&nbsp;&nbsp;<a href="http://www.vovakim.com/">Vladimir Kim</a>&nbsp;&nbsp;<a href="https://boulch.eu/">Alexandre Boulch</a>&nbsp;&nbsp;<a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>&nbsp;&nbsp;<a href="https://bryanrussell.org/">Bryan Russell</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

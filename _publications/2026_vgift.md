@@ -16,22 +16,23 @@ slides_url:
 bib_url:
 permalink: /publications/vgift/
 intern_work: false
+abstract: "Multimodal large language models (MLLMs) often struggle with vision-centric tasks, revealing a gap between their language fluency and genuine visual understanding."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">
+<p class="pub-authors">
   <a href="https://scholar.google.com/citations?user=3ac3PQMAAAAJ">Sophia Sirko-Galouchenko</a> &nbsp;&nbsp;
   <a href="https://wysoczanska.github.io/">Monika Wysoczanska</a> &nbsp;&nbsp;
   <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;
   <a href="https://thome.isir.upmc.fr/">Nicolas Thome</a> &nbsp;&nbsp;
   <a href="https://gidariss.github.io/">Spyros Gidaris</a>
-</h3>
+</p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

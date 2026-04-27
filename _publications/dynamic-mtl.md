@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/dynamic-mtl/
+abstract: "Deep multi-task networks are of particular interest for autonomous driving systems. They can potentially strike an excellent trade-off between predictive performance, hardware constraints and efficient use of information from multiple types of…"
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> Isabelle Liang&nbsp;&nbsp; Ganesh Sistu&nbsp;&nbsp; Fabian Burger&nbsp;&nbsp;  <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; Senthil Yogamani&nbsp;&nbsp; </h3>
+<p class="pub-authors"> Isabelle Liang&nbsp;&nbsp; Ganesh Sistu&nbsp;&nbsp; Fabian Burger&nbsp;&nbsp;  <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; Senthil Yogamani&nbsp;&nbsp; </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

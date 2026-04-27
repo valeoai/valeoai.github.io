@@ -9,7 +9,7 @@
 <div class="member {{ member[1].position }}">
   {% if member[1].alumni != true %}
     <a href="{{ member[1].url }}" target="_blank">
-      <img class="member-img-light w-100" alt="{{ full_name }}" src="{{ member[1].profilepic | prepend: '/assets/img/team/' | relative_url }}">
+      <img class="member-img-light w-100" alt="{{ full_name }}" loading="lazy" src="{{ member[1].profilepic | prepend: '/assets/img/team/' | relative_url }}">
       <span class="member-name">{{ full_name }}</span>
     </a>
     <span class="member-role">{{ member[1].position }}</span>

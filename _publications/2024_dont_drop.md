@@ -16,13 +16,14 @@ slides_url:
 bib_url:
 permalink: /publications/2024_dont_drop/
 award: highlight
+abstract: "Conditional diffusion models are powerful generative models that can leverage various types of conditional information, such as class labels, segmentation masks, or text captions."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://nicolas-dufour.github.io/"> Nicolas Dufour </a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp;&nbsp; <a href="https://vicky.kalogeiton.info/">Vicky Kalogeiton</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a></h3>
+<p class="pub-authors"> <a href="https://nicolas-dufour.github.io/"> Nicolas Dufour </a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp;&nbsp; <a href="https://vicky.kalogeiton.info/">Vicky Kalogeiton</a> &nbsp;&nbsp; <a href="https://davidpicard.github.io/">David Picard</a></p>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} (poster highlight - top 11%) </h3>

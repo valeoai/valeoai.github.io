@@ -17,4 +17,5 @@ bib_url:
 permalink: /publications/occany/
 award: 
 video: 
+abstract: "OccAny: Generalized Unconstrained Urban 3D Occupancy. Published at CVPR 2026. By Anh-Quan Cao, Tuan-Hung Vu. Research from valeo.ai."
 ---

@@ -17,4 +17,5 @@ bib_url:
 permalink: 
 award: 
 video: 
+abstract: "StableMTL: Repurposing Latent Diffusion Models for Multi-Task Learning from Partially Annotated Synthetic Datasets. Published at CVPR 2026. By Anh-Quan Cao, Ivan Lopes, Raoul de Charette. Research from valeo.ai."
 ---

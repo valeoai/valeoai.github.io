@@ -15,17 +15,18 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/robusta/
+abstract: "Semantic segmentation methods have advanced significantly. Still, their robustness to real-world perturbations and object types not seen during training remains a challenge, particularly in safety-critical applications."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> Marwane Hariat &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=RW4CQ68AAAAJ">Olivier Laurent</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=a3HtUiwAAAAJ&hl=en">Remi Kazmierczak</a> &nbsp;&nbsp;  <a href="https://scholar.google.com/citations?user=SqS4w6gAAAAJ&hl=en">Shihao Zhang</a> &nbsp;&nbsp; <br> <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a>&nbsp;&nbsp; <a href="https://www.ensta-paris.fr/fr/gianni-franchi">Gianni Franchi</a> </h3>
+<p class="pub-authors"> Marwane Hariat &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=RW4CQ68AAAAJ">Olivier Laurent</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=a3HtUiwAAAAJ&hl=en">Remi Kazmierczak</a> &nbsp;&nbsp;  <a href="https://scholar.google.com/citations?user=SqS4w6gAAAAJ&hl=en">Shihao Zhang</a> &nbsp;&nbsp; <br> <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a>&nbsp;&nbsp; <a href="https://www.ensta-paris.fr/fr/gianni-franchi">Gianni Franchi</a> </p>
 
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

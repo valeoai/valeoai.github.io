@@ -14,5 +14,6 @@ paper_url: https://arxiv.org/abs/2406.02842
 blog_url: https://diffcut-segmentation.github.io/
 slides_url: 
 bib_url: 
+abstract: "DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut. Published at Advances in Neural Information Processing Systems 2024. By Paul Couairon, Mustafa Shukor, Jean-Emmanuel Haugeard, Matthieu…"
 ---
 

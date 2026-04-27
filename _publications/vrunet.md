@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/vrunet/
+abstract: "Advanced perception and path planning are at the core for any self-driving vehicle. Autonomous vehicles need to understand the scene and intentions of other road users for safe motion planning."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="">Adithya Ranga</a>&nbsp;&nbsp; <a href="">Filippo Giruzzi</a>&nbsp;&nbsp; <a href="">Jagdish Bhanushali</a>&nbsp;&nbsp; <a href="">Emilie Wirbel</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>&nbsp;&nbsp; <a href="">Xavier Perotton</a>&nbsp;&nbsp; </h3>
+<p class="pub-authors"> <a href="">Adithya Ranga</a>&nbsp;&nbsp; <a href="">Filippo Giruzzi</a>&nbsp;&nbsp; <a href="">Jagdish Bhanushali</a>&nbsp;&nbsp; <a href="">Emilie Wirbel</a>&nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>&nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a>&nbsp;&nbsp; <a href="">Xavier Perotton</a>&nbsp;&nbsp; </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

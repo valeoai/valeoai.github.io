@@ -16,16 +16,17 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/annealing/
+abstract: "We introduce Annealed Multiple Choice Learning (aMCL) which combines simulated annealing with MCL. MCL is a learning framework handling ambiguous tasks by predicting a small set of plausible hypotheses."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://adasp.telecom-paris.fr/members/">David Perera</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=q3HZFcwAAAAJ">Théo Mariotte </a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/c1adrien/">Adrien Cortés</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> &nbsp;&nbsp; <a href="https://slimessid.github.io/research/">Slim Essid</a> &nbsp;&nbsp; <a href="https://www.telecom-paris.fr/gael-richard">Gaël Richard</a> </h3>
+<p class="pub-authors"> <a href="https://adasp.telecom-paris.fr/members/">David Perera</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en&oi=ao">Victor Letzelter</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=q3HZFcwAAAAJ">Théo Mariotte </a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/c1adrien/">Adrien Cortés</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/mickael-chen-ml/">Mickael Chen</a> &nbsp;&nbsp; <a href="https://slimessid.github.io/research/">Slim Essid</a> &nbsp;&nbsp; <a href="https://www.telecom-paris.fr/gael-richard">Gaël Richard</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

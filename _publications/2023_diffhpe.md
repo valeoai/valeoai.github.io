@@ -16,16 +16,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/diffhpe/
+abstract: "We present an innovative approach to 3D Human Pose Estimation (3D-HPE) by integrating cutting-edge diffusion models, which have revolutionized diverse fields, but are relatively unexplored in 3D-HPE."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://cedricrommel.github.io/">Cédric Rommel</a> &nbsp;&nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a> &nbsp;&nbsp; <a href="https://sites.google.com/view/mickaelchen/">Mickaël Chen</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/souhaiel-khalfaoui-a7495710/?locale=en_US">Souhaiel Khalfaoui</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>  &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></h3>
+<p class="pub-authors"> <a href="https://cedricrommel.github.io/">Cédric Rommel</a> &nbsp;&nbsp; <a href="https://eduardovalle.com/">Eduardo Valle</a> &nbsp;&nbsp; <a href="https://sites.google.com/view/mickaelchen/">Mickaël Chen</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/souhaiel-khalfaoui-a7495710/?locale=en_US">Souhaiel Khalfaoui</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a>  &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a> &nbsp;&nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

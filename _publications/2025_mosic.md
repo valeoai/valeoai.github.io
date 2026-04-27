@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/mosic/
+abstract: "Dense self-supervised learning has shown great promise for learning pixel- and patch-level representations, but extending it to videos remains challenging due to the complexity of motion dynamics."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en"> Mohammadreza Salehi</a>  &nbsp;&nbsp; <a href="https://shashankvkt.github.io/">Shashanka Venkataramanan</a>  &nbsp;&nbsp; <a>Ioana Simion</a> &nbsp;&nbsp; <a hred="https://www.egavves.com/">Efstratios Gavves</a> &nbsp;&nbsp; <a href="https://www.ceessnoek.info/">Cees Snoek</a> &nbsp;&nbsp; <a href="https://yukimasano.github.io/">Yuki Asano</a></h3>
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en"> Mohammadreza Salehi</a>  &nbsp;&nbsp; <a href="https://shashankvkt.github.io/">Shashanka Venkataramanan</a>  &nbsp;&nbsp; <a>Ioana Simion</a> &nbsp;&nbsp; <a hred="https://www.egavves.com/">Efstratios Gavves</a> &nbsp;&nbsp; <a href="https://www.ceessnoek.info/">Cees Snoek</a> &nbsp;&nbsp; <a href="https://yukimasano.github.io/">Yuki Asano</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

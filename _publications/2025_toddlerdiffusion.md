@@ -15,4 +15,5 @@ blog_url: https://toddlerdiffusion.github.io/website/
 slides_url:
 bib_url:
 permalink: /publications/toddlerdiffusion/
+abstract: "ToddlerDiffusion: Interactive Structured Image Generation with Cascaded Schrödinger Bridge. Published at ICLR 2025. By Eslam Abdelrahman, Liangbing Zhao, Vincent Tao Hu, Matthieu Cord, Patrick Perez, Mohamed Elhoseiny. Research from valeo.ai."
 ---

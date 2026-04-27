@@ -15,19 +15,20 @@ blog_url: https://simondemoreau.github.io/LiDAS/
 slides_url:
 bib_url:
 permalink: /publications/lidas/
+abstract: "Camera-based perception in autonomous driving suffers a steep performance drop at night, when low light degrades image quality and existing solutions either rely on costly hardware upgrades or post-hoc image enhancement."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 
-<h3 align="center">
+<p class="pub-authors">
   <a href="https://simondemoreau.github.io/">Simon de Moreau</a> &nbsp;&nbsp;
   <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;
   Hafid El-Idrissi &nbsp;&nbsp;
   Fabien Moutarde
-</h3>
+</p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

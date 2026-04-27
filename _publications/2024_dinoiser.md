@@ -17,15 +17,16 @@ slides_url:
 intern_work: true
 bib_url: 
 permalink: /publications/dinoiser/
+abstract: "he popular CLIP model displays impressive zero-shot capabilities thanks to its seamless interaction with arbitrary text prompts."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://wysoczanska.github.io/">Monika Wysoczańska</a> &nbsp;<a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp; <a href="https://michaelramamonjisoa.github.io/">Michaël Ramamonjisoa</a> &nbsp;<a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;<a href="https://scholar.google.com/citations?hl=en&user=bJMRBFoAAAAJ">Tomasz Trzciński</a> &nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>   </h3>
+<p class="pub-authors"> <a href="https://wysoczanska.github.io/">Monika Wysoczańska</a> &nbsp;<a href="https://osimeoni.github.io/">Oriane Siméoni</a> &nbsp; <a href="https://michaelramamonjisoa.github.io/">Michaël Ramamonjisoa</a> &nbsp;<a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;<a href="https://scholar.google.com/citations?hl=en&user=bJMRBFoAAAAJ">Tomasz Trzciński</a> &nbsp; <a href="https://ptrckprz.github.io/">Patrick Pérez</a>   </p>
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

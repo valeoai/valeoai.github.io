@@ -15,17 +15,18 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/packed-ensembles/
+abstract: "Deep Ensembles (DE) are a prominent approach for achieving excellent performance on key metrics such as accuracy, calibration, uncertainty estimation, and out-of-distribution detection."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> Olivier Laurent&nbsp;&nbsp; Adrien Lafage&nbsp;&nbsp;  <a href="https://enzotarta.github.io/index.html">Enzo Tartaglione</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=R20wY9gAAAAJ">Geoffrey Daniel</a>&nbsp;&nbsp; Jean-Marc Martinez  <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=ZCW6-psAAAAJ&hl=en">Gianni Franchi</a> </h3>
+<p class="pub-authors"> Olivier Laurent&nbsp;&nbsp; Adrien Lafage&nbsp;&nbsp;  <a href="https://enzotarta.github.io/index.html">Enzo Tartaglione</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=en&user=R20wY9gAAAAJ">Geoffrey Daniel</a>&nbsp;&nbsp; Jean-Marc Martinez  <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=ZCW6-psAAAAJ&hl=en">Gianni Franchi</a> </p>
 
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

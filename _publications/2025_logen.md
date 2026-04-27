@@ -17,16 +17,17 @@ slides_url:
 bib_url:
 intern_work: true
 permalink: /publications/logen/
+abstract: "A common strategy to improve lidar segmentation results on rare semantic classes consists of pasting objects from one lidar scene into another."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://ellingtonkirby.github.io/">Ellington Kirby</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?hl=fr&user=QnRpMJAAAAAJ&view_op=list_works&sortby=pubdate">Mickael Chen</a> &nbsp;&nbsp; <a href="https://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a></h3>
+<p class="pub-authors"> <a href="https://ellingtonkirby.github.io/">Ellington Kirby</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?hl=fr&user=QnRpMJAAAAAJ&view_op=list_works&sortby=pubdate">Mickael Chen</a> &nbsp;&nbsp; <a href="https://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

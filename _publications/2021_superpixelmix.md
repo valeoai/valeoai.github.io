@@ -15,17 +15,18 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/superpixelmix/
+abstract: "Along with predictive performance and runtime speed, reliability is a key requirement for real-world semantic segmentation. Reliability encompasses robustness, predictive uncertainty and reduced bias."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.fr/citations?user=ZCW6-psAAAAJ&hl=en">Gianni Franchi</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=As-piMYAAAAJ&hl=en">Nacim Belkhir</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=pLVngowAAAAJ&hl=en">Mai Lan Ha</a>&nbsp;&nbsp;  Yufei Hu &nbsp;&nbsp;<a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="http://www.grk1564.uni-siegen.de/en/blanz-volker">Volker Blanz</a>&nbsp;&nbsp; <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a></h3>
+<p class="pub-authors"> <a href="https://scholar.google.fr/citations?user=ZCW6-psAAAAJ&hl=en">Gianni Franchi</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=As-piMYAAAAJ&hl=en">Nacim Belkhir</a>&nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=pLVngowAAAAJ&hl=en">Mai Lan Ha</a>&nbsp;&nbsp;  Yufei Hu &nbsp;&nbsp;<a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="http://www.grk1564.uni-siegen.de/en/blanz-volker">Volker Blanz</a>&nbsp;&nbsp; <a href="https://www.comp.nus.edu.sg/~ayao/">Angela Yao</a></p>
 
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

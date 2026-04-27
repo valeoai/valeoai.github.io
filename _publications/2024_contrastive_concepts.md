@@ -17,16 +17,17 @@ slides_url:
 bib_url:
 intern_work: true
 permalink: /publications/contrastive_concepts/
+abstract: "Recent CLIP-like Vision-Language Models (VLMs), pre-trained on large amounts of image-text pairs to align both modalities with a simple contrastive objective, have paved the way to open-vocabulary semantic segmentation."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"><a href="https://wysoczanska.github.io/">Monika Wysoczańska</a> &nbsp;&nbsp; <a href="https://vobecant.github.io/">Antonin Vobecky</a> &nbsp;&nbsp; Amaia Cardiel &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=bJMRBFoAAAAJ&hl=en">Tomasz Trzciński</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=2rclwh4AAAAJ&hl=en">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a></h3>
+<p class="pub-authors"><a href="https://wysoczanska.github.io/">Monika Wysoczańska</a> &nbsp;&nbsp; <a href="https://vobecant.github.io/">Antonin Vobecky</a> &nbsp;&nbsp; Amaia Cardiel &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=bJMRBFoAAAAJ&hl=en">Tomasz Trzciński</a> &nbsp;&nbsp; <a href="https://scholar.google.fr/citations?user=2rclwh4AAAAJ&hl=en">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://osimeoni.github.io/">Oriane Siméoni</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

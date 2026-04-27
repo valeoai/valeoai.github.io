@@ -15,16 +15,17 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/busca/
+abstract: "Multi-object tracking (MOT) endeavors to precisely estimate the positions and identities of multiple objects over time."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://citius.gal/team/lorenzo-vaquero-otal/">Lorenzo Vaquero</a> &nbsp;&nbsp; <a href="https://github.com/yihongXU">Yihong Xu</a> &nbsp;&nbsp; <a href="https://xavirema.eu/">Xavier Alameda-Pineda</a> &nbsp;&nbsp; <a href="https://citius.gal/team/victor-manuel-brea-sanchez/">Víctor M. Brea</a> &nbsp;&nbsp; <a href="https://persoal.citius.usc.es/manuel.mucientes/">Manuel Mucientes</a></h3>
+<p class="pub-authors"> <a href="https://citius.gal/team/lorenzo-vaquero-otal/">Lorenzo Vaquero</a> &nbsp;&nbsp; <a href="https://github.com/yihongXU">Yihong Xu</a> &nbsp;&nbsp; <a href="https://xavirema.eu/">Xavier Alameda-Pineda</a> &nbsp;&nbsp; <a href="https://citius.gal/team/victor-manuel-brea-sanchez/">Víctor M. Brea</a> &nbsp;&nbsp; <a href="https://persoal.citius.usc.es/manuel.mucientes/">Manuel Mucientes</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

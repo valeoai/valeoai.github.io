@@ -15,13 +15,14 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/segad/
+abstract: "Automating visual inspection in industrial production lines is essential for increasing product quality across various industries. Anomaly detection (AD) methods serve as robust tools for this purpose."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href=""> Aimira Baitieva </a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp;&nbsp; <a href="">Olivier Bernard</a></h3>
+<p class="pub-authors"> <a href=""> Aimira Baitieva </a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=XY1PVwYAAAAJ&hl=fr&oi=ao">David Hurych</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?hl=fr&user=n_C2h-QAAAAJ">Victor Besnier</a> &nbsp;&nbsp; <a href="">Olivier Bernard</a></p>
 
 
 <h3 align="center"> {{page.venue}} {{page.year}} (poster) </h3>

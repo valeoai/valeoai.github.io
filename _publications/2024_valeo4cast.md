@@ -17,16 +17,17 @@ bib_url:
 permalink: /publications/valeo4cast/
 award: Winning solution to the "Unified Detection, Tracking and Forecasting" Argoverse 2 challenge @CVPR
 video: https://www.youtube.com/watch?v=2BvoPbW4vpc&t=1107s
+abstract: "Motion forecasting is crucial in autonomous driving systems to anticipate the future trajectories of surrounding agents such as pedestrians, vehicles, and traffic signals."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.fr/citations?user=vMLRRVkAAAAJ">Yihong Xu</a> &nbsp;&nbsp; <a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>  &nbsp;&nbsp;  <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a> &nbsp;&nbsp; <a href="https://f-barto.github.io/">Florent Bartoccioni</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a>  &nbsp;&nbsp;  <a href="https://osimeoni.github.io/">Oriane Siméoni</a>  &nbsp;&nbsp; <a href="https://gidariss.github.io/">Spyros Gidaris</a>  &nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ">Eduardo Valle</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></h3>
+<p class="pub-authors"> <a href="https://scholar.google.fr/citations?user=vMLRRVkAAAAJ">Yihong Xu</a> &nbsp;&nbsp; <a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://www.boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/home">Gilles Puy</a>  &nbsp;&nbsp;  <a href="https://scholar.google.com/citations?user=QnRpMJAAAAAJ">Mickaël Chen</a> &nbsp;&nbsp; <a href="https://f-barto.github.io/">Florent Bartoccioni</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a>  &nbsp;&nbsp;  <a href="https://osimeoni.github.io/">Oriane Siméoni</a>  &nbsp;&nbsp; <a href="https://gidariss.github.io/">Spyros Gidaris</a>  &nbsp;&nbsp; <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a> &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; <a href="https://scholar.google.com/citations?user=lxWPqWAAAAAJ">Eduardo Valle</a> &nbsp;&nbsp; <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

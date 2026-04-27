@@ -40,9 +40,9 @@
         <div class="col-sm-4">
         {%- if entry.image -%}
             {% if entry.image contains '://' -%}
-            <img class="preview rounded" src="{{ entry.image }}">
+            <img class="preview rounded" src="{{ entry.image }}" alt="{{ entry.title | escape }}" loading="lazy">
             {%- else -%}
-            <img class="preview rounded" src="{{ entry.image | relative_url }}">
+            <img class="preview rounded" src="{{ entry.image | relative_url }}" alt="{{ entry.title | escape }}" loading="lazy">
             {%- endif -%}
         {%- elsif entry.abbr -%}
             {%- if site.data.venues[entry.abbr] -%}

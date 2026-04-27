@@ -15,20 +15,21 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/muddos/
+abstract: "Semantic segmentation networks trained under full supervision for one type of lidar fail to generalize to unseen lidars without intervention."
 ---
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://bjoernmichele.com">Bjoern Michele</a> &nbsp;&nbsp; 
+<p class="pub-authors"> <a href="https://bjoernmichele.com">Bjoern Michele</a> &nbsp;&nbsp; 
 <a href="https://boulch.eu/">Alexandre Boulch</a> &nbsp;&nbsp; 
 <a href="https://sites.google.com/site/puygilles/">Gilles Puy</a> &nbsp;&nbsp; 
 <a href="https://tuanhungvu.github.io/">Tuan-Hung Vu</a> &nbsp;&nbsp; 
 <a href="http://imagine.enpc.fr/~marletr/">Renaud Marlet</a> &nbsp;&nbsp; 
-<a href="https://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a></h3>
+<a href="https://people.irisa.fr/Nicolas.Courty/">Nicolas Courty</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

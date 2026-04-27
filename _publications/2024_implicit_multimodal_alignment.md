@@ -14,5 +14,6 @@ paper_url: https://arxiv.org/abs/2405.16700
 blog_url: https://ima-lmms.github.io/ 
 slides_url: 
 bib_url: 
+abstract: "Implicit Multimodal Alignment: On the Generalization of Frozen LLMs to Multimodal Inputs. Published at Advances in Neural Information Processing Systems 2024. By Mustafa Shukor, Matthieu Cord. Research from valeo.ai."
 ---
 

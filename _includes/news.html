@@ -1,11 +1,13 @@
           <div class="news">
+            {%- assign total_news = site.news | size -%}
+            {%- if include.show_all != true -%}
             <div class="section-head">
               <h2>News</h2>
-              {%- assign total_news = site.news | size -%}
-              {%- if include.show_all != true and total_news > 0 -%}
-              <a class="section-link" href="{{ '/news/' | relative_url }}">All news →</a>
+              {%- if total_news > 0 -%}
+              <a class="section-link" href="{{ '/news/' | relative_url }}">View all news →</a>
               {%- endif -%}
             </div>
+            {%- endif -%}
             {% if site.news != blank -%}
             {%- assign news_size = site.news | size -%}
             {%- assign news = site.news | reverse -%}

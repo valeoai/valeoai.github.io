@@ -16,16 +16,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/drivex/
+abstract: "Large language models (LLMs) are increasingly used as reasoning engines in autonomous driving, yet their decision-making remains opaque."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center">Amaia Cardiel &nbsp;&nbsp; <a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://elias-ramzi.github.io/">Elias Ramzi</a> &nbsp;&nbsp; <a href="https://ama.liglab.fr/~gaussier/">Eric Gaussier</a></h3>
+<p class="pub-authors">Amaia Cardiel &nbsp;&nbsp; <a href="https://eloiz.github.io">Éloi Zablocki</a> &nbsp;&nbsp; <a href="https://elias-ramzi.github.io/">Elias Ramzi</a> &nbsp;&nbsp; <a href="https://ama.liglab.fr/~gaussier/">Eric Gaussier</a></p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

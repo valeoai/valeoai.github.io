@@ -15,16 +15,17 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/tradi/
+abstract: "During training, the weights of a Deep Neural Network (DNN) are optimized from a random initialization towards a nearly optimum value minimizing a loss function."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<h3 align="center"> <a href="https://scholar.google.fr/citations?user=ZCW6-psAAAAJ&hl=en">Gianni Franchi</a>&nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="http://hebergement.u-psud.fr/emi/">Emanuel Aldea</a>&nbsp;&nbsp; Severine Dubuisson&nbsp;&nbsp; <a href="https://perso.telecom-paristech.fr/bloch/">Isabelle Bloch</a> </h3>
+<p class="pub-authors"> <a href="https://scholar.google.fr/citations?user=ZCW6-psAAAAJ&hl=en">Gianni Franchi</a>&nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a>&nbsp;&nbsp; <a href="http://hebergement.u-psud.fr/emi/">Emanuel Aldea</a>&nbsp;&nbsp; Severine Dubuisson&nbsp;&nbsp; <a href="https://perso.telecom-paristech.fr/bloch/">Isabelle Bloch</a> </p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>

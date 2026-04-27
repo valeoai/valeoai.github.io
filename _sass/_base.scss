@@ -1590,7 +1590,30 @@ article>h2.alumni {
     margin-right: auto;
     max-width: 100%;
   }
-    
+
+  // Centered metadata lines (authors / venue) used to be <h3 align="center">.
+  // Now they're <p>; keep the visual treatment but stay out of the heading
+  // outline so search engines see h1 → h2 → h2 cleanly.
+  .pub-authors,
+  .pub-venue {
+    text-align: center;
+    line-height: 1.35;
+    margin: 1rem 0;
+  }
+  .pub-authors {
+    font-size: 1.17em;
+    font-weight: 600;
+  }
+  .pub-venue {
+    font-size: 1.05em;
+    font-weight: 500;
+    color: var(--global-text-color-light, inherit);
+  }
+  .pub-links {
+    text-align: center;
+    margin: 1rem 0 1.25rem;
+    a { margin: 0 0.4rem; }
+  }
 }
 
 // Publications

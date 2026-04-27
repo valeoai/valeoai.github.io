@@ -15,11 +15,12 @@ blog_url:
 slides_url:
 bib_url:
 permalink: /publications/franca/
+abstract: "In this paper, we present Franca (pronounced Fran-ka): free one; the first fully open-source (data, code, weights) vision foundation model that matches and in many cases surpasses the performance of state-of-the-art proprietary models, e.g., DINOv2,…"
 ---
 
 <h1 align="center"> {{page.title}} </h1>
 
-<h3 align="center">
+<p class="pub-authors">
   Shashanka Venkataramanan &nbsp;&nbsp;
   Valentinos Pariza &nbsp;&nbsp;
   Mohammadreza Salehi &nbsp;&nbsp;
@@ -28,10 +29,10 @@ permalink: /publications/franca/
   <a href="https://elias-ramzi.github.io/">Elias Ramzi</a> &nbsp;&nbsp;
   <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp;
   Yuki M. Asano
-</h3>
+</p>
 
 
-<h3 align="center"> {{page.venue}} {{page.year}} </h3>
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
 
 <div align="center">
   <p>
