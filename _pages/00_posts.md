@@ -3,7 +3,7 @@ layout: default
 title: Posts
 permalink: /posts/
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 <h1 class="page-title">Posts</h1>

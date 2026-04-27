@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Code & Data
 description: "As part of our commitment to transparency and open research, explore our codes, models, weights, and datasets. Official GitHub account: <a href='https://github.com/valeoai/'>github.com/valeoai</a>."
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 {% if site.data.repositories.github_repos %}

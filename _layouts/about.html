@@ -8,7 +8,10 @@ layout: default
   {% comment %} ---------- HERO ---------- {% endcomment %}
   <section class="home-hero">
     {%- assign hero_heading = page.heading | default: page.motto | default: site.title -%}
-    <h1 class="home-hero-motto">{{ hero_heading }}</h1>
+    <h1 class="visually-hidden">{{ hero_heading }}</h1>
+    {%- if page.motto %}
+    <p class="home-hero-motto">{{ page.motto }}</p>
+    {%- endif %}
     {%- assign description_parts = page.description | split: '<br>' -%}
     {%- for part in description_parts -%}
       {%- assign trimmed = part | strip -%}

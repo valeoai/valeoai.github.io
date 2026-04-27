@@ -3,7 +3,7 @@ layout: default
 title: Publications
 permalink: /publications/
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 <h1 class="page-title">Publications</h1>
