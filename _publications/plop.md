@@ -47,7 +47,7 @@ permalink: /publications/plop/
 </div>
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image }}" alt="project teaser"/>
+    <img src="../../{{ page.image }}" alt="{{ page.title | escape }}"/>
 </div>
 
 
@@ -63,7 +63,7 @@ permalink: /publications/plop/
 <h2  align="center"> Results</h2>
 
 <div class="publication-teaser">
-  <img src="../../assets/img/publications/plop/results_nuscenes.png" alt="project teaser"/>
+  <img src="../../assets/img/publications/plop/results_nuscenes.png" alt="{{ page.title | escape }}"/>
 </div>
 
 

@@ -47,7 +47,7 @@ permalink: /publications/gan-dataset/
 </div>
 
 <div class="publication-teaser">
-    <img src="../../assets/img/publications/gan-dataset/overview.jpg" alt="project teaser"/>
+    <img src="../../assets/img/publications/gan-dataset/overview.jpg" alt="{{ page.title | escape }}"/>
 </div>
 
 
@@ -81,7 +81,7 @@ First column, without applying any of the proposed methods, is the baseline. Eac
 <!-- <br> -->
 
 <div class="publication-teaser">
-    <img src="../../assets/img/publications/gan-dataset/plot_results.jpg" alt="project teaser"/>
+    <img src="../../assets/img/publications/gan-dataset/plot_results.jpg" alt="{{ page.title | escape }}"/>
 </div>
 
 <div class="caption"><b>Effect of replacement fraction $r$ in DS.</b> Classification accuracy using DS on real images with varying $r$, i.e., fraction of the dataset being replaced with new images every epoch. The figure shows plots for DS with and without BNA.

@@ -49,7 +49,7 @@ permalink: /publications/2020_convpoint/
 </div>
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image }}" alt="project teaser"/>
+    <img src="../../{{ page.image }}" alt="{{ page.title | escape }}"/>
 </div>
 
 

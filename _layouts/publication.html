@@ -6,6 +6,66 @@ layout: default
 {%- assign tags = page.tags | join: "" -%}
 {%- assign categories = page.categories | join: "" -%}
 
+{%- comment -%}
+  ScholarlyArticle structured data — emitted on every /publications/<slug>/
+  page so search engines can show rich results for the team's papers.
+  Pulled directly from each publication's front matter.
+{%- endcomment -%}
+{%- if page.title -%}
+{%- assign clean_image = page.image -%}
+{%- if clean_image and clean_image != "" -%}
+  {%- if clean_image contains '://' -%}
+    {%- assign clean_image_abs = clean_image -%}
+  {%- else -%}
+    {%- assign clean_image_abs = clean_image | prepend: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign author_list = page.authors | default: '' | replace: ' and ', ', ' | split: ',' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ page.title | strip_html | jsonify }},
+  "name": {{ page.title | strip_html | jsonify }},
+  "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+  {%- if clean_image_abs %}
+  "image": "{{ clean_image_abs }}",
+  {%- endif %}
+  {%- if page.year %}
+  "datePublished": "{{ page.year }}{% if page.month %}-{{ page.month | prepend: '00' | slice: -2, 2 }}{% else %}-01{% endif %}-01",
+  {%- endif %}
+  {%- if page.venue_long or page.venue %}
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ page.venue_long | default: page.venue | jsonify }}
+  },
+  "isPartOf": {
+    "@type": "PublicationVolume",
+    "name": {{ page.venue_long | default: page.venue | jsonify }}{%- if page.year %},
+    "datePublished": "{{ page.year }}"{%- endif %}
+  },
+  {%- endif %}
+  {%- if author_list.size > 0 %}
+  "author": [
+    {%- for a in author_list -%}
+    {%- assign author_name = a | strip -%}
+    {%- if author_name != '' %}
+    { "@type": "Person", "name": {{ author_name | jsonify }} }{%- unless forloop.last %},{%- endunless %}
+    {%- endif -%}
+    {%- endfor %}
+  ],
+  {%- endif %}
+  {%- if page.abstract %}
+  "abstract": {{ page.abstract | strip_html | strip_newlines | jsonify }},
+  {%- endif %}
+  {%- if page.paper_url %}
+  "sameAs": "{{ page.paper_url }}",
+  {%- endif %}
+  "inLanguage": "en"
+}
+</script>
+{%- endif -%}
+
 <div class="publication">
 
   {{ content }}

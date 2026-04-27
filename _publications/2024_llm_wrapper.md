@@ -51,7 +51,7 @@ permalink: /publications/llm_wrapper/
 
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image }}" alt="project teaser"/>
+    <img src="../../{{ page.image }}" alt="{{ page.title | escape }}"/>
 </div>
 
 <hr>
@@ -62,7 +62,7 @@ permalink: /publications/llm_wrapper/
 
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image_2 }}" alt="project teaser 2"/>
+    <img src="../../{{ page.image_2 }}" alt="{{ page.title | escape }}"/>
 </div>
 
 <br>

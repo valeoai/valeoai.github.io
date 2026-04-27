@@ -49,7 +49,7 @@ permalink: /publications/drivex/
 
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image }}" alt="project teaser"/>
+    <img src="../../{{ page.image }}" alt="{{ page.title | escape }}"/>
 </div>
 
 <hr>
@@ -61,7 +61,7 @@ permalink: /publications/drivex/
 <p align="justify">As an illustration, DRIV-EX identified that the LC-LLM planner, instantiated with Llama3 8B, learnt a shortcut between the ego car's own lateral velocity ('vy') and the lane change decision, at the expense of physical safety.</p>
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image_2 }}" alt="project teaser 2"/>
+    <img src="../../{{ page.image_2 }}" alt="{{ page.title | escape }}"/>
 </div>
 
 <br>

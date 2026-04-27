@@ -50,7 +50,7 @@ video: https://www.youtube.com/watch?v=2BvoPbW4vpc&t=1107s
 
 
 <div class="publication-teaser">
-    <img src="../../{{ page.image }}" alt="project teaser"/>
+    <img src="../../{{ page.image }}" alt="{{ page.title | escape }}"/>
 </div>
 
 

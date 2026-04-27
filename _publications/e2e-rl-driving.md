@@ -47,7 +47,7 @@ permalink: /publications/e2e-rl-driving/
 </div>
 
 <div class="publication-teaser">
-    <img src="../../assets/img/publications/e2e-rl-driving/architecture.jpg" alt="project teaser"/>
+    <img src="../../assets/img/publications/e2e-rl-driving/architecture.jpg" alt="{{ page.title | escape }}"/>
 </div>
 
 
