@@ -10,7 +10,7 @@ venue: ACL Findings
 venue_long: Annual Meeting of the Association for Computational Linguistics (Findings)
 year: 2026
 month: 07
-code_url:
+code_url: https://github.com/Amaia-CARDIEL/DRIV_EX
 paper_url: https://arxiv.org/pdf/2603.00696
 blog_url:
 slides_url:
