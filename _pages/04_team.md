@@ -46,15 +46,11 @@ nav_order: 1
 <table>
   <tr>
     <th>Human Resource Partner</th>
-    <td><a href="mailto:marine.michaud@valeo.com">Marine Michaud</a></td>
-  </tr>
-  <tr>
-    <th>Collaborative Projects Manager</th>
-    <td><a href="mailto:serkan.odabas@valeo.com">Serkan Odabas</a></td>
-  </tr>
-  <tr>
-    <th>HR Assistant</th>
     <td><a href="mailto:dorra.boubi@valeo.com">Dorra Boubi</a></td>
+  </tr>
+  <tr>
+    <th>Research &amp; Innovation Project Manager</th>
+    <td><a href="mailto:serkan.odabas@valeo.com">Serkan Odabas</a></td>
   </tr>
   <tr>
     <th>Location</th>
