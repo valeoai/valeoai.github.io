@@ -14,18 +14,18 @@
   let searchTerm = '';
 
   function getUrlAxis() {
-    const params = new URLSearchParams(window.location.search);
+    const params = new URLSearchParams(window.location.hash.slice(1));
     const axis = params.get('axis');
     if (!axis) return 'all';
     return chips.some(c => c.dataset.axis === axis) ? axis : 'all';
   }
 
   function setUrlAxis(axis) {
-    const params = new URLSearchParams(window.location.search);
+    const params = new URLSearchParams(window.location.hash.slice(1));
     if (axis === 'all') params.delete('axis');
     else params.set('axis', axis);
-    const qs = params.toString();
-    const url = window.location.pathname + (qs ? '?' + qs : '') + window.location.hash;
+    const fragment = params.toString();
+    const url = window.location.pathname + window.location.search + (fragment ? '#' + fragment : '');
     window.history.replaceState({}, '', url);
   }
 

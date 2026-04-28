@@ -40,7 +40,7 @@ seo_description: The valeo.ai research axes — perception and 3D scene understa
   {%- assign recent_pubs = axis_pubs_sorted | slice: 0, 4 -%}
 
 <section class="axis-section" id="{{ axis.slug }}">
-  <a class="axis-header" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">
+  <a class="axis-header" href="{{ '/publications/' | relative_url }}#axis={{ axis.slug }}">
     <div class="axis-header-image">
       <img src="{{ axis.image | prepend: '/assets/img/' | relative_url }}" alt="{{ axis.long_label }}" loading="lazy">
     </div>
@@ -64,7 +64,7 @@ seo_description: The valeo.ai research axes — perception and 3D scene understa
       </li>
       {% endfor %}
     </ul>
-    <a class="axis-more" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">See all papers in this axis →</a>
+    <a class="axis-more" href="{{ '/publications/' | relative_url }}#axis={{ axis.slug }}">See all papers in this axis →</a>
   </div>
   {% endif %}
 </section>

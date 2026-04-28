@@ -70,7 +70,7 @@ layout: default
       </div>
       <div class="axes">
         {%- for axis in site.data.axes -%}
-        <a class="axis-card" href="{{ '/publications/' | relative_url }}?axis={{ axis.slug }}">
+        <a class="axis-card" href="{{ '/publications/' | relative_url }}#axis={{ axis.slug }}">
           {%- assign axis_img = axis.image | prepend: 'assets/img/' -%}
           {% include figure.html path=axis_img class="axis" alt=axis.long_label -%}
           <div class="axis-title">{{ axis.long_label }}</div>
