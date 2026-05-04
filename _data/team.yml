@@ -154,6 +154,8 @@
     bib_firstname: ["Gilles", "G."]
     url: https://sites.google.com/site/puygilles/home
     scholar: https://scholar.google.com/citations?user=enaORE8AAAAJ&hl=en
+    alumni: True
+    alumni_now:
 
 "Ramzi":
   firstname: Elias
