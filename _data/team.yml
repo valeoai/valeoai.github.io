@@ -147,16 +147,6 @@
     alumni_now: now at Naver Labs Europe
 
 
-"Puy":
-    firstname: Gilles
-    position: Senior Scientist
-    profilepic: gilles_puy.jpg
-    bib_firstname: ["Gilles", "G."]
-    url: https://sites.google.com/site/puygilles/home
-    scholar: https://scholar.google.com/citations?user=enaORE8AAAAJ&hl=en
-    alumni: True
-    alumni_now:
-
 "Ramzi":
   firstname: Elias
   position: Research Scientist
@@ -424,6 +414,16 @@
     alumni: True
     alumni_now: now CEO of Kyutai
     url: https://scholar.google.fr/citations?user=8Cph5uQAAAAJ&hl=en
+
+"Puy":
+    firstname: Gilles
+    position: Senior Scientist
+    profilepic: gilles_puy.jpg
+    bib_firstname: ["Gilles", "G."]
+    url: https://sites.google.com/site/puygilles/home
+    scholar: https://scholar.google.com/citations?user=enaORE8AAAAJ&hl=en
+    alumni: True
+    alumni_now:
 
 "Rebut":
     firstname: Julien
