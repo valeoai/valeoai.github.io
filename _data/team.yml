@@ -27,11 +27,12 @@
     github: https://github.com/abursuc/
     twitter: https://twitter.com/abursuc
 
-"Cao": 
+"Cao":
    firstname: Anh-Quan
    position: Research Scientist
    profilepic: anh-quan_cao.png
    url: https://anhquancao.github.io/
+   twitter: https://twitter.com/AnhQuanCAO
 
 "Cardiel":
     firstname: Amaia
@@ -114,6 +115,7 @@
     bib_firstname: ["Tetiana", "T."]
     url: https://t-martyniuk.github.io/
     scholar: https://scholar.google.com/citations?user=Ur0vgfMAAAAJ&hl=en
+    twitter: https://twitter.com/mtmthh
 
 "Meddahi":
    firstname: Lounes
@@ -161,6 +163,7 @@
     bib_firstname: ["Nermin", "N."]
     url: https://nerminsamet.github.io/
     scholar: https://scholar.google.com/citations?user=kEVeHU0AAAAJ
+    twitter: https://twitter.com/nemka_
 
 
 "Sautier":
@@ -226,6 +229,7 @@
     bib_firstname: ["Yihong", "Y."]
     scholar: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ&hl=en
     url: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ&hl=en
+    twitter: https://twitter.com/XuYihong666
 
 "Yin":
     firstname: Yuan
@@ -298,6 +302,7 @@
     alumni: True
     alumni_now: now at Wayve
     scholar: https://scholar.google.com/citations?user=SemxkMwAAAAJ&hl=en
+    twitter: https://twitter.com/fbartoc
     
 "Corbière":
     firstname: Charles
@@ -422,6 +427,7 @@
     bib_firstname: ["Gilles", "G."]
     url: https://sites.google.com/site/puygilles/home
     scholar: https://scholar.google.com/citations?user=enaORE8AAAAJ&hl=en
+    twitter: https://twitter.com/gillespuy
     alumni: True
     alumni_now:
 
