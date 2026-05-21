@@ -76,6 +76,12 @@
     scholar: https://scholar.google.cz/citations?user=XY1PVwYAAAAJ&hl=en
     url: https://scholar.google.cz/citations?user=XY1PVwYAAAAJ&hl=en
 
+"Hubler":
+    firstname: Marion
+    position: Pre-doc
+    profilepic: marion_hubler.jpg
+    bib_firstname: ["Marion", "M."]
+
 "Kirby":
     firstname: Ellington
     position: Research Engineer
@@ -183,7 +189,7 @@
     
 "Sereyjol-Garros":
     firstname: Nicolas
-    position: Pre-doc
+    position: PhD Student W/ ENPC
     profilepic: nicolas_sereyjol-garros.jpg
     bib_firstname: ["Nicolas", "N."]
     url: https://scholar.google.com/citations?user=9Mr--hUAAAAJ
