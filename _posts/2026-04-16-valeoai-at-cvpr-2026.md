@@ -11,6 +11,8 @@ image: assets/img/posts/cvpr2026.png
 The [IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)](https://cvpr.thecvf.com/) is a key event for researchers and engineers working on computer vision and machine learning.
 At the 2026 edition, the [valeo.ai](../) team will present nine [papers](https://valeoai.github.io/publications/) in the main conference and one in the Findings track.
 
+We are also proud to celebrate multiple [outstanding reviewer awards](https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf) for current team members (Quan, David, Nermin, Tetiana, Yihong) and alumni (Gilles, Shashank, Florent, Björn). Congrats to all!
+
 The team will be at CVPR to present these works, exchange ideas, and share our exciting ongoing research. We look forward to seeing you in Denver!
 
 <!-- ![valeo.ai papers at CVPR 2026]({{ site.baseurl }}/assets/img/posts/2026_cvpr_valeoai_papers.png){:height="100%" width="100%"} -->
@@ -24,7 +26,7 @@ The team will be at CVPR to present these works, exchange ideas, and share our e
 ##### Authors: <a href="https://loickch.github.io/">Loick Chambon</a>, <a href="https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr">Paul Couairon</a>, <a href="https://eloiz.github.io">Eloi Zablocki</a>, <a href="https://www.boulch.eu/">Alexandre Boulch</a>, <a href="https://thome.isir.upmc.fr">Nicolas Thome</a>, <a href="https://cord.isir.upmc.fr/">Matthieu Cord</a>
 <h5 align="center"> [<a href="https://arxiv.org/abs/2511.18452">Paper</a>] &nbsp;&nbsp; [<a href="https://github.com/valeoai/NAF">Code</a>] </h5>
 
-![naf_teaser]({{ site.baseurl }}/assets/img/publications/naf.gif){:height="100%" width="100%"}
+![naf_teaser]({{ site.baseurl }}/assets/img/publications/naf.png){:height="100%" width="100%"}
 
 Vision Foundation Models produce spatially downsampled representations that create challenges for pixel-level tasks. We introduce Neighborhood Attention Filtering (NAF), a method that learns adaptive spatial-and-content weights through Cross-Scale Neighborhood Attention and Rotary Position Embeddings, guided solely by high-resolution input images. NAF operates as a zero-shot upsampler compatible with any VFM without retraining, achieving state-of-the-art performance across multiple downstream tasks while maintaining efficiency at 18 FPS for 2K feature maps. The method also demonstrates strong results in image restoration applications.
 
