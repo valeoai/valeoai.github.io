@@ -105,6 +105,36 @@
 "Thome":
   - firstname: ["Nicolas", "N."]
     url: https://thome.isir.upmc.fr/
+    twitter: https://twitter.com/thomenicolas1
+
+"Couairon":
+  - firstname: ["Paul", "P."]
+    url: https://scholar.google.fr/citations?user=yQRnP7YAAAAJ&hl=fr
+    twitter: https://twitter.com/PaulCouairon
+
+"Salehi":
+  - firstname: ["Mohammadreza", "M."]
+    url: https://scholar.google.com/citations?user=kpT3gcsAAAAJ&hl=en
+    twitter: https://twitter.com/MrzSalehi
+
+"Asano":
+  - firstname: ["Yuki M.", "Yuki", "Y."]
+    url: https://yukimasano.github.io/
+    twitter: https://twitter.com/y_m_asano
+
+"Alahi":
+  - firstname: ["Alexandre", "A."]
+    twitter: https://twitter.com/AlexAlahi
+
+"Picard":
+  - firstname: ["David", "D."]
+    url: https://davidpicard.github.io/
+    twitter: https://twitter.com/david_picard
+
+"Dufour":
+  - firstname: ["Nicolas", "N."]
+    url: https://nicolas-dufour.github.io/
+    twitter: https://twitter.com/nico_dufour
 
 "Bucher":
   - firstname: ["Maxime", "M."]

@@ -87,6 +87,7 @@
     position: Research Engineer
     profilepic: ellington_kirby.jpg
     url: https://ellingtonkirby.github.io/
+    twitter: https://twitter.com/EllingtonKirby
 
 "Lafon":
     firstname: Marc
@@ -138,6 +139,7 @@
     profilepic: loick_chambon.jpg
     bib_firstname: ["Loïck", "L."]
     url: https://loickch.github.io/
+    twitter: https://twitter.com/LoickCh
     alumni_phd: True
     alumni: True
     phd_defense: 2026
@@ -230,6 +232,7 @@
     position: Postdoc
     profilepic: monika.jpg
     url: https://wysoczanska.github.io/
+    twitter: https://twitter.com/mkwysoczanska
     
 "Xu":
     firstname: Yihong
