@@ -9,7 +9,7 @@ image: assets/img/posts/cvpr2026.png
 ---
 
 The [IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR)](https://cvpr.thecvf.com/) is a key event for researchers and engineers working on computer vision and machine learning.
-At the 2026 edition, the [valeo.ai](../) team will present nine [papers](https://valeoai.github.io/publications/) in the main conference and one in the Findings track.
+At the 2026 edition, the [valeo.ai](../) team will present nine [papers](https://valeoai.github.io/publications/) in the main conference and one in the Findings track. Also, the team will present two workshop keynotes ([MULA: Multimodal Learning and Applications Workshop](https://mula-workshop.github.io/) and [BigMAC: Big Model Adaptation for Computer Vision Workshop](https://cvpr2026-bigmac-workshop.limitlab.xyz/)), one tutorial ([3D Human Mesh Modeling and Recovery from RGB and LiDAR](https://human-mesh-tutorial.github.io/)) and will speak in one panel ([Workshop on Simulation for Autonomous Driving](https://agents4ad.github.io/)).
 
 We are also proud to celebrate multiple [outstanding reviewer awards](https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf) for current team members (Quan, David, Nermin, Tetiana, Yihong) and alumni (Gilles, Shashank, Florent, Björn). Congrats to all!
 
