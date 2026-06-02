@@ -7,6 +7,7 @@
     scholar: https://scholar.google.com/citations?user=n_C2h-QAAAAJ&hl=en
     url: https://scholar.google.com/citations?user=n_C2h-QAAAAJ&hl=en
     twitter: https://twitter.com/victorbesnier1
+    bluesky: # no account
 
 "Boulch":
     firstname: Alexandre
@@ -17,6 +18,7 @@
     scholar: https://scholar.google.com/citations?user=iJ3qFGAAAAAJ&hl=en
     github: https://github.com/aboulch
     twitter: https://twitter.com/AlexandreBoulch
+    bluesky: https://bsky.app/profile/alexandreboulch.bsky.social
 
 "Bursuc":
     firstname: Andrei
@@ -51,6 +53,7 @@
     url: https://cord.isir.upmc.fr/
     scholar: https://scholar.google.fr/citations?user=SpAotDcAAAAJ&hl=en
     twitter: https://twitter.com/quobbe
+    bluesky: # no account
 
 "Galaaoui":
     firstname: Salma
@@ -89,6 +92,7 @@
     profilepic: ellington_kirby.jpg
     url: https://ellingtonkirby.github.io/
     twitter: https://twitter.com/EllingtonKirby
+    bluesky: # no account
 
 "Lafon":
     firstname: Marc
@@ -176,6 +180,7 @@
     url: https://nerminsamet.github.io/
     scholar: https://scholar.google.com/citations?user=kEVeHU0AAAAJ
     twitter: https://twitter.com/nemka_
+    bluesky: # no account
 
 
 "Sautier":
@@ -197,6 +202,7 @@
     bib_firstname: ["Nicolas", "N."]
     url: https://scholar.google.com/citations?user=9Mr--hUAAAAJ
     twitter: https://twitter.com/sg_nicolas
+    bluesky: # no account
     
 "Sirko-Galouchenko":
     firstname: Sophia
@@ -228,6 +234,7 @@
     scholar: https://scholar.google.fr/citations?user=QIHrPZQAAAAJ&hl=en
     github: https://github.com/tuanhungvu
     twitter: https://twitter.com/tuanhungvu89
+    bluesky: https://bsky.app/profile/tuanhungvu.bsky.social
 
 "Wysoczanska":
     firstname: Monika
@@ -244,6 +251,7 @@
     scholar: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ&hl=en
     url: https://scholar.google.fr/citations?user=vMLRRVkAAAAJ&hl=en
     twitter: https://twitter.com/XuYihong666
+    bluesky: # no account
 
 "Yin":
     firstname: Yuan
@@ -253,6 +261,7 @@
     url: https://yuan-yin.github.io/
     scholar: https://scholar.google.com/citations?user=ynep174AAAAJ
     twitter: https://twitter.com/yuanyinnn
+    bluesky: https://bsky.app/profile/yuanyinnn.bsky.social
 
 "Zablocki":
     firstname: Éloi
@@ -261,6 +270,7 @@
     bib_firstname: ["Éloi", "É."]
     scholar: https://scholar.google.fr/citations?hl=en&user=dOkbUmEAAAAJ&hl=en
     twitter: https://twitter.com/EloiZablocki
+    bluesky: https://bsky.app/profile/eloizablocki.bsky.social
     url: https://eloiz.github.io
 
 "Ben-younes":
