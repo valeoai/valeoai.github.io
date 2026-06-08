@@ -32,14 +32,20 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 
-// Modern palette (indigo / ink)
+// Modern palette (ink + brand blue)
 $ink-color:           #0a0a0b;
 $ink-muted:           #6b7280;
-$indigo-700:          #4338ca;
-$indigo-800:          #3730a3;
-$indigo-400:          #818cf8;
 $divider-light:       #e5e7eb;
 $bg-off-white:        #fafafa;
+
+// Brand palette (valeo.ai)
+$brand-blue:          #003b71;  // Primary
+$brand-blue-light:    #54c0e8;  // Secondary / hover / dark-mode accent
+$brand-blue-light-2:  #85d0f0;  // Lighter tint (dark-mode hover)
+$brand-orange:        #ffb600;  // Reserved (award / Highlight)
+$brand-purple-dark:   #722282;  // Reserved
+$brand-grey-dark:     #4e6b7c;  // Reserved
+$brand-green:         #008556;  // Reserved
 
 // Dark-mode layered surfaces
 $surface-dark-bg:     #0b0b0d;
@@ -50,5 +56,5 @@ $surface-dark-text:   #e8e8ea;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($indigo-700, 0.06);
+$code-bg-color-light:     rgba($brand-blue, 0.06);
 $code-bg-color-dark:      #1c1c22 !default;

@@ -7,8 +7,8 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$ink-color};
   --global-text-color-light: #{$ink-muted};
-  --global-theme-color: #{$indigo-700};
-  --global-hover-color: #{$indigo-800};
+  --global-theme-color: #{$brand-blue};
+  --global-hover-color: #{$brand-blue-light};
   --global-footer-bg-color: #{$ink-color};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
@@ -38,11 +38,11 @@ html[data-theme='dark'] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$surface-dark-text};
   --global-text-color-light: #a1a1aa;
-  --global-theme-color: #{$indigo-400};
-  --global-hover-color: #a5b4fc;
+  --global-theme-color: #{$brand-blue-light};
+  --global-hover-color: #{$brand-blue-light-2};
   --global-footer-bg-color: #{$surface-dark-card};
   --global-footer-text-color: #{$surface-dark-text};
-  --global-footer-link-color: #{$indigo-400};
+  --global-footer-link-color: #{$brand-blue-light};
   --global-distill-app-color: #{$surface-dark-text};
   --global-divider-color: #{$surface-dark-border};
   --global-card-bg-color: #{$surface-dark-card};

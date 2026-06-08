@@ -1684,7 +1684,7 @@ article>h2.alumni {
     &:focus {
       outline: none;
       border-color: var(--global-theme-color);
-      box-shadow: 0 0 0 3px rgba($indigo-700, 0.12);
+      box-shadow: 0 0 0 3px rgba($brand-blue, 0.12);
     }
 
     &::placeholder {
