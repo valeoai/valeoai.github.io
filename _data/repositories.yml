@@ -18,138 +18,139 @@ github_repos:
   - valeoai/Franca
   - valeoai/LOST
   - valeoai/RADIal
-  - valeoai/POCO
   - PaulCouairon/JAFAR
+  - valeoai/POCO
+  - valeoai/DrivoR
   - nv-nguyen/nope
   - valeoai/SLidR
   - valeoai/xmuda
   - valeoai/ZS3
   - aboulch/ConvPoint
-  - valeoai/DrivoR
   - zelaki/eqvae
   - valeoai/ALSO
   - valeoai/ConfidNet
-  - valeoai/VideoActionModel
   - Sta8is/DINO-Foresight
+  - valeoai/VideoActionModel
   - vita-epfl/RAP
   - valeoai/PointBeV
   - valeoai/BF3S
   - astra-vision/PODA
-  - vobecant/POP3D
   - valeoai/carrada_dataset
+  - valeoai/OccAny
+  - vobecant/POP3D
   - zelaki/ReDi
   - valeoai/DADA
-  - valeoai/FLOT
   - valeoai/rangevit
-  - valeoai/obow
-  - valeoai/OccAny
-  - astra-vision/LiDPM
-  - valeoai/rainbow-iqn-apex
-  - valeoai/BEVContrast
+  - valeoai/FLOT
   - valeoai/NAF
+  - valeoai/obow
+  - astra-vision/LiDPM
+  - valeoai/BEVContrast
+  - valeoai/rainbow-iqn-apex
+  - valeoai/GaussRender
+  - gkakogeorgiou/spot
   - valeoai/FOUND
   - valeoai/Awesome-Unsupervised-Object-Localization
   - gkakogeorgiou/attmask
-  - gkakogeorgiou/spot
-  - valeoai/Alpine
   - valeoai/MVRSS
-  - valeoai/GaussRender
-  - valeoai/LightConvPoint
+  - valeoai/Alpine
   - valeoai/ScaLR
+  - valeoai/LightConvPoint
   - valeoai/WaffleIron
+  - Victorletzelter/timeMCL
   - valeoai/LearningByCheating
   - vobecant/DriveAndSegment
-  - Victorletzelter/timeMCL
-  - Victorletzelter/LoRA-MCL
   - nicolas-dufour/CAD
   - astra-vision/DenseMTL
   - astra-vision/FAMix
   - PaulCouairon/DiffCut
-  - valeoai/FKAConv
   - mshukor/xl-vlms
+  - valeoai/FKAConv
   - valeoai/LaRa
   - sirkosophia/DIP
+  - Sta8is/FUTURIST
+  - raphaelsulzer/dgnn
   - YoungXIAO13/PoseContrast
   - lorenzovaquero/BUSCA
-  - Sta8is/FUTURIST
   - ENSTA-U2IS-AI/LDU
-  - raphaelsulzer/dgnn
   - valeoai/GenVal
   - valeoai/xmuda_journal
-  - WalterSimoncini/fungivision
   - raphaelsulzer/dsrv-data
+  - WalterSimoncini/fungivision
   - valeoai/SALUDA
+  - astra-vision/ProLIP
+  - vita-epfl/MAD-World-Model-Code
   - yasserben/FLOSS
   - valeoai/obsnet
   - valeoai/3DGenZ
+  - davidpicard/pom
   - abc-125/segad
   - wysoczanska/clip-diy
-  - astra-vision/ProLIP
   - huyvvo/BiB
-  - vita-epfl/MAD-World-Model-Code
   - valeoai/PCAM
-  - davidpicard/pom
   - valeoai/SemanticPalette
+  - valeoai/R3DPA
   - nerminsamet/seedal
   - nasosger/MuToR
-  - valeoai/NeeDrop
   - valeoai/TTYD
-  - valeoai/R3DPA
+  - valeoai/NeeDrop
+  - valeoai/3D-Human-Pose-Shape-Estimation-from-LiDAR
   - valeoai/Occfeat
   - valeoai/MTAF
   - valeoai/MF_aWTA
   - mshukor/ima-lmms
+  - SMSD75/MoSiC
   - valeoai/bravo_challenge
   - valeoai/STEEX
   - huyvvo/LOD
-  - SMSD75/MoSiC
+  - valeoai/REPA-G
   - valeoai/OCTET
   - valeoai/ESL
-  - valeoai/REPA-G
-  - valeoai/3D-Human-Pose-Shape-Estimation-from-LiDAR
   - sirkosophia/V-GIFT
   - pgodet/star_flow
-  - valeoai/MFEval
-  - palanglois/vasad
-  - valeoai/muddos
   - valeoai/diffhpe
   - valeoai/ReGentS
   - valeoai/PAFUSE
-  - valeoai/MuHDi
+  - valeoai/MFEval
+  - palanglois/vasad
   - ctu-vras/let-it-flow
-  - F-Barto/LiDARTouch
-  - valeoai/sfrik
+  - astra-vision/StableMTL
+  - valeoai/muddos
   - valeoai/UNIT
-  - valeoai/CAB
+  - valeoai/MuHDi
+  - F-Barto/LiDARTouch
+  - Sta8is/Re2Pix
   - SimondeMoreau/LED
+  - valeoai/sfrik
+  - valeoai/CAB
+  - ryosuke-yamada/lam3c
   - valeoai/MOCA
   - valeoai/LLM_wrapper
   - valeoai/BEEF
   - huyvvo/OSD
-  - astra-vision/StableMTL
-  - huyvvo/rOSD
+  - Victorletzelter/LoRA-MCL
+  - 2ailesB/neural-parametric-solver
+  - zelaki/CoReDi
+  - seamie6/SuperQuadricOcc
   - Victorletzelter/code-rMCL
   - Victorletzelter/annealed_mcl
   - ymontmarin/adamsrt
   - valeoai/valeo4cast
   - valeoai/SP4ASC
   - itsakk/geps
+  - huyvvo/rOSD
   - Victorletzelter/VoronoiWTA
-  - 2ailesB/neural-parametric-solver
-  - seamie6/SuperQuadricOcc
   - giannifranchi/deeplabv3-superpixelmix
   - giannifranchi/TRADI_Tracking_DNN_weights
   - valeoai/bownet
-  - ryosuke-yamada/lam3c
+  - cedricrommel/manipose
   - vobecant/DummyNet
   - valeoai/QuEST
-  - cedricrommel/manipose
-  - lcalem/diva
   - toddlerdiffusion/code
+  - lcalem/diva
   - leonzheng2/efficient-butterfly
-  - kzaleskaa/icm
-  - Amaia-CARDIEL/DRIV_EX
   - astra-vision/SSC-Priors
+  - kzaleskaa/icm
+  - valeoai/ppt
   - valeoai/TOAD
-  - Sta8is/Re2Pix
-  - zelaki/CoReDi
+  - Amaia-CARDIEL/DRIV_EX
