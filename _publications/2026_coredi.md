@@ -19,7 +19,7 @@ abstract: "Joint image-feature generative modeling has recently emerged as an ef
 ---
 
 <h1 align="center"> {{page.title}} </h1>
-<p class="pub-authors"> Theodoros Kouzelis &nbsp;&nbsp; <a href="https://gidariss.github.io/">Spyros Gidaris</a> &nbsp;&nbsp; Nikos Komodakis </p>
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=a5vkWc8AAAAJ">Theodoros Kouzelis</a> &nbsp;&nbsp; <a href="https://gidariss.github.io/">Spyros Gidaris</a> &nbsp;&nbsp; <a href="https://www.csd.uoc.gr/~komod/">Nikos Komodakis</a> </p>
 
 
 <p class="pub-venue">{{page.venue}} {{page.year}}</p>
