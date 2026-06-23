@@ -57,6 +57,7 @@ github_repos:
   - valeoai/ScaLR
   - valeoai/LightConvPoint
   - valeoai/WaffleIron
+  - facebookresearch/SSDD
   - Victorletzelter/timeMCL
   - valeoai/LearningByCheating
   - vobecant/DriveAndSegment
