@@ -140,9 +140,13 @@
   - firstname: ["Theodoros", "T."]
     url: https://scholar.google.com/citations?user=a5vkWc8AAAAJ
 
-"Komodakis":
-  - firstname: ["Nikos", "N."]
-    url: https://www.csd.uoc.gr/~komod/
+"Vallaeys":
+  - firstname: ["Théophane", "T."]
+    url: https://scholar.google.com/citations?user=JQ512oQAAAAJ
+
+"Verbeek":
+  - firstname: ["Jakob", "J."]
+    url: https://thoth.inrialpes.fr/~verbeek/
 
 "Bucher":
   - firstname: ["Maxime", "M."]
