@@ -1129,12 +1129,14 @@ footer.sticky-bottom {
     display: block;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    background: var(--global-code-bg-color);
+    // Letterbox color: matches the card background so bands blend in
+    // (white in light mode, dark surface in dark mode).
+    background: var(--global-card-bg-color);
 
     img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
   }
