@@ -15,7 +15,7 @@ blog_url:
 slides_url: 
 bib_url: 
 permalink: /publications/2025_halton_maskgit/
-abstract: "{% if page.paper_url %} Paper   {% endif %} {% if page.code_url %} Code    {% endif %} {% if page.blog_url %} Blog    {% endif %} {% if page.slides_url %} Slides   {% endif %} {% if page.bib_url %} BibTeX   {% endif %}"
+abstract: "Masked Generative Image Transformers (MaskGIT) deliver high-quality images at low inference cost, but their token-unmasking scheduler has received little attention. We analyze MaskGIT's sampling objective, expose its shortcomings, and propose a new sampling strategy based on a quasi-random, low-discrepancy Halton sequence. The Halton scheduler spreads tokens spatially and reduces non-recoverable sampling errors, simplifying hyper-parameter tuning and improving image quality. It requires no retraining and serves as a drop-in replacement, outperforming the original Confidence scheduler on ImageNet and COCO in both FID and qualitative diversity."
 ---
 
 <h1 align="center"> {{page.title}} </h1>

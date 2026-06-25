@@ -17,7 +17,7 @@ slides_url:
 intern_work: true
 bib_url: 
 permalink: /publications/dinoiser/
-abstract: "he popular CLIP model displays impressive zero-shot capabilities thanks to its seamless interaction with arbitrary text prompts."
+abstract: "The popular CLIP model displays impressive zero-shot capabilities thanks to its seamless interaction with arbitrary text prompts. However, its lack of spatial awareness makes it unsuitable for dense computer vision tasks, e.g., semantic segmentation, without an additional fine-tuning step that often uses annotations and can potentially suppress its original open-vocabulary properties. CLIP-DINOiser improves CLIP's dense features with cues from a self-supervised teacher (DINO) without any annotations, achieving state-of-the-art results on open-vocabulary semantic segmentation."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
