@@ -19,7 +19,7 @@ abstract: "Modern end-to-end driving policies excel in routine scenarios, but th
 ---
 
 <h1 align="center"> {{page.title}} </h1>
-<p class="pub-authors"> Tianyu Li &nbsp;&nbsp; Li Chen &nbsp;&nbsp; Caojun Wang &nbsp;&nbsp; Haochen Liu &nbsp;&nbsp; Kashyap Chitta &nbsp;&nbsp; Zhenjie Yang &nbsp;&nbsp; Yuhang Lu &nbsp;&nbsp; Naisheng Ye &nbsp;&nbsp; Yihang Qiu &nbsp;&nbsp; Yufei Wang &nbsp;&nbsp; Luoxi Zou &nbsp;&nbsp; Jiaxin Peng &nbsp;&nbsp; Jin Pan &nbsp;&nbsp; Zhaoyu Su &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; Shengbo Eben Li &nbsp;&nbsp; Andreas Geiger &nbsp;&nbsp; Peng Su &nbsp;&nbsp; Hongyang Li </p>
+<p class="pub-authors"> Tianyu Li &nbsp;&nbsp; Li Chen &nbsp;&nbsp; Caojun Wang &nbsp;&nbsp; Haochen Liu &nbsp;&nbsp; <a href="https://kashyap7x.github.io/">Kashyap Chitta</a> &nbsp;&nbsp; Zhenjie Yang &nbsp;&nbsp; Yuhang Lu &nbsp;&nbsp; Naisheng Ye &nbsp;&nbsp; Yihang Qiu &nbsp;&nbsp; Yufei Wang &nbsp;&nbsp; Luoxi Zou &nbsp;&nbsp; Jiaxin Peng &nbsp;&nbsp; Jin Pan &nbsp;&nbsp; Zhaoyu Su &nbsp;&nbsp; <a href="https://abursuc.github.io/">Andrei Bursuc</a> &nbsp;&nbsp; Shengbo Eben Li &nbsp;&nbsp; <a href="http://www.cvlibs.net">Andreas Geiger</a> &nbsp;&nbsp; Peng Su &nbsp;&nbsp; <a href="https://lihongyang.info/">Hongyang Li</a> </p>
 
 
 <p class="pub-venue">{{page.venue}} {{page.year}}</p>

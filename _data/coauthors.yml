@@ -21,6 +21,16 @@
 "Li":
   - firstname: ["Rong", "R."]
     url: https://rongli.tech/
+  - firstname: ["Hongyang", "H."]
+    url: https://lihongyang.info/
+
+"Geiger":
+  - firstname: ["Andreas", "A."]
+    url: http://www.cvlibs.net
+
+"Chitta":
+  - firstname: ["Kashyap", "K."]
+    url: https://kashyap7x.github.io/
 
 "Roldão":
   - firstname: ["Luis", "L."]
