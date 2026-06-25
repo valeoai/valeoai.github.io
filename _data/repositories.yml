@@ -12,6 +12,7 @@ github_users:
 github_repos:
   - valeoai/WoodScape
   - vita-epfl/UniTraj
+  - OpenDriveLab/WorldEngine
   - valeoai/ADVENT
   - valeoai/Halton-MaskGIT
   - wysoczanska/clip_dinoiser
