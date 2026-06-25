@@ -1014,6 +1014,69 @@ footer.sticky-bottom {
 }
 
 // Featured release cards: horizontal scroll-snap strip
+.featured-repo-wrapper {
+  position: relative;
+  margin: 1rem 0 2.5rem 0;
+
+  // Edge fades — light gradient so cards trail off rather than getting cut.
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 36px;
+    pointer-events: none;
+    z-index: 2;
+  }
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, var(--global-bg-color), transparent);
+  }
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, var(--global-bg-color), transparent);
+  }
+}
+
+.featured-repo-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  font-size: 1.5rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease;
+
+  &:hover {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: #fff;
+  }
+
+  &.is-disabled {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &.featured-repo-arrow-left  { left: -6px; }
+  &.featured-repo-arrow-right { right: -6px; }
+
+  @media (max-width: 768px) { display: none; }
+}
+
 .featured-repo-grid {
   display: flex;
   gap: 1rem;
