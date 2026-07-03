@@ -29,6 +29,7 @@
     scholar: https://scholar.google.com/citations?user=HTfERCsAAAAJ&hl=en
     github: https://github.com/abursuc/
     twitter: https://twitter.com/abursuc
+    bluesky: https://bsky.app/profile/abursuc.bsky.social
 
 "Cao":
    firstname: Anh-Quan
@@ -107,6 +108,7 @@
     bib_firstname: ["Victor", "V."]
     scholar: https://scholar.google.com/citations?user=YhTdZh8AAAAJ&hl=en
     github: https://github.com/Victorletzelter
+    twitter: https://twitter.com/VLetzelter
     url: https://victorletzelter.github.io/
     alumni_phd: True
     alumni: True
@@ -442,6 +444,8 @@
     bib_firstname: ["Patrick", "P."]
     alumni: True
     alumni_now: now at Kyutai
+    twitter: https://twitter.com/ptrkprz
+    bluesky: https://bsky.app/profile/ptrkprz.bsky.social
     url: https://scholar.google.fr/citations?user=8Cph5uQAAAAJ&hl=en
 
 "Puy":
