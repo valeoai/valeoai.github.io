@@ -61,12 +61,12 @@ abstract: "Validating evaluation metrics for NLG typically relies on expensive h
 <h2 align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{eigler2026metajudge,
+{% raw %}@inproceedings{eigler2026metajudge,
   title     = {{LLM} as a Meta-Judge: Synthetic Data for {NLP} Evaluation Metric Validation},
   author    = {Eigler, Luk{\'a}{\v s} and Libovick{\'y}, Jind{\v r}ich and Hurych, David},
   booktitle = {Proceedings of the ACL 2026 Student Research Workshop (SRW)},
   year      = {2026}
-}
+}{% endraw %}
   </pre>
 </left>
 
