@@ -17,7 +17,7 @@ slides_url: https://neurips.cc/virtual/2022/59785
 bib_url: 
 intern_work: true
 permalink: /publications/multimodal_3d_gan/
-abstract: "Recently, a number of works have explored training 3D-aware Generative Adversarial Networks (GANs) that include a neural rendering layer in the generative pipeline."
+abstract: "Recently, a number of works have explored training 3D-aware Generative Adversarial Networks (GANs) that include a neural rendering layer in the generative pipeline."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
@@ -59,7 +59,7 @@ abstract: "Recently, a number of works have explored training 3D-aware Generativ
 
 <h2  align="center"> Abstract</h2>
 
-<p align="justify">Recently, a number of works have explored training 3D-aware Generative Adversarial Networks (GANs) that include a neural rendering layer in the generative pipeline. Doing so, they succeed in building models that can infer impressive 3D information while being trained solely on 2D images. However, they have been mostly applied to images centered around an object. Transitioning to driving scenes is still a challenge, as not only the scenes are open and more complex, but also one usually does not have access to as many diverse viewpoints. Typically only the front camera view is available. We investigate in this work how 3D GANs are amenable are for such a setup, and propose a method to leverage information from LiDAR sensors to alleviate the detected issues.</p>
+<p align="justify">Recently, a number of works have explored training 3D-aware Generative Adversarial Networks (GANs) that include a neural rendering layer in the generative pipeline. Doing so, they succeed in building models that can infer impressive 3D information while being trained solely on 2D images. However, they have been mostly applied to images centered around an object. Transitioning to driving scenes is still a challenge, as not only the scenes are open and more complex, but also one usually does not have access to as many diverse viewpoints. Typically only the front camera view is available. We investigate in this work how 3D GANs are amenable are for such a setup, and propose a method to leverage information from LiDAR sensors to alleviate the detected issues.</p>
 
 <hr>
 <hr>
