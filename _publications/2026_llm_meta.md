@@ -5,8 +5,8 @@ image: assets/img/publications/2026_llm_meta/llm_meta.png
 hide: false
 category: [foundation, large language models]
 authors: Lukáš Eigler, Jindřich Libovický, David Hurych
-venue: ACL
-venue_long: Association for Computational Linguistics
+venue: ACL SRW
+venue_long: ACL 2026 Student Research Workshop
 year: 2026
 month: 7
 code_url: https://github.com/eiglerl/meta-judge
@@ -64,7 +64,7 @@ abstract: "Validating evaluation metrics for NLG typically relies on expensive h
 @inproceedings{eigler2026metajudge,
   title     = {{LLM} as a Meta-Judge: Synthetic Data for {NLP} Evaluation Metric Validation},
   author    = {Eigler, Luk{\'a}{\v s} and Libovick{\'y}, Jind{\v r}ich and Hurych, David},
-  booktitle = {Proceedings of the Association for Computational Linguistics (ACL)},
+  booktitle = {Proceedings of the ACL 2026 Student Research Workshop (SRW)},
   year      = {2026}
 }
   </pre>
