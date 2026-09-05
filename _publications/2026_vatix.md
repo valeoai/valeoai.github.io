@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "How Far Can 5,500 Hours of Driving Take You? A Scaling Law Analysis of Video Diffusion Models"
-image: assets/img/publications/2026_pictura/teaser.png
+image: assets/img/publications/2026_vatix/teaser.png
 hide: false
 category: [world model, foundation, driving, generative-model]
 authors: Victor Besnier, Anh-Quan Cao, Elias Ramzi, Spyros Gidaris, Tuan-Hung Vu, Andrei Bursuc, Eloi Zablocki, Matthieu Cord
