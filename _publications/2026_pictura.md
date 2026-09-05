@@ -5,8 +5,8 @@ image: assets/img/publications/2026_pictura/teaser.png
 hide: false
 category: [driving, end-to-end, planning]
 authors: Yuan Yin, Elias Ramzi, Marc Lafon, Valentin Charraut, Victor Bares, Yihong Xu, Éloi Zablocki, Alexandre Boulch, Thibault Buhet, Andrei Bursuc, Matthieu Cord
-venue: ECCV Workshop EmergingAD
-venue_long: ECCV Workshop EmergingAD
+venue: ECCV Workshop
+venue_long: ECCV Workshop
 year: 2026
 month: 9
 code_url: https://github.com/valeoai/Pictura
