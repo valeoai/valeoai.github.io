@@ -1,0 +1,80 @@
+---
+layout: publication
+title: "IGLOSS: Image Generation for Lidar Open-vocabulary Semantic Segmentation"
+image: assets/img/publications/igloss.png
+hide: false
+category: [3d-perception]
+authors: Nermin Samet, Gilles Puy, Renaud Marlet 
+venue: NeurIPS
+venue_long: Advances in Neural Information Processing Systems (NeurIPS)
+year: 2026
+month: 12
+code_url: https://github.com/valeoai/IGLOSS
+paper_url: https://arxiv.org/abs/2604.01361
+blog_url: 
+slides_url:
+bib_url:
+permalink: /publications/igloss/
+award: 
+abstract: "This paper presents a new method for the zero-shot open-vocabulary semantic segmentation (OVSS) of 3D automotive lidar data. To circumvent the recognized image-text modality gap that is intrinsic to approaches based on Vision Language Models (VLMs) such as CLIP, our method relies instead on image generation from text, to create prototype images. Given a 3D network distilled from a 2D Vision Foundation Model (VFM), we then label a point cloud by matching 3D point features with 2D image features of these prototypes. Our method is state-of-the-art for OVSS on nuScenes and SemanticKITTI."
+---
+
+<h1 align="center"> {{page.title}} </h1>
+<!-- Simple call of authors -->
+<!-- <h3 align="center"> {{page.authors}} </h3> -->
+<!-- Alternatively you can add links to author pages -->
+<p class="pub-authors"> <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="https://sites.google.com/site/puygilles/">Gilles Puy</a> &nbsp;&nbsp; <a href="https://imagine.enpc.fr/~marletr/">Renaud Marlet</a></p>
+
+
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
+
+<div align="center">
+  <p>
+    {% if page.paper_url %}
+    <a href="{{ page.paper_url }}"><i class="far fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.code_url %}
+    <a href="{{ page.code_url }}"><i class="fab fa-github"></i> Code</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.blog_url %}
+    <a href="{{ page.blog_url }}"><i class="fab fa-blogger"></i> Blog</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.slides_url %}
+    <a href="{{ page.slides_url }}"><i class="far fa-file-pdf"></i> Slides</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.bib_url %}
+    <a href="{{ page.bib_url}}"><i class="far fa-file-alt"></i> BibTeX</a>&nbsp;&nbsp;
+    {% endif %}
+  </p>
+</div>
+
+
+<div class="publication-teaser">
+    <img src="../../{{ page.image }}" alt="{{ page.title | escape }}"/>
+</div>
+
+
+<hr>
+
+<h2  align="center"> Abstract</h2>
+
+<p align="justify">This paper presents a new method for the zero-shot open-vocabulary semantic segmentation (OVSS) of 3D automotive lidar data. To circumvent the recognized image-text modality gap that is intrinsic to approaches based on Vision Language Models (VLMs) such as CLIP, our method relies instead on image generation from text, to create prototype images. Given a 3D network distilled from a 2D Vision Foundation Model (VFM), we then label a point cloud by matching 3D point features with 2D image features of these prototypes. Our method is state-of-the-art for OVSS on nuScenes and SemanticKITTI. 
+</p>
+
+<hr>
+<hr>
+
+<h2  align="center">BibTeX</h2>
+<left>
+  <pre class="bibtex-box">
+@inproceedings{igloss,
+      title={IGLOSS: Image Generation for Lidar Open-vocabulary Semantic Segmentation}, 
+      author={Nermin Samet, Gilles Puy, Renaud Marlet}, 
+      journal = {NeurIPS},
+      year={2026},
+}
+</pre>
+</left>
+
+<br>
+
