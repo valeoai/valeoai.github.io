@@ -5,10 +5,10 @@ image: assets/img/publications/2026_repag/teaser.png
 hide: false
 category: [generative model, representation learning]
 authors: Nicolas Sereyjol-Garros, Ellington Kirby, Victor Letzelter, Victor Besnier, Nermin Samet
-venue: preprint
-venue_long: preprint
+venue: NeurIPS
+venue_long: Advances in Neural Information Processing Systems (NeurIPS)
 year: 2026
-month: 3
+month: 12
 code_url: https://github.com/valeoai/REPA-G
 paper_url: https://arxiv.org/abs/2602.03753
 blog_url: 
