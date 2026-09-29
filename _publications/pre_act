@@ -1,9 +1,9 @@
 ---
 layout: publication
 title: "Progressive Risk Estimation for Accident Anticipation"
-image: assets/img/publications/igloss.png
+image: assets/img/publications/pre_act.png
 hide: false
-category: [3d-perception]
+category: [scene understanding, representation learning]
 authors: Samet Hicsonmez, Eray Çakar, Nermin Samet, Fatma Güney 
 venue: NeurIPS
 venue_long: Advances in Neural Information Processing Systems (NeurIPS)
