@@ -1,0 +1,79 @@
+---
+layout: publication
+title: "Progressive Risk Estimation for Accident Anticipation"
+image: assets/img/publications/igloss.png
+hide: false
+category: [3d-perception]
+authors: Samet Hicsonmez, Eray Çakar, Nermin Samet, Fatma Güney 
+venue: NeurIPS
+venue_long: Advances in Neural Information Processing Systems (NeurIPS)
+year: 2026
+month: 12
+code_url: https://github.com/giddyyupp/PRE-ACT
+paper_url: https://arxiv.org/abs/2609.32811
+blog_url: 
+slides_url:
+bib_url:
+permalink: /publications/pre_act/
+award: 
+abstract: "Accident anticipation aims to recognize anomalous driving cues before a crash while avoiding false alarms during normal driving. Existing approaches typically formulate this task as binary classification, focusing on whether an accident will occur rather than when it will occur. We propose PRE-ACT, a framework that models accident risk as a continuously evolving signal that increases as the crash approaches. By explicitly enforcing temporal ordering and distance-to-accident awareness, our method progressively raises risk while suppressing premature alarms, leading to significant improvements on MM-AU subsets and Nexar. We further introduce a Separation Score to evaluate the global behavior of predicted risk curves beyond local temporal windows."
+---
+
+<h1 align="center"> {{page.title}} </h1>
+<!-- Simple call of authors -->
+<!-- <h3 align="center"> {{page.authors}} </h3> -->
+<!-- Alternatively you can add links to author pages -->
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=biHfDhUAAAAJ&hl=en">Samet Hicsonmez</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/eray-cakar-288283229/">Eray Çakar</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a></p>  &nbsp;&nbsp; <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a></p>
+
+
+
+<p class="pub-venue">{{page.venue}} {{page.year}}</p>
+
+<div align="center">
+  <p>
+    {% if page.paper_url %}
+    <a href="{{ page.paper_url }}"><i class="far fa-file-pdf"></i> Paper</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.code_url %}
+    <a href="{{ page.code_url }}"><i class="fab fa-github"></i> Code</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.blog_url %}
+    <a href="{{ page.blog_url }}"><i class="fab fa-blogger"></i> Blog</a> &nbsp;&nbsp;
+    {% endif %}
+    {% if page.slides_url %}
+    <a href="{{ page.slides_url }}"><i class="far fa-file-pdf"></i> Slides</a>&nbsp;&nbsp;
+    {% endif %}
+    {% if page.bib_url %}
+    <a href="{{ page.bib_url}}"><i class="far fa-file-alt"></i> BibTeX</a>&nbsp;&nbsp;
+    {% endif %}
+  </p>
+</div>
+
+
+<div class="publication-teaser">
+    <img src="../../{{ page.image }}" alt="{{ page.title | escape }}"/>
+</div>
+
+
+<hr>
+
+<h2  align="center"> Abstract</h2>
+
+<p align="justify">"Accident anticipation aims to recognize anomalous driving cues before a crash while avoiding false alarms during normal driving. Existing approaches typically formulate this task as binary classification, focusing on whether an accident will occur rather than when it will occur. We propose PRE-ACT, a framework that models accident risk as a continuously evolving signal that increases as the crash approaches. By explicitly enforcing temporal ordering and distance-to-accident awareness, our method progressively raises risk while suppressing premature alarms, leading to significant improvements on MM-AU subsets and Nexar. We further introduce a Separation Score to evaluate the global behavior of predicted risk curves beyond local temporal windows."
+
+<hr>
+<hr>
+
+<h2  align="center">BibTeX</h2>
+<left>
+  <pre class="bibtex-box">
+@inproceedings{igloss,
+      title={Progressive Risk Estimation for Accident Anticipation}, 
+      author={Samet Hicsonmez, Eray Çakar, Nermin Samet, Fatma Güney }, 
+      journal = {NeurIPS},
+      year={2026},
+}
+</pre>
+</left>
+
+<br>
