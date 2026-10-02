@@ -163,3 +163,31 @@
 "Bucher":
   - firstname: ["Maxime", "M."]
     url: https://scholar.google.fr/citations?user=NbYEOpMAAAAJ
+
+"Khayatan":
+  - firstname: ["Pegah", "P."]
+    url: https://pegah-kh.github.io/
+
+"Parekh":
+  - firstname: ["Jayneel", "J."]
+    url: https://jayneelparekh.github.io/
+
+"Shukor":
+  - firstname: ["Mustafa", "M."]
+    url: https://scholar.google.com/citations?user=lhp9mRgAAAAJ
+
+"Dapogny":
+  - firstname: ["Arnaud", "A."]
+    url: https://scholar.google.fr/citations?user=2HDcyrUAAAAJ
+
+"Newson":
+  - firstname: ["Alasdair", "A."]
+    url: https://sites.google.com/site/alasdairnewson/
+
+"Hicsonmez":
+  - firstname: ["Samet", "S."]
+    url: https://scholar.google.com/citations?user=biHfDhUAAAAJ
+
+"Güney":
+  - firstname: ["Fatma", "F."]
+    url: https://mysite.ku.edu.tr/fguney/

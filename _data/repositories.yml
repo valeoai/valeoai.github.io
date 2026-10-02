@@ -147,6 +147,7 @@ github_repos:
   - giannifranchi/TRADI_Tracking_DNN_weights
   - valeoai/bownet
   - cedricrommel/manipose
+  - valeoai/IGLOSS
   - vobecant/DummyNet
   - valeoai/QuEST
   - toddlerdiffusion/code
@@ -154,6 +155,7 @@ github_repos:
   - leonzheng2/efficient-butterfly
   - astra-vision/SSC-Priors
   - kzaleskaa/icm
+  - giddyyupp/PRE-ACT
   - valeoai/ppt
   - valeoai/TOAD
   - Amaia-CARDIEL/DRIV_EX

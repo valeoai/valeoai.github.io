@@ -1,10 +1,10 @@
 ---
 layout: publication
 title: "Progressive Risk Estimation for Accident Anticipation"
-image: assets/img/publications/pre_act.png
+image: assets/img/publications/2026_pre_act/pre_act.png
 hide: false
-category: [scene understanding, representation learning]
-authors: Samet Hicsonmez, Eray Çakar, Nermin Samet, Fatma Güney 
+category: [driving, prediction, scene understanding]
+authors: Samet Hicsonmez, Eray Çakar, Nermin Samet, Fatma Güney
 venue: NeurIPS
 venue_long: Advances in Neural Information Processing Systems (NeurIPS)
 year: 2026
@@ -23,8 +23,7 @@ abstract: "Accident anticipation aims to recognize anomalous driving cues before
 <!-- Simple call of authors -->
 <!-- <h3 align="center"> {{page.authors}} </h3> -->
 <!-- Alternatively you can add links to author pages -->
-<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=biHfDhUAAAAJ&hl=en">Samet Hicsonmez</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/eray-cakar-288283229/">Eray Çakar</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a></p>  &nbsp;&nbsp; <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a></p>
-
+<p class="pub-authors"> <a href="https://scholar.google.com/citations?user=biHfDhUAAAAJ&hl=en">Samet Hicsonmez</a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/eray-cakar-288283229/">Eray Çakar</a> &nbsp;&nbsp; <a href="https://nerminsamet.github.io/">Nermin Samet</a> &nbsp;&nbsp; <a href="https://mysite.ku.edu.tr/fguney/">Fatma Güney</a></p>
 
 
 <p class="pub-venue">{{page.venue}} {{page.year}}</p>
@@ -59,7 +58,7 @@ abstract: "Accident anticipation aims to recognize anomalous driving cues before
 
 <h2  align="center"> Abstract</h2>
 
-<p align="justify">"Accident anticipation aims to recognize anomalous driving cues before a crash while avoiding false alarms during normal driving. Existing approaches typically formulate this task as binary classification, focusing on whether an accident will occur rather than when it will occur. We propose PRE-ACT, a framework that models accident risk as a continuously evolving signal that increases as the crash approaches. By explicitly enforcing temporal ordering and distance-to-accident awareness, our method progressively raises risk while suppressing premature alarms, leading to significant improvements on MM-AU subsets and Nexar. We further introduce a Separation Score to evaluate the global behavior of predicted risk curves beyond local temporal windows."
+<p align="justify">Accident anticipation aims to recognize anomalous driving cues before a crash while avoiding false alarms during normal driving. Existing approaches typically formulate this task as binary classification, focusing on whether an accident will occur rather than when it will occur. We propose PRE-ACT, a framework that models accident risk as a continuously evolving signal that increases as the crash approaches. By explicitly enforcing temporal ordering and distance-to-accident awareness, our method progressively raises risk while suppressing premature alarms, leading to significant improvements on MM-AU subsets and Nexar. We further introduce a Separation Score to evaluate the global behavior of predicted risk curves beyond local temporal windows.</p>
 
 <hr>
 <hr>
@@ -67,11 +66,11 @@ abstract: "Accident anticipation aims to recognize anomalous driving cues before
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{igloss,
-      title={Progressive Risk Estimation for Accident Anticipation}, 
-      author={Samet Hicsonmez, Eray Çakar, Nermin Samet, Fatma Güney }, 
-      journal = {NeurIPS},
-      year={2026},
+@inproceedings{hicsonmez2026preact,
+  title     = {Progressive Risk Estimation for Accident Anticipation},
+  author    = {Hicsonmez, Samet and {\c{C}}akar, Eray and Samet, Nermin and G{\"u}ney, Fatma},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026}
 }
 </pre>
 </left>

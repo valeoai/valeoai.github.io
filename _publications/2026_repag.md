@@ -16,7 +16,7 @@ slides_url:
 bib_url:
 permalink: /publications/repag/
 intern_work: false
-abstract: "REPA-G: Test-Time Conditioning with Representation-Aligned Visual Features. Published at preprint 2026. By Nicolas Sereyjol-Garros, Ellington Kirby, Victor Letzelter, Victor Besnier, Nermin Samet. Research from valeo.ai."
+abstract: "We introduce Representation-Aligned Guidance (REPA-G), which leverages the representations aligned with self-supervised features during diffusion training to enable test-time conditioning. By optimizing a similarity potential at inference, REPA-G steers denoising toward a target representation, offering control from fine-grained texture matching with single patches to global semantic guidance and multi-concept composition, entirely at inference time."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
@@ -63,23 +63,19 @@ abstract: "REPA-G: Test-Time Conditioning with Representation-Aligned Visual Fea
 
 <h2  align="center"> Abstract</h2>
 
-<p align="justify">
-</p>
-While representation alignment with self-supervised models has been shown to improve diffusion model training, its potential for enhancing inference-time conditioning remains largely unexplored. We introduce Representation-Aligned Guidance (REPA-G), a framework that leverages these aligned representations, with rich semantic properties, to enable test-time conditioning from features in generation. By optimizing a similarity objective (the potential) at inference, we steer the denoising process toward a conditioned representation extracted from a pre-trained feature extractor. Our method provides versatile control at multiple scales, ranging from fine-grained texture matching via single patches to broad semantic guidance using global image feature tokens. We further extend this to multi-concept composition, allowing for the faithful combination of distinct concepts. REPA-G operates entirely at inference time, offering a flexible and precise alternative to often ambiguous text prompts or coarse class labels. We theoretically justify how this guidance enables sampling from the potential-induced tilted distribution. Quantitative results on ImageNet and COCO demonstrate that our approach achieves high-quality, diverse generations.
+<p align="justify">While representation alignment with self-supervised models has been shown to improve diffusion model training, its potential for enhancing inference-time conditioning remains largely unexplored. We introduce Representation-Aligned Guidance (REPA-G), a framework that leverages these aligned representations, with rich semantic properties, to enable test-time conditioning from features in generation. By optimizing a similarity objective (the potential) at inference, we steer the denoising process toward a conditioned representation extracted from a pre-trained feature extractor. Our method provides versatile control at multiple scales, ranging from fine-grained texture matching via single patches to broad semantic guidance using global image feature tokens. We further extend this to multi-concept composition, allowing for the faithful combination of distinct concepts. REPA-G operates entirely at inference time, offering a flexible and precise alternative to often ambiguous text prompts or coarse class labels. We theoretically justify how this guidance enables sampling from the potential-induced tilted distribution. Quantitative results on ImageNet and COCO demonstrate that our approach achieves high-quality, diverse generations.</p>
+
 <hr>
 <hr>
 
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@misc{sereyjol2026repag,
-      title={Test-Time Conditioning with Representation-Aligned Visual Features}, 
-      author={Nicolas Sereyjol-Garros and Ellington Kirby and Victor Letzelter and Victor Besnier and Nermin Samet},
-      year={2026},
-      eprint={2602.03753},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2602.03753}, 
+@inproceedings{sereyjol2026repag,
+  title     = {REPA-G: Test-Time Conditioning with Representation-Aligned Visual Features},
+  author    = {Sereyjol-Garros, Nicolas and Kirby, Ellington and Letzelter, Victor and Besnier, Victor and Samet, Nermin},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026}
 }
 </pre>
 </left>

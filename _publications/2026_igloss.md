@@ -1,10 +1,10 @@
 ---
 layout: publication
 title: "IGLOSS: Image Generation for Lidar Open-vocabulary Semantic Segmentation"
-image: assets/img/publications/igloss.png
+image: assets/img/publications/2026_igloss/igloss.png
 hide: false
-category: [3d-perception]
-authors: Nermin Samet, Gilles Puy, Renaud Marlet 
+category: [3d-perception, lidar, open-vocabulary]
+authors: Nermin Samet, Gilles Puy, Renaud Marlet
 venue: NeurIPS
 venue_long: Advances in Neural Information Processing Systems (NeurIPS)
 year: 2026
@@ -67,11 +67,11 @@ abstract: "This paper presents a new method for the zero-shot open-vocabulary se
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@inproceedings{igloss,
-      title={IGLOSS: Image Generation for Lidar Open-vocabulary Semantic Segmentation}, 
-      author={Nermin Samet, Gilles Puy, Renaud Marlet}, 
-      journal = {NeurIPS},
-      year={2026},
+@inproceedings{samet2026igloss,
+  title     = {IGLOSS: Image Generation for Lidar Open-vocabulary Semantic Segmentation},
+  author    = {Samet, Nermin and Puy, Gilles and Marlet, Renaud},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026}
 }
 </pre>
 </left>
