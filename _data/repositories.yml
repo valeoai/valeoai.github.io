@@ -156,6 +156,7 @@ github_repos:
   - astra-vision/SSC-Priors
   - kzaleskaa/icm
   - giddyyupp/PRE-ACT
+  - giddyyupp/position-enforce-verifiability
   - valeoai/ppt
   - valeoai/TOAD
   - Amaia-CARDIEL/DRIV_EX

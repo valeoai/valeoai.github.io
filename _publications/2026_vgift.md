@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: "Boosting Visual Instruction Tuning with Self-Supervised Guidance"
+title: "V-GIFT: Boosting Visual Instruction Tuning with Self-Supervised Guidance"
 image: assets/img/publications/2026_vgift/vgift.png
 hide: false
 category: [multimodal, instruction tuning, self-supervision, foundation]
 authors: Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris
-venue: preprint
-venue_long: preprint
+venue: NeurIPS
+venue_long: Advances in Neural Information Processing Systems (NeurIPS)
 year: 2026
-month: 4
+month: 12
 code_url: https://github.com/sirkosophia/V-GIFT
 paper_url: https://arxiv.org/abs/2604.12966
 blog_url:
@@ -16,7 +16,7 @@ slides_url:
 bib_url:
 permalink: /publications/vgift/
 intern_work: false
-abstract: "Multimodal large language models (MLLMs) often struggle with vision-centric tasks, revealing a gap between their language fluency and genuine visual understanding."
+abstract: "Multimodal large language models (MLLMs) often struggle with vision-centric tasks, revealing a gap between their language fluency and genuine visual understanding. V-GIFT augments instruction tuning with a small number of visually grounded self-supervised tasks expressed as natural language instructions, requiring no human annotations or architectural changes, and consistently improves vision-centric benchmarks across models and training regimes."
 ---
 
 <h1 align="center"> {{page.title}} </h1>
@@ -71,14 +71,11 @@ abstract: "Multimodal large language models (MLLMs) often struggle with vision-c
 <h2  align="center">BibTeX</h2>
 <left>
   <pre class="bibtex-box">
-@misc{sirkogalouchenko2026boostingvisualinstructiontuning,
-      title={Boosting Visual Instruction Tuning with Self-Supervised Guidance},
-      author={Sophia Sirko-Galouchenko and Monika Wysoczanska and Andrei Bursuc and Nicolas Thome and Spyros Gidaris},
-      year={2026},
-      eprint={2604.12966},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2604.12966},
+@inproceedings{sirkogalouchenko2026vgift,
+  title     = {V-GIFT: Boosting Visual Instruction Tuning with Self-Supervised Guidance},
+  author    = {Sirko-Galouchenko, Sophia and Wysoczanska, Monika and Bursuc, Andrei and Thome, Nicolas and Gidaris, Spyros},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2026}
 }
 </pre>
 </left>
