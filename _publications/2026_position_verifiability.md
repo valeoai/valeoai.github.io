@@ -49,7 +49,7 @@ abstract: "Empirical results in Machine Learning are increasingly hard to reprod
     <img src="../../{{ page.image }}" alt="{{ page.title | escape }}" loading="lazy"/>
 </div>
 <p align="center" style="font-style: italic; color: #666; margin-top: 0.4em;">
-  Topic share and code availability ratio of accepted papers at CVPR, ICCV, ICLR, ICML and NeurIPS (2021–2025).
+ Overview of the proposed verification workflow. At submission time, training and inference logs are attached to the submission package and verified by one or several reviewers (Level 1). The metric verification step (Level 2), indicated with red background, requires the submission of JSON file(s) that contain model predictions on target dataset(s), along with an evaluation script. The assigned metric validator runs the evaluation script and compares with the numbers in the main paper. Finally, the AC updates the corresponding statuses (Tab. 1) in the submission site.
 </p>
 
 
