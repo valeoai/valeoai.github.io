@@ -4,7 +4,7 @@ title: Internships
 permalink: /interns/
 description:
 seo_description: Past interns and visiting MSc students at valeo.ai — six-month research projects in computer vision and autonomous driving, often resulting in top-tier publications.
-nav: false
+nav: true
 nav_order: 6
 ---
 
