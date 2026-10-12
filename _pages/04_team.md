@@ -46,7 +46,7 @@ nav_order: 1
 <table>
   <tr>
     <th>Human Resource Partner</th>
-    <td><a href="mailto:dorra.boubi@valeo.com">Dorra Boubi</a></td>
+    <td><a href="mailto:levent.eker@valeo.com">Levent Eker</a></td>
   </tr>
   <tr>
     <th>Research &amp; Innovation Project Manager</th>
