@@ -25,7 +25,7 @@ $max-content-width: {{ site.max_width }};
 
 @media (max-width: 900px) {
   .partners-list { grid-template-columns: repeat(2, 1fr); }
-  /* 5 partners → last row has 1 card; center it */
+  /* odd partner count → last row has 1 card; center it */
   .partners-list .partner-block:last-child:nth-child(odd) {
     grid-column: 1 / -1;
     justify-self: center;
@@ -80,6 +80,7 @@ $max-content-width: {{ site.max_width }};
 .partner-logo .epfl-logo { max-height: 30px; }
 .partner-logo .enpc-logo { max-height: 48px; }
 .partner-logo .ubs-logo  { max-height: 44px; }
+.partner-logo .polytechnique-logo { max-height: 50px; }
 
 .partner-names {
   display: flex;

@@ -1,9 +1,34 @@
+"Eilles-Chan-Way":
+    firstname: Stéphane
+    internship_year: 2026
+    position: PhD student at valeo.ai and École Polytechnique with Vicky Kalogeiton
+
+"Lemaitre":
+    firstname: Victor
+    internship_year: 2026
+
+"Lequeux":
+    firstname: Marlone
+    internship_year: 2026
+    position: PhD student at valeo.ai
+
+"Nery":
+    firstname: Luiz
+    internship_year: 2026
+
 "Karypidis":
     firstname: Efstathios
     visiting_period: April 2026 - August 2026
     url: https://archimedesai.gr/en/researchers/stathis-karypidis
     visiting_type: Visiting PhD student
     position: PhD student at National Technical University of Athens
+
+"Xie":
+    firstname: Chengen
+    visiting_period: July 2026 - November 2026
+    url: https://scholar.google.com/citations?user=q0W3n-cAAAAJ
+    visiting_type: Visiting PhD student
+    position: PhD student at Shanghai Jiao Tong University (SJTU) and OpenDriveLab
 
 "Chiter":
     firstname: Elhadi

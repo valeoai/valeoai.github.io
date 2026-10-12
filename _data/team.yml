@@ -56,6 +56,12 @@
     twitter: https://twitter.com/quobbe
     bluesky: # no account
 
+"Eilles-Chan-Way":
+    firstname: Stéphane
+    position: Pre-doc
+    profilepic: stephane_eilles-chan-way.jpg
+    bib_firstname: ["Stéphane", "Stephane", "S."]
+
 "Galaaoui":
     firstname: Salma
     position: PhD Student W/ ENPC
@@ -100,6 +106,12 @@
     position: Postdoc
     profilepic: marc_lafon.jpg
     url: https://marclafon.github.io/
+
+"Lequeux":
+    firstname: Marlone
+    position: Pre-doc
+    profilepic: marlone_lequeux.jpg
+    bib_firstname: ["Marlone", "M."]
 
 "Letzelter":
     firstname: Victor
