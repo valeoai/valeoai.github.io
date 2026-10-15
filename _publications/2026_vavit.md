@@ -8,7 +8,7 @@ authors: Gilles Puy, Nermin Samet, Alexandre Boulch, Spyros Gidaris, Tuan-Hung V
 venue: WACV
 venue_long: Winter Conference on Applications of Computer Vision (WACV)
 year: 2027
-month: 3
+month: 1
 code_url: https://github.com/valeoai/VaViT
 paper_url: https://arxiv.org/abs/2605.31177
 blog_url:

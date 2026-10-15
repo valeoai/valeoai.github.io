@@ -8,7 +8,7 @@ authors: Seamie Hayes, Alexandre Boulch, Andrei Bursuc, Reenu Mohandas, Ganesh S
 venue: WACV
 venue_long: Winter Conference on Applications of Computer Vision (WACV)
 year: 2027
-month: 3
+month: 1
 code_url: https://github.com/seamie6/SuperQuadricOcc
 paper_url: https://arxiv.org/abs/2511.17361
 blog_url:
