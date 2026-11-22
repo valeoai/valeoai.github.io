@@ -11,17 +11,18 @@ github_users:
 # manual curation — just re-sort this list periodically.
 github_repos:
   - valeoai/WoodScape
-  - vita-epfl/UniTraj
   - OpenDriveLab/WorldEngine
+  - torch-uncertainty/torch-uncertainty
+  - vita-epfl/UniTraj
   - valeoai/ADVENT
+  - valeoai/DrivoR
   - valeoai/Halton-MaskGIT
   - wysoczanska/clip_dinoiser
   - valeoai/Franca
-  - valeoai/LOST
   - valeoai/RADIal
+  - valeoai/LOST
   - PaulCouairon/JAFAR
   - valeoai/POCO
-  - valeoai/DrivoR
   - nv-nguyen/nope
   - valeoai/SLidR
   - valeoai/xmuda
@@ -29,137 +30,144 @@ github_repos:
   - aboulch/ConvPoint
   - zelaki/eqvae
   - valeoai/ALSO
-  - valeoai/ConfidNet
   - Sta8is/DINO-Foresight
+  - valeoai/OccAny
+  - valeoai/ConfidNet
   - valeoai/VideoActionModel
   - vita-epfl/RAP
+  - valeoai/V-Max
   - valeoai/PointBeV
   - valeoai/BF3S
-  - astra-vision/PODA
   - valeoai/carrada_dataset
-  - valeoai/OccAny
-  - vobecant/POP3D
   - zelaki/ReDi
-  - valeoai/DADA
-  - valeoai/rangevit
-  - valeoai/FLOT
+  - astra-vision/PODA
+  - vobecant/POP3D
   - valeoai/NAF
+  - valeoai/DADA
+  - valeoai/FLOT
+  - valeoai/rangevit
   - valeoai/obow
   - astra-vision/LiDPM
+  - vita-epfl/RDM
   - valeoai/BEVContrast
   - valeoai/rainbow-iqn-apex
   - valeoai/GaussRender
-  - gkakogeorgiou/spot
   - valeoai/FOUND
+  - gkakogeorgiou/spot
+  - valeoai/Alpine
   - valeoai/Awesome-Unsupervised-Object-Localization
   - gkakogeorgiou/attmask
   - valeoai/MVRSS
-  - valeoai/Alpine
+  - valeoai/ScenarioMax
   - valeoai/ScaLR
-  - valeoai/LightConvPoint
   - valeoai/WaffleIron
   - facebookresearch/SSDD
+  - valeoai/LightConvPoint
   - Victorletzelter/timeMCL
   - valeoai/LearningByCheating
   - vobecant/DriveAndSegment
-  - nicolas-dufour/CAD
   - astra-vision/DenseMTL
+  - nicolas-dufour/CAD
   - astra-vision/FAMix
   - PaulCouairon/DiffCut
   - mshukor/xl-vlms
   - valeoai/FKAConv
+  - Sta8is/FUTURIST
   - valeoai/LaRa
   - sirkosophia/DIP
-  - Sta8is/FUTURIST
+  - lorenzovaquero/BUSCA
   - raphaelsulzer/dgnn
   - YoungXIAO13/PoseContrast
-  - lorenzovaquero/BUSCA
   - ENSTA-U2IS-AI/LDU
   - valeoai/GenVal
-  - valeoai/xmuda_journal
-  - raphaelsulzer/dsrv-data
-  - WalterSimoncini/fungivision
-  - valeoai/SALUDA
   - astra-vision/ProLIP
   - vita-epfl/MAD-World-Model-Code
+  - valeoai/xmuda_journal
+  - WalterSimoncini/fungivision
+  - raphaelsulzer/dsrv-data
+  - valeoai/SALUDA
   - yasserben/FLOSS
-  - valeoai/obsnet
-  - valeoai/3DGenZ
+  - valeoai/TOAD
   - davidpicard/pom
   - abc-125/segad
+  - valeoai/obsnet
+  - valeoai/3DGenZ
+  - valeoai/R3DPA
+  - nasosger/MuToR
   - wysoczanska/clip-diy
   - huyvvo/BiB
   - valeoai/PCAM
   - valeoai/SemanticPalette
-  - valeoai/R3DPA
   - nerminsamet/seedal
-  - nasosger/MuToR
   - valeoai/TTYD
   - valeoai/NeeDrop
   - valeoai/3D-Human-Pose-Shape-Estimation-from-LiDAR
+  - valeoai/VATIX
   - valeoai/Occfeat
   - valeoai/MTAF
+  - SMSD75/MoSiC
+  - valeoai/REPA-G
+  - astra-vision/SSC-Priors
   - valeoai/MF_aWTA
   - mshukor/ima-lmms
-  - SMSD75/MoSiC
-  - vita-epfl/RDM
+  - valeoai/Pictura
   - valeoai/bravo_challenge
   - valeoai/STEEX
   - huyvvo/LOD
-  - valeoai/REPA-G
-  - valeoai/OCTET
   - valeoai/ESL
   - sirkosophia/V-GIFT
+  - Sta8is/Re2Pix
+  - valeoai/OCTET
   - pgodet/star_flow
-  - valeoai/diffhpe
   - valeoai/ReGentS
+  - ryosuke-yamada/lam3c
+  - Victorletzelter/LoRA-MCL
+  - valeoai/diffhpe
   - valeoai/PAFUSE
   - valeoai/MFEval
   - palanglois/vasad
   - ctu-vras/let-it-flow
   - astra-vision/StableMTL
   - valeoai/muddos
-  - valeoai/UNIT
   - valeoai/MuHDi
+  - valeoai/UNIT
+  - seamie6/SuperQuadricOcc
+  - Amaia-CARDIEL/DRIV_EX
   - F-Barto/LiDARTouch
-  - Sta8is/Re2Pix
   - SimondeMoreau/LED
   - valeoai/VaViT
+  - zelaki/CoReDi
+  - valeoai/LOSC
   - valeoai/sfrik
   - valeoai/CAB
-  - ryosuke-yamada/lam3c
   - valeoai/MOCA
+  - valeoai/LOGen
   - valeoai/LLM_wrapper
   - valeoai/BEEF
   - huyvvo/OSD
-  - Victorletzelter/LoRA-MCL
   - 2ailesB/neural-parametric-solver
-  - zelaki/CoReDi
-  - seamie6/SuperQuadricOcc
   - Victorletzelter/code-rMCL
   - Victorletzelter/annealed_mcl
-  - ymontmarin/adamsrt
   - valeoai/valeo4cast
-  - valeoai/SP4ASC
   - itsakk/geps
+  - valeoai/IGLOSS
+  - valeoai/peft-ipa
+  - ymontmarin/adamsrt
+  - valeoai/SP4ASC
   - huyvvo/rOSD
   - Victorletzelter/VoronoiWTA
   - giannifranchi/deeplabv3-superpixelmix
   - giannifranchi/TRADI_Tracking_DNN_weights
-  - valeoai/bownet
   - cedricrommel/manipose
-  - valeoai/IGLOSS
+  - valeoai/bownet
   - vobecant/DummyNet
   - valeoai/QuEST
   - toddlerdiffusion/code
-  - lcalem/diva
+  - lcalem/DIVA
   - leonzheng2/efficient-butterfly
-  - astra-vision/SSC-Priors
   - kzaleskaa/icm
   - giddyyupp/PRE-ACT
   - giddyyupp/position-enforce-verifiability
-  - valeoai/ppt
-  - valeoai/TOAD
-  - Amaia-CARDIEL/DRIV_EX
+  - valeoai/Valeo_Near_Field
   - eiglerl/meta-judge
-  - valeoai/Pictura
+  - valeoai/HuLiGen

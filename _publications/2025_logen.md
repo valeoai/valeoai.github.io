@@ -10,7 +10,7 @@ venue: BMVC
 venue_long: BMVC
 year: 2025
 month: 11
-code_url: 
+code_url: https://github.com/valeoai/LOGen
 paper_url: https://arxiv.org/abs/2412.07385
 blog_url: https://nerminsamet.github.io/logen/
 slides_url:
