@@ -9,7 +9,7 @@ venue: WACV
 venue_long: IEEE/CVF Winter Conference on Applications of Computer Vision
 year: 2023
 month: 1
-code_url: https://github.com/cv-rits/DenseMTL
+code_url: https://github.com/astra-vision/DenseMTL
 paper_url: https://arxiv.org/abs/2206.08927
 blog_url:
 slides_url:

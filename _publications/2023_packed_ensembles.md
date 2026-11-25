@@ -9,7 +9,7 @@ venue: ICLR
 venue_long: International Conference on Learning Representations (ICLR)
 year: 2023
 month: 5
-code_url: https://github.com/ENSTA-U2IS/torch-uncertainty
+code_url: https://github.com/torch-uncertainty/torch-uncertainty
 paper_url: https://arxiv.org/abs/2210.09184
 blog_url: 
 slides_url: 

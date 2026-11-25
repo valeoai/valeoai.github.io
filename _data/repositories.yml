@@ -2,6 +2,23 @@ github_users:
   # - astra-vision
 
 # -----------------------------------------------------------------------------
+# Banner at the top of /repositories/
+# -----------------------------------------------------------------------------
+# The repository count is the size of `github_repos` below. The star count is
+# summed over all of `github_repos` at build time by _plugins/repo-stars.rb
+# (needs GITHUB_TOKEN, which the deploy workflow passes); `stars_fallback` is
+# shown when that fetch is not possible (e.g. a local build without a token).
+stars_fallback: 11870
+
+# Datasets released by the team, counted in the banner (names appear on hover).
+datasets:
+  - { name: WoodScape,        repo: valeoai/WoodScape }
+  - { name: CARRADA,          repo: valeoai/carrada_dataset }
+  - { name: RADIal,           repo: valeoai/RADIal }
+  - { name: VASAD,            repo: palanglois/vasad }
+  - { name: Valeo Near-Field, repo: valeoai/Valeo_Near_Field }
+
+# -----------------------------------------------------------------------------
 # Repositories
 # -----------------------------------------------------------------------------
 # The /repositories/ page auto-takes the first 6 entries below as "Featured
@@ -12,7 +29,6 @@ github_users:
 github_repos:
   - valeoai/WoodScape
   - OpenDriveLab/WorldEngine
-  - torch-uncertainty/torch-uncertainty
   - vita-epfl/UniTraj
   - valeoai/ADVENT
   - valeoai/DrivoR

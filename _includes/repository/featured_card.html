@@ -6,12 +6,13 @@
 {%- comment -%}
   Find a matching publication: any entry whose `code_url` contains
   `github.com/<owner>/<name>`. Case-insensitive (GitHub URLs are
-  case-preserved but case-insensitive).
+  case-preserved but case-insensitive). The trailing "/" on both sides
+  keeps valeoai/xmuda from matching a valeoai/xmuda_journal code_url.
 {%- endcomment -%}
-{%- assign needle = "github.com/" | append: repo | downcase -%}
+{%- assign needle = "github.com/" | append: repo | append: "/" | downcase -%}
 {%- assign matched_pub = nil -%}
 {%- for p in site.publications -%}
-  {%- assign pub_code_url = p.code_url | downcase -%}
+  {%- assign pub_code_url = p.code_url | append: "/" | downcase -%}
   {%- if p.hide != true and pub_code_url contains needle -%}
     {%- assign matched_pub = p -%}
     {%- break -%}

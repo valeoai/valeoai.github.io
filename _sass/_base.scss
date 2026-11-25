@@ -1004,6 +1004,68 @@ footer.sticky-bottom {
 
 // Repositories
 
+// Banner at the top of /repositories/: three figures under a hairline,
+// numerals in the brand gradient. No bottom rule: the "Featured releases"
+// heading right below already draws one.
+.code-banner {
+  display: flex;
+  justify-content: center;
+  margin: 1.75rem 0 0 0;
+  padding: 1.75rem 0 0.5rem 0;
+  border-top: 1px solid var(--global-divider-color);
+
+  .code-banner-stat {
+    flex: 1 1 0;
+    max-width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    cursor: default;
+
+    & + .code-banner-stat { border-left: 1px solid var(--global-divider-color); }
+  }
+
+  .code-banner-value {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 3.25rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    font-variant-numeric: tabular-nums lining-nums;
+    // Gradient text, with a solid colour for browsers without background-clip.
+    color: var(--global-theme-color);
+    background-image: linear-gradient(120deg, var(--global-theme-color) 20%, #{$brand-blue-light});
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // Room for descenders and the last glyph's overhang under background-clip.
+    padding: 0 0.04em 0.08em;
+  }
+
+  .code-banner-label {
+    margin-top: 0.6rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  @media (max-width: 576px) {
+    padding: 1.25rem 0 0.25rem 0;
+    .code-banner-stat { padding: 0 0.5rem; }
+    .code-banner-value { font-size: 2.25rem; }
+    .code-banner-label { font-size: 0.625rem; letter-spacing: 0.06em; }
+  }
+}
+
+html[data-theme='dark'] .code-banner .code-banner-value {
+  background-image: linear-gradient(120deg, #{$white-color} 10%, #{$brand-blue-light});
+}
+
 .repos-section-title {
   font-family: 'Newsreader', Georgia, serif;
   font-weight: 500;

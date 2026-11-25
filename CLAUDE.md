@@ -40,7 +40,7 @@ bundle exec jekyll build
   - `team.yml` — team member profiles (rendered by `_pages/04_team.md`)
   - `interns.yml` — intern listings (rendered by `_pages/05_interns.md`)
   - `coauthors.yml` — co-author metadata for auto-linking in publications
-  - `repositories.yml` — GitHub repos/users displayed on the repositories page
+  - `repositories.yml` — GitHub repos/users displayed on the repositories page, plus the `datasets` list and `stars_fallback` used by the stats banner at the top of that page
 - **`_news/`** — Announcement snippets displayed on the home page (scrollable, limited to 30 items via `news_limit` in `_config.yml`).
 - **`_projects/`** — Project pages displayed in a masonry grid on the projects page.
 - **`_pages/`** — Top-level site pages, numbered for navbar ordering (e.g., `00_posts.md`, `01_projects.md`, `02_publications.md`, `04_team.md`).
@@ -50,7 +50,7 @@ bundle exec jekyll build
 - **`_layouts/`** — Page templates (notably `bib.html` for publication entry rendering).
 - **`_includes/`** — Reusable HTML partials.
 - **`_sass/`** — Theme styles. Global theme color is set via `--global-theme-color` in `_sass/_themes.scss`.
-- **`_plugins/`** — Custom Ruby plugins: `external-posts.rb` (external blog post ingestion), `hideCustomBibtex.rb` (filters internal bibtex keywords from output).
+- **`_plugins/`** — Custom Ruby plugins: `external-posts.rb` (external blog post ingestion), `hideCustomBibtex.rb` (filters internal bibtex keywords from output), `repo-stars.rb` (sums the GitHub stars of `github_repos` at build time via GraphQL; needs `GITHUB_TOKEN`, which the deploy workflow passes, else the banner shows `stars_fallback`).
 - **`assets/`** — Static files (images, PDFs, JS, CSS). PDFs for publications go in `assets/pdf/`.
 
 ### Key Configuration
